@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="294" width="132" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Output 1</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="174" y="294" width="120" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The Block Until Done</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="294" width="108" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Macro Input
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="474" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="" />
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <OldSpatialIndex>False</OldSpatialIndex>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="222" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="54" width="636" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module:LabelledBlockUntilDone.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="870" y="54" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 1.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="162" width="876" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Description: 
+
+Labelled Ouput Version of the Block Until Done Tool. 
+
+Credit to Rob Bryan for orignal concept/design.
+]]></Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings>
+        <Position x="1038" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Version XML URL">versions.ChaosReignsWithin.com\LabelledBlockUntilDone.xml</Value>
+          <Value name="Version of this Macro">1.0</Value>
+          <Value name="EnableTest">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Version.yxmc" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="582" y="294" width="516" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Version History: 
+
+1.0 - Initial release
+]]></Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="198" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="462" width="132" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Output 2</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="474" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="" />
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <OldSpatialIndex>False</OldSpatialIndex>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="294" width="120" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Select tools connected in the correct order</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>LabelledBlockUntilDone</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <Condition>
+          <Type>Condition</Type>
+          <Description>Always True</Description>
+          <Expression>1</Expression>
+          <True />
+          <False />
+        </Condition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Questions>
+            <Question>
+              <Type>Label</Type>
+              <Description>This Tool Has No Configuration</Description>
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="True" />
+      <MacroCustomHelpLink>http://help.chaosreignswithin.com/LabelledBlockUntilDone.html</MacroCustomHelpLink>
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs>
+        <Tool ToolId="22" Selected="True">
+          <Name>Input</Name>
+          <Abbrev />
+          <NoFieldMap value="True" />
+        </Tool>
+      </MacroInputs>
+      <MacroOutputs>
+        <Tool ToolId="21" Selected="True">
+          <Name>Output1</Name>
+          <Abbrev>1</Abbrev>
+        </Tool>
+        <Tool ToolId="37" Selected="True">
+          <Name>Output2</Name>
+          <Abbrev>2</Abbrev>
+        </Tool>
+      </MacroOutputs>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools />
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

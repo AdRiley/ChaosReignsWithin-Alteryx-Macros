@@ -118,28 +118,6 @@ Full Explanation: http://www.chaosreignswithin.com</Text>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
-    <Node ToolID="14">
-      <GuiSettings>
-        <Position x="294" y="270" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="PercentField">Percentage</Value>
-          <Value name="Width">4.0</Value>
-          <Value name="Height">2.0</Value>
-          <Value name="Color1">#ff0000</Value>
-          <Value name="Color2">#0080ff</Value>
-          <Value name="FontColor">#ffffff</Value>
-          <Value name="ArrowColor">#ffffff</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings Macro="Gauge.yxmc" />
-    </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
         <Position x="426" y="174" width="168" height="228" />
@@ -224,19 +202,41 @@ Full Explanation: http://www.chaosreignswithin.com</Text>
       </Properties>
       <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
     </Node>
+    <Node ToolID="19">
+      <GuiSettings>
+        <Position x="294" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="PercentField">Percentage</Value>
+          <Value name="Width">8.0</Value>
+          <Value name="Height">6.0</Value>
+          <Value name="Color1">#ff0000</Value>
+          <Value name="Color2">#00ff00</Value>
+          <Value name="FontColor">#ffffff</Value>
+          <Value name="ArrowColor">#ffffff</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Gauge.yxmc" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
       <Origin ToolID="13" Connection="Output" />
-      <Destination ToolID="14" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="14" Connection="Output" />
-      <Destination ToolID="16" Connection="Input" />
+      <Destination ToolID="19" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="16" Connection="Output" />
       <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>

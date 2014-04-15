@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
-        <Position x="54" y="162" />
+        <Position x="30" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -27,7 +27,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="510" y="222" />
+        <Position x="582" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -50,7 +50,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="510" y="102" />
+        <Position x="582" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -73,7 +73,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="306" y="222" />
+        <Position x="378" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -94,7 +94,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="306" y="102" />
+        <Position x="378" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -115,7 +115,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="402" y="222" />
+        <Position x="474" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -136,7 +136,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="402" y="102" />
+        <Position x="474" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -157,7 +157,7 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings>
-        <Position x="162" y="162" />
+        <Position x="222" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -169,11 +169,32 @@
       </Properties>
       <EngineSettings Macro="LabelledBlockUntilDone.yxmc" />
     </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="126" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <When>Last</When>
+          <Filter />
+          <Type>Message</Type>
+          <Priority>Normal</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>"All Records received from upstreram at " + DateTimeNow()</MessageExpression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
       <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="12" Connection="Input" />
+      <Destination ToolID="13" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="7" Connection="Output" />
@@ -198,6 +219,10 @@
     <Connection>
       <Origin ToolID="12" Connection="Output1" />
       <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>

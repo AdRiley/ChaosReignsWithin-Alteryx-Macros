@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
-        <Position x="30" y="294" />
+        <Position x="6" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -15,7 +15,6 @@
           <Expression_Init>1</Expression_Init>
           <Expression_Cond>RowCount &lt;= 20000000</Expression_Cond>
           <Expression_Loop>RowCount + 1</Expression_Loop>
-          <RecordCount value="20000000" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -25,32 +24,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
     </Node>
-    <Node ToolID="3">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="630" y="390" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <File FileFormat="19" MaxRecords="">%temp%\out3.yxdb</File>
-          <Passwords />
-          <FormatSpecificOptions>
-            <NoSpatialIndex>False</NoSpatialIndex>
-            <SaveSource>True</SaveSource>
-            <OldSpatialIndex>False</OldSpatialIndex>
-          </FormatSpecificOptions>
-          <MultiFile value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>out3.yxdb</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
-    </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="618" y="294" />
+        <Position x="618" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -73,7 +49,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="618" y="210" />
+        <Position x="618" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -94,30 +70,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
-    <Node ToolID="6">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="426" y="390" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <When>First</When>
-          <Filter />
-          <Type>Message</Type>
-          <Priority>Normal</Priority>
-          <Transient>False</Transient>
-          <MessageExpression>"Started writing output 3 at " + DateTimeNow()</MessageExpression>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
-    </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="414" y="294" />
+        <Position x="414" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -138,7 +93,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="414" y="210" />
+        <Position x="414" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -157,30 +112,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
     </Node>
-    <Node ToolID="9">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="522" y="390" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <When>All</When>
-          <Filter />
-          <Type>Message</Type>
-          <Priority>Normal</Priority>
-          <Transient>False</Transient>
-          <MessageExpression>"Finished writing output 3 at " + DateTimeNow()</MessageExpression>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
-    </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="510" y="294" />
+        <Position x="510" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -201,7 +135,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="510" y="210" />
+        <Position x="510" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -222,7 +156,7 @@
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="138" y="210" />
+        <Position x="114" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -240,7 +174,7 @@
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="138" y="294" />
+        <Position x="114" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -257,50 +191,60 @@
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
     <Node ToolID="15">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="138" y="390" />
+      <GuiSettings>
+        <Position x="306" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="ParallelBlockUntilDone.yxmc" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="198" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <FormulaFields>
-            <FormulaField field="Output3Field" type="V_String" size="64" expression="&quot;Text&quot;" />
-          </FormulaFields>
+          <When>Last</When>
+          <Filter />
+          <Type>Message</Type>
+          <Priority>Normal</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>"All Records received by input1 from upstreram at " + DateTimeNow()</MessageExpression>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>Output3Field="Text"</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="16">
-      <GuiSettings>
-        <Position x="246" y="222" />
-      </GuiSettings>
-      <Properties>
-        <Configuration />
-        <Annotation DisplayMode="0">
-          <Name />
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="ParallelBlockUntilDone.yxmc" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
     </Node>
     <Node ToolID="17">
-      <GuiSettings>
-        <Position x="330" y="306" />
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="198" y="210" />
       </GuiSettings>
       <Properties>
-        <Configuration />
+        <Configuration>
+          <When>Last</When>
+          <Filter />
+          <Type>Message</Type>
+          <Priority>Normal</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>"All Records received by input2 from upstreram at " + DateTimeNow()</MessageExpression>
+        </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="ParallelBlockUntilDone.yxmc" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
     </Node>
   </Nodes>
   <Connections>
@@ -313,24 +257,12 @@
       <Destination ToolID="13" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="15" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="6" Connection="Output" />
-      <Destination ToolID="9" Connection="Input" />
-    </Connection>
-    <Connection>
       <Origin ToolID="7" Connection="Output" />
       <Destination ToolID="10" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="8" Connection="Output" />
       <Destination ToolID="11" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="9" Connection="Output" />
-      <Destination ToolID="3" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="10" Connection="Output" />
@@ -342,31 +274,27 @@
     </Connection>
     <Connection>
       <Origin ToolID="13" Connection="Output" />
-      <Destination ToolID="16" Connection="Input1" />
+      <Destination ToolID="16" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="14" Connection="Output" />
-      <Destination ToolID="16" Connection="Input2" />
+      <Destination ToolID="17" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="15" Connection="Output" />
-      <Destination ToolID="17" Connection="Input2" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="16" Connection="Output1" />
-      <Destination ToolID="8" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="16" Connection="Output2" />
-      <Destination ToolID="17" Connection="Input1" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="17" Connection="Output1" />
+      <Origin ToolID="15" Connection="Output2" />
       <Destination ToolID="7" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="17" Connection="Output2" />
-      <Destination ToolID="6" Connection="Input" />
+      <Origin ToolID="15" Connection="Output1" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="15" Connection="Input1" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="15" Connection="Input2" />
     </Connection>
   </Connections>
   <Properties>

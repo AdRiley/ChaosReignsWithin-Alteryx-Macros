@@ -233,7 +233,7 @@ Parallel Version of the Block Until Done Tool. Ouput 1 will be written completel
       <Properties>
         <Configuration>
           <Value name="Version XML URL">versions.ChaosReignsWithin.com\ParallelBlockUntilDone.xml</Value>
-          <Value name="Version of this Macro">1.0</Value>
+          <Value name="Version of this Macro">2.0</Value>
           <Value name="EnableTest">False</Value>
         </Configuration>
         <Annotation DisplayMode="0">

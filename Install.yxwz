@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="78" y="162" />
+        <Position x="132" y="216" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -16,7 +16,7 @@
               <c>[Settings]</c>
             </r>
             <r>
-              <c>DefaultFolder=Macros</c>
+              <c>DefaultFolder=CRW Macros</c>
             </r>
             <r>
               <c>MinimumAlteryxVersion=9.0</c>
@@ -38,7 +38,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="90" y="450" />
+        <Position x="144" y="504" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -67,7 +67,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="90" y="294" />
+        <Position x="144" y="348" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -96,7 +96,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="186" y="246" />
+        <Position x="240" y="300" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -120,7 +120,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="390" y="162" />
+        <Position x="444" y="216" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -148,7 +148,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="390" y="450" />
+        <Position x="444" y="504" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -176,7 +176,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="510" y="162" />
+        <Position x="564" y="216" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -201,7 +201,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="510" y="450" />
+        <Position x="564" y="504" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -226,9 +226,10 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="0" width="59" height="59" />
+        <Position x="54" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
+        <Configuration />
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -238,7 +239,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="210" y="354" />
+        <Position x="264" y="408" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -251,6 +252,12 @@
           <DefaultAnnotationText>Settings=[Field1]+[Engine.ModuleDirectory]+'\Samples'</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" size="5" source="TextInput:" type="String" />
+            <Field name="Settings" size="5000" source="Formula: [Field1]+[Engine.ModuleDirectory]+'\Samples'" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
@@ -332,7 +339,7 @@
       <ModuleType>Wizard</ModuleType>
       <MacroCustomHelp value="False" />
       <MacroDynamicOutputFields value="False" />
-      <MacroImageStd value="39" />
+      <MacroImageStd value="0" />
       <MacroInputs />
       <MacroOutputs />
       <Wiz_CustomHelp value="False" />

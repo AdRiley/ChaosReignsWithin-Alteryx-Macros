@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="72">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="222" y="582" width="516" height="228" />
+        <Position x="276" y="361.9" width="516" height="228" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +23,7 @@
     </Node>
     <Node ToolID="53">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="966" y="820.1" width="144" height="336" />
+        <Position x="1020" y="600" width="144" height="336" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -43,7 +43,7 @@
     </Node>
     <Node ToolID="52">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="750" y="822" width="204" height="336" />
+        <Position x="804" y="601.9" width="204" height="336" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,7 +63,7 @@
     </Node>
     <Node ToolID="51">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="988.1" width="156" height="168" />
+        <Position x="108" y="768" width="156" height="168" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -85,7 +85,7 @@ The data feed which we will add the formulas to</Text>
     </Node>
     <Node ToolID="50">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="820.1" width="156" height="156" />
+        <Position x="108" y="600" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -107,7 +107,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="37">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="222" y="822" width="516" height="336" />
+        <Position x="276" y="601.9" width="516" height="336" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -127,7 +127,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="342" y="906" />
+        <Position x="396" y="685.9" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -154,7 +154,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="462" y="906" />
+        <Position x="516" y="685.9" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -181,7 +181,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="558" y="906" />
+        <Position x="612" y="685.9" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -206,7 +206,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1002" y="1014" />
+        <Position x="1056" y="793.9" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -232,7 +232,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="70">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1002" y="918" />
+        <Position x="1056" y="697.9" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -249,7 +249,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="21">
       <GuiSettings>
-        <Position x="822" y="918" />
+        <Position x="876" y="697.9" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -264,10 +264,10 @@ Contains the dynamic formula information</Text>
         </Annotation>
         <MetaInfo connection="Output2">
           <RecordInfo>
-            <Field name="Field1" source="TextInput: (BatchMacro)" type="Byte" />
-            <Field name="Field2" source="TextInput: (BatchMacro)" type="Byte" />
-            <Field name="New Field" size="50" source="Formula: Field1+Field2 (BatchMacro)" type="String" />
-            <Field name="New Field2" size="50" source="Formula: Field2 (BatchMacro)" type="String" />
+            <Field name="Field1" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro)" type="Byte" />
+            <Field name="Field2" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro)" type="Byte" />
+            <Field name="New Field" size="50" source="Formula: Field1+Field2 (BatchMacro) (BatchMacro) (BatchMacro)" type="String" />
+            <Field name="New Field2" size="50" source="Formula: Field2 (BatchMacro) (BatchMacro) (BatchMacro)" type="String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -275,7 +275,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="102" y="1074" />
+        <Position x="156" y="853.9" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -315,7 +315,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="42">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="642" y="846" />
+        <Position x="696" y="625.9" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -340,7 +340,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="69">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="102" y="906" />
+        <Position x="156" y="685.9" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -392,7 +392,7 @@ Contains the dynamic formula information</Text>
     </Node>
     <Node ToolID="45">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="328.1" width="156" height="156" />
+        <Position x="108" y="108" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -414,7 +414,7 @@ Within</Text>
     </Node>
     <Node ToolID="46">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="496.1" width="156" height="24" />
+        <Position x="108" y="276" width="156" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -434,7 +434,7 @@ Within</Text>
     </Node>
     <Node ToolID="47">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="222" y="328.1" width="636" height="96" />
+        <Position x="276" y="108" width="636" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -456,7 +456,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="48">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="870" y="328.1" width="228" height="96" />
+        <Position x="924" y="108" width="228" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -476,7 +476,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="49">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="222" y="438" width="876" height="132" />
+        <Position x="276" y="217.9" width="876" height="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -498,12 +498,12 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="55">
       <GuiSettings>
-        <Position x="1038" y="364.1" />
+        <Position x="1092" y="144" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Value name="Version XML URL">versions.ChaosReignsWithin.com\DynamicFormula.xml</Value>
-          <Value name="Version of this Macro">2.0</Value>
+          <Value name="Version of this Macro">3.0</Value>
           <Value name="EnableTest">False</Value>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -516,7 +516,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="56">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="1170" width="1056" height="252" />
+        <Position x="108" y="949.9" width="1056" height="252" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -546,7 +546,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="65">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="274.1" width="59" height="59" />
+        <Position x="54" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -559,7 +559,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="66">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="274.1" width="59" height="59" />
+        <Position x="54" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -572,7 +572,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="68">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="274.1" width="59" height="59" />
+        <Position x="54" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -585,7 +585,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="57">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="246" y="726" width="59" height="59" />
+        <Position x="300" y="505.9" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -598,7 +598,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="61">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-        <Position x="234" y="630" width="59" height="59" />
+        <Position x="288" y="409.9" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -611,7 +611,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="60">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="378" y="726" width="59" height="59" />
+        <Position x="432" y="505.9" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -624,7 +624,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="62">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-        <Position x="366" y="630" width="59" height="59" />
+        <Position x="420" y="409.9" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -637,7 +637,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="63">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-        <Position x="462" y="630" width="59" height="59" />
+        <Position x="516" y="409.9" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -650,7 +650,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="58">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="474" y="726" width="59" height="59" />
+        <Position x="528" y="505.9" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -663,7 +663,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="64">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-        <Position x="558" y="630" width="59" height="59" />
+        <Position x="612" y="409.9" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -676,7 +676,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
     </Node>
     <Node ToolID="59">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="570" y="726" width="59" height="59" />
+        <Position x="624" y="505.9" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -833,7 +833,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
           <True>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Name Field</Description>
               <ToolId value="57" />
               <Mode>Simple</Mode>
               <Variable>Name Field</Variable>
@@ -843,7 +843,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Size Field</Description>
               <ToolId value="58" />
               <Mode>Simple</Mode>
               <Variable>Size Field</Variable>
@@ -853,7 +853,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Expression Field</Description>
               <ToolId value="59" />
               <Mode>Simple</Mode>
               <Variable>Expression Field</Variable>
@@ -863,7 +863,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Type Field</Description>
               <ToolId value="60" />
               <Mode>Simple</Mode>
               <Variable>Type Field</Variable>
@@ -978,12 +978,12 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
         <Tool ToolId="14" Selected="False" />
-        <Tool ToolId="21" Selected="True" />
-        <Tool ToolId="42" Selected="False" />
-        <Tool ToolId="55" Selected="True" />
-        <Tool ToolId="67" Selected="True" />
-        <Tool ToolId="69" Selected="True" />
         <Tool ToolId="70" Selected="True" />
+        <Tool ToolId="21" Selected="True" />
+        <Tool ToolId="67" Selected="True" />
+        <Tool ToolId="42" Selected="False" />
+        <Tool ToolId="69" Selected="True" />
+        <Tool ToolId="55" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

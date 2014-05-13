@@ -232,7 +232,7 @@ Credit to Rob Bryan for orignal concept/design.
       <Properties>
         <Configuration>
           <Value name="Version XML URL">versions.ChaosReignsWithin.com\LabelledBlockUntilDone.xml</Value>
-          <Value name="Version of this Macro">1.0</Value>
+          <Value name="Version of this Macro">2.0</Value>
           <Value name="EnableTest">False</Value>
         </Configuration>
         <Annotation DisplayMode="0">

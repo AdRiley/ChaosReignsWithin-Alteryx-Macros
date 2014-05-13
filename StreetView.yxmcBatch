@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="4.1">
+  <Nodes>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="20" y="324" width="824" height="80" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro output</Text>
+          <Font name="Microsoft Sans Serif" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="2" />
+        </Configuration>
+        <Annotation>
+          <DefaultAnnotationText />
+          <Name>Text Comment (17)</Name>
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="20" y="236" width="824" height="80" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Formula containing recordid to relink data</Text>
+          <Font name="Microsoft Sans Serif" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="2" />
+        </Configuration>
+        <Annotation>
+          <DefaultAnnotationText />
+          <Name>Text Comment (15)</Name>
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="20" y="148" width="824" height="80" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Report element containing html code for google streetview</Text>
+          <Font name="Microsoft Sans Serif" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="2" />
+        </Configuration>
+        <Annotation>
+          <DefaultAnnotationText />
+          <Name>Text Comment (13)</Name>
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerText.PortfolioComposerText">
+        <Position x="76" y="180" />
+      </GuiSettings>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTextPlugin" />
+      <Properties>
+        <Configuration>
+          <HeaderMode value="False" />
+          <RawMode value="True" />
+          <Message>&lt;htmlpassthrough&gt;&lt;![CDATA[
+&lt;iframe width="1000" height="314" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;amp;ie=UTF8&amp;amp;layer=c&amp;amp;cbll=40.024904,-105.258313&amp;amp;panoid=&amp;amp;cbp=13,360.00,,0,5&amp;amp;ll=40.024904,-105.258313&amp;amp;spn=0,335.302734&amp;amp;z=5&amp;amp;source=embed&amp;amp;output=svembed"&gt;&lt;/iframe&gt;
+]]&gt;&lt;/htmlpassthrough&gt;</Message>
+          <RichTextMode value="False" />
+          <RichTextString><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs29\par
+}
+]]></RichTextString>
+          <Styles>
+            <Style Name="TextStyle" />
+          </Styles>
+        </Configuration>
+        <Annotation>
+          <DefaultAnnotationText>Raw PCXML
+No Text Styling</DefaultAnnotationText>
+          <Name>Text (1)</Name>
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Text" size="536870911" source="Report:Text:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="74" y="340" />
+      </GuiSettings>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0" />
+          <Passwords />
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <HeaderRow>True</HeaderRow>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <LineEndStyle>CRLF</LineEndStyle>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation>
+          <Name>Output (6)</Name>
+          <DefaultAnnotationText />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="348" />
+      </GuiSettings>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+      <Properties>
+        <Annotation>
+          <Name>Browse (8)</Name>
+          <DefaultAnnotationText />
+        </Annotation>
+        <Configuration>
+          <TempFile>C:\DOCUME~1\rileya\LOCALS~1\Temp\Alteryx_5316_f5d9bb213b23413e9515f7a617e582ff.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="76" y="260" />
+      </GuiSettings>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="NonRepeatableNameRecordID" type="Int32" size="4" expression="0" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation>
+          <Name>Formula (9)</Name>
+          <DefaultAnnotationText>NonRepeatableNameRecordID=0</DefaultAnnotationText>
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Text" size="536870911" source="Report:Text:" type="V_WString" />
+            <Field name="NonRepeatableNameRecordID" source="Formula: 0" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="20" y="20" width="824" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: Batch macro used in StreetView.yxmc
+Author: Adam Riley (riley.ad@gmail.com)
+Full Explanation: http://ukalteryxuser.blogspot.com</Text>
+          <Font name="Microsoft Sans Serif" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation>
+          <DefaultAnnotationText />
+          <Name>Text Comment (11)</Name>
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+      <GuiSettings Type="Manual" />
+    </Connection>
+    <Connection name="">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+      <GuiSettings Type="Manual" />
+    </Connection>
+    <Connection name="">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+      <GuiSettings />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory max="512" default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True">G:\temp</TempFiles>
+    <Annotation on="True" includeToolName="False" />
+    <RuntimeProperties>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Questions>
+            <Question>
+              <Default />
+              <Password value="False" />
+              <Multiline value="False" />
+              <Name>Width Inches</Name>
+              <Description>Width Inches</Description>
+              <Type>TextBox</Type>
+            </Question>
+            <Question>
+              <Default />
+              <Password value="False" />
+              <Multiline value="False" />
+              <Name>Height Inches</Name>
+              <Description>Height Inches</Description>
+              <Type>TextBox</Type>
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <Actions>
+        <Condition>
+          <Description>Always True</Description>
+          <Expression>1</Expression>
+          <True>
+            <Action>
+              <Mode>Simple</Mode>
+              <Replace value="True" />
+              <ReplaceText>40.024904</ReplaceText>
+              <Variable>ControlParam.Latitude</Variable>
+              <Destination>1/Message</Destination>
+              <Description />
+              <Type>UpdateValue</Type>
+            </Action>
+            <Action>
+              <Mode>Simple</Mode>
+              <Replace value="True" />
+              <ReplaceText>-105.258313</ReplaceText>
+              <Variable>ControlParam.Longitude</Variable>
+              <Destination>1/Message</Destination>
+              <Description />
+              <Type>UpdateValue</Type>
+            </Action>
+            <Action>
+              <Mode>Expression</Mode>
+              <Expression>REPLACE([Destination], "1000", TOSTRING(TONUMBER([Width Inches])*96))</Expression>
+              <Destination>1/Message</Destination>
+              <Description>Update Width</Description>
+              <Type>UpdateValue</Type>
+            </Action>
+            <Action>
+              <Mode>Expression</Mode>
+              <Expression>REPLACE([Destination], "314", TOSTRING(TONUMBER([Height Inches])*96))</Expression>
+              <Destination>1/Message</Destination>
+              <Description>Update Height</Description>
+              <Type>UpdateValue</Type>
+            </Action>
+            <Action>
+              <Mode>Expression</Mode>
+              <Expression>REPLACE([Destination], "360.00", TOSTRING(TONUMBER([ControlParam.Bearing])))</Expression>
+              <Destination>1/Message</Destination>
+              <Description>Update Bearing</Description>
+              <Type>UpdateValue</Type>
+            </Action>
+            <Action>
+              <Mode>Simple</Mode>
+              <Replace value="False" />
+              <Variable>ControlParam.RecordID</Variable>
+              <Destination>9/FormulaFields/FormulaField/@expression</Destination>
+              <Description />
+              <Type>UpdateValue</Type>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+      </Actions>
+      <Description>StreetView</Description>
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs>
+        <Tool ToolId="6" Selected="True">
+          <Name>Output</Name>
+          <Abbrev />
+        </Tool>
+      </MacroOutputs>
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Latitude</Name>
+            <Description>Latitude</Description>
+          </ControlParam>
+          <ControlParam>
+            <Name>Longitude</Name>
+            <Description>Longitude</Description>
+          </ControlParam>
+          <ControlParam>
+            <Name>Bearing</Name>
+            <Description>Bearing</Description>
+          </ControlParam>
+          <ControlParam>
+            <Name>RecordID</Name>
+            <Description>RecordID</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <ModuleType>Macro</ModuleType>
+    </RuntimeProperties>
+    <Events />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ZoomLevel value="0" />
+  </Properties>
+</AlteryxDocument>

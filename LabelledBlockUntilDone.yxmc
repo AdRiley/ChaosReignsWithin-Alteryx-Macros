@@ -471,7 +471,7 @@ Credit to Rob Bryan for orignal concept/design.
       <NameIsFileName value="False" />
       <Name>Labelled Block Until Done</Name>
       <Description>The Labelled Block Until Done Tool stops downstream processing until the very last record  has arrived.  On output, it writes all records first to output1 before then starting writing all records to output2.</Description>
-      <CategoryName>Developer</CategoryName>
+      <CategoryName>CRW Macros</CategoryName>
       <SearchTags>Chaos, Chaos Reigns Within, Block Until Done, Developer</SearchTags>
       <Author>Adam Riley</Author>
       <Company>ChaosReignsWithIn</Company>

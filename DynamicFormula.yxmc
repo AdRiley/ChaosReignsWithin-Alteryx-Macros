@@ -264,10 +264,10 @@ Contains the dynamic formula information</Text>
         </Annotation>
         <MetaInfo connection="Output2">
           <RecordInfo>
-            <Field name="Field1" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro)" type="Byte" />
-            <Field name="Field2" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro)" type="Byte" />
-            <Field name="New Field" size="50" source="Formula: Field1+Field2 (BatchMacro) (BatchMacro) (BatchMacro)" type="String" />
-            <Field name="New Field2" size="50" source="Formula: Field2 (BatchMacro) (BatchMacro) (BatchMacro)" type="String" />
+            <Field name="Field1" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Byte" />
+            <Field name="Field2" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Byte" />
+            <Field name="New Field" size="50" source="Formula: Field1+Field2 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="String" />
+            <Field name="New Field2" size="50" source="Formula: Field2 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -815,7 +815,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
       <NameIsFileName value="False" />
       <Name>Dynamic Formula</Name>
       <Description>The Dynamic Formula Tool allows you to dynamically create formulas using a data feed. Effectively allowing you to write formulas by using other formulas, the summarize tool or other techniques. Great for when you need to write a long or complex formula or create a lot of formulas and don't want to do it manually.</Description>
-      <CategoryName>Developer</CategoryName>
+      <CategoryName>CRW Macros</CategoryName>
       <SearchTags>Formula, Dynamic, Chaos, Chaos Reigns Within</SearchTags>
       <Author>Adam Riley</Author>
       <Company>ChaosReignsWithIn</Company>

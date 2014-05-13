@@ -690,11 +690,11 @@ Parallel Version of the Block Until Done Tool. Ouput 1 will be written completel
     <ZoomLevel value="0" />
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
-      <NameIsFileName value="True" />
-      <Name>ParallelBlockUntilDone</Name>
+      <NameIsFileName value="False" />
+      <Name>Parallel Block Until Done</Name>
       <Description>The Parallel Block Until Done Tool will write all input records from Input1 to Output1 and all input records from Input2 to Output2.  
 As with the standard block until done tool it stops downstream processing until the very last record  has arrived for each input/output pair.  Further it writes all records first to output1 before then starting writing all records to output2.</Description>
-      <CategoryName>Developer</CategoryName>
+      <CategoryName>CRW Macros</CategoryName>
       <SearchTags>Chaos, Chaos Reigns Within, Block Until Done, Developer</SearchTags>
       <Author>Adam Riley</Author>
       <Company>ChaosReignsWithIn</Company>

@@ -1032,7 +1032,7 @@ The macro downloads the XML file and checks the version in against the version s
       <NameIsFileName value="True" />
       <Name>Version</Name>
       <Description>Checks a module's/macro's version number against a number stored an external wbesite and throws an error if there is a newer version available.</Description>
-      <CategoryName>Developer</CategoryName>
+      <CategoryName>CRW Macros</CategoryName>
       <SearchTags>Version, Chaos, Chaos Reigns Within</SearchTags>
       <Author>Adam Riley</Author>
       <Company>ChaosReignsWithIn</Company>

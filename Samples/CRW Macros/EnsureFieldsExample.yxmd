@@ -64,7 +64,7 @@ Field2</Value>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro=".\EnsureFieldsOnDataStream.yxmc" />
+      <EngineSettings Macro=".\EnsureFields.yxmc" />
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">

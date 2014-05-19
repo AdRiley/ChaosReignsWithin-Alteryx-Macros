@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <AlteryxDocument yxmdVer="8.5">
   <Nodes>
     <Node ToolID="1">
@@ -28,12 +28,6 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Field1" size="4" source="TextInput:" type="String" />
-            <Field name="Field2" size="6" source="TextInput:" type="String" />
-          </RecordInfo>
-        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
@@ -54,25 +48,16 @@ Field2</Value>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output3">
-          <RecordInfo>
-            <Field name="a" source="TextInput:" type="Byte" />
-            <Field name="b" source="TextInput:" type="Byte" />
-            <Field name="c" source="TextInput:" type="Byte" />
-            <Field name="Field2" size="6" source="TextInput:" type="V_String" />
-            <Field name="Field1" size="4" source="TextInput:" type="String" />
-          </RecordInfo>
-        </MetaInfo>
       </Properties>
       <EngineSettings Macro=".\EnsureFields.yxmc" />
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="258" y="54" />
+        <Position x="330" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ned\AppData\Local\Temp\Engine_12180_77f337797dfa4cf98128620a84b036a0\Engine_13124_e6d5e64e6459482a9058eb95e3a6fea5.yxdb</TempFile>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_14544_793431ee4c474b99bc9b2de02a68a4ca\Engine_12924_26aa13a30c9b404b974eed8355b53017.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -95,10 +80,10 @@ Field2</Value>
   <Connections>
     <Connection>
       <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="2" Connection="Input1" />
+      <Destination ToolID="2" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="2" Connection="Output3" />
+      <Origin ToolID="2" Connection="Output" />
       <Destination ToolID="3" Connection="Input" />
     </Connection>
   </Connections>
@@ -119,7 +104,7 @@ Field2</Value>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>EnsureFieldsOnDataStream_Test</Name>
+      <Name>EnsureFieldsExample</Name>
       <Description />
       <CategoryName />
       <SearchTags />

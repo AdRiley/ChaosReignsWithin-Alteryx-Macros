@@ -469,7 +469,7 @@ Credit to Rob Bryan for orignal concept/design.
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="False" />
-      <Name>Labelled Block Until Done</Name>
+      <Name>Label Block Until Done</Name>
       <Description>The Labelled Block Until Done Tool stops downstream processing until the very last record  has arrived.  On output, it writes all records first to output1 before then starting writing all records to output2.</Description>
       <CategoryName>CRW Macros</CategoryName>
       <SearchTags>Chaos, Chaos Reigns Within, Block Until Done, Developer</SearchTags>

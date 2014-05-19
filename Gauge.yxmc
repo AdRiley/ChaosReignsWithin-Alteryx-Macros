@@ -2924,8 +2924,8 @@ The Gauge Tool lets you create gauge report snippets to make part of your report
       </Constant>
     </Constants>
     <MetaInfo>
-      <NameIsFileName value="True" />
-      <Name>Gauge</Name>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[  Gauge]]></Name>
       <Description>The Gauge Tool lets you create gauge report snippets to make part of your reports.</Description>
       <CategoryName>CRW Macros</CategoryName>
       <SearchTags>Report, Reporting, Gauge, Dial, Arrow, Chaos, Chaos Reigns Within</SearchTags>

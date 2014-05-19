@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="138">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2214" y="810" width="132" height="156" />
+        <Position x="2268" y="522" width="132" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +23,7 @@
     </Node>
     <Node ToolID="137">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2094" y="810" width="108" height="156" />
+        <Position x="2148" y="522" width="108" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -43,7 +43,7 @@
     </Node>
     <Node ToolID="136">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1974" y="810" width="108" height="156" />
+        <Position x="2028" y="522" width="108" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,7 +63,7 @@
     </Node>
     <Node ToolID="135">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1542" y="978" width="216" height="300" />
+        <Position x="1596" y="690" width="216" height="300" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -83,7 +83,7 @@
     </Node>
     <Node ToolID="134">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1542" y="1290" width="420" height="132" />
+        <Position x="1596" y="1002" width="420" height="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -103,7 +103,7 @@
     </Node>
     <Node ToolID="133">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1770" y="978" width="192" height="300" />
+        <Position x="1824" y="690" width="192" height="300" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -123,7 +123,7 @@
     </Node>
     <Node ToolID="132">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1542" y="810" width="420" height="156" />
+        <Position x="1596" y="522" width="420" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -143,7 +143,7 @@
     </Node>
     <Node ToolID="131">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1542" y="606" width="420" height="192" />
+        <Position x="1596" y="318" width="420" height="192" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -163,7 +163,7 @@
     </Node>
     <Node ToolID="130">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1206" y="1290" width="324" height="132" />
+        <Position x="1260" y="1002" width="324" height="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -183,7 +183,7 @@
     </Node>
     <Node ToolID="129">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1206" y="1122" width="324" height="156" />
+        <Position x="1260" y="834" width="324" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -203,7 +203,7 @@
     </Node>
     <Node ToolID="128">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1206" y="810" width="324" height="156" />
+        <Position x="1260" y="522" width="324" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -223,7 +223,7 @@
     </Node>
     <Node ToolID="127">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1038" y="810" width="156" height="156" />
+        <Position x="1092" y="522" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -243,7 +243,7 @@
     </Node>
     <Node ToolID="125">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="450" y="606" width="576" height="192" />
+        <Position x="504" y="318" width="576" height="192" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -263,7 +263,7 @@
     </Node>
     <Node ToolID="124">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="450" y="810" width="576" height="156" />
+        <Position x="504" y="522" width="576" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -283,7 +283,7 @@
     </Node>
     <Node ToolID="123">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="282" y="810" width="156" height="156" />
+        <Position x="336" y="522" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -303,7 +303,7 @@
     </Node>
     <Node ToolID="122">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="114" y="810" width="156" height="156" />
+        <Position x="168" y="522" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -323,7 +323,7 @@
     </Node>
     <Node ToolID="114">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="2238" y="882" />
+        <Position x="2292" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -340,7 +340,7 @@
     </Node>
     <Node ToolID="113">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="162" y="858" />
+        <Position x="216" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -424,7 +424,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="1086" y="858" />
+        <Position x="1140" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -462,7 +462,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1254" y="858" />
+        <Position x="1308" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -490,7 +490,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1254" y="1338" />
+        <Position x="1308" y="1050" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -518,7 +518,7 @@
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1710" y="870" />
+        <Position x="1764" y="582" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -595,7 +595,7 @@
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1410" y="1170" />
+        <Position x="1464" y="882" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -618,7 +618,7 @@
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="1410" y="1338" />
+        <Position x="1464" y="1050" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -650,7 +650,7 @@
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1998" y="882" />
+        <Position x="2052" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -686,7 +686,7 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2238" y="834" />
+        <Position x="2292" y="546" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -711,7 +711,7 @@
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="666" y="858" />
+        <Position x="720" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -750,7 +750,7 @@
     </Node>
     <Node ToolID="71">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
-        <Position x="1830" y="882" />
+        <Position x="1884" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -780,7 +780,7 @@
     </Node>
     <Node ToolID="75">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
-        <Position x="1602" y="894" />
+        <Position x="1656" y="606" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -824,7 +824,7 @@
     </Node>
     <Node ToolID="74">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1782" y="1326" />
+        <Position x="1836" y="1038" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -859,7 +859,7 @@
     </Node>
     <Node ToolID="93">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="330" y="858" />
+        <Position x="384" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -892,7 +892,7 @@
     </Node>
     <Node ToolID="96">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2118" y="882" />
+        <Position x="2172" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -931,7 +931,7 @@
     </Node>
     <Node ToolID="97">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1638" y="1326" />
+        <Position x="1692" y="1038" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -978,7 +978,7 @@
     </Node>
     <Node ToolID="111">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="367.2" width="59" height="59" />
+        <Position x="54" y="79.20001" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -991,7 +991,7 @@
     </Node>
     <Node ToolID="112">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="367.2" width="59" height="59" />
+        <Position x="54" y="79.20001" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1004,7 +1004,7 @@
     </Node>
     <Node ToolID="116">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="114" y="342" width="156" height="156" />
+        <Position x="168" y="54" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1026,7 +1026,7 @@ Within</Text>
     </Node>
     <Node ToolID="117">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="114" y="510" width="156" height="24" />
+        <Position x="168" y="222" width="156" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1046,7 +1046,7 @@ Within</Text>
     </Node>
     <Node ToolID="118">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="282" y="342" width="636" height="96" />
+        <Position x="336" y="54" width="636" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1068,7 +1068,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="119">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="930" y="342" width="228" height="96" />
+        <Position x="984" y="54" width="228" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1088,7 +1088,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="120">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="282" y="462" width="876" height="132" />
+        <Position x="336" y="174" width="876" height="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1110,7 +1110,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="121">
       <GuiSettings>
-        <Position x="1098" y="390" />
+        <Position x="1152" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1128,7 +1128,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="99">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="858" y="726" width="59" height="59" />
+        <Position x="912" y="438" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1144,7 +1144,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="100">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="1782" y="1206" width="59" height="59" />
+        <Position x="1836" y="918" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1157,7 +1157,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="103">
       <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
-        <Position x="1806" y="1122" width="59" height="59" />
+        <Position x="1860" y="834" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1170,7 +1170,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="108">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="1806" y="1014" width="59" height="59" />
+        <Position x="1860" y="726" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1183,7 +1183,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="98">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="666" y="726" width="59" height="59" />
+        <Position x="720" y="438" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1196,7 +1196,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="105">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.ListBox">
-        <Position x="654" y="630" width="59" height="59" />
+        <Position x="708" y="342" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1209,7 +1209,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="106">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="1590" y="1014" width="59" height="59" />
+        <Position x="1644" y="726" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1222,7 +1222,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="107">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="1590" y="630" width="59" height="59" />
+        <Position x="1644" y="342" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1235,7 +1235,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="101">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="1602" y="726" width="59" height="59" />
+        <Position x="1656" y="438" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1248,7 +1248,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="102">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="1602" y="1206" width="59" height="59" />
+        <Position x="1656" y="918" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1264,7 +1264,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="139">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="114" y="978" width="912" height="252" />
+        <Position x="168" y="690" width="912" height="252" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1287,7 +1287,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="140">
       <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
-        <Position x="474" y="726" width="59" height="59" />
+        <Position x="528" y="438" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1472,7 +1472,7 @@ Macro to add total row and columns to a data table</Text>
     </Constants>
     <MetaInfo>
       <NameIsFileName value="False" />
-      <Name>Add Total Row and Column</Name>
+      <Name><![CDATA[   Add Totals]]></Name>
       <Description>Macro to add total row and columns to a data table</Description>
       <CategoryName>CRW Macros</CategoryName>
       <SearchTags>Transform, Chaos, Chaos Reigns Within, Total</SearchTags>
@@ -1492,7 +1492,7 @@ Macro to add total row and columns to a data table</Text>
           <True>
             <Action>
               <Type>UpdateSelect</Type>
-              <Description />
+              <Description>Please Select Fields To Sum</Description>
               <ToolId value="98" />
               <Variable>Please Select Fields To Sum</Variable>
               <SelectTool value="29" />
@@ -1621,16 +1621,16 @@ Macro to add total row and columns to a data table</Text>
       <ModuleType>Macro</ModuleType>
       <MacroCustomHelp value="False" />
       <MacroDynamicOutputFields value="False" />
-      <MacroImage>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</MacroImage>
+      <MacroImage>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</MacroImage>
       <MacroInputs />
       <MacroOutputs />
       <Wiz_CustomHelp value="False" />
       <Wiz_CustomGraphic value="False" />
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
-        <Tool ToolId="25" Selected="False" />
-        <Tool ToolId="113" Selected="True" />
         <Tool ToolId="114" Selected="True" />
+        <Tool ToolId="113" Selected="True" />
+        <Tool ToolId="25" Selected="False" />
         <Tool ToolId="121" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />

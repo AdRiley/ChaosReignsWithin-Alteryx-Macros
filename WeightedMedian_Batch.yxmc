@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="26" />
+          <Fields>
+            <Field name="__In_Macro_Weight" />
+            <Field name="__In_Macro_InValue" />
+            <Field name="_In_Macro_Group" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>2</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>0.6</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1.3</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>0.3</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>0.3</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>1.7</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>0.7</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>1.7</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>0.4</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>0.5</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>1.5</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1.2</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>1.1</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>0.6</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>1.4</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>0.2</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>1.6</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1.6</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>1.3</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1.1</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>1.1</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>0.2</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>1.1</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>1.4</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>0.9</c>
+              <c>c</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="__In_Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__In_Macro_InValue" source="TextInput:" type="Float" />
+            <Field name="_In_Macro_Group" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="138" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="__Macro_Value" type="Double" size="8" expression="[__In_Macro_InValue]" />
+            <FormulaField field="__Macro_Weight" type="Double" size="8" expression="[__In_Macro_Weight]" />
+            <FormulaField field="__Macro_Group" type="V_WString" size="99999" expression="[_In_Macro_Group]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>__Macro_Value=[__In_Macro_InValue]
+__Macro_Weight=[__In_Macro_Weight]
+__Macro_Group=[_In_Macro_Group]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="__In_Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__In_Macro_InValue" source="TextInput:" type="Float" />
+            <Field name="_In_Macro_Group" size="1" source="TextInput:" type="String" />
+            <Field name="__Macro_Value" source="Formula: [__In_Macro_InValue]" type="Double" />
+            <Field name="__Macro_Weight" source="Formula: [__In_Macro_Weight]" type="Double" />
+            <Field name="__Macro_Group" size="99999" source="Formula: [_In_Macro_Group]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="246" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="__Macro_Group" action="GroupBy" rename="__Macro_Group" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings>
+        <Position x="342" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ControlParams" />
+          <Value name="BatchMacroGroupBy"><![CDATA[Control=__Macro_Group
+Input11=__Macro_Group
+]]></Value>
+          <Value name="Percentile">0.50</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output25">
+          <RecordInfo>
+            <Field description="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*[Question.Percentile]&#xA;endif" name="WeigtedPercentile" source="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*[Question.Percentile]&#xA;endif (BatchMacro)" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro=".\WeightedMedianInner.yxmc" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="450" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">.\MacroOut.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <OldSpatialIndex>False</OldSpatialIndex>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MacroOut.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="28" Connection="Input11" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output25" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ValueField</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>WeightField</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>GroupingField</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Percentile</Name>
+        <Value>0.5</Value>
+        <IsNumeric value="True" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>WeightedMedian_Batch</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author>Ned Harding</Author>
+      <Company>Alteryx</Company>
+      <Copyright>This module in in the public domain</Copyright>
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <Condition>
+          <Type>Condition</Type>
+          <Description>Always True</Description>
+          <Expression>1</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Weight</Description>
+              <Mode>Expression</Mode>
+              <Expression>"[" + [WeightField] + "]"</Expression>
+              <Destination>26/FormulaFields/FormulaField[@field='__Macro_Weight']/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Value</Description>
+              <Mode>Expression</Mode>
+              <Expression>"[" + [ValueField] + "]"</Expression>
+              <Destination>26/FormulaFields/FormulaField[@field='__Macro_Value']/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Group</Description>
+              <Mode>Expression</Mode>
+              <Expression>if IsEmpty([GroupingField]) then "''" else "[" + [GroupingField] + "]" endif</Expression>
+              <Destination>26/FormulaFields/FormulaField[@field='__Macro_Group']/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Percentile</Description>
+              <Mode>Simple</Mode>
+              <Variable>Percentile</Variable>
+              <Replace value="False" />
+              <Destination>28/Value[@name='Percentile']</Destination>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Questions>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Value Field</Description>
+              <Name>ValueField</Name>
+              <Multiple value="False" />
+              <Default />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="11" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Byte,Int16,Int32,Int64,FixedDecimal,Float,Double</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Weight Field</Description>
+              <Name>WeightField</Name>
+              <Multiple value="False" />
+              <Default />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="11" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Byte,Int16,Int32,Int64,FixedDecimal,Float,Double</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Grouping Field</Description>
+              <Name>GroupingField</Name>
+              <Multiple value="False" />
+              <Default />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="11" />
+              <Field_IncludeNone value="True" />
+              <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Percentile (Set to 0.5 for Median)</Description>
+              <Name>Percentile</Name>
+              <Minimum value="0" />
+              <Maximum value="1" />
+              <Increment value="0.1" />
+              <Default value="0.5" />
+              <Decimals value="2" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="32" />
+      <MacroInputs>
+        <Tool ToolId="11" Selected="True">
+          <Name>Input11</Name>
+          <Abbrev />
+          <NoFieldMap value="True" />
+        </Tool>
+      </MacroInputs>
+      <MacroOutputs>
+        <Tool ToolId="29" Selected="True">
+          <Name>Output29</Name>
+          <Abbrev />
+        </Tool>
+      </MacroOutputs>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools />
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

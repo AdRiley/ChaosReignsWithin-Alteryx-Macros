@@ -229,7 +229,7 @@ Input11=__Macro_Group
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro=".\WeightedMedianInner.yxmc" />
+      <EngineSettings Macro="WeightedMedian.yxmcbatch" />
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">

@@ -47,7 +47,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>The answer is now in the last cell in the field WeightedPercentile.  So select that cell for output.</Text>
+          <Text>The answer is now in the last row in the field WeightedPercentile.  So select that cell for output.</Text>
           <Font name="Segoe UI" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />

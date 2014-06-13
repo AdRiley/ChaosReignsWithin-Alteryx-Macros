@@ -24,7 +24,7 @@
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro=".\JSONCreate.yxmc" />
+      <EngineSettings Macro="CReW_JSONCreate.yxmc" />
     </Node>
     <Node ToolID="39">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">

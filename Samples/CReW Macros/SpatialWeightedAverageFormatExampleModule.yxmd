@@ -87,7 +87,7 @@
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="SpatialWeightedAverage.yxmc" />
+      <EngineSettings Macro="CReW_SpatialWeightedAverage.yxmc" />
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.ReportMap.ReportMap">

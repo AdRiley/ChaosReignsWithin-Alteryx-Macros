@@ -215,7 +215,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Module: WeightedMedian.yxmc
+          <Text>Module: CReW_WeightedMedian.yxmc
 Author: Ned Harding
 Layout and Annotation: Adam Riley</Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -289,7 +289,7 @@ A weighted median of a sample is the 50% weighted percentile. It allows for non-
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Version.yxmc" />
+      <EngineSettings Macro="CReW_Version.yxmc" />
     </Node>
     <Node ToolID="49">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
@@ -685,7 +685,7 @@ Input11=__Macro_Group
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="WeightedMedian.yxmcbatch" />
+      <EngineSettings Macro="CReW_WeightedMedian.yxmcbatch" />
     </Node>
     <Node ToolID="41">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">

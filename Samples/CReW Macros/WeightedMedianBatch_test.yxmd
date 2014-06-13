@@ -178,7 +178,7 @@
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro=".\WeightedMedian_Batch.yxmc" />
+      <EngineSettings Macro="CReW_WeightedMedian.yxmc" />
     </Node>
     <Node ToolID="39">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">

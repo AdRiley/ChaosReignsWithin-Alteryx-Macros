@@ -49,7 +49,7 @@ Field2</Value>
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro=".\EnsureFields.yxmc" />
+      <EngineSettings Macro="CReW_EnsureFields.yxmc" />
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">

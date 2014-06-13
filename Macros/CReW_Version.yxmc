@@ -69,7 +69,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module: Version.yxmc
+          <Text><![CDATA[Module: CReW_Version.yxmc
 Author: Adam Riley
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />

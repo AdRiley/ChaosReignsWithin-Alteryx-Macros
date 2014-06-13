@@ -2095,7 +2095,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module: Gauge.yxmc
+          <Text><![CDATA[Module: CReW_Gauge.yxmc
 Author: Adam Riley
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -2169,7 +2169,7 @@ The Gauge Tool lets you create gauge report snippets to make part of your report
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Version.yxmc" />
+      <EngineSettings Macro="CReW_Version.yxmc" />
     </Node>
     <Node ToolID="86">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">

@@ -419,7 +419,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module:  StreetView.yxmc
+          <Text><![CDATA[Module:  CReW_StreetView.yxmcbatch
 Author: Adam Riley
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -442,7 +442,7 @@ Author: Adam Riley
       <Properties>
         <Configuration>
           <Text>Description: 
-Batch macro used in StreetView.yxmc</Text>
+Batch macro used in CReW_StreetView.yxmc</Text>
           <Font name="Segoe UI" size="12" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />

@@ -364,7 +364,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Module: EnsureFields.yxmc
+          <Text>Module: CReW_EnsureFields.yxmc
 Author: Ned Harding
 Layout and Annotation: Adam Riley</Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -438,7 +438,7 @@ This tool ensures that fields are present on a data stream.  If the fields are a
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Version.yxmc" />
+      <EngineSettings Macro="CReW_Version.yxmc" />
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">

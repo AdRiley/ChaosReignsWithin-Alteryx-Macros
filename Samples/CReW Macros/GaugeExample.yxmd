@@ -222,7 +222,7 @@ Full Explanation: http://www.chaosreignswithin.com</Text>
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Gauge.yxmc" />
+      <EngineSettings Macro="CReW_Gauge.yxmc" />
     </Node>
   </Nodes>
   <Connections>

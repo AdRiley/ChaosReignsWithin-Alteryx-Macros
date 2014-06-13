@@ -202,7 +202,7 @@
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="ParallelBlockUntilDone.yxmc" />
+      <EngineSettings Macro="CReW_ParallelBlockUntilDone.yxmc" />
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">

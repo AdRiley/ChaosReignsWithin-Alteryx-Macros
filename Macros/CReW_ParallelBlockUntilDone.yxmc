@@ -168,7 +168,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module:ParallelBlockUntilDone.yxmc
+          <Text><![CDATA[Module:CReW_ParallelBlockUntilDone.yxmc
 Author: Adam Riley
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -242,7 +242,7 @@ Parallel Version of the Block Until Done Tool. Ouput 1 will be written completel
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Version.yxmc" />
+      <EngineSettings Macro="CReW_Version.yxmc" />
     </Node>
     <Node ToolID="34">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">

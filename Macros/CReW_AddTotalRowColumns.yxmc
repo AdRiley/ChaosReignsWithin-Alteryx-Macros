@@ -1050,7 +1050,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module: AddTotalRowColumns.yxmc
+          <Text><![CDATA[Module: CReW_AddTotalRowColumns.yxmc
 Author: Adam Riley
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -1124,7 +1124,7 @@ Macro to add total row and columns to a data table</Text>
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Version.yxmc" />
+      <EngineSettings Macro="CReW_Version.yxmc" />
     </Node>
     <Node ToolID="99">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">

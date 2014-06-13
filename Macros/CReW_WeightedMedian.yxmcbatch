@@ -796,7 +796,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module: WeightedMedian.yxmcbatch
+          <Text><![CDATA[Module: CReW_WeightedMedian.yxmcbatch
 
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -819,7 +819,7 @@ Within</Text>
       <Properties>
         <Configuration>
           <Text>Description: 
-Batch macro used in WeightedMedian.yxmc</Text>
+Batch macro used in CReW_WeightedMedian.yxmc</Text>
           <Font name="Segoe UI" size="12" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />

@@ -164,7 +164,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module:LabelledBlockUntilDone.yxmc
+          <Text><![CDATA[Module:CReW_LabelledBlockUntilDone.yxmc
 Author: Adam Riley
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -241,7 +241,7 @@ Credit to Rob Bryan for orignal concept/design.
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Version.yxmc" />
+      <EngineSettings Macro="CReW_Version.yxmc" />
     </Node>
     <Node ToolID="34">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">

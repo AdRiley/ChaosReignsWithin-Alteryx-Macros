@@ -319,7 +319,7 @@ field from weighted average macros</Text>
           </SortInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro=".\WeightedAvg.yxmc" />
+      <EngineSettings Macro="WeightedAvg.yxmc" />
     </Node>
     <Node ToolID="8">
       <GuiSettings>
@@ -347,7 +347,7 @@ field from weighted average macros</Text>
           </SortInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro=".\WeightedAvg.yxmc" />
+      <EngineSettings Macro="WeightedAvg.yxmc" />
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
@@ -867,7 +867,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module: SpatialWeightedAverage.yxmc
+          <Text><![CDATA[Module: CReW_SpatialWeightedAverage.yxmc
 Author: Adam Riley
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -941,7 +941,7 @@ The Spatial Weighted Average Tool will create a weighted average of the centroid
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Version.yxmc" />
+      <EngineSettings Macro="CReW_Version.yxmc" />
     </Node>
     <Node ToolID="70">
       <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">

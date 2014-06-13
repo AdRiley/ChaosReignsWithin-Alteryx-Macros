@@ -271,7 +271,7 @@ Contains the dynamic formula information</Text>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="DynamicFormula.yxmcbatch" />
+      <EngineSettings Macro="CReW_DynamicFormula.yxmcbatch" />
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
@@ -438,7 +438,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module: Dynamic Formula.yxmc
+          <Text><![CDATA[Module: CReW_Dynamic Formula.yxmc
 Author: Adam Riley
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -512,7 +512,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Version.yxmc" />
+      <EngineSettings Macro="CReW_Version.yxmc" />
     </Node>
     <Node ToolID="56">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">

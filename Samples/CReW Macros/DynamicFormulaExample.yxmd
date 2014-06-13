@@ -3631,7 +3631,7 @@ Size='4'</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="DynamicFormula.yxmc" />
+      <EngineSettings Macro="CReW_DynamicFormula.yxmc" />
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
@@ -3748,7 +3748,7 @@ Size='4'</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="DynamicFormula.yxmc" />
+      <EngineSettings Macro="CReW_DynamicFormula.yxmc" />
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">

@@ -232,7 +232,7 @@ RecordID=NonRepeatableNameRecordID
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="StreetView.yxmcBatch" />
+      <EngineSettings Macro="CReW_StreetView.yxmcBatch" />
     </Node>
     <Node ToolID="50">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
@@ -672,7 +672,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module: StreetView.yxmc
+          <Text><![CDATA[Module: CReW_StreetView.yxmc
 Author: Adam Riley
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -746,7 +746,7 @@ Macro to enable google streeview elements to be added to html reports</Text>
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Version.yxmc" />
+      <EngineSettings Macro="CReW_Version.yxmc" />
     </Node>
     <Node ToolID="69">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">

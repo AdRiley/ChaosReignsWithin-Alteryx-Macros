@@ -189,7 +189,7 @@ Within</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text><![CDATA[Module: Dynamic Formula.yxmc
+          <Text><![CDATA[Module: CReW_DynamicFormula.yxmcbatch
 Author: Adam Riley
 ]]></Text>
           <Font name="Segoe UI" size="26.25" style="0" />
@@ -212,7 +212,7 @@ Author: Adam Riley
       <Properties>
         <Configuration>
           <Text>Description: 
-Batch macro used in DynamicFormula.yxmc</Text>
+Batch macro used in CReW_DynamicFormula.yxmc</Text>
           <Font name="Segoe UI" size="12" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />

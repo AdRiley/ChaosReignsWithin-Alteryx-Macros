@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="54" y="54" width="59" height="59" />
+        <Position x="54" y="66" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -16,7 +16,7 @@
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="102" y="42" width="59" height="59" />
+        <Position x="102" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -29,7 +29,7 @@
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="750" y="42" width="59" height="59" />
+        <Position x="750" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -42,7 +42,7 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="762" y="138" width="59" height="59" />
+        <Position x="762" y="150" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -55,7 +55,7 @@
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="114" y="138" width="59" height="59" />
+        <Position x="114" y="150" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -68,7 +68,7 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="798" y="246" width="341.3998" height="326.5508" />
+        <Position x="798" y="258" width="341.3998" height="326.5508" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -86,7 +86,7 @@
       <ChildNodes>
         <Node ToolID="13">
           <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
-            <Position x="1014" y="327" />
+            <Position x="1014" y="339" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -108,7 +108,7 @@
                 <Configuration />
               </InputConfiguration>
               <ProgramName>cmd.exe</ProgramName>
-              <Arguments>/c del C:\ProgramData\Alteryx\DataProducts\AddOnData\Macros\CRW.ini</Arguments>
+              <Arguments>/c del C:\ProgramData\Alteryx\DataProducts\AddOnData\Macros\CReW.ini</Arguments>
               <WorkingDir />
               <RunMinimized value="False" />
               <RunSilent value="False" />
@@ -123,7 +123,7 @@
         </Node>
         <Node ToolID="14">
           <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
-            <Position x="1014" y="435" />
+            <Position x="1014" y="447" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -145,7 +145,7 @@
                 <Configuration />
               </InputConfiguration>
               <ProgramName>cmd.exe</ProgramName>
-              <Arguments>/c del C:\ProgramData\Alteryx\DataProducts\AddOnData\Samples\CRW.ini</Arguments>
+              <Arguments>/c del C:\ProgramData\Alteryx\DataProducts\AddOnData\Samples\CReW.ini</Arguments>
               <WorkingDir />
               <RunMinimized value="False" />
               <RunSilent value="False" />
@@ -160,7 +160,7 @@
         </Node>
         <Node ToolID="15">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="858" y="325" />
+            <Position x="858" y="337" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -191,7 +191,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="150" y="246" width="611" height="504.5508" />
+        <Position x="150" y="258" width="611" height="504.5508" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -209,7 +209,7 @@
       <ChildNodes>
         <Node ToolID="1">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="210" y="325" />
+            <Position x="210" y="337" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -244,7 +244,7 @@
         </Node>
         <Node ToolID="2">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="210" y="613" />
+            <Position x="210" y="625" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -273,7 +273,7 @@
         </Node>
         <Node ToolID="3">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="210" y="463.0001" />
+            <Position x="210" y="475.0001" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -302,23 +302,23 @@
         </Node>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="318" y="409" />
+            <Position x="318" y="421" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField field="Settings" type="V_String" size="5000" expression="[Field1]+[Engine.ModuleDirectory]" />
+                <FormulaField field="Settings" type="V_String" size="5000" expression="[Field1]+[Engine.ModuleDirectory]+'\Macros'" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>Settings=[Field1]+[Engine.ModuleDirectory]</DefaultAnnotationText>
+              <DefaultAnnotationText>Settings=[Field1]+[Engine.ModuleDirectory]+'\Macros'</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Field1" size="5" source="TextInput:" type="String" />
-                <Field name="Settings" size="5000" source="Formula: [Field1]+[Engine.ModuleDirectory]" type="V_String" />
+                <Field name="Settings" size="5000" source="Formula: [Field1]+[Engine.ModuleDirectory]+'\Macros'" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -326,7 +326,7 @@
         </Node>
         <Node ToolID="5">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="522" y="325" />
+            <Position x="522" y="337" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -354,7 +354,7 @@
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="522" y="613" />
+            <Position x="522" y="625" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -382,11 +382,11 @@
         </Node>
         <Node ToolID="7">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="642" y="325" />
+            <Position x="642" y="337" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <File MaxRecords="" FileFormat="0">C:\ProgramData\Alteryx\DataProducts\AddOnData\Macros\CRW.ini</File>
+              <File MaxRecords="" FileFormat="0">C:\ProgramData\Alteryx\DataProducts\AddOnData\Macros\CReW.ini</File>
               <Passwords />
               <FormatSpecificOptions>
                 <LineEndStyle>CRLF</LineEndStyle>
@@ -399,7 +399,7 @@
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>CRW.ini</DefaultAnnotationText>
+              <DefaultAnnotationText>CReW.ini</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
           </Properties>
@@ -407,11 +407,11 @@
         </Node>
         <Node ToolID="8">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="642" y="613" />
+            <Position x="642" y="625" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <File MaxRecords="" FileFormat="0">C:\ProgramData\Alteryx\DataProducts\AddOnData\Samples\CRW.ini</File>
+              <File MaxRecords="" FileFormat="0">C:\ProgramData\Alteryx\DataProducts\AddOnData\Samples\CReW.ini</File>
               <Passwords />
               <FormatSpecificOptions>
                 <LineEndStyle>CRLF</LineEndStyle>
@@ -424,7 +424,7 @@
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>CRW.ini</DefaultAnnotationText>
+              <DefaultAnnotationText>CReW.ini</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
           </Properties>
@@ -432,7 +432,7 @@
         </Node>
         <Node ToolID="10">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="318" y="517" />
+            <Position x="318" y="529" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -565,26 +565,20 @@
           <Description>(Always Run)</Description>
           <True>
             <Action>
-              <Type>Dynamic</Type>
+              <Type>UpdateValueFormula</Type>
               <Description />
               <ToolId value="18" />
-              <Expression>{{INPUT}}</Expression>
+              <Expression>![#1]</Expression>
               <Destination>12/Disabled/@value</Destination>
-              <Mapping>Enable/Disable Container from Question</Mapping>
               <Mode>Expression</Mode>
-              <DynamicConfiguration />
-              <DefaultConfiguration value="True" />
             </Action>
             <Action>
-              <Type>Dynamic</Type>
+              <Type>UpdateValueFormula</Type>
               <Description />
               <ToolId value="19" />
-              <Expression>{{INPUT}}</Expression>
+              <Expression>![#1]</Expression>
               <Destination>11/Disabled/@value</Destination>
-              <Mapping>Enable/Disable Container from Question</Mapping>
               <Mode>Expression</Mode>
-              <DynamicConfiguration />
-              <DefaultConfiguration value="True" />
             </Action>
           </True>
         </NoCondition>

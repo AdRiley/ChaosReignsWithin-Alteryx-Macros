@@ -870,7 +870,7 @@ Within</Text>
           <Text><![CDATA[Module: CReW_SpatialWeightedAverage.yxmc
 Author: Adam Riley
 ]]></Text>
-          <Font name="Segoe UI" size="26.25" style="0" />
+          <Font name="Segoe UI" size="21.75" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
           <Shape shape="0" />
@@ -1173,7 +1173,7 @@ The Spatial Weighted Average Tool will create a weighted average of the centroid
       <NameIsFileName value="False" />
       <Name><![CDATA[ Weighted Average]]></Name>
       <Description>The Spatial Weighted Average Tool will create a weighted average of the centroids of the incoming spatial objects to the tool and output it as a spatial point. Useful for calculcating things like population weighted centroids.</Description>
-      <CategoryName>CRW Macros</CategoryName>
+      <CategoryName />
       <SearchTags>Chaos, Chaos Reigns Within, Spatial, Average, Weighted</SearchTags>
       <Author />
       <Company />

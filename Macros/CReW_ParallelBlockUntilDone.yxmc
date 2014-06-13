@@ -171,7 +171,7 @@ Within</Text>
           <Text><![CDATA[Module:CReW_ParallelBlockUntilDone.yxmc
 Author: Adam Riley
 ]]></Text>
-          <Font name="Segoe UI" size="26.25" style="0" />
+          <Font name="Segoe UI" size="21.75" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
           <Shape shape="0" />
@@ -694,7 +694,7 @@ Parallel Version of the Block Until Done Tool. Ouput 1 will be written completel
       <Name>Parallel Block Until Done</Name>
       <Description>The Parallel Block Until Done Tool will write all input records from Input1 to Output1 and all input records from Input2 to Output2.  
 As with the standard block until done tool it stops downstream processing until the very last record  has arrived for each input/output pair.  Further it writes all records first to output1 before then starting writing all records to output2.</Description>
-      <CategoryName>CRW Macros</CategoryName>
+      <CategoryName />
       <SearchTags>Chaos, Chaos Reigns Within, Block Until Done, Developer</SearchTags>
       <Author>Adam Riley</Author>
       <Company>ChaosReignsWithIn</Company>

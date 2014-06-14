@@ -763,7 +763,7 @@
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="NVD3.yxmc" />
+      <EngineSettings Macro="CReW_NVD3.yxmc" />
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
@@ -848,7 +848,7 @@
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="NVD3.yxmc" />
+      <EngineSettings Macro="CReW_NVD3.yxmc" />
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
@@ -933,7 +933,7 @@
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="NVD3.yxmc" />
+      <EngineSettings Macro="CReW_NVD3.yxmc" />
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">

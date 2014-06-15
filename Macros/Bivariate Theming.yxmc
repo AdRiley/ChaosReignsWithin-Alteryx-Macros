@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<AlteryxDocument yxmdVer="8.5">
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
   <Nodes>
     <Node ToolID="80">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="90" y="42" width="600" height="156" />
+        <Position x="138" y="352.1" width="600" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +23,7 @@
     </Node>
     <Node ToolID="79">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2418" y="498" width="964" height="196" />
+        <Position x="2466" y="808.1" width="964" height="196" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -43,7 +43,7 @@
     </Node>
     <Node ToolID="78">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1530" y="18" width="780" height="492" />
+        <Position x="1578" y="328.1" width="780" height="492" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,7 +63,7 @@
     </Node>
     <Node ToolID="77">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="6" y="270" width="804" height="264" />
+        <Position x="54" y="580.1" width="804" height="264" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -81,34 +81,947 @@
         </Annotation>
       </Properties>
     </Node>
-    <Node ToolID="1">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="150" y="102" />
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="198" y="412.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Passwords />
-          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\Sample Input 1.yxdb</File>
-          <FormatSpecificOptions />
+          <UseFileInput value="False" />
+          <Name>Input</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="181" />
+              <Fields>
+                <Field name="PointObj" />
+                <Field name="Value 1" />
+                <Field name="Value 2" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.959977, 53.306016 ] }</c>
+                  <c>200</c>
+                  <c>39</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.932406, 53.415781 ] }</c>
+                  <c>200</c>
+                  <c>24</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.790331, 53.099610 ] }</c>
+                  <c>400</c>
+                  <c>12</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.924455, 53.137770 ] }</c>
+                  <c>500</c>
+                  <c>20</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.288095, 53.084301 ] }</c>
+                  <c>100</c>
+                  <c>24</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.033151, 53.191766 ] }</c>
+                  <c>400</c>
+                  <c>32</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.159290, 52.921885 ] }</c>
+                  <c>300</c>
+                  <c>35</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.871362, 53.247556 ] }</c>
+                  <c>300</c>
+                  <c>17</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.789250, 53.359302 ] }</c>
+                  <c>200</c>
+                  <c>32</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.137103, 52.896602 ] }</c>
+                  <c>100</c>
+                  <c>9</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.829292, 53.308500 ] }</c>
+                  <c>0</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.092297, 53.328565 ] }</c>
+                  <c>200</c>
+                  <c>39</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.949737, 53.206203 ] }</c>
+                  <c>0</c>
+                  <c>45</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.052305, 53.266464 ] }</c>
+                  <c>300</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.078961, 53.187879 ] }</c>
+                  <c>100</c>
+                  <c>22</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.240384, 53.105972 ] }</c>
+                  <c>300</c>
+                  <c>31</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.082182, 53.142390 ] }</c>
+                  <c>200</c>
+                  <c>22</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.945795, 53.190005 ] }</c>
+                  <c>500</c>
+                  <c>13</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.188373, 53.043913 ] }</c>
+                  <c>0</c>
+                  <c>35</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.082641, 53.396581 ] }</c>
+                  <c>300</c>
+                  <c>40</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.868886, 53.361175 ] }</c>
+                  <c>500</c>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.181527, 52.922863 ] }</c>
+                  <c>300</c>
+                  <c>46</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.001578, 53.132667 ] }</c>
+                  <c>0</c>
+                  <c>40</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.131557, 53.276787 ] }</c>
+                  <c>300</c>
+                  <c>13</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.022383, 53.004107 ] }</c>
+                  <c>100</c>
+                  <c>19</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.183986, 52.848922 ] }</c>
+                  <c>300</c>
+                  <c>25</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.196050, 52.940621 ] }</c>
+                  <c>300</c>
+                  <c>30</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.246087, 53.142521 ] }</c>
+                  <c>200</c>
+                  <c>11</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.904699, 53.016894 ] }</c>
+                  <c>400</c>
+                  <c>20</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.990348, 53.415593 ] }</c>
+                  <c>700</c>
+                  <c>50</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.006780, 52.979811 ] }</c>
+                  <c>200</c>
+                  <c>34</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.303414, 53.156491 ] }</c>
+                  <c>300</c>
+                  <c>14</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.840322, 53.141256 ] }</c>
+                  <c>300</c>
+                  <c>23</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.146806, 53.331927 ] }</c>
+                  <c>400</c>
+                  <c>29</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.061931, 53.029361 ] }</c>
+                  <c>700</c>
+                  <c>37</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.748932, 53.284050 ] }</c>
+                  <c>400</c>
+                  <c>13</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.117462, 53.151412 ] }</c>
+                  <c>300</c>
+                  <c>34</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.864338, 53.253050 ] }</c>
+                  <c>300</c>
+                  <c>19</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.165949, 53.227798 ] }</c>
+                  <c>300</c>
+                  <c>8</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.105612, 53.292902 ] }</c>
+                  <c>400</c>
+                  <c>11</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.974455, 53.262187 ] }</c>
+                  <c>500</c>
+                  <c>14</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.764107, 53.232994 ] }</c>
+                  <c>0</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.136983, 53.048537 ] }</c>
+                  <c>300</c>
+                  <c>46</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.876455, 52.997148 ] }</c>
+                  <c>300</c>
+                  <c>47</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.975441, 53.133738 ] }</c>
+                  <c>200</c>
+                  <c>31</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.015548, 53.145181 ] }</c>
+                  <c>400</c>
+                  <c>45</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.114751, 53.256748 ] }</c>
+                  <c>0</c>
+                  <c>44</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.718424, 53.203852 ] }</c>
+                  <c>200</c>
+                  <c>16</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.860874, 53.173766 ] }</c>
+                  <c>200</c>
+                  <c>45</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.944197, 52.930592 ] }</c>
+                  <c>300</c>
+                  <c>28</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.919860, 53.249219 ] }</c>
+                  <c>700</c>
+                  <c>37</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.320737, 53.105461 ] }</c>
+                  <c>200</c>
+                  <c>38</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.122695, 53.207773 ] }</c>
+                  <c>500</c>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.882071, 53.372605 ] }</c>
+                  <c>0</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.116154, 52.945149 ] }</c>
+                  <c>300</c>
+                  <c>30</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.128895, 53.159720 ] }</c>
+                  <c>200</c>
+                  <c>32</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.890447, 52.919363 ] }</c>
+                  <c>300</c>
+                  <c>17</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.121328, 53.045783 ] }</c>
+                  <c>400</c>
+                  <c>47</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.015585, 53.199247 ] }</c>
+                  <c>400</c>
+                  <c>45</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.906278, 53.147935 ] }</c>
+                  <c>200</c>
+                  <c>41</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.008919, 52.878652 ] }</c>
+                  <c>200</c>
+                  <c>37</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.907172, 53.230050 ] }</c>
+                  <c>500</c>
+                  <c>41</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.808526, 52.988269 ] }</c>
+                  <c>700</c>
+                  <c>48</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.866255, 53.117895 ] }</c>
+                  <c>0</c>
+                  <c>17</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.208737, 52.861635 ] }</c>
+                  <c>100</c>
+                  <c>26</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.855885, 53.186236 ] }</c>
+                  <c>0</c>
+                  <c>38</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.064416, 53.116517 ] }</c>
+                  <c>800</c>
+                  <c>16</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.995429, 52.958985 ] }</c>
+                  <c>200</c>
+                  <c>16</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.033510, 53.361541 ] }</c>
+                  <c>900</c>
+                  <c>13</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.061328, 52.912042 ] }</c>
+                  <c>300</c>
+                  <c>47</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.784544, 53.263866 ] }</c>
+                  <c>400</c>
+                  <c>17</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.866648, 52.956113 ] }</c>
+                  <c>200</c>
+                  <c>19</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.317623, 53.031119 ] }</c>
+                  <c>500</c>
+                  <c>40</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.824890, 53.259059 ] }</c>
+                  <c>200</c>
+                  <c>49</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.069725, 52.869202 ] }</c>
+                  <c>800</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.346839, 53.053123 ] }</c>
+                  <c>0</c>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.863234, 53.084882 ] }</c>
+                  <c>300</c>
+                  <c>42</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.025674, 53.353386 ] }</c>
+                  <c>300</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.817254, 53.347055 ] }</c>
+                  <c>0</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.033929, 53.226361 ] }</c>
+                  <c>300</c>
+                  <c>11</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.770839, 53.218697 ] }</c>
+                  <c>500</c>
+                  <c>45</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.977773, 53.088684 ] }</c>
+                  <c>100</c>
+                  <c>39</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.912005, 53.313527 ] }</c>
+                  <c>500</c>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.141658, 53.077584 ] }</c>
+                  <c>500</c>
+                  <c>39</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.813603, 53.430530 ] }</c>
+                  <c>300</c>
+                  <c>38</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.039519, 53.376296 ] }</c>
+                  <c>300</c>
+                  <c>29</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.169148, 53.090446 ] }</c>
+                  <c>200</c>
+                  <c>9</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.004392, 52.946411 ] }</c>
+                  <c>200</c>
+                  <c>15</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.949491, 53.153209 ] }</c>
+                  <c>300</c>
+                  <c>0</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.987449, 53.393192 ] }</c>
+                  <c>400</c>
+                  <c>0</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.123900, 53.324973 ] }</c>
+                  <c>300</c>
+                  <c>35</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.869484, 53.167885 ] }</c>
+                  <c>300</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.048417, 53.009974 ] }</c>
+                  <c>200</c>
+                  <c>30</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.797895, 53.061996 ] }</c>
+                  <c>200</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.775402, 53.380124 ] }</c>
+                  <c>400</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.003558, 52.869745 ] }</c>
+                  <c>200</c>
+                  <c>39</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.034799, 53.368955 ] }</c>
+                  <c>700</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.057506, 53.270122 ] }</c>
+                  <c>300</c>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.762313, 53.326533 ] }</c>
+                  <c>0</c>
+                  <c>48</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.872621, 53.307017 ] }</c>
+                  <c>100</c>
+                  <c>17</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.053665, 53.262909 ] }</c>
+                  <c>300</c>
+                  <c>20</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.040382, 53.357794 ] }</c>
+                  <c>200</c>
+                  <c>30</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.033594, 52.965289 ] }</c>
+                  <c>200</c>
+                  <c>25</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.040363, 52.845487 ] }</c>
+                  <c>0</c>
+                  <c>33</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.073410, 53.125373 ] }</c>
+                  <c>0</c>
+                  <c>46</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.874073, 53.307633 ] }</c>
+                  <c>400</c>
+                  <c>23</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.134430, 52.885323 ] }</c>
+                  <c>0</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.965406, 53.218670 ] }</c>
+                  <c>300</c>
+                  <c>14</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.995000, 53.240499 ] }</c>
+                  <c>300</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.748727, 53.306761 ] }</c>
+                  <c>0</c>
+                  <c>35</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.271597, 53.060854 ] }</c>
+                  <c>400</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.858008, 53.104834 ] }</c>
+                  <c>200</c>
+                  <c>12</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.255079, 53.135020 ] }</c>
+                  <c>500</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.226440, 53.233105 ] }</c>
+                  <c>300</c>
+                  <c>14</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.859096, 53.008647 ] }</c>
+                  <c>600</c>
+                  <c>27</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.183291, 53.203982 ] }</c>
+                  <c>500</c>
+                  <c>42</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.936615, 52.917758 ] }</c>
+                  <c>100</c>
+                  <c>40</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.812068, 53.396650 ] }</c>
+                  <c>100</c>
+                  <c>9</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.915786, 52.952514 ] }</c>
+                  <c>400</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.002128, 53.028264 ] }</c>
+                  <c>300</c>
+                  <c>31</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.058554, 53.220798 ] }</c>
+                  <c>300</c>
+                  <c>11</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.195413, 53.149145 ] }</c>
+                  <c>300</c>
+                  <c>37</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.880724, 53.003119 ] }</c>
+                  <c>300</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.877949, 53.024149 ] }</c>
+                  <c>500</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.138988, 53.153528 ] }</c>
+                  <c>300</c>
+                  <c>40</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.777930, 53.251343 ] }</c>
+                  <c>0</c>
+                  <c>48</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.141502, 52.818401 ] }</c>
+                  <c>400</c>
+                  <c>31</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.186572, 52.968048 ] }</c>
+                  <c>0</c>
+                  <c>19</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.994482, 53.419887 ] }</c>
+                  <c>300</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.246024, 53.150483 ] }</c>
+                  <c>0</c>
+                  <c>11</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.042622, 53.259429 ] }</c>
+                  <c>200</c>
+                  <c>8</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.231711, 53.188185 ] }</c>
+                  <c>600</c>
+                  <c>25</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.791947, 53.201555 ] }</c>
+                  <c>600</c>
+                  <c>37</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.832444, 53.151208 ] }</c>
+                  <c>0</c>
+                  <c>44</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.013527, 52.899836 ] }</c>
+                  <c>200</c>
+                  <c>45</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.931000, 53.396744 ] }</c>
+                  <c>500</c>
+                  <c>38</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.138919, 52.864280 ] }</c>
+                  <c>0</c>
+                  <c>39</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.958282, 53.260505 ] }</c>
+                  <c>0</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.918565, 52.963635 ] }</c>
+                  <c>0</c>
+                  <c>29</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.031625, 53.190261 ] }</c>
+                  <c>800</c>
+                  <c>26</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.103043, 52.822016 ] }</c>
+                  <c>600</c>
+                  <c>12</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.926927, 53.176025 ] }</c>
+                  <c>200</c>
+                  <c>12</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.181550, 53.026939 ] }</c>
+                  <c>200</c>
+                  <c>45</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.952399, 53.287819 ] }</c>
+                  <c>0</c>
+                  <c>16</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.075381, 53.392761 ] }</c>
+                  <c>400</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.981785, 52.948531 ] }</c>
+                  <c>200</c>
+                  <c>33</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.249522, 52.985845 ] }</c>
+                  <c>100</c>
+                  <c>28</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.796109, 53.133632 ] }</c>
+                  <c>100</c>
+                  <c>14</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.832788, 53.424482 ] }</c>
+                  <c>300</c>
+                  <c>20</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.026321, 53.352911 ] }</c>
+                  <c>200</c>
+                  <c>42</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.891897, 52.952486 ] }</c>
+                  <c>700</c>
+                  <c>12</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.131984, 52.826827 ] }</c>
+                  <c>400</c>
+                  <c>30</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.149544, 53.243348 ] }</c>
+                  <c>800</c>
+                  <c>36</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.904745, 53.062822 ] }</c>
+                  <c>400</c>
+                  <c>24</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.961674, 53.146116 ] }</c>
+                  <c>400</c>
+                  <c>49</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.938114, 53.149140 ] }</c>
+                  <c>0</c>
+                  <c>35</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.801754, 53.294243 ] }</c>
+                  <c>700</c>
+                  <c>48</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.315335, 53.095637 ] }</c>
+                  <c>100</c>
+                  <c>34</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.812891, 53.114386 ] }</c>
+                  <c>200</c>
+                  <c>37</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.021974, 53.366780 ] }</c>
+                  <c>500</c>
+                  <c>19</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.765502, 53.205117 ] }</c>
+                  <c>700</c>
+                  <c>37</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.911360, 53.431053 ] }</c>
+                  <c>0</c>
+                  <c>26</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.129335, 52.913308 ] }</c>
+                  <c>200</c>
+                  <c>19</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.077341, 53.392896 ] }</c>
+                  <c>0</c>
+                  <c>46</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.104290, 52.831226 ] }</c>
+                  <c>300</c>
+                  <c>46</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.149519, 53.318261 ] }</c>
+                  <c>600</c>
+                  <c>30</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.974492, 53.140194 ] }</c>
+                  <c>400</c>
+                  <c>49</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.044428, 53.038255 ] }</c>
+                  <c>200</c>
+                  <c>19</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.922004, 53.271392 ] }</c>
+                  <c>200</c>
+                  <c>45</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.819333, 53.422014 ] }</c>
+                  <c>200</c>
+                  <c>46</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.784934, 53.232023 ] }</c>
+                  <c>700</c>
+                  <c>39</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.897023, 53.243048 ] }</c>
+                  <c>0</c>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.886086, 53.436872 ] }</c>
+                  <c>0</c>
+                  <c>8</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.207929, 53.177217 ] }</c>
+                  <c>300</c>
+                  <c>23</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.147681, 53.108309 ] }</c>
+                  <c>0</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.833392, 53.148297 ] }</c>
+                  <c>0</c>
+                  <c>46</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.962727, 52.916997 ] }</c>
+                  <c>400</c>
+                  <c>48</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -1.212773, 53.148446 ] }</c>
+                  <c>0</c>
+                  <c>38</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.891605, 53.354867 ] }</c>
+                  <c>200</c>
+                  <c>50</c>
+                </r>
+                <r>
+                  <c>{ "type": "Point", "coordinates": [ -0.819203, 53.265787 ] }</c>
+                  <c>200</c>
+                  <c>50</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
         </Configuration>
         <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>Sample Input 1.yxdb</DefaultAnnotationText>
+          <Name>Input</Name>
+          <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="PointObj" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
-            <Field name="Value 1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
-            <Field name="Value 2" source="Formula: randint(50)" type="Int32" />
+            <Field name="PointObj" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="Value 1" source="TextInput:" type="Int16" />
+            <Field name="Value 2" source="TextInput:" type="Byte" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
-        <Position x="402" y="102" />
+        <Position x="450" y="412.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -127,9 +1040,9 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
-            <Field name="Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
-            <Field name="Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Point" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="Value1" source="TextInput:" type="Int16" />
+            <Field name="Value2" source="TextInput:" type="Byte" />
             <Field name="Tile_Num" type="Int16" />
             <Field name="Tile_SequenceNum" type="Int32" />
           </RecordInfo>
@@ -142,11 +1055,11 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1542" y="126" />
+        <Position x="1590" y="436.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_ff2c35df773649608db8635a723aa9c2.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_5c390df38dc7471cb1f82ba4035f8e89.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -167,7 +1080,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="498" y="114" />
+        <Position x="546" y="424.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -186,8 +1099,8 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
-            <Field name="Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Point" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="Value2" source="TextInput:" type="Byte" />
             <Field name="Tile1" type="Int16" />
           </RecordInfo>
         </MetaInfo>
@@ -196,7 +1109,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
-        <Position x="594" y="102" />
+        <Position x="642" y="412.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -215,8 +1128,8 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
-            <Field name="Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Point" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="Value2" source="TextInput:" type="Byte" />
             <Field name="Tile1" type="Int16" />
             <Field name="Tile_Num" type="Int16" />
             <Field name="Tile_SequenceNum" type="Int32" />
@@ -230,7 +1143,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1074" y="138" />
+        <Position x="1122" y="448.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -253,7 +1166,7 @@
             <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
           </RecordInfo>
         </MetaInfo>
@@ -262,7 +1175,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1194" y="138" />
+        <Position x="1242" y="448.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -284,7 +1197,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
             <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
             <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
             <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
@@ -295,7 +1208,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="54" y="294" />
+        <Position x="102" y="604.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -327,7 +1240,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="246" y="294" />
+        <Position x="294" y="604.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -364,7 +1277,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-        <Position x="330" y="294" />
+        <Position x="378" y="604.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -407,7 +1320,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
-        <Position x="426" y="294" />
+        <Position x="474" y="604.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -443,7 +1356,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="522" y="294" />
+        <Position x="570" y="604.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -481,7 +1394,7 @@ b_band=ceil([b1] + ([Band] * (([b2]-[b1])/([Question.Number o...</DefaultAnnotat
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="150" y="294" />
+        <Position x="198" y="604.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -519,7 +1432,7 @@ b1=substring(rgb1,4,2)
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-        <Position x="618" y="294" />
+        <Position x="666" y="604.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -568,7 +1481,7 @@ b1=substring(rgb1,4,2)
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="690" y="294" />
+        <Position x="738" y="604.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -605,11 +1518,11 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="786" y="294" />
+        <Position x="834" y="604.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_1fd6b5c11c044ec79f753ea6249e2863.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_d5a3f72e76df4b1ca85707cc4bf53b85.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -630,7 +1543,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="1566" y="318" />
+        <Position x="1614" y="628.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -710,7 +1623,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1638" y="318" />
+        <Position x="1686" y="628.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -727,7 +1640,7 @@ Band=band + 1</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Concat_XML" size="536870911" source="Summarize: Concat - XML" type="V_String" />
+            <Field name="Concat_XML" size="2147483647" source="Summarize: Concat - XML" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -735,7 +1648,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-        <Position x="1734" y="306" />
+        <Position x="1782" y="616.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -761,13 +1674,13 @@ Band=band + 1</DefaultAnnotationText>
             <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
             <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
             <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
             <Field name="Layer" size="11" source="RecordID: Starting Value=1" type="V_String" />
             <Field name="Order" size="4" source="RecordID: Starting Value=1001" type="String" />
-            <Field name="Concat_XML" size="536870911" source="Summarize: Concat - XML" type="V_String" />
+            <Field name="Concat_XML" size="2147483647" source="Summarize: Concat - XML" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -775,7 +1688,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="1302" y="186" />
+        <Position x="1350" y="496.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -796,7 +1709,7 @@ Band=band + 1</DefaultAnnotationText>
             <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
             <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
             <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
@@ -811,7 +1724,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="1542" y="186" />
+        <Position x="1590" y="496.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -832,7 +1745,7 @@ Band=band + 1</DefaultAnnotationText>
             <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
             <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
             <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
@@ -845,7 +1758,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1434" y="186" />
+        <Position x="1482" y="496.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -867,7 +1780,7 @@ Band=band + 1</DefaultAnnotationText>
             <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
             <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
             <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
@@ -879,11 +1792,11 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1914" y="342" />
+        <Position x="1962" y="652.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_0cefd993210d4c7c8a4523e1d74fcca8.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_ff4da3d2576a4f3aae2a2d0760dcb709.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -904,7 +1817,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1830" y="306" />
+        <Position x="1878" y="616.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -934,13 +1847,13 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
             <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
             <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
             <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
             <Field name="Layer" size="11" source="RecordID: Starting Value=1" type="V_String" />
             <Field name="Order" size="4" source="RecordID: Starting Value=1001" type="String" />
-            <Field name="Concat_XML" size="536870911" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
+            <Field name="Concat_XML" size="2147483647" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -948,7 +1861,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="1794" y="78" />
+        <Position x="1842" y="388.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1076,7 +1989,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1878" y="78" />
+        <Position x="1926" y="388.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1093,7 +2006,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Concat_XML" size="536870911" source="Summarize: Concat - XML" type="V_String" />
+            <Field name="Concat_XML" size="2147483647" source="Summarize: Concat - XML" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1101,7 +2014,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="2070" y="354" />
+        <Position x="2118" y="664.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1122,7 +2035,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Concat_XML" size="536870911" source="(Multiple Sources)" type="V_String" />
+            <Field name="Concat_XML" size="2147483647" source="(Multiple Sources)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1130,7 +2043,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1986" y="294" />
+        <Position x="2034" y="604.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1147,7 +2060,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Concat_XML" size="536870911" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
+            <Field name="Concat_XML" size="2147483647" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1155,7 +2068,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="1962" y="390" />
+        <Position x="2010" y="700.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1184,7 +2097,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="2154" y="354" />
+        <Position x="2202" y="664.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1201,7 +2114,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Concat_Concat_XML" size="536870911" source="Summarize: Concat - Concat_XML" type="V_String" />
+            <Field name="Concat_Concat_XML" size="2147483647" source="Summarize: Concat - Concat_XML" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1209,11 +2122,11 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="35">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2430" y="378" />
+        <Position x="2478" y="688.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_d0e0573e101644caa6ed3265ca353084.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_2385ae5771e44777ac3af4c51c5416bf.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1234,7 +2147,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="38">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="2142" y="510" />
+        <Position x="2190" y="820.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1249,7 +2162,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="Point" size="2147483647" source="TextInput:" type="SpatialObj" />
             <Field name="Tile1" type="Int16" />
             <Field name="Tile_Num" type="Int16" />
             <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring(Tile_Num)" type="V_String" />
@@ -1260,7 +2173,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="39">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="702" y="150" />
+        <Position x="750" y="460.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1289,7 +2202,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="40">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="810" y="210" />
+        <Position x="858" y="520.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1311,7 +2224,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
           <RecordInfo>
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
           </RecordInfo>
         </MetaInfo>
@@ -1320,7 +2233,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="41">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-        <Position x="954" y="150" />
+        <Position x="1002" y="460.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1346,7 +2259,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
             <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
           </RecordInfo>
         </MetaInfo>
@@ -1355,7 +2268,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="42">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="2070" y="126" />
+        <Position x="2118" y="436.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1376,10 +2289,10 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Concat_XML" size="536870911" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
+            <Field name="Concat_XML" size="2147483647" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
           </RecordInfo>
         </MetaInfo>
@@ -1388,7 +2301,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="43">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-        <Position x="1974" y="90" />
+        <Position x="2022" y="400.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1409,10 +2322,10 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Concat_XML" size="536870911" source="Summarize: Concat - XML" type="V_String" />
+            <Field name="Concat_XML" size="2147483647" source="Summarize: Concat - XML" type="V_String" />
             <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
             <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
-            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Concat_rgb_band" size="2147483647" source="Summarize: Concat - rgb_band" type="V_String" />
             <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
           </RecordInfo>
         </MetaInfo>
@@ -1421,7 +2334,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="44">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2166" y="234" />
+        <Position x="2214" y="544.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1438,7 +2351,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Concat_XML" size="536870911" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
+            <Field name="Concat_XML" size="2147483647" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1446,11 +2359,11 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="45">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2250" y="174" />
+        <Position x="2298" y="484.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_324c6d9d70a44dd6b3dd55848d1e0211.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_542a205b7016437e8c9f740484d09470.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1471,11 +2384,11 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="46">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="882" y="390" />
+        <Position x="930" y="700.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_1dfa3dffe4264a37836089caff21b7ee.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_5edae9045c1742cc982a7d852ff031c0.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1496,7 +2409,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="47">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="798" y="162" />
+        <Position x="846" y="472.1" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -1565,13 +2478,13 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="48">
       <GuiSettings>
-        <Position x="2334" y="462" />
+        <Position x="2382" y="772.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
+          <Value name="BatchMacroGroupBy" />
           <Value name="ControlParams"><![CDATA[XML=Concat_Concat_XML
 ]]></Value>
-          <Value name="BatchMacroGroupBy" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -1581,12 +2494,12 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Map">
           <RecordInfo>
-            <Field name="Map" size="536870911" source="Report:Map: (BatchMacro)" type="V_String" />
+            <Field name="Map" size="2147483647" source="Report:Map: (BatchMacro)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Legend">
           <RecordInfo>
-            <Field name="Legend" size="536870911" source="Report:Map:Legend: (BatchMacro)" type="V_String" />
+            <Field name="Legend" size="2147483647" source="Report:Map:Legend: (BatchMacro)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1594,11 +2507,11 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="49">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3150" y="498" />
+        <Position x="3198" y="808.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_95c3437141d4425aa7de5e458d75f5ee.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_3ba677fe31da4fcf88f26050936c883c.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1619,7 +2532,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="50">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1938" y="510" />
+        <Position x="1986" y="820.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1638,7 +2551,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="Point" size="2147483647" source="TextInput:" type="SpatialObj" />
             <Field name="Tile1" type="Int16" />
             <Field name="Tile_Num" type="Int16" />
           </RecordInfo>
@@ -1648,7 +2561,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="51">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2238" y="510" />
+        <Position x="2286" y="820.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1666,7 +2579,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="Point" size="2147483647" source="TextInput:" type="SpatialObj" />
             <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring(Tile_Num)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
@@ -1675,11 +2588,11 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="52">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2322" y="570" />
+        <Position x="2370" y="880.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_9ea947241afd4a3798ddd7792136ea05.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_e0a3ab368391462882ed82a623c4bceb.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1704,7 +2617,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="53">
       <GuiSettings>
-        <Position x="2430" y="486" />
+        <Position x="2478" y="796.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1717,14 +2630,14 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
-            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
-            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field name="Text" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
-            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="TextStyle" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="1073741823" source="TextInput:" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1732,7 +2645,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="54">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-        <Position x="2526" y="486" />
+        <Position x="2574" y="796.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1747,14 +2660,14 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
-            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
-            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field name="Text" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
-            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="TextStyle" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="1073741823" source="TextInput:" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1762,7 +2675,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-        <Position x="2526" y="558" />
+        <Position x="2574" y="868.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1777,14 +2690,14 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
-            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
-            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field name="Text" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
-            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="TextStyle" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="1073741823" source="TextInput:" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1792,11 +2705,11 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="56">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3150" y="570" />
+        <Position x="3198" y="880.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_518963d0e69549d7b423ee833b42f023.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_89976c1d7f26408ba153c1cba0f656f3.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1817,7 +2730,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="57">
       <GuiSettings>
-        <Position x="3054" y="498" />
+        <Position x="3102" y="808.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1833,7 +2746,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Legend" size="536870911" source="Report:Text:" type="V_String" />
+            <Field name="Legend" size="2147483647" source="Report:Text:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1841,7 +2754,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="58">
       <GuiSettings>
-        <Position x="3054" y="570" />
+        <Position x="3102" y="880.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1857,7 +2770,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Legend" size="536870911" source="Report:Text:" type="V_String" />
+            <Field name="Legend" size="2147483647" source="Report:Text:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1865,7 +2778,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="59">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="582" y="546" />
+        <Position x="630" y="856.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1882,7 +2795,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
-            <Field name="Max_Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+            <Field name="Max_Value1" source="TextInput:" type="Int16" />
           </RecordInfo>
           <SortInfo>
             <Field field="Tile_Num" order="Asc" />
@@ -1893,7 +2806,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="60">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="2670" y="498" />
+        <Position x="2718" y="808.1" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -1913,34 +2826,34 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Left">
           <RecordInfo>
-            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
-            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
-            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field name="Text" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
-            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="TextStyle" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="1073741823" source="TextInput:" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Join">
           <RecordInfo>
-            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
-            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
-            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field name="Text" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
-            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="TextStyle" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="1073741823" source="TextInput:" type="V_WString" />
             <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
-            <Field name="Max_Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+            <Field name="Max_Value1" source="TextInput:" type="Int16" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Right">
           <RecordInfo>
             <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
-            <Field name="Max_Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+            <Field name="Max_Value1" source="TextInput:" type="Int16" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1948,11 +2861,11 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="61">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2778" y="426" />
+        <Position x="2826" y="736.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_deec888cdb844e4890aa3657f7a5cb5b.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_3f79f290ab5845ac84f9efd43e557a1c.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1973,7 +2886,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="62">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="2682" y="570" />
+        <Position x="2730" y="880.1" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -1993,34 +2906,34 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Left">
           <RecordInfo>
-            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
-            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
-            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field name="Text" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
-            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="TextStyle" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="1073741823" source="TextInput:" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Join">
           <RecordInfo>
-            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
-            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
-            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field name="Text" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
-            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="TextStyle" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="1073741823" source="TextInput:" type="V_WString" />
             <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
-            <Field name="Max_Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Max_Value2" source="TextInput:" type="Byte" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Right">
           <RecordInfo>
             <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
-            <Field name="Max_Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Max_Value2" source="TextInput:" type="Byte" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -2028,7 +2941,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="63">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="822" y="606" />
+        <Position x="870" y="916.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2045,7 +2958,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
-            <Field name="Max_Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Max_Value2" source="TextInput:" type="Byte" />
           </RecordInfo>
           <SortInfo>
             <Field field="Tile_Num" order="Asc" />
@@ -2056,11 +2969,11 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="64">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2766" y="534" />
+        <Position x="2814" y="844.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_0f289a3f96734f98bb8314286a2644c9.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_513afe886bb14ea49dac0069a549b2b4.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -2081,7 +2994,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="65">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-        <Position x="2790" y="498" />
+        <Position x="2838" y="808.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2102,16 +3015,16 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field description="Formula:  if isnull([Row+1:Max_Value1]) then '' else  tostring([Row+1:Max_Value1]) + ' &lt; '  endif + 'Value1' + ' &lt;= ' + tostring([Max_Value1])" name="Text" size="536870911" source="Formula:  if isnull([Row+1:Max_Value1]) then '' else  tostring([Row+1:Max_Value1]) + ' &lt; '  endif + 'Value1' + ' &lt;= ' + tostring([Max_Value1])" type="V_WString" />
-            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
-            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
-            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="Formula:  if isnull([Row+1:Max_Value1]) then '' else  tostring([Row+1:Max_Value1]) + ' &lt; '  endif + 'Value1' + ' &lt;= ' + tostring([Max_Value1])" name="Text" size="1073741823" source="Formula:  if isnull([Row+1:Max_Value1]) then '' else  tostring([Row+1:Max_Value1]) + ' &lt; '  endif + 'Value1' + ' &lt;= ' + tostring([Max_Value1])" type="V_WString" />
+            <Field name="Image" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
-            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="TextStyle" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="1073741823" source="TextInput:" type="V_WString" />
             <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
-            <Field name="Max_Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+            <Field name="Max_Value1" source="TextInput:" type="Int16" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -2119,7 +3032,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="66">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-        <Position x="2790" y="570" />
+        <Position x="2838" y="880.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2140,16 +3053,16 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field description="Formula:  if isnull([Row+1:Max_Value2]) then '' else  tostring([Row+1:Max_Value2]) + ' &lt; '  endif + 'Value2' + ' &lt;= ' + tostring([Max_Value2])" name="Text" size="536870911" source="Formula:  if isnull([Row+1:Max_Value2]) then '' else  tostring([Row+1:Max_Value2]) + ' &lt; '  endif + 'Value2' + ' &lt;= ' + tostring([Max_Value2])" type="V_WString" />
-            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
-            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
-            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="Formula:  if isnull([Row+1:Max_Value2]) then '' else  tostring([Row+1:Max_Value2]) + ' &lt; '  endif + 'Value2' + ' &lt;= ' + tostring([Max_Value2])" name="Text" size="1073741823" source="Formula:  if isnull([Row+1:Max_Value2]) then '' else  tostring([Row+1:Max_Value2]) + ' &lt; '  endif + 'Value2' + ' &lt;= ' + tostring([Max_Value2])" type="V_WString" />
+            <Field name="Image" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="1073741823" source="RegEx: Parsed from Text" type="V_WString" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
             <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
-            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
-            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="TextStyle" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="1073741823" source="TextInput:" type="V_WString" />
             <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
-            <Field name="Max_Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Max_Value2" source="TextInput:" type="Byte" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -2157,11 +3070,11 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2922" y="606" />
+        <Position x="2970" y="916.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_0bd7f79e497e44ed8dac1ded59ca2f3a.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_9d7970f480bb449abad5d65c66c0f9e5.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -2182,7 +3095,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="68">
       <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
-        <Position x="3246" y="534" />
+        <Position x="3294" y="844.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2211,7 +3124,7 @@ Each Individual Record</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Layout" size="536870911" source="Report:Layout:" type="V_String" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -2219,7 +3132,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="69">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="3150" y="534" />
+        <Position x="3198" y="844.1" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -2240,18 +3153,18 @@ Each Individual Record</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Left">
           <RecordInfo>
-            <Field name="Legend" size="536870911" source="Report:Text:" type="V_String" />
+            <Field name="Legend" size="2147483647" source="Report:Text:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Join">
           <RecordInfo>
-            <Field name="Legend" size="536870911" source="Report:Text:" type="V_String" />
-            <Field name="Right_Legend" size="536870911" source="Report:Text:" type="V_String" />
+            <Field name="Legend" size="2147483647" source="Report:Text:" type="V_String" />
+            <Field name="Right_Legend" size="2147483647" source="Report:Text:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Right">
           <RecordInfo>
-            <Field name="Legend" size="536870911" source="Report:Text:" type="V_String" />
+            <Field name="Legend" size="2147483647" source="Report:Text:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -2259,7 +3172,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="70">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="3450" y="450" />
+        <Position x="3498" y="760.1" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -2279,18 +3192,18 @@ Each Individual Record</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Left">
           <RecordInfo>
-            <Field name="Map" size="536870911" source="Report:Map: (BatchMacro)" type="V_String" />
+            <Field name="Map" size="2147483647" source="Report:Map: (BatchMacro)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Join">
           <RecordInfo>
-            <Field name="Map" size="536870911" source="Report:Map: (BatchMacro)" type="V_String" />
-            <Field name="Layout" size="536870911" source="Report:Layout:" type="V_String" />
+            <Field name="Map" size="2147483647" source="Report:Map: (BatchMacro)" type="V_String" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Right">
           <RecordInfo>
-            <Field name="Layout" size="536870911" source="Report:Layout:" type="V_String" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -2298,11 +3211,11 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="71">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3642" y="450" />
+        <Position x="3690" y="760.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_b6e81e8951e243ca8bcae527dd9a9722.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_a1d27e5d007a4b87b17fd2e88ab97867.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -2323,7 +3236,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="72">
       <GuiSettings Plugin="PortfolioPluginsGui.ComposerOverlay.Overlay">
-        <Position x="3546" y="438" />
+        <Position x="3594" y="748.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2347,34 +3260,33 @@ Each Individual Record</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Overlay" size="536870911" source="Report:Overlay:" type="V_String" />
+            <Field name="Overlay" size="2147483647" source="Report:Overlay:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxComposerOverlayPlugin" />
     </Node>
-    <Node ToolID="73">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="3654" y="390" />
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="3702" y="700.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File>.\</File>
-          <Passwords />
-          <FormatSpecificOptions />
-          <MultiFile value="False" />
+          <Name>Output</Name>
+          <Abbrev>
+          </Abbrev>
         </Configuration>
         <Annotation DisplayMode="0">
-          <Name />
+          <Name>Output</Name>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
     <Node ToolID="74">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="306" y="102" />
+        <Position x="354" y="412.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2393,9 +3305,9 @@ Each Individual Record</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
-            <Field name="Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
-            <Field name="Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Point" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="Value1" source="TextInput:" type="Int16" />
+            <Field name="Value2" source="TextInput:" type="Byte" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -2403,11 +3315,11 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="75">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="690" y="54" />
+        <Position x="738" y="364.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_55604e1f3d5c4512a90c97f46b389533.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_e9abc92e0fa24c2d8d916b2abac7a398.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -2432,11 +3344,11 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="76">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2406" y="546" />
+        <Position x="2454" y="856.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_3a90d6c50326496e99bbb43d241949c9.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_12036_f6a1a67207fe4f58b39a3f1722b5869b\Engine_8244_b6d5c9128f224301a19555ac6fe22355.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -2455,11 +3367,392 @@ Each Individual Record</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
+    <Node ToolID="98">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="274.1" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="274.1" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="274.1" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="274.1" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="274.1" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="59.00001" y="58.99998" width="1058.9" height="240.1001" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Interface Tools</Caption>
+          <Folded value="False">False</Folded>
+          <Style Transparency="1" Margin="25" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="99">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+            <Position x="84.00002" y="103" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Value 1</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="100">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+            <Position x="219.7" y="103" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Value 2</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+            <Position x="355.4" y="103" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Point</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+            <Position x="423.25" y="103" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Number of bands</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="830.35" y="103" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>High Colour</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="105">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="966.05" y="103" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Low Colour</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="830.35" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="966.05" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="423.25" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Number of bands: Tile 1</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="491.1" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Number of bands: Tile2</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="85">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="558.95" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Number of Bands: Tile 1 Legend Sample</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="626.8" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Number of Bands: Tile 2 Legend Sample</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="87">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="355.4" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="84.00001" y="215.0999" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="89">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="219.7" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="694.65" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Update Start XML</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="762.5" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Update Middle XML</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="92">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="151.85" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Update Variable Name 1</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="93">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="287.55" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Update Variable Name 2</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+            <Position x="898.2" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>The high band colour should be specified in Hexadecimal RGB</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="95">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+            <Position x="1033.9" y="215.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>The low band colour should be specified in Hexadecimal RGB</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="1" Connection="Output" />
+      <Origin ToolID="109" Connection="Output" />
       <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="87" Connection="Action" />
+      <Destination ToolID="74" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="88" Connection="Action" />
+      <Destination ToolID="74" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="89" Connection="Action" />
+      <Destination ToolID="74" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="109" Connection="Question" />
+      <Destination ToolID="99" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="109" Connection="Question" />
+      <Destination ToolID="100" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="109" Connection="Question" />
+      <Destination ToolID="101" Connection="Question Input" />
     </Connection>
     <Connection>
       <Origin ToolID="3" Connection="Output" />
@@ -2472,6 +3765,10 @@ Each Individual Record</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="5" Connection="Output" />
       <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="84" Connection="Action" />
+      <Destination ToolID="6" Connection="Action" />
     </Connection>
     <Connection>
       <Origin ToolID="6" Connection="Output" />
@@ -2493,6 +3790,10 @@ Each Individual Record</DefaultAnnotationText>
       <Origin ToolID="7" Connection="Output" />
       <Destination ToolID="9" Connection="Input" />
     </Connection>
+    <Connection name="Question.Number of bands" Wireless="True">
+      <Origin ToolID="103" Connection="Question" />
+      <Destination ToolID="9" Connection="Question" />
+    </Connection>
     <Connection>
       <Origin ToolID="9" Connection="Output" />
       <Destination ToolID="4" Connection="Input" />
@@ -2513,9 +3814,17 @@ Each Individual Record</DefaultAnnotationText>
       <Origin ToolID="12" Connection="Output" />
       <Destination ToolID="13" Connection="Input" />
     </Connection>
+    <Connection name="Question.Number of bands">
+      <Origin ToolID="103" Connection="Question" />
+      <Destination ToolID="13" Connection="Question" />
+    </Connection>
     <Connection>
       <Origin ToolID="13" Connection="Output" />
       <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="Question.Number of bands" Wireless="True">
+      <Origin ToolID="103" Connection="Question" />
+      <Destination ToolID="14" Connection="Question" />
     </Connection>
     <Connection>
       <Origin ToolID="14" Connection="Output" />
@@ -2542,6 +3851,10 @@ Each Individual Record</DefaultAnnotationText>
       <Destination ToolID="47" Connection="Right" />
     </Connection>
     <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="47" Connection="Left" />
+    </Connection>
+    <Connection>
       <Origin ToolID="20" Connection="Output" />
       <Destination ToolID="21" Connection="Input" />
     </Connection>
@@ -2550,16 +3863,16 @@ Each Individual Record</DefaultAnnotationText>
       <Destination ToolID="22" Connection="Source" />
     </Connection>
     <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="22" Connection="Targets" />
+    </Connection>
+    <Connection>
       <Origin ToolID="22" Connection="Output" />
       <Destination ToolID="27" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="23" Connection="Output" />
       <Destination ToolID="25" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="24" Connection="Output" />
-      <Destination ToolID="22" Connection="Targets" />
     </Connection>
     <Connection>
       <Origin ToolID="25" Connection="Output" />
@@ -2582,6 +3895,10 @@ Each Individual Record</DefaultAnnotationText>
       <Destination ToolID="43" Connection="Targets" />
     </Connection>
     <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="43" Connection="Source" />
+    </Connection>
+    <Connection>
       <Origin ToolID="30" Connection="Output" />
       <Destination ToolID="33" Connection="Input" />
     </Connection>
@@ -2593,25 +3910,29 @@ Each Individual Record</DefaultAnnotationText>
       <Origin ToolID="32" Connection="Output" />
       <Destination ToolID="30" Connection="Input" />
     </Connection>
+    <Connection name="#1">
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
     <Connection>
       <Origin ToolID="33" Connection="Output" />
       <Destination ToolID="48" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="48" Connection="Input1" />
     </Connection>
     <Connection>
       <Origin ToolID="38" Connection="Output" />
       <Destination ToolID="51" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="39" Connection="Output" />
-      <Destination ToolID="47" Connection="Left" />
-    </Connection>
-    <Connection>
       <Origin ToolID="40" Connection="Output" />
       <Destination ToolID="41" Connection="Source" />
     </Connection>
     <Connection>
-      <Origin ToolID="40" Connection="Output" />
-      <Destination ToolID="43" Connection="Source" />
+      <Origin ToolID="47" Connection="Join" />
+      <Destination ToolID="41" Connection="Targets" />
     </Connection>
     <Connection>
       <Origin ToolID="40" Connection="Output" />
@@ -2629,17 +3950,9 @@ Each Individual Record</DefaultAnnotationText>
       <Origin ToolID="43" Connection="Output" />
       <Destination ToolID="42" Connection="Input" />
     </Connection>
-    <Connection name="#1">
-      <Origin ToolID="44" Connection="Output" />
-      <Destination ToolID="30" Connection="Input" />
-    </Connection>
     <Connection>
       <Origin ToolID="44" Connection="Output" />
       <Destination ToolID="45" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="47" Connection="Join" />
-      <Destination ToolID="41" Connection="Targets" />
     </Connection>
     <Connection>
       <Origin ToolID="48" Connection="Map" />
@@ -2654,6 +3967,10 @@ Each Individual Record</DefaultAnnotationText>
       <Destination ToolID="70" Connection="Left" />
     </Connection>
     <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="70" Connection="Right" />
+    </Connection>
+    <Connection>
       <Origin ToolID="48" Connection="Legend" />
       <Destination ToolID="76" Connection="Input" />
     </Connection>
@@ -2663,27 +3980,39 @@ Each Individual Record</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="51" Connection="Output" />
-      <Destination ToolID="48" Connection="Input1" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="51" Connection="Output" />
       <Destination ToolID="52" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="53" Connection="Output" />
       <Destination ToolID="54" Connection="Input" />
     </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="85" Connection="Action" />
+      <Destination ToolID="54" Connection="Action" />
+    </Connection>
     <Connection>
       <Origin ToolID="53" Connection="Output" />
       <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="86" Connection="Action" />
+      <Destination ToolID="55" Connection="Action" />
     </Connection>
     <Connection>
       <Origin ToolID="54" Connection="Output" />
       <Destination ToolID="60" Connection="Left" />
     </Connection>
     <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Right" />
+    </Connection>
+    <Connection>
       <Origin ToolID="55" Connection="Output" />
       <Destination ToolID="62" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="62" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="57" Connection="Output" />
@@ -2695,15 +4024,11 @@ Each Individual Record</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="58" Connection="Output" />
-      <Destination ToolID="56" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="58" Connection="Output" />
       <Destination ToolID="69" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="59" Connection="Output" />
-      <Destination ToolID="60" Connection="Right" />
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="60" Connection="Join" />
@@ -2713,6 +4038,10 @@ Each Individual Record</DefaultAnnotationText>
       <Origin ToolID="60" Connection="Join" />
       <Destination ToolID="65" Connection="Input" />
     </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="92" Connection="Action" />
+      <Destination ToolID="65" Connection="Action" />
+    </Connection>
     <Connection>
       <Origin ToolID="62" Connection="Join" />
       <Destination ToolID="64" Connection="Input" />
@@ -2721,9 +4050,9 @@ Each Individual Record</DefaultAnnotationText>
       <Origin ToolID="62" Connection="Join" />
       <Destination ToolID="66" Connection="Input" />
     </Connection>
-    <Connection>
-      <Origin ToolID="63" Connection="Output" />
-      <Destination ToolID="62" Connection="Right" />
+    <Connection Wireless="True">
+      <Origin ToolID="93" Connection="Action" />
+      <Destination ToolID="66" Connection="Action" />
     </Connection>
     <Connection>
       <Origin ToolID="65" Connection="Output" />
@@ -2736,10 +4065,6 @@ Each Individual Record</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="66" Connection="Output" />
       <Destination ToolID="67" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="68" Connection="Output" />
-      <Destination ToolID="70" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="69" Connection="Join" />
@@ -2755,18 +4080,98 @@ Each Individual Record</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="72" Connection="Output" />
-      <Destination ToolID="73" Connection="Input" />
+      <Destination ToolID="110" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="74" Connection="Output" />
       <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="83" Connection="Action" />
+      <Destination ToolID="3" Connection="Action" />
+    </Connection>
+    <Connection name="Value 1" Wireless="True">
+      <Origin ToolID="99" Connection="Question" />
+      <Destination ToolID="88" Connection="Question" />
+    </Connection>
+    <Connection name="Value 1" Wireless="True">
+      <Origin ToolID="99" Connection="Question" />
+      <Destination ToolID="92" Connection="Question" />
+    </Connection>
+    <Connection name="Value 2" Wireless="True">
+      <Origin ToolID="100" Connection="Question" />
+      <Destination ToolID="89" Connection="Question" />
+    </Connection>
+    <Connection name="Value 2" Wireless="True">
+      <Origin ToolID="100" Connection="Question" />
+      <Destination ToolID="93" Connection="Question" />
+    </Connection>
+    <Connection name="Point" Wireless="True">
+      <Origin ToolID="101" Connection="Question" />
+      <Destination ToolID="87" Connection="Question" />
+    </Connection>
+    <Connection name="Number of bands" Wireless="True">
+      <Origin ToolID="103" Connection="Question" />
+      <Destination ToolID="83" Connection="Question" />
+    </Connection>
+    <Connection name="Number of bands" Wireless="True">
+      <Origin ToolID="103" Connection="Question" />
+      <Destination ToolID="84" Connection="Question" />
+    </Connection>
+    <Connection name="Number of bands" Wireless="True">
+      <Origin ToolID="103" Connection="Question" />
+      <Destination ToolID="85" Connection="Question" />
+    </Connection>
+    <Connection name="Number of bands" Wireless="True">
+      <Origin ToolID="103" Connection="Question" />
+      <Destination ToolID="86" Connection="Question" />
+    </Connection>
+    <Connection name="Number of bands" Wireless="True">
+      <Origin ToolID="103" Connection="Question" />
+      <Destination ToolID="90" Connection="Question" />
+    </Connection>
+    <Connection name="Number of bands" Wireless="True">
+      <Origin ToolID="103" Connection="Question" />
+      <Destination ToolID="91" Connection="Question" />
+    </Connection>
+    <Connection name="High Colour" Wireless="True">
+      <Origin ToolID="104" Connection="Question" />
+      <Destination ToolID="81" Connection="Question" />
+    </Connection>
+    <Connection name="High Colour" Wireless="True">
+      <Origin ToolID="104" Connection="Question" />
+      <Destination ToolID="94" Connection="Question" />
+    </Connection>
+    <Connection name="Low Colour" Wireless="True">
+      <Origin ToolID="105" Connection="Question" />
+      <Destination ToolID="82" Connection="Question" />
+    </Connection>
+    <Connection name="Low Colour" Wireless="True">
+      <Origin ToolID="105" Connection="Question" />
+      <Destination ToolID="95" Connection="Question" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="81" Connection="Action" />
+      <Destination ToolID="10" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="82" Connection="Action" />
+      <Destination ToolID="10" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="90" Connection="Action" />
+      <Destination ToolID="28" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="91" Connection="Action" />
+      <Destination ToolID="20" Connection="Action" />
     </Connection>
   </Connections>
   <Properties>
     <Memory default="True" />
     <GlobalRecordLimit value="0" />
     <TempFiles default="True" />
-    <Annotation on="True" includeToolName="False" />
+    <Annotation on="False" includeToolName="False" />
     <ConvErrorLimit value="10" />
     <ConvErrorLimit_Stop value="False" />
     <CancelOnError value="False" />
@@ -2833,14 +4238,14 @@ Values for theming need to be numeric (categorical variables are not supported),
     </Events>
     <RuntimeProperties>
       <Actions>
-        <Condition>
-          <Type>Condition</Type>
-          <Description>Always True</Description>
-          <Expression>1</Expression>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
           <True>
             <Action>
               <Type>UpdateValue</Type>
-              <Description>High Colour</Description>
+              <Description />
+              <ToolId value="81" />
               <Mode>Simple</Mode>
               <Variable>High Colour</Variable>
               <Replace value="False" />
@@ -2848,7 +4253,8 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description>Low Colour</Description>
+              <Description />
+              <ToolId value="82" />
               <Mode>Simple</Mode>
               <Variable>Low Colour</Variable>
               <Replace value="False" />
@@ -2856,7 +4262,8 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description>Number of bands: Tile 1</Description>
+              <Description />
+              <ToolId value="83" />
               <Mode>Simple</Mode>
               <Variable>Number of bands</Variable>
               <Replace value="False" />
@@ -2864,7 +4271,8 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description>Number of bands: Tile2</Description>
+              <Description />
+              <ToolId value="84" />
               <Mode>Simple</Mode>
               <Variable>Number of bands</Variable>
               <Replace value="False" />
@@ -2872,7 +4280,8 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description>Number of Bands: Tile 1 Legend Sample</Description>
+              <Description />
+              <ToolId value="85" />
               <Mode>Simple</Mode>
               <Variable>Number of bands</Variable>
               <Replace value="False" />
@@ -2880,7 +4289,8 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description>Number of Bands: Tile 2 Legend Sample</Description>
+              <Description />
+              <ToolId value="86" />
               <Mode>Simple</Mode>
               <Variable>Number of bands</Variable>
               <Replace value="False" />
@@ -2888,7 +4298,8 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description>Point</Description>
+              <Description />
+              <ToolId value="87" />
               <Mode>Simple</Mode>
               <Variable>Point</Variable>
               <Replace value="False" />
@@ -2896,7 +4307,8 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description>Value 1</Description>
+              <Description />
+              <ToolId value="88" />
               <Mode>Simple</Mode>
               <Variable>Value 1</Variable>
               <Replace value="False" />
@@ -2904,85 +4316,84 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description>Value 2</Description>
+              <Description />
+              <ToolId value="89" />
               <Mode>Simple</Mode>
               <Variable>Value 2</Variable>
               <Replace value="False" />
               <Destination>74/SelectFields/SelectField[@field='Value 2']/@field</Destination>
             </Action>
             <Action>
-              <Type>UpdateValue</Type>
-              <Description>Update Start XML</Description>
-              <Mode>Expression</Mode>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="90" />
               <Expression>'      &lt;ThemeStyle TileMethod="IndividualValue" NumTiles="' + tostring([Number of bands]) + '" ColorMethod="Map" StartColor="#0000ff" EndColor="#ff0000" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" SpecificValues="" ManualTiles="" NoneSpecificValuesAction="Color" UpperCutoffIncludedExcluded="Excluded" /&gt;'</Expression>
               <Destination>28/Data/r[14]/c</Destination>
+              <Mode>Expression</Mode>
             </Action>
             <Action>
-              <Type>UpdateValue</Type>
-              <Description>Update Middle XML</Description>
-              <Mode>Expression</Mode>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="91" />
               <Expression><![CDATA[ '     <ThemeStyle TileMethod="SmartTile" NumTiles="' + tostring([Number of bands]) +'" ColorMethod="Ramp" StartColor="#0000ff" EndColor="#ff0000" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" SpecificValues="" ManualTiles="" NoneSpecificValuesAction="Color" UpperCutoffIncludedExcluded="Excluded" />']]></Expression>
               <Destination>20/Data/r[14]/c</Destination>
+              <Mode>Expression</Mode>
             </Action>
             <Action>
-              <Type>UpdateValue</Type>
-              <Description>Update Variable Name 1</Description>
-              <Mode>Expression</Mode>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="92" />
               <Expression>"if isnull([Row+1:Max_Value1]) then '' else  tostring([Row+1:Max_Value1]) + ' &lt; '  endif + '"+ [Value 1] +"' + ' &lt;= ' + tostring([Max_Value1])"</Expression>
               <Destination>65/Expression</Destination>
+              <Mode>Expression</Mode>
             </Action>
             <Action>
-              <Type>UpdateValue</Type>
-              <Description>Update Variable Name 2</Description>
-              <Mode>Expression</Mode>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="93" />
               <Expression>"if isnull([Row+1:Max_Value2]) then '' else  tostring([Row+1:Max_Value2]) + ' &lt; '  endif + '"+ [Value 2] +"' + ' &lt;= ' + tostring([Max_Value2])"</Expression>
               <Destination>66/Expression</Destination>
+              <Mode>Expression</Mode>
             </Action>
-          </True>
-          <False />
-        </Condition>
-        <Condition>
-          <Type>Condition</Type>
-          <Description />
-          <Expression>length([High Colour]) != 6</Expression>
-          <True>
             <Action>
               <Type>Error</Type>
               <Description>The high band colour should be specified in Hexadecimal RGB</Description>
+              <ToolId value="94" />
+              <Expression>length([High Colour]) != 6</Expression>
             </Action>
-          </True>
-          <False />
-        </Condition>
-        <Condition>
-          <Type>Condition</Type>
-          <Description />
-          <Expression>length([Low Colour]) != 6</Expression>
-          <True>
             <Action>
               <Type>Error</Type>
               <Description>The low band colour should be specified in Hexadecimal RGB</Description>
+              <ToolId value="95" />
+              <Expression>length([Low Colour]) != 6</Expression>
             </Action>
           </True>
-          <False />
-        </Condition>
+        </NoCondition>
       </Actions>
       <Questions>
         <Question>
           <Type>Tab</Type>
           <Description>Questions</Description>
+          <Name>Tab (107)</Name>
+          <ToolId value="107" />
           <Questions>
             <Question>
               <Type>Label</Type>
               <Description>This macro produces a map of spatial points themed on size and colour. Update the questions below.</Description>
+              <Name>Label (98)</Name>
+              <ToolId value="98" />
             </Question>
             <Question>
               <Type>LabelGroup</Type>
               <Description>Enter details for the input variables</Description>
+              <Name>LabelGroup (102)</Name>
+              <ToolId value="102" />
               <Questions>
                 <Question>
                   <Type>ListBox</Type>
                   <Description>Enter numeric variable for Colour theme</Description>
                   <Name>Value 1</Name>
+                  <ToolId value="99" />
                   <Multiple value="False" />
                   <Default />
                   <Mode>MacroField</Mode>
@@ -2994,6 +4405,7 @@ Values for theming need to be numeric (categorical variables are not supported),
                   <Type>ListBox</Type>
                   <Description>Enter numeric variable for Size theme</Description>
                   <Name>Value 2</Name>
+                  <ToolId value="100" />
                   <Multiple value="False" />
                   <Default />
                   <Mode>MacroField</Mode>
@@ -3005,6 +4417,7 @@ Values for theming need to be numeric (categorical variables are not supported),
                   <Type>ListBox</Type>
                   <Description>Enter spatial object</Description>
                   <Name>Point</Name>
+                  <ToolId value="101" />
                   <Multiple value="False" />
                   <Default />
                   <Mode>MacroField</Mode>
@@ -3018,6 +4431,7 @@ Values for theming need to be numeric (categorical variables are not supported),
               <Type>NumericUpDown</Type>
               <Description>Number of bands</Description>
               <Name>Number of bands</Name>
+              <ToolId value="103" />
               <Minimum value="0" />
               <Maximum value="10" />
               <Increment value="1" />
@@ -3027,24 +4441,50 @@ Values for theming need to be numeric (categorical variables are not supported),
             <Question>
               <Type>LabelGroup</Type>
               <Description>Colour Bands</Description>
+              <Name>LabelGroup (106)</Name>
+              <ToolId value="106" />
               <Questions>
                 <Question>
                   <Type>TextBox</Type>
                   <Description>High Colour</Description>
                   <Name>High Colour</Name>
+                  <ToolId value="104" />
                   <Default>F70057</Default>
                   <Password value="False" />
                   <Multiline value="False" />
+                  <Hidden value="False" />
                 </Question>
                 <Question>
                   <Type>TextBox</Type>
                   <Description>Low Colour</Description>
                   <Name>Low Colour</Name>
+                  <ToolId value="105" />
                   <Default>2100F7</Default>
                   <Password value="False" />
                   <Multiline value="False" />
+                  <Hidden value="False" />
                 </Question>
               </Questions>
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Output</Description>
+              <Name>Output</Name>
+              <ToolId value="110" />
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Input</Description>
+          <Name>Tab (108)</Name>
+          <ToolId value="108" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Input</Description>
+              <Name>Input</Name>
+              <ToolId value="109" />
             </Question>
           </Questions>
         </Question>
@@ -3052,44 +4492,35 @@ Values for theming need to be numeric (categorical variables are not supported),
       <ModuleType>Macro</ModuleType>
       <MacroCustomHelp value="False" />
       <MacroDynamicOutputFields value="False" />
-      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAM1SURBVFhH7ZZrTgMxDIR7H35yFq7AaXunxa9xxk720VKBkBgpiuM48bezLfS2/QH9Q75Ku5DvH3cfbz7/piZIQAHw8wj29r5tbzJut+1us67lSp1fqBlSQAxsBxYgd8wEh9hmwGr8TRVIADFod1KHAwaMuDhinX2dMc3PaoKcXIx1wsoAWL7miBkceTjucWl3WRWS4SL+XOQcKoAEYDgr1yHGg6Sbnn/G0enRJrCAG59Jb16ArDnymiMwm1GLz62sH9BUXdyU0YG5+QQL91ADKMR5xmuuav1I0qwD2tNbk+EGmhloxl7jtQruawAOx6PmgqRyodYg19aEY2/ItTP4yPk5z+fdFzRXcQNtisu7A7qnNVyPfJ7xedTGHVGX8YmkskkPy8Hy9ORYOmN5nWtjgO06SXfl+RNNFaUxGtGFo6HsycxrwFfHxj1YWy1inU8kp4cKoMYyHKICAGw8BDflfd9bxnTe3D1Q3bUDcdl0aVxoed8DWAJqDvuox324h+4e52QcSE4MMWACRAOOS246Q/CRzzOLGs/J3oHqLjcIJ4oDuedrzlvMbncnOaZ6v0PGgeTEEF9Ynr5c7DUjpuYZ+151z3P458DDHuhAdZcaMkRpqHPkR8z1C4clLmD4LdD/5e6oQAIkIfL1Acb3vLHG43Xlw+VZX2s9wHTuvwVyHfNKBdJkEAGbzSKHPa5p9QVUBgPlECD+faqDYbvk9ia93Jqg2Q4M1gAqXxTdv5VXCojipMSr166DNUPSK8x4B8jiqPO85sb5bNohGqjOgMXMmiFV2ghA1tABES/BNY681iTICkLXLW+1LYbWkNFovLoKm1DIL5xMgNZ4L+aPAWJoDSlKqAWQz7xP+dhLAJm7exyzk91VaBfS1JwaQB3c94b7899Fjs8cvuxkShs3sMxZHjEANRevO5rBoT045NlpzUPnkCoAJqzP/ADustfg249m3FjnCZr2bJ8AVdcgVQDJVz+cGw7zvn8u2b09JxGzk6zrkJCBOISCprME7TnfQ1MbAdFfL5xFXdfjkCyCKXAakwBx5qTGK30P8gExEDvHD7CnH4OEVqBn+nHIZ/QP+Sr9Acht+wLOSOGwy1iXMQAAAABJRU5ErkJggg==</MacroImage>
-      <MacroInputs>
-        <Tool ToolId="1" Selected="True">
-          <Name>Input</Name>
-          <Abbrev />
-          <NoFieldMap value="True" />
-        </Tool>
-        <Tool ToolId="10" Selected="False">
-          <Name />
-          <Abbrev />
-          <NoFieldMap value="False" />
-        </Tool>
-        <Tool ToolId="20" Selected="False">
-          <Name />
-          <Abbrev />
-          <NoFieldMap value="False" />
-        </Tool>
-        <Tool ToolId="28" Selected="False">
-          <Name />
-          <Abbrev />
-          <NoFieldMap value="False" />
-        </Tool>
-        <Tool ToolId="32" Selected="False">
-          <Name />
-          <Abbrev />
-          <NoFieldMap value="False" />
-        </Tool>
-      </MacroInputs>
-      <MacroOutputs>
-        <Tool ToolId="73" Selected="True">
-          <Name>Output</Name>
-          <Abbrev />
-        </Tool>
-      </MacroOutputs>
+      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAzVJREFUWEftlmtOAzEMhHsffnIWrsBpe6fFr3HGTvbRUoGQGCmK4zjxt7Mt9Lb9Af1Dvkq7kO8fdx9vPv+mJkhAAfDzCPb2vm1vMm637W6zruVKnV+oGVJADGwHFiB3zASH2GbAavxNFUgAMWh3UocDBoy4OGKdfZ0xzc9qgpxcjHXCygBYvuaIGRx5OO5xaXdZFZLhIv5c5BwqgARgOCvXIcaDpJuef8bR6dEmsIAbn0lvXoCsOfKaIzCbUYvPrawf0FRd3JTRgbn5BAv3UAMoxHnGa65q/UjSrAPa01uT4QaaGWjGXuO1Cu5rAA7Ho+aCpHKh1iDX1oRjb8i1M/jI+TnP590XNFdxA22Ky7sDuqc1XI98nvF51MYdUZfxiaSySQ/LwfL05Fg6Y3mda2OA7TpJd+X5E00VpTEa0YWjoezJzGvAV8fGPVhbLWKdTySnhwqgxjIcogIAbDwEN+V931vGdN7cPVDdtQNx2XRpXGh53wNYAmoO+6jHfbiH7h7nZBxITgwxYAJEA45LbjpD8JHPM4saz8negeouNwgnigO552vOW8xudyc5pnq/Q8aB5MQQX1ievlzsNSOm5hn7XnXPc/jnwMMe6EB1lxoyRGmoc+RHzPULhyUuYPgt0P/l7qhAAiQh8vUBxve8scbjdeXD5Vlfaz3AdO6/BXId80oF0mQQAZvNIoc9rmn1BVQGA+UQIP59qoNhu+T2Jr3cmqDZDgzWACpfFN2/lVcKiOKkxKvXroM1Q9IrzHgHyOKo87zmxvls2iEaqM6AxcyaIVXaCEDW0AERL8E1jrzWJMgKQtctb7UthtaQ0Wi8ugqbUMgvnEyA1ngv5o8BYmgNKUqoBZDPvE/52EsAmbt7HLOT3VVoF9LUnBpAHdz3hvvz30WOzxy+7GRKGzewzFkeMQA1F687msGhPTjk2WnNQ+eQKgAmrM/8AO6y1+Dbj2bcWOcJmvZsnwBV1yBVAMlXP5wbDvO+fy7ZvT0nEbOTrOuQkIE4hIKmswTtOd9DUxsB0V8vnEVd1+OQLIIpcBqTAHHmpMYrfQ/yATEQO8cPsKcfg4RWoGf6cchn9A/5Kv0ByG37As5I4bDLWJcxAAAAAElFTkSuQmCC</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
       <Wiz_CustomHelp value="False" />
       <Wiz_CustomGraphic value="False" />
       <Wiz_ShowOutput value="True" />
-      <Wiz_OpenOutputTools />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="4" Selected="False" />
+        <Tool ToolId="18" Selected="False" />
+        <Tool ToolId="26" Selected="False" />
+        <Tool ToolId="35" Selected="False" />
+        <Tool ToolId="45" Selected="False" />
+        <Tool ToolId="46" Selected="False" />
+        <Tool ToolId="48" Selected="True" />
+        <Tool ToolId="49" Selected="False" />
+        <Tool ToolId="52" Selected="False" />
+        <Tool ToolId="53" Selected="True" />
+        <Tool ToolId="56" Selected="False" />
+        <Tool ToolId="57" Selected="True" />
+        <Tool ToolId="58" Selected="True" />
+        <Tool ToolId="61" Selected="False" />
+        <Tool ToolId="64" Selected="False" />
+        <Tool ToolId="67" Selected="False" />
+        <Tool ToolId="71" Selected="False" />
+        <Tool ToolId="75" Selected="False" />
+        <Tool ToolId="76" Selected="False" />
+        <Tool ToolId="109" Selected="True" />
+        <Tool ToolId="110" Selected="True" />
+      </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />
       <Wiz_ChainRunWizard />

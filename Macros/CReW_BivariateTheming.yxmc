@@ -2503,7 +2503,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro=".\Macro.yxmc" />
+      <EngineSettings Macro="CReW_BivariateTheming.yxmcbatch" />
     </Node>
     <Node ToolID="49">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">

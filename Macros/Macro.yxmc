@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\Sample Macro Input.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample Macro Input.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="ConcatTile" size="64" source="Formula: tostring(Tile1) + '|' + tostring(Tile2)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="426" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">.\</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <OldSpatialIndex>False</OldSpatialIndex>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.ReportMap.ReportMap">
+        <Position x="186" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TemporaryFileLocationXML>C:\Users\lovec\AppData\Local\Temp\Engine_4284_2705d9547625497cb50388f4083781c8\Engine_9432_86785a32641b4d1d911aa7287d9b650d.xml</TemporaryFileLocationXML>
+          <IsMetric value="False" />
+          <ImageWidth>8</ImageWidth>
+          <ImageHeight>6</ImageHeight>
+          <ImageResolution>1</ImageResolution>
+          <ReferenceMap>Latest:CloudMade</ReferenceMap>
+          <BackgroundColor>#fdfeff</BackgroundColor>
+          <DropShadow>False</DropShadow>
+          <ScaleUnits>Miles</ScaleUnits>
+          <ExpandExtent>10</ExpandExtent>
+          <MinimumWidth>0.5</MinimumWidth>
+          <DataConnections>
+            <DataConnection name="#1">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#1</Connection>
+              <FileName />
+              <SpatialObj />
+              <GroupField />
+              <ThemeField>ConcatTile</ThemeField>
+              <LabelField />
+            </DataConnection>
+          </DataConnections>
+          <Layers>
+            <Layer name="1" order="0">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>#1 - Points</DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle StockPointStyle="circle" />
+              <ThemeStyle TileMethod="IndividualValue" NumTiles="5" ColorMethod="Map" StartColor="#0000ff" EndColor="#ff0000" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" SpecificValues="1|1&#xD;&#xA;1|2&#xD;&#xA;1|3&#xD;&#xA;1|4&#xD;&#xA;1|5&#xD;&#xA;2|1&#xD;&#xA;2|2&#xD;&#xA;2|3&#xD;&#xA;2|4&#xD;&#xA;2|5&#xD;&#xA;3|1&#xD;&#xA;3|2&#xD;&#xA;3|3&#xD;&#xA;3|4&#xD;&#xA;3|5&#xD;&#xA;4|1&#xD;&#xA;4|2&#xD;&#xA;" ManualTiles="" NoneSpecificValuesAction="Color" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="Base Layers - Points" order="1">
+              <DisplayName>Base Layers - Points</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="Base Layers - Lines" order="2">
+              <DisplayName>Base Layers - Lines</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="Base Layers - Polygons" order="3">
+              <DisplayName>Base Layers - Polygons</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="2" order="1001">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <isThemeLayer value="True" />
+              <DisplayName><![CDATA[1|1
+]]></DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle Color="#ff0000" Size="10" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>1</ThemeBandNumber>
+            </Layer>
+            <Layer name="3" order="1002">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <isThemeLayer value="True" />
+              <DisplayName><![CDATA[1|2
+]]></DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle Color="#ff8040" Size="10" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>2</ThemeBandNumber>
+            </Layer>
+            <Layer name="4" order="1003">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <isThemeLayer value="True" />
+              <DisplayName><![CDATA[1|3
+]]></DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle Size="10" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>3</ThemeBandNumber>
+            </Layer>
+            <Layer name="5" order="1004">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <isThemeLayer value="True" />
+              <DisplayName><![CDATA[1|4
+]]></DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle Size="10" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>4</ThemeBandNumber>
+            </Layer>
+            <Layer name="6" order="1005">
+              <DisplayName><![CDATA[1|5
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>5</ThemeBandNumber>
+            </Layer>
+            <Layer name="7" order="1006">
+              <DisplayName><![CDATA[2|1
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>6</ThemeBandNumber>
+            </Layer>
+            <Layer name="8" order="1007">
+              <DisplayName><![CDATA[2|2
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>7</ThemeBandNumber>
+            </Layer>
+            <Layer name="9" order="1008">
+              <DisplayName><![CDATA[2|3
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>8</ThemeBandNumber>
+            </Layer>
+            <Layer name="10" order="1009">
+              <DisplayName><![CDATA[2|4
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>9</ThemeBandNumber>
+            </Layer>
+            <Layer name="11" order="1010">
+              <DisplayName><![CDATA[2|5
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>10</ThemeBandNumber>
+            </Layer>
+            <Layer name="12" order="1011">
+              <DisplayName><![CDATA[3|1
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>11</ThemeBandNumber>
+            </Layer>
+            <Layer name="13" order="1012">
+              <DisplayName><![CDATA[3|2
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>12</ThemeBandNumber>
+            </Layer>
+            <Layer name="14" order="1013">
+              <DisplayName><![CDATA[3|3
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>13</ThemeBandNumber>
+            </Layer>
+            <Layer name="15" order="1014">
+              <DisplayName><![CDATA[3|4
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>14</ThemeBandNumber>
+            </Layer>
+            <Layer name="16" order="1015">
+              <DisplayName><![CDATA[3|5
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>15</ThemeBandNumber>
+            </Layer>
+            <Layer name="17" order="1016">
+              <DisplayName><![CDATA[4|1
+]]></DisplayName>
+              <DataConnection />
+              <LayerType>Points</LayerType>
+              <ShowLabel value="False" />
+              <isThemeLayer value="True" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>16</ThemeBandNumber>
+            </Layer>
+            <Layer name="18" order="1017">
+              <LayerType>Points</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <isThemeLayer value="True" />
+              <DisplayName>4|2</DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PointStyle />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>17</ThemeBandNumber>
+            </Layer>
+          </Layers>
+          <Legend>
+            <LegendStyle Position="Field" UseCommaSeparators="false" />
+          </Legend>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Map" size="536870911" source="Report:Map:" type="V_String" />
+            <Field name="Legend" size="536870911" source="Report:Map:Legend:" type="V_String" />
+            <Field name="BoundingRect" size="536870911" source="Map:" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxReportMap" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_4284_2705d9547625497cb50388f4083781c8\Engine_9432_a4aa45b8e1b54f0bbcc1739643451afa.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Map" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Map" size="536870911" source="Report:Map:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Legend" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Legend" size="536870911" source="Report:Map:Legend:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="438" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>.\</File>
+          <Passwords />
+          <FormatSpecificOptions />
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.XML</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Macro</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <Condition>
+          <Type>Condition</Type>
+          <Description>Always True</Description>
+          <Expression>1</Expression>
+          <True>
+            <Action>
+              <Type>UpdateRawXml</Type>
+              <Description />
+              <Expression>[ControlParam.XML]</Expression>
+              <Destination>3/Layers</Destination>
+              <OuterXml value="True" />
+            </Action>
+          </True>
+          <False />
+        </Condition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs>
+        <Tool ToolId="1" Selected="True">
+          <Name>Input1</Name>
+          <Abbrev />
+          <NoFieldMap value="True" />
+        </Tool>
+      </MacroInputs>
+      <MacroOutputs>
+        <Tool ToolId="2" Selected="True">
+          <Name>Map</Name>
+          <Abbrev>M</Abbrev>
+        </Tool>
+        <Tool ToolId="7" Selected="True">
+          <Name>Legend</Name>
+          <Abbrev>L</Abbrev>
+        </Tool>
+      </MacroOutputs>
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>XML</Name>
+            <Description>XML</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools />
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

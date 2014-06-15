@@ -1,0 +1,3098 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="90" y="42" width="600" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Tile Data</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2418" y="498" width="964" height="196" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Prepare legend</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1530" y="18" width="780" height="492" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Prepare XML for Batch Macro</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="6" y="270" width="804" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Prepare colours</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\Sample Input 1.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample Input 1.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PointObj" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="Value 1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+            <Field name="Value 2" source="Formula: randint(50)" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
+        <Position x="402" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Method>EqualRecords</Method>
+          <EqualRecords>
+            <EqualRecordsGroupField>Value1</EqualRecordsGroupField>
+            <EqualRecordsSortField>Value1</EqualRecordsSortField>
+            <NumTiles value="5" />
+          </EqualRecords>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Equal Records</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+            <Field name="Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Tile_Num" type="Int16" />
+            <Field name="Tile_SequenceNum" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Value1" order="Desc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTile" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1542" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_ff2c35df773649608db8635a723aa9c2.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="498" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Point" selected="True" />
+            <SelectField field="Value2" selected="True" />
+            <SelectField field="Tile_Num" selected="True" rename="Tile1" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Tile1" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
+        <Position x="594" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Method>EqualRecords</Method>
+          <EqualRecords>
+            <EqualRecordsGroupField>Value2</EqualRecordsGroupField>
+            <EqualRecordsSortField>Value2</EqualRecordsSortField>
+            <NumTiles value="5" />
+          </EqualRecords>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Equal Records</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="Value2" source="Formula: randint(50)" type="Int32" />
+            <Field name="Tile1" type="Int16" />
+            <Field name="Tile_Num" type="Int16" />
+            <Field name="Tile_SequenceNum" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Value2" order="Desc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTile" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1074" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Tile_Num" selected="True" rename="Tile2" />
+            <SelectField field="Tile_SequenceNum" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile2" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1194" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="ConcatTile" type="V_String" size="64" expression="tostring([Tile1]) + '|' + tostring([Tile2])" />
+            <FormulaField field="Size" type="V_String" size="64" expression="tostring(10+3*([Question.Number of bands]-[Tile2]))" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ConcatTile=tostring([Tile1]) + '|' + tostring([Tile2])
+Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile2" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+            <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
+            <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="rgb1" />
+            <Field name="rgb2" />
+          </Fields>
+          <Data>
+            <r>
+              <c>F70057</c>
+              <c>2100F7</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="rgb1" size="6" source="TextInput:" type="String" />
+            <Field name="rgb2" size="6" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="246" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="r1" selected="True" type="V_String" size="20" />
+            <SelectField field="g1" selected="True" type="V_String" size="20" />
+            <SelectField field="b1" selected="True" type="V_String" size="20" />
+            <SelectField field="r2" selected="True" type="V_String" size="20" />
+            <SelectField field="g2" selected="True" size="20" />
+            <SelectField field="b2" selected="True" size="20" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="rgb1" size="6" source="TextInput:" type="String" />
+            <Field name="rgb2" size="6" source="TextInput:" type="String" />
+            <Field name="r1" size="20" source="Formula: left(rgb1,2)" type="V_String" />
+            <Field name="g1" size="20" source="Formula: substring(rgb1,2,2)" type="V_String" />
+            <Field name="b1" size="20" source="Formula: substring(rgb1,4,2)" type="V_String" />
+            <Field name="r2" size="20" source="Formula: substring(rgb2,0,2)" type="V_String" />
+            <Field name="g2" size="20" source="Formula: substring(rgb2,2,2)" type="V_String" />
+            <Field name="b2" size="20" source="Formula: substring(rgb2,4,2)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="330" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="r1" />
+            <Field name="g1" />
+            <Field name="b1" />
+            <Field name="r2" />
+            <Field name="g2" />
+            <Field name="b2" />
+            <Field name="*Unknown" />
+            <Field name="rgb1" selected="False" />
+            <Field name="rgb2" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>HexToNumber([_CurrentField_])</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="Int32" size="4" scale="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>HexToNumber([_CurrentField_])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="rgb1" size="6" source="TextInput:" type="String" />
+            <Field name="rgb2" size="6" source="TextInput:" type="String" />
+            <Field name="r1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="g1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="b1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="r2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="g2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="b2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="426" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>r1</UpdateField_Name>
+          <CreateField_Name>Band</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <Expression_Init>0</Expression_Init>
+          <Expression_Cond>Band&lt;= [Question.Number of bands] - 1</Expression_Cond>
+          <Expression_Loop>Band+ 1</Expression_Loop>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="rgb1" size="6" source="TextInput:" type="String" />
+            <Field name="rgb2" size="6" source="TextInput:" type="String" />
+            <Field name="r1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="g1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="b1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="r2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="g2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="b2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="Band" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="r_band" type="Double" size="8" expression="ceil([r1] + ([Band] * (([r2]-[r1])/([Question.Number of bands]-1))))" />
+            <FormulaField field="g_band" type="Double" size="8" expression="ceil([g1] + ([Band] * (([g2]-[g1])/([Question.Number of bands]-1))))" />
+            <FormulaField field="b_band" type="Double" size="8" expression="ceil([b1] + ([Band] * (([b2]-[b1])/([Question.Number of bands]-1))))" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>r_band=ceil([r1] + ([Band] * (([r2]-[r1])/([Question.Number o...
+g_band=ceil([g1] + ([Band] * (([g2]-[g1])/([Question.Number o...
+b_band=ceil([b1] + ([Band] * (([b2]-[b1])/([Question.Number o...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="rgb1" size="6" source="TextInput:" type="String" />
+            <Field name="rgb2" size="6" source="TextInput:" type="String" />
+            <Field name="r1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="g1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="b1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="r2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="g2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="b2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="Band" type="Int32" />
+            <Field name="r_band" source="Formula: ceil([r1] + ([Band] * (([r2]-[r1])/([Question.Number of bands]-1))))" type="Double" />
+            <Field name="g_band" source="Formula: ceil([g1] + ([Band] * (([g2]-[g1])/([Question.Number of bands]-1))))" type="Double" />
+            <Field name="b_band" source="Formula: ceil([b1] + ([Band] * (([b2]-[b1])/([Question.Number of bands]-1))))" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="150" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="r1" type="V_String" size="64" expression="left(rgb1,2)" />
+            <FormulaField field="g1" type="V_String" size="64" expression="substring(rgb1,2,2)" />
+            <FormulaField field="b1" type="V_String" size="64" expression="substring(rgb1,4,2)" />
+            <FormulaField field="r2" type="V_String" size="64" expression="substring(rgb2,0,2)" />
+            <FormulaField field="g2" type="V_String" size="64" expression="substring(rgb2,2,2)" />
+            <FormulaField field="b2" type="V_String" size="64" expression="substring(rgb2,4,2)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>r1=left(rgb1,2)
+g1=substring(rgb1,2,2)
+b1=substring(rgb1,4,2)
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="rgb1" size="6" source="TextInput:" type="String" />
+            <Field name="rgb2" size="6" source="TextInput:" type="String" />
+            <Field name="r1" size="64" source="Formula: left(rgb1,2)" type="V_String" />
+            <Field name="g1" size="64" source="Formula: substring(rgb1,2,2)" type="V_String" />
+            <Field name="b1" size="64" source="Formula: substring(rgb1,4,2)" type="V_String" />
+            <Field name="r2" size="64" source="Formula: substring(rgb2,0,2)" type="V_String" />
+            <Field name="g2" size="64" source="Formula: substring(rgb2,2,2)" type="V_String" />
+            <Field name="b2" size="64" source="Formula: substring(rgb2,4,2)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="618" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Numeric</FieldType>
+          <Fields orderChanged="False">
+            <Field name="r_band" />
+            <Field name="g_band" />
+            <Field name="b_band" />
+            <Field name="r1" selected="False" />
+            <Field name="g1" selected="False" />
+            <Field name="b1" selected="False" />
+            <Field name="r2" selected="False" />
+            <Field name="g2" selected="False" />
+            <Field name="b2" selected="False" />
+            <Field name="Band" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>padleft(IntToHex([_CurrentField_]),2,'0')</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="V_String" size="4" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>padleft(IntToHex([_CurrentField_]),2,'0')</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="rgb1" size="6" source="TextInput:" type="String" />
+            <Field name="rgb2" size="6" source="TextInput:" type="String" />
+            <Field name="r1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="g1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="b1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="r2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="g2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="b2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="Band" type="Int32" />
+            <Field name="r_band" size="4" source="Formula: padleft(IntToHex([_CurrentField_]),2,'0')" type="V_String" />
+            <Field name="g_band" size="4" source="Formula: padleft(IntToHex([_CurrentField_]),2,'0')" type="V_String" />
+            <Field name="b_band" size="4" source="Formula: padleft(IntToHex([_CurrentField_]),2,'0')" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="690" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="rgb_band" type="V_String" size="64" expression="'#'+[r_band]+[g_band]+[b_band]" />
+            <FormulaField field="Band" type="Int32" size="4" expression="band + 1" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>rgb_band='#'+[r_band]+[g_band]+[b_band]
+Band=band + 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="rgb1" size="6" source="TextInput:" type="String" />
+            <Field name="rgb2" size="6" source="TextInput:" type="String" />
+            <Field name="r1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="g1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="b1" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="r2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="g2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="b2" source="Formula: HexToNumber([_CurrentField_])" type="Int32" />
+            <Field name="Band" source="Formula: band + 1" type="Int32" />
+            <Field name="r_band" size="4" source="Formula: padleft(IntToHex([_CurrentField_]),2,'0')" type="V_String" />
+            <Field name="g_band" size="4" source="Formula: padleft(IntToHex([_CurrentField_]),2,'0')" type="V_String" />
+            <Field name="b_band" size="4" source="Formula: padleft(IntToHex([_CurrentField_]),2,'0')" type="V_String" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_1fd6b5c11c044ec79f753ea6249e2863.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="1566" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="19" />
+          <Fields>
+            <Field name="XML" />
+          </Fields>
+          <Data>
+            <r>
+              <c>&lt;Layer name="2" order="1001"&gt;</c>
+            </r>
+            <r>
+              <c><![CDATA[      <LayerType>Points</LayerType>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <isBaseLayer value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <isReorderedBaseLayer value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <isRestlyedBaseLayer value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <isThemeLayer value="True" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <DisplayName><![CDATA[1|1]]></c>
+            </r>
+            <r>
+              <c>]]&gt;&lt;/DisplayName&gt;</c>
+            </r>
+            <r>
+              <c><![CDATA[      <DataConnection>#1</DataConnection>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ShowInLegend value="True" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ZoomToLayer value="True" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <Disable value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <PointStyle Size="10" Color="#ff0000" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ThemeStyle TileMethod="SmartTile" NumTiles="5" ColorMethod="Ramp" StartColor="#0000ff" EndColor="#ff0000" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" SpecificValues="" ManualTiles="" NoneSpecificValuesAction="Color" UpperCutoffIncludedExcluded="Excluded" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <LabelStyle Disabled="false" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ParentLayer>1</ParentLayer>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ThemeBandNumber>1</ThemeBandNumber>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[    </Layer>]]></c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="XML" size="355" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1638" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="XML" action="Concat" rename="Concat_XML">
+              <Separator />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_XML" size="536870911" source="Summarize: Concat - XML" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1734" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile2" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+            <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
+            <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
+            <Field name="Layer" size="11" source="RecordID: Starting Value=1" type="V_String" />
+            <Field name="Order" size="4" source="RecordID: Starting Value=1001" type="String" />
+            <Field name="Concat_XML" size="536870911" source="Summarize: Concat - XML" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1302" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <StartValue>1</StartValue>
+          <FieldName>Layer</FieldName>
+          <FieldType>Int32</FieldType>
+          <Position>1</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile2" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+            <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
+            <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
+            <Field name="Layer" source="RecordID: Starting Value=1" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Layer" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1542" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <StartValue>1001</StartValue>
+          <FieldName>Order</FieldName>
+          <FieldType size="4">String</FieldType>
+          <Position>1</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile2" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+            <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
+            <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
+            <Field name="Layer" size="11" source="RecordID: Starting Value=1" type="V_String" />
+            <Field name="Order" size="4" source="RecordID: Starting Value=1001" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1434" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Layer" selected="True" type="V_String" size="11" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile2" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+            <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
+            <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
+            <Field name="Layer" size="11" source="RecordID: Starting Value=1" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1914" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_0cefd993210d4c7c8a4523e1d74fcca8.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1830" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'1|1',[ConcatTile])" />
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'1001',[Order])" />
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'&quot;2&quot;','&quot;'+[Layer]+'&quot;')" />
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],' &lt;PointStyle Size=&quot;10&quot; Color=&quot;#ff0000&quot; /&gt;',' &lt;PointStyle Size=&quot;'  + [Size] + '&quot; Color=&quot;' + [rgb_band] + '&quot; /&gt;')" />
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'StartColor=&quot;#0000ff&quot; EndColor=&quot;#ff0000&quot;','StartColor=&quot;'+[First_rgb_band]+'&quot; EndColor=&quot;'+[Last_rgb_band]+'&quot;')" />
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1',[Concat_rgb_band])" />
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'&lt;ThemeBandNumber&gt;1&lt;/ThemeBandNumber&gt;','&lt;ThemeBandNumber&gt;' + tostring([Tile1]) + '&lt;/ThemeBandNumber&gt;')" />
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Concat_XML=replace([Concat_XML],'1|1',[ConcatTile])
+Concat_XML=replace([Concat_XML],'1001',[Order])
+Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile2" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+            <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring([Tile2])" type="V_String" />
+            <Field name="Size" size="64" source="Formula: tostring(10+3*([Question.Number of bands]-[Tile2]))" type="V_String" />
+            <Field name="Layer" size="11" source="RecordID: Starting Value=1" type="V_String" />
+            <Field name="Order" size="4" source="RecordID: Starting Value=1001" type="String" />
+            <Field name="Concat_XML" size="536870911" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="1794" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="35" />
+          <Fields>
+            <Field name="XML" />
+          </Fields>
+          <Data>
+            <r>
+              <c>&lt;Layers&gt;</c>
+            </r>
+            <r>
+              <c><![CDATA[    <Layer name="1" order="0">]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <LayerType>Points</LayerType>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <isBaseLayer value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <isReorderedBaseLayer value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <isRestlyedBaseLayer value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <isThemeLayer value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <DisplayName>#1 - Points</DisplayName>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <DataConnection>#1</DataConnection>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ShowInLegend value="True" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ZoomToLayer value="True" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <Disable value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <PointStyle StockPointStyle="circle" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ThemeStyle TileMethod="IndividualValue" NumTiles="5" ColorMethod="Map" StartColor="#0000ff" EndColor="#ff0000" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" SpecificValues="" ManualTiles="" NoneSpecificValuesAction="Color" UpperCutoffIncludedExcluded="Excluded" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <LabelStyle Disabled="false" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[    </Layer>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[    <Layer name="Base Layers - Points" order="1">]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <DisplayName>Base Layers - Points</DisplayName>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <DataConnection />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <LayerType>Placeholder</LayerType>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ShowLabel value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[    </Layer>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[    <Layer name="Base Layers - Lines" order="2">]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <DisplayName>Base Layers - Lines</DisplayName>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <DataConnection />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <LayerType>Placeholder</LayerType>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ShowLabel value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[    </Layer>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[    <Layer name="Base Layers - Polygons" order="3">]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <DisplayName>Base Layers - Polygons</DisplayName>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <DataConnection />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <LayerType>Placeholder</LayerType>]]></c>
+            </r>
+            <r>
+              <c><![CDATA[      <ShowLabel value="False" />]]></c>
+            </r>
+            <r>
+              <c><![CDATA[    </Layer>]]></c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="XML" size="360" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1878" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="XML" action="Concat" rename="Concat_XML">
+              <Separator />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_XML" size="536870911" source="Summarize: Concat - XML" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2070" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByPos</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+            <Connection>#3</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_XML" size="536870911" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1986" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Concat_XML" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_XML" size="536870911" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="1962" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="XML" />
+          </Fields>
+          <Data>
+            <r>
+              <c>&lt;/Layers&gt;</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="XML" size="9" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2154" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Concat_XML" action="Concat" rename="Concat_Concat_XML">
+              <Separator />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_Concat_XML" size="536870911" source="Summarize: Concat - Concat_XML" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2430" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_d0e0573e101644caa6ed3265ca353084.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2142" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="ConcatTile" type="V_String" size="64" expression="tostring([Tile1]) + '|' + tostring(Tile_Num)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ConcatTile=tostring([Tile1]) + '|' + tostring(Tile_Num)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="Tile1" type="Int16" />
+            <Field name="Tile_Num" type="Int16" />
+            <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring(Tile_Num)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="702" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Tile1" action="GroupBy" rename="Tile1" />
+            <SummarizeField field="Tile_Num" action="GroupBy" rename="Tile_Num" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Tile1" order="Asc" />
+            <Field field="Tile_Num" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="810" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="rgb_band" action="First" rename="First_rgb_band" />
+            <SummarizeField field="rgb_band" action="Last" rename="Last_rgb_band" />
+            <SummarizeField field="rgb_band" action="Concat" rename="Concat_rgb_band">
+              <Separator>,</Separator>
+            </SummarizeField>
+            <SummarizeField field="rgb1" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="954" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2070" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'#0000ff',[First_rgb_band])" />
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'#ff0000',[Last_rgb_band])" />
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1',[Concat_rgb_band])" />
+            <FormulaField field="Concat_XML" type="V_String" size="536870911" expression="replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Concat_XML=replace([Concat_XML],'#0000ff',[First_rgb_band])
+Concat_XML=replace([Concat_XML],'#ff0000',[Last_rgb_band])
+Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_XML" size="536870911" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1974" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_XML" size="536870911" source="Summarize: Concat - XML" type="V_String" />
+            <Field name="First_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Last_rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+            <Field name="Concat_rgb_band" size="536870911" source="Summarize: Concat - rgb_band" type="V_String" />
+            <Field name="Count" source="Summarize: Count - rgb1" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2166" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Concat_XML" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_XML" size="536870911" source="Formula: replace([Concat_XML],'NumTiles=&quot;5&quot;','NumTiles=&quot;' + tostring([Count]) + '&quot;')" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2250" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_324c6d9d70a44dd6b3dd55848d1e0211.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="882" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_1dfa3dffe4264a37836089caff21b7ee.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="798" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Tile1" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Band" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_rgb1" selected="False" />
+                <SelectField field="Right_rgb2" selected="False" />
+                <SelectField field="Right_r1" selected="False" />
+                <SelectField field="Right_g1" selected="False" />
+                <SelectField field="Right_b1" selected="False" />
+                <SelectField field="Right_r2" selected="False" />
+                <SelectField field="Right_g2" selected="False" />
+                <SelectField field="Right_b2" selected="False" />
+                <SelectField field="Right_Band" selected="False" />
+                <SelectField field="Right_r_band" selected="False" />
+                <SelectField field="Right_g_band" selected="False" />
+                <SelectField field="Right_b_band" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Tile1" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Tile1" source="Summarize: GroupBy - Tile1" type="Int16" />
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Tile1" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Band" source="Formula: band + 1" type="Int32" />
+            <Field name="rgb_band" size="64" source="Formula: '#'+[r_band]+[g_band]+[b_band]" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Band" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings>
+        <Position x="2334" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ControlParams"><![CDATA[XML=Concat_Concat_XML
+]]></Value>
+          <Value name="BatchMacroGroupBy" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Batch Macro</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Map">
+          <RecordInfo>
+            <Field name="Map" size="536870911" source="Report:Map: (BatchMacro)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Legend">
+          <RecordInfo>
+            <Field name="Legend" size="536870911" source="Report:Map:Legend: (BatchMacro)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro=".\Macro.yxmc" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3150" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_95c3437141d4425aa7de5e458d75f5ee.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1938" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Point" selected="True" />
+            <SelectField field="Tile1" selected="True" />
+            <SelectField field="Tile_Num" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="Tile1" type="Int16" />
+            <Field name="Tile_Num" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2238" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Tile1" selected="False" />
+            <SelectField field="Tile_Num" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="ConcatTile" size="64" source="Formula: tostring([Tile1]) + '|' + tostring(Tile_Num)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2322" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_9ea947241afd4a3798ddd7792136ea05.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings>
+        <Position x="2430" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Legend Field">Legend</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
+            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Legend_Splitter.yxmc" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="2526" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Mode>Sample</Mode>
+          <N>5</N>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>1 of every 5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
+            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="2526" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Mode>Last</Mode>
+          <N>5</N>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Last 5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
+            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3150" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_518963d0e69549d7b423ee833b42f023.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings>
+        <Position x="3054" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Text Field">Text</Value>
+          <Value name="Image Field">Image</Value>
+          <Value name="Text Style Field">TextStyle</Value>
+          <Value name="Image Style Field">ImageStyle</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Legend" size="536870911" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Legend_Builder.yxmc" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings>
+        <Position x="3054" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Text Field">Text</Value>
+          <Value name="Image Field">Image</Value>
+          <Value name="Text Style Field">TextStyle</Value>
+          <Value name="Image Style Field">ImageStyle</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Legend" size="536870911" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Legend_Builder.yxmc" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="582" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Tile_Num" action="GroupBy" rename="Tile_Num" />
+            <SummarizeField field="Value1" action="Max" rename="Max_Value1" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="Max_Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Tile_Num" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2670" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
+            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
+            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="Max_Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="Max_Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2778" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_deec888cdb844e4890aa3657f7a5cb5b.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2682" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
+            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Text" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
+            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="Max_Value2" source="Formula: randint(50)" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="Max_Value2" source="Formula: randint(50)" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="822" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Tile_Num" action="GroupBy" rename="Tile_Num" />
+            <SummarizeField field="Value2" action="Max" rename="Max_Value2" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="Max_Value2" source="Formula: randint(50)" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Tile_Num" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2766" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_0f289a3f96734f98bb8314286a2644c9.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="2790" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Text</UpdateField_Name>
+          <CreateField_Name>NewField</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>254</CreateField_Size>
+          <OtherRows>NULL</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[ if isnull([Row+1:Max_Value1]) then '' else  tostring([Row+1:Max_Value1]) + ' < '  endif + 'Value1' + ' <= ' + tostring([Max_Value1])]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[ if isnull([Row+1:Max_Value1]) then '' else  tostring([Row+1:...]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="Formula:  if isnull([Row+1:Max_Value1]) then '' else  tostring([Row+1:Max_Value1]) + ' &lt; '  endif + 'Value1' + ' &lt;= ' + tostring([Max_Value1])" name="Text" size="536870911" source="Formula:  if isnull([Row+1:Max_Value1]) then '' else  tostring([Row+1:Max_Value1]) + ' &lt; '  endif + 'Value1' + ' &lt;= ' + tostring([Max_Value1])" type="V_WString" />
+            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
+            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="Max_Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="2790" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Text</UpdateField_Name>
+          <CreateField_Name>NewField</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>254</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[ if isnull([Row+1:Max_Value2]) then '' else  tostring([Row+1:Max_Value2]) + ' < '  endif + 'Value2' + ' <= ' + tostring([Max_Value2])]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[ if isnull([Row+1:Max_Value2]) then '' else  tostring([Row+1:...]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="Formula:  if isnull([Row+1:Max_Value2]) then '' else  tostring([Row+1:Max_Value2]) + ' &lt; '  endif + 'Value2' + ' &lt;= ' + tostring([Max_Value2])" name="Text" size="536870911" source="Formula:  if isnull([Row+1:Max_Value2]) then '' else  tostring([Row+1:Max_Value2]) + ' &lt; '  endif + 'Value2' + ' &lt;= ' + tostring([Max_Value2])" type="V_WString" />
+            <Field name="Image" size="536870911" source="Report:Text:" type="V_String" />
+            <Field description="RegEx: Parsed from Text" name="ThemeName" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from Text" name="ThemeBand" size="536870911" source="RegEx: Parsed from Text" type="V_WString" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandFrom" size="64" source="Formula: iif(isnull([ThemeBandFrom]),&#xA;[ThemeBandAbove],&#xA;[ThemeBandFrom])" type="V_String" />
+            <Field description="RegEx: Parsed from ThemeBand" name="ThemeBandTo" size="64" source="Formula: iif(isnull([ThemeBandTo]),&#xA;[ThemeBandBelow],&#xA;[ThemeBandTo])" type="V_String" />
+            <Field name="TextStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="ImageStyle" size="536870911" source="TextInput:" type="V_WString" />
+            <Field name="Tile_Num" source="Summarize: GroupBy - Tile_Num" type="Int16" />
+            <Field name="Max_Value2" source="Formula: randint(50)" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2922" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_0bd7f79e497e44ed8dac1ded59ca2f3a.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
+        <Position x="3246" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupingMode>PerRecord</GroupingMode>
+          <PreserveSourceFields value="False" />
+          <Orientation>V</Orientation>
+          <Separator>Continuous</Separator>
+          <Width>100%</Width>
+          <Height />
+          <BorderStyle Enabled="false" Color="#c0c0c0" Width="1" />
+          <SeparatorStyle Enabled="false" Color="#c0c0c0" Width="1" />
+          <Padding>0</Padding>
+          <LayoutFields orderChanged="False">
+            <Field name="Legend" selected="True" Alignment="Center" />
+            <Field name="Right_Legend" selected="True" Width="" Alignment="Center" />
+          </LayoutFields>
+          <MergeIntoTable value="False" />
+          <SectionNameForGroup />
+          <SectionNameForAllRecords />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Vertical Layout
+Each Individual Record</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Layout" size="536870911" source="Report:Layout:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerLayoutPlugin" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3150" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Legend" selected="True" rename="Right_Legend" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Legend" size="536870911" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Legend" size="536870911" source="Report:Text:" type="V_String" />
+            <Field name="Right_Legend" size="536870911" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Legend" size="536870911" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3450" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Map" size="536870911" source="Report:Map: (BatchMacro)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Map" size="536870911" source="Report:Map: (BatchMacro)" type="V_String" />
+            <Field name="Layout" size="536870911" source="Report:Layout:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Layout" size="536870911" source="Report:Layout:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3642" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_b6e81e8951e243ca8bcae527dd9a9722.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerOverlay.Overlay">
+        <Position x="3546" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field_Base>Map</Field_Base>
+          <Field_TL />
+          <Field_TC />
+          <Field_TR />
+          <Field_ML />
+          <Field_MC />
+          <Field_MR />
+          <Field_LL>Layout</Field_LL>
+          <Field_LC />
+          <Field_LR />
+          <Padding Left="7" Right="7" Top="7" Bottom="36" />
+          <PreserveSourceFields value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Overlay" size="536870911" source="Report:Overlay:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxComposerOverlayPlugin" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="3654" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>.\</File>
+          <Passwords />
+          <FormatSpecificOptions />
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="PointObj" selected="True" rename="Point" />
+            <SelectField field="Value 1" selected="True" rename="Value1" />
+            <SelectField field="Value 2" selected="True" rename="Value2" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Point" size="536870911" source="Formula: ST_RandomPoint([SpatialObj_Built])" type="SpatialObj" />
+            <Field name="Value1" source="Formula: tonumber([h_income_band_v2])*100" type="Double" />
+            <Field name="Value2" source="Formula: randint(50)" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_55604e1f3d5c4512a90c97f46b389533.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2406" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\lovec\AppData\Local\Temp\Engine_6588_b45f16d8a3e24856a9c936a17ac28e6d\Engine_9432_3a90d6c50326496e99bbb43d241949c9.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="47" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="22" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="43" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="48" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="47" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="43" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Join" />
+      <Destination ToolID="41" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Map" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Legend" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Map" />
+      <Destination ToolID="70" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Legend" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="48" Connection="Input1" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="60" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="62" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="69" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="69" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Join" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Join" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Join" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Join" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="62" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="70" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Join" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Join" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Value 1</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Value 2</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Point</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Number of bands</Name>
+        <Value>4</Value>
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>High Colour</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Low Colour</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>Bivariate Theming</Name>
+      <Description><![CDATA[This macro produces a map which is themed by two variables, one variable specifying the colour, another specifying the size, of the points.
+
+Values for theming need to be numeric (categorical variables are not supported), and are split into themes so that an equal number of records fall into each band. NB values are not split across bands, and so results can be strange with variables with a low number of records or low number of distinct values.  ]]></Description>
+      <CategoryName>Reporting</CategoryName>
+      <SearchTags>theme, map, bivariate</SearchTags>
+      <Author>Chris Love</Author>
+      <Company>Experian MS</Company>
+      <Copyright>Chris Love</Copyright>
+      <DescriptionLink actual="http://sciolisticramblings.wordpress.com/" displayed="My blog" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <Condition>
+          <Type>Condition</Type>
+          <Description>Always True</Description>
+          <Expression>1</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>High Colour</Description>
+              <Mode>Simple</Mode>
+              <Variable>High Colour</Variable>
+              <Replace value="False" />
+              <Destination>10/Data/r/c[1]</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Low Colour</Description>
+              <Mode>Simple</Mode>
+              <Variable>Low Colour</Variable>
+              <Replace value="False" />
+              <Destination>10/Data/r/c[2]</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Number of bands: Tile 1</Description>
+              <Mode>Simple</Mode>
+              <Variable>Number of bands</Variable>
+              <Replace value="False" />
+              <Destination>3/EqualRecords/NumTiles/@value</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Number of bands: Tile2</Description>
+              <Mode>Simple</Mode>
+              <Variable>Number of bands</Variable>
+              <Replace value="False" />
+              <Destination>6/EqualRecords/NumTiles/@value</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Number of Bands: Tile 1 Legend Sample</Description>
+              <Mode>Simple</Mode>
+              <Variable>Number of bands</Variable>
+              <Replace value="False" />
+              <Destination>54/N</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Number of Bands: Tile 2 Legend Sample</Description>
+              <Mode>Simple</Mode>
+              <Variable>Number of bands</Variable>
+              <Replace value="False" />
+              <Destination>55/N</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Point</Description>
+              <Mode>Simple</Mode>
+              <Variable>Point</Variable>
+              <Replace value="False" />
+              <Destination>74/SelectFields/SelectField[@field='PointObj']/@field</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Value 1</Description>
+              <Mode>Simple</Mode>
+              <Variable>Value 1</Variable>
+              <Replace value="False" />
+              <Destination>74/SelectFields/SelectField[@field='Value 1']/@field</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Value 2</Description>
+              <Mode>Simple</Mode>
+              <Variable>Value 2</Variable>
+              <Replace value="False" />
+              <Destination>74/SelectFields/SelectField[@field='Value 2']/@field</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Update Start XML</Description>
+              <Mode>Expression</Mode>
+              <Expression>'      &lt;ThemeStyle TileMethod="IndividualValue" NumTiles="' + tostring([Number of bands]) + '" ColorMethod="Map" StartColor="#0000ff" EndColor="#ff0000" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" SpecificValues="" ManualTiles="" NoneSpecificValuesAction="Color" UpperCutoffIncludedExcluded="Excluded" /&gt;'</Expression>
+              <Destination>28/Data/r[14]/c</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Update Middle XML</Description>
+              <Mode>Expression</Mode>
+              <Expression><![CDATA[ '     <ThemeStyle TileMethod="SmartTile" NumTiles="' + tostring([Number of bands]) +'" ColorMethod="Ramp" StartColor="#0000ff" EndColor="#ff0000" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" SpecificValues="" ManualTiles="" NoneSpecificValuesAction="Color" UpperCutoffIncludedExcluded="Excluded" />']]></Expression>
+              <Destination>20/Data/r[14]/c</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Update Variable Name 1</Description>
+              <Mode>Expression</Mode>
+              <Expression>"if isnull([Row+1:Max_Value1]) then '' else  tostring([Row+1:Max_Value1]) + ' &lt; '  endif + '"+ [Value 1] +"' + ' &lt;= ' + tostring([Max_Value1])"</Expression>
+              <Destination>65/Expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Update Variable Name 2</Description>
+              <Mode>Expression</Mode>
+              <Expression>"if isnull([Row+1:Max_Value2]) then '' else  tostring([Row+1:Max_Value2]) + ' &lt; '  endif + '"+ [Value 2] +"' + ' &lt;= ' + tostring([Max_Value2])"</Expression>
+              <Destination>66/Expression</Destination>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <Expression>length([High Colour]) != 6</Expression>
+          <True>
+            <Action>
+              <Type>Error</Type>
+              <Description>The high band colour should be specified in Hexadecimal RGB</Description>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <Expression>length([Low Colour]) != 6</Expression>
+          <True>
+            <Action>
+              <Type>Error</Type>
+              <Description>The low band colour should be specified in Hexadecimal RGB</Description>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Questions>
+            <Question>
+              <Type>Label</Type>
+              <Description>This macro produces a map of spatial points themed on size and colour. Update the questions below.</Description>
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Enter details for the input variables</Description>
+              <Questions>
+                <Question>
+                  <Type>ListBox</Type>
+                  <Description>Enter numeric variable for Colour theme</Description>
+                  <Name>Value 1</Name>
+                  <Multiple value="False" />
+                  <Default />
+                  <Mode>MacroField</Mode>
+                  <MacroField_InputTool value="1" />
+                  <Field_IncludeNone value="False" />
+                  <MacroField_FilterTypes>Int16,Int32,Int64,FixedDecimal,Float,Double</MacroField_FilterTypes>
+                </Question>
+                <Question>
+                  <Type>ListBox</Type>
+                  <Description>Enter numeric variable for Size theme</Description>
+                  <Name>Value 2</Name>
+                  <Multiple value="False" />
+                  <Default />
+                  <Mode>MacroField</Mode>
+                  <MacroField_InputTool value="1" />
+                  <Field_IncludeNone value="False" />
+                  <MacroField_FilterTypes>Int16,Int32,Int64,FixedDecimal,Float,Double</MacroField_FilterTypes>
+                </Question>
+                <Question>
+                  <Type>ListBox</Type>
+                  <Description>Enter spatial object</Description>
+                  <Name>Point</Name>
+                  <Multiple value="False" />
+                  <Default />
+                  <Mode>MacroField</Mode>
+                  <MacroField_InputTool value="1" />
+                  <Field_IncludeNone value="False" />
+                  <MacroField_FilterTypes>SpatialObj</MacroField_FilterTypes>
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Number of bands</Description>
+              <Name>Number of bands</Name>
+              <Minimum value="0" />
+              <Maximum value="10" />
+              <Increment value="1" />
+              <Default value="5" />
+              <Decimals value="0" />
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Colour Bands</Description>
+              <Questions>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>High Colour</Description>
+                  <Name>High Colour</Name>
+                  <Default>F70057</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Low Colour</Description>
+                  <Name>Low Colour</Name>
+                  <Default>2100F7</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                </Question>
+              </Questions>
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAM1SURBVFhH7ZZrTgMxDIR7H35yFq7AaXunxa9xxk720VKBkBgpiuM48bezLfS2/QH9Q75Ku5DvH3cfbz7/piZIQAHw8wj29r5tbzJut+1us67lSp1fqBlSQAxsBxYgd8wEh9hmwGr8TRVIADFod1KHAwaMuDhinX2dMc3PaoKcXIx1wsoAWL7miBkceTjucWl3WRWS4SL+XOQcKoAEYDgr1yHGg6Sbnn/G0enRJrCAG59Jb16ArDnymiMwm1GLz62sH9BUXdyU0YG5+QQL91ADKMR5xmuuav1I0qwD2tNbk+EGmhloxl7jtQruawAOx6PmgqRyodYg19aEY2/ItTP4yPk5z+fdFzRXcQNtisu7A7qnNVyPfJ7xedTGHVGX8YmkskkPy8Hy9ORYOmN5nWtjgO06SXfl+RNNFaUxGtGFo6HsycxrwFfHxj1YWy1inU8kp4cKoMYyHKICAGw8BDflfd9bxnTe3D1Q3bUDcdl0aVxoed8DWAJqDvuox324h+4e52QcSE4MMWACRAOOS246Q/CRzzOLGs/J3oHqLjcIJ4oDuedrzlvMbncnOaZ6v0PGgeTEEF9Ynr5c7DUjpuYZ+151z3P458DDHuhAdZcaMkRpqHPkR8z1C4clLmD4LdD/5e6oQAIkIfL1Acb3vLHG43Xlw+VZX2s9wHTuvwVyHfNKBdJkEAGbzSKHPa5p9QVUBgPlECD+faqDYbvk9ia93Jqg2Q4M1gAqXxTdv5VXCojipMSr166DNUPSK8x4B8jiqPO85sb5bNohGqjOgMXMmiFV2ghA1tABES/BNY681iTICkLXLW+1LYbWkNFovLoKm1DIL5xMgNZ4L+aPAWJoDSlKqAWQz7xP+dhLAJm7exyzk91VaBfS1JwaQB3c94b7899Fjs8cvuxkShs3sMxZHjEANRevO5rBoT045NlpzUPnkCoAJqzP/ADustfg249m3FjnCZr2bJ8AVdcgVQDJVz+cGw7zvn8u2b09JxGzk6zrkJCBOISCprME7TnfQ1MbAdFfL5xFXdfjkCyCKXAakwBx5qTGK30P8gExEDvHD7CnH4OEVqBn+nHIZ/QP+Sr9Acht+wLOSOGwy1iXMQAAAABJRU5ErkJggg==</MacroImage>
+      <MacroInputs>
+        <Tool ToolId="1" Selected="True">
+          <Name>Input</Name>
+          <Abbrev />
+          <NoFieldMap value="True" />
+        </Tool>
+        <Tool ToolId="10" Selected="False">
+          <Name />
+          <Abbrev />
+          <NoFieldMap value="False" />
+        </Tool>
+        <Tool ToolId="20" Selected="False">
+          <Name />
+          <Abbrev />
+          <NoFieldMap value="False" />
+        </Tool>
+        <Tool ToolId="28" Selected="False">
+          <Name />
+          <Abbrev />
+          <NoFieldMap value="False" />
+        </Tool>
+        <Tool ToolId="32" Selected="False">
+          <Name />
+          <Abbrev />
+          <NoFieldMap value="False" />
+        </Tool>
+      </MacroInputs>
+      <MacroOutputs>
+        <Tool ToolId="73" Selected="True">
+          <Name>Output</Name>
+          <Abbrev />
+        </Tool>
+      </MacroOutputs>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools />
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

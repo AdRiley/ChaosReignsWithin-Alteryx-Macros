@@ -111,7 +111,7 @@
               <Arguments>/c del C:\ProgramData\Alteryx\DataProducts\AddOnData\Macros\CReW.ini</Arguments>
               <WorkingDir />
               <RunMinimized value="False" />
-              <RunSilent value="False" />
+              <RunSilent value="True" />
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -148,7 +148,7 @@
               <Arguments>/c del C:\ProgramData\Alteryx\DataProducts\AddOnData\Samples\CReW.ini</Arguments>
               <WorkingDir />
               <RunMinimized value="False" />
-              <RunSilent value="False" />
+              <RunSilent value="True" />
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -621,11 +621,11 @@
       <Wiz_CustomGraphic value="False" />
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
-        <Tool ToolId="7" Selected="True" />
-        <Tool ToolId="8" Selected="True" />
+        <Tool ToolId="7" Selected="False" />
+        <Tool ToolId="8" Selected="False" />
       </Wiz_OpenOutputTools>
-      <Wiz_OutputMessage />
-      <Wiz_NoOutputFilesMessage />
+      <Wiz_OutputMessage>Restart Alteryx Desktop to see your changes.  The new tool category will be on the far right of the toolbar.</Wiz_OutputMessage>
+      <Wiz_NoOutputFilesMessage><![CDATA[  ]]></Wiz_NoOutputFilesMessage>
       <Wiz_ChainRunWizard />
     </RuntimeProperties>
   </Properties>

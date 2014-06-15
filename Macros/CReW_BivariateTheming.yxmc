@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="80">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="138" y="352.1" width="600" height="156" />
+        <Position x="192" y="347.1" width="600" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +23,7 @@
     </Node>
     <Node ToolID="79">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2466" y="808.1" width="964" height="196" />
+        <Position x="2520" y="803.1" width="964" height="196" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -43,7 +43,7 @@
     </Node>
     <Node ToolID="78">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1578" y="328.1" width="780" height="492" />
+        <Position x="1632" y="323.1" width="780" height="492" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,7 +63,7 @@
     </Node>
     <Node ToolID="77">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="54" y="580.1" width="804" height="264" />
+        <Position x="108" y="575.1" width="804" height="264" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -83,7 +83,7 @@
     </Node>
     <Node ToolID="109">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="198" y="412.1" />
+        <Position x="252" y="407.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1021,7 +1021,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
-        <Position x="450" y="412.1" />
+        <Position x="504" y="407.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1055,7 +1055,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1590" y="436.1" />
+        <Position x="1644" y="431.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1080,7 +1080,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="546" y="424.1" />
+        <Position x="600" y="419.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1109,7 +1109,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Tile.Tile">
-        <Position x="642" y="412.1" />
+        <Position x="696" y="407.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1143,7 +1143,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1122" y="448.1" />
+        <Position x="1176" y="443.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1175,7 +1175,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1242" y="448.1" />
+        <Position x="1296" y="443.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1208,7 +1208,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="102" y="604.1" />
+        <Position x="156" y="599.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1240,7 +1240,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="294" y="604.1" />
+        <Position x="348" y="599.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1277,7 +1277,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-        <Position x="378" y="604.1" />
+        <Position x="432" y="599.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1320,7 +1320,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
-        <Position x="474" y="604.1" />
+        <Position x="528" y="599.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1356,7 +1356,7 @@ Size=tostring(10+3*([Question.Number of bands]-[Tile2]))</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="570" y="604.1" />
+        <Position x="624" y="599.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1394,7 +1394,7 @@ b_band=ceil([b1] + ([Band] * (([b2]-[b1])/([Question.Number o...</DefaultAnnotat
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="198" y="604.1" />
+        <Position x="252" y="599.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1432,7 +1432,7 @@ b1=substring(rgb1,4,2)
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-        <Position x="666" y="604.1" />
+        <Position x="720" y="599.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1481,7 +1481,7 @@ b1=substring(rgb1,4,2)
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="738" y="604.1" />
+        <Position x="792" y="599.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1518,7 +1518,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="834" y="604.1" />
+        <Position x="888" y="599.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1543,7 +1543,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="1614" y="628.1" />
+        <Position x="1668" y="623.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1623,7 +1623,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1686" y="628.1" />
+        <Position x="1740" y="623.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1648,7 +1648,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-        <Position x="1782" y="616.1" />
+        <Position x="1836" y="611.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1688,7 +1688,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="1350" y="496.1" />
+        <Position x="1404" y="491.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1724,7 +1724,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="1590" y="496.1" />
+        <Position x="1644" y="491.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1758,7 +1758,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1482" y="496.1" />
+        <Position x="1536" y="491.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1792,7 +1792,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1962" y="652.1" />
+        <Position x="2016" y="647.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1817,7 +1817,7 @@ Band=band + 1</DefaultAnnotationText>
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1878" y="616.1" />
+        <Position x="1932" y="611.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1861,7 +1861,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="1842" y="388.1" />
+        <Position x="1896" y="383.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1989,7 +1989,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1926" y="388.1" />
+        <Position x="1980" y="383.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2014,7 +2014,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="2118" y="664.1" />
+        <Position x="2172" y="659.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2043,7 +2043,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2034" y="604.1" />
+        <Position x="2088" y="599.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2068,7 +2068,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="2010" y="700.1" />
+        <Position x="2064" y="695.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2097,7 +2097,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="2202" y="664.1" />
+        <Position x="2256" y="659.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2122,7 +2122,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="35">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2478" y="688.1" />
+        <Position x="2532" y="683.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2147,7 +2147,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="38">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="2190" y="820.1" />
+        <Position x="2244" y="815.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2173,7 +2173,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="39">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="750" y="460.1" />
+        <Position x="804" y="455.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2202,7 +2202,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="40">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="858" y="520.1" />
+        <Position x="912" y="515.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2233,7 +2233,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="41">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-        <Position x="1002" y="460.1" />
+        <Position x="1056" y="455.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2268,7 +2268,7 @@ Concat_XML=replace([Concat_XML],'"2"','"'+[Layer]+'"')
     </Node>
     <Node ToolID="42">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="2118" y="436.1" />
+        <Position x="2172" y="431.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2301,7 +2301,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="43">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-        <Position x="2022" y="400.1" />
+        <Position x="2076" y="395.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2334,7 +2334,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="44">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2214" y="544.1" />
+        <Position x="2268" y="539.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2359,7 +2359,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="45">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2298" y="484.1" />
+        <Position x="2352" y="479.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2384,7 +2384,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="46">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="930" y="700.1" />
+        <Position x="984" y="695.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2409,7 +2409,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="47">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="846" y="472.1" />
+        <Position x="900" y="467.1" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -2478,7 +2478,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="48">
       <GuiSettings>
-        <Position x="2382" y="772.1" />
+        <Position x="2436" y="767.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2494,12 +2494,12 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
         </Annotation>
         <MetaInfo connection="Map">
           <RecordInfo>
-            <Field name="Map" size="2147483647" source="Report:Map: (BatchMacro)" type="V_String" />
+            <Field name="Map" size="2147483647" source="Report:Map: (BatchMacro) (BatchMacro)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Legend">
           <RecordInfo>
-            <Field name="Legend" size="2147483647" source="Report:Map:Legend: (BatchMacro)" type="V_String" />
+            <Field name="Legend" size="2147483647" source="Report:Map:Legend: (BatchMacro) (BatchMacro)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -2507,7 +2507,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="49">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3198" y="808.1" />
+        <Position x="3252" y="803.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2532,7 +2532,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="50">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1986" y="820.1" />
+        <Position x="2040" y="815.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2561,7 +2561,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="51">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2286" y="820.1" />
+        <Position x="2340" y="815.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2588,7 +2588,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="52">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2370" y="880.1" />
+        <Position x="2424" y="875.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2617,7 +2617,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="53">
       <GuiSettings>
-        <Position x="2478" y="796.1" />
+        <Position x="2532" y="791.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2645,7 +2645,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="54">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-        <Position x="2574" y="796.1" />
+        <Position x="2628" y="791.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2675,7 +2675,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-        <Position x="2574" y="868.1" />
+        <Position x="2628" y="863.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2705,7 +2705,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="56">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3198" y="880.1" />
+        <Position x="3252" y="875.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2730,7 +2730,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="57">
       <GuiSettings>
-        <Position x="3102" y="808.1" />
+        <Position x="3156" y="803.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2754,7 +2754,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="58">
       <GuiSettings>
-        <Position x="3102" y="880.1" />
+        <Position x="3156" y="875.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2778,7 +2778,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="59">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="630" y="856.1" />
+        <Position x="684" y="851.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2806,7 +2806,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="60">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="2718" y="808.1" />
+        <Position x="2772" y="803.1" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -2861,7 +2861,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="61">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2826" y="736.1" />
+        <Position x="2880" y="731.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2886,7 +2886,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="62">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="2730" y="880.1" />
+        <Position x="2784" y="875.1" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -2941,7 +2941,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="63">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="870" y="916.1" />
+        <Position x="924" y="911.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2969,7 +2969,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="64">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2814" y="844.1" />
+        <Position x="2868" y="839.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2994,7 +2994,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="65">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-        <Position x="2838" y="808.1" />
+        <Position x="2892" y="803.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3032,7 +3032,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="66">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-        <Position x="2838" y="880.1" />
+        <Position x="2892" y="875.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3070,7 +3070,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2970" y="916.1" />
+        <Position x="3024" y="911.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3095,7 +3095,7 @@ Concat_XML=replace([Concat_XML],'#dc143c,#6495ed,#f0e68c,#228...
     </Node>
     <Node ToolID="68">
       <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
-        <Position x="3294" y="844.1" />
+        <Position x="3348" y="839.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3132,7 +3132,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="69">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="3198" y="844.1" />
+        <Position x="3252" y="839.1" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -3172,7 +3172,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="70">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="3498" y="760.1" />
+        <Position x="3552" y="755.1" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -3192,12 +3192,12 @@ Each Individual Record</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Left">
           <RecordInfo>
-            <Field name="Map" size="2147483647" source="Report:Map: (BatchMacro)" type="V_String" />
+            <Field name="Map" size="2147483647" source="Report:Map: (BatchMacro) (BatchMacro)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Join">
           <RecordInfo>
-            <Field name="Map" size="2147483647" source="Report:Map: (BatchMacro)" type="V_String" />
+            <Field name="Map" size="2147483647" source="Report:Map: (BatchMacro) (BatchMacro)" type="V_String" />
             <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
@@ -3211,7 +3211,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="71">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3690" y="760.1" />
+        <Position x="3744" y="755.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3236,7 +3236,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="72">
       <GuiSettings Plugin="PortfolioPluginsGui.ComposerOverlay.Overlay">
-        <Position x="3594" y="748.1" />
+        <Position x="3648" y="743.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3268,7 +3268,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="110">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="3702" y="700.1" />
+        <Position x="3756" y="695.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3286,7 +3286,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="74">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="354" y="412.1" />
+        <Position x="408" y="407.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3315,7 +3315,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="75">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="738" y="364.1" />
+        <Position x="792" y="359.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3344,7 +3344,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="76">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2454" y="856.1" />
+        <Position x="2508" y="851.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3369,7 +3369,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="98">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
-        <Position x="0" y="274.1" width="59" height="59" />
+        <Position x="54" y="269.1" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -3382,7 +3382,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="102">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
-        <Position x="0" y="274.1" width="59" height="59" />
+        <Position x="54" y="269.1" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -3395,7 +3395,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="106">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
-        <Position x="0" y="274.1" width="59" height="59" />
+        <Position x="54" y="269.1" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -3408,7 +3408,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="107">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="274.1" width="59" height="59" />
+        <Position x="54" y="269.1" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -3421,7 +3421,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="108">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="274.1" width="59" height="59" />
+        <Position x="54" y="269.1" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -3434,7 +3434,7 @@ Each Individual Record</DefaultAnnotationText>
     </Node>
     <Node ToolID="111">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="59.00001" y="58.99998" width="1058.9" height="240.1001" />
+        <Position x="113" y="54.00002" width="1058.9" height="240.1" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3451,7 +3451,7 @@ Each Individual Record</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="99">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-            <Position x="84.00002" y="103" width="59" height="59" />
+            <Position x="138" y="98.00002" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3464,7 +3464,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="100">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-            <Position x="219.7" y="103" width="59" height="59" />
+            <Position x="273.7" y="98.00002" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3477,7 +3477,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="101">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-            <Position x="355.4" y="103" width="59" height="59" />
+            <Position x="409.4" y="98.00002" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3490,7 +3490,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="103">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="423.25" y="103" width="59" height="59" />
+            <Position x="477.25" y="98.00002" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3503,7 +3503,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="104">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
-            <Position x="830.35" y="103" width="59" height="59" />
+            <Position x="884.35" y="98.00002" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3516,7 +3516,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="105">
           <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
-            <Position x="966.05" y="103" width="59" height="59" />
+            <Position x="1020.05" y="98.00002" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3529,7 +3529,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="81">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="830.35" y="215.1" width="59" height="59" />
+            <Position x="884.35" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3542,7 +3542,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="82">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="966.05" y="215.1" width="59" height="59" />
+            <Position x="1020.05" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3555,7 +3555,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="83">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="423.25" y="215.1" width="59" height="59" />
+            <Position x="477.25" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3568,7 +3568,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="84">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="491.1" y="215.1" width="59" height="59" />
+            <Position x="545.1" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3581,7 +3581,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="85">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="558.95" y="215.1" width="59" height="59" />
+            <Position x="612.95" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3594,7 +3594,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="86">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="626.8" y="215.1" width="59" height="59" />
+            <Position x="680.8" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3607,7 +3607,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="87">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="355.4" y="215.1" width="59" height="59" />
+            <Position x="409.4" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3620,7 +3620,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="88">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="84.00001" y="215.0999" width="59" height="59" />
+            <Position x="138" y="210.0999" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3633,7 +3633,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="89">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="219.7" y="215.1" width="59" height="59" />
+            <Position x="273.7" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3646,7 +3646,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="90">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="694.65" y="215.1" width="59" height="59" />
+            <Position x="748.65" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3659,7 +3659,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="91">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="762.5" y="215.1" width="59" height="59" />
+            <Position x="816.5" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3672,7 +3672,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="92">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="151.85" y="215.1" width="59" height="59" />
+            <Position x="205.85" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3685,7 +3685,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="93">
           <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="287.55" y="215.1" width="59" height="59" />
+            <Position x="341.55" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3698,7 +3698,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="94">
           <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
-            <Position x="898.2" y="215.1" width="59" height="59" />
+            <Position x="952.2" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3711,7 +3711,7 @@ Each Individual Record</DefaultAnnotationText>
         </Node>
         <Node ToolID="95">
           <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
-            <Position x="1033.9" y="215.1" width="59" height="59" />
+            <Position x="1087.9" y="210.1" width="59" height="59" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -4222,11 +4222,11 @@ Each Individual Record</DefaultAnnotationText>
     </Constants>
     <MetaInfo>
       <NameIsFileName value="False" />
-      <Name>Bivariate Theming</Name>
+      <Name><![CDATA[  Bivariate Theming]]></Name>
       <Description><![CDATA[This macro produces a map which is themed by two variables, one variable specifying the colour, another specifying the size, of the points.
 
 Values for theming need to be numeric (categorical variables are not supported), and are split into themes so that an equal number of records fall into each band. NB values are not split across bands, and so results can be strange with variables with a low number of records or low number of distinct values.  ]]></Description>
-      <CategoryName>Reporting</CategoryName>
+      <CategoryName />
       <SearchTags>theme, map, bivariate</SearchTags>
       <Author>Chris Love</Author>
       <Company>Experian MS</Company>
@@ -4244,7 +4244,7 @@ Values for theming need to be numeric (categorical variables are not supported),
           <True>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>High Colour</Description>
               <ToolId value="81" />
               <Mode>Simple</Mode>
               <Variable>High Colour</Variable>
@@ -4253,7 +4253,7 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Low Colour</Description>
               <ToolId value="82" />
               <Mode>Simple</Mode>
               <Variable>Low Colour</Variable>
@@ -4262,7 +4262,7 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Number of bands</Description>
               <ToolId value="83" />
               <Mode>Simple</Mode>
               <Variable>Number of bands</Variable>
@@ -4271,7 +4271,7 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Number of bands</Description>
               <ToolId value="84" />
               <Mode>Simple</Mode>
               <Variable>Number of bands</Variable>
@@ -4280,7 +4280,7 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Number of bands</Description>
               <ToolId value="85" />
               <Mode>Simple</Mode>
               <Variable>Number of bands</Variable>
@@ -4289,7 +4289,7 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Number of bands</Description>
               <ToolId value="86" />
               <Mode>Simple</Mode>
               <Variable>Number of bands</Variable>
@@ -4298,7 +4298,7 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Point</Description>
               <ToolId value="87" />
               <Mode>Simple</Mode>
               <Variable>Point</Variable>
@@ -4307,7 +4307,7 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Value 1</Description>
               <ToolId value="88" />
               <Mode>Simple</Mode>
               <Variable>Value 1</Variable>
@@ -4316,7 +4316,7 @@ Values for theming need to be numeric (categorical variables are not supported),
             </Action>
             <Action>
               <Type>UpdateValue</Type>
-              <Description />
+              <Description>Value 2</Description>
               <ToolId value="89" />
               <Mode>Simple</Mode>
               <Variable>Value 2</Variable>
@@ -4492,13 +4492,14 @@ Values for theming need to be numeric (categorical variables are not supported),
       <ModuleType>Macro</ModuleType>
       <MacroCustomHelp value="False" />
       <MacroDynamicOutputFields value="False" />
-      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAzVJREFUWEftlmtOAzEMhHsffnIWrsBpe6fFr3HGTvbRUoGQGCmK4zjxt7Mt9Lb9Af1Dvkq7kO8fdx9vPv+mJkhAAfDzCPb2vm1vMm637W6zruVKnV+oGVJADGwHFiB3zASH2GbAavxNFUgAMWh3UocDBoy4OGKdfZ0xzc9qgpxcjHXCygBYvuaIGRx5OO5xaXdZFZLhIv5c5BwqgARgOCvXIcaDpJuef8bR6dEmsIAbn0lvXoCsOfKaIzCbUYvPrawf0FRd3JTRgbn5BAv3UAMoxHnGa65q/UjSrAPa01uT4QaaGWjGXuO1Cu5rAA7Ho+aCpHKh1iDX1oRjb8i1M/jI+TnP590XNFdxA22Ky7sDuqc1XI98nvF51MYdUZfxiaSySQ/LwfL05Fg6Y3mda2OA7TpJd+X5E00VpTEa0YWjoezJzGvAV8fGPVhbLWKdTySnhwqgxjIcogIAbDwEN+V931vGdN7cPVDdtQNx2XRpXGh53wNYAmoO+6jHfbiH7h7nZBxITgwxYAJEA45LbjpD8JHPM4saz8negeouNwgnigO552vOW8xudyc5pnq/Q8aB5MQQX1ievlzsNSOm5hn7XnXPc/jnwMMe6EB1lxoyRGmoc+RHzPULhyUuYPgt0P/l7qhAAiQh8vUBxve8scbjdeXD5Vlfaz3AdO6/BXId80oF0mQQAZvNIoc9rmn1BVQGA+UQIP59qoNhu+T2Jr3cmqDZDgzWACpfFN2/lVcKiOKkxKvXroM1Q9IrzHgHyOKo87zmxvls2iEaqM6AxcyaIVXaCEDW0AERL8E1jrzWJMgKQtctb7UthtaQ0Wi8ugqbUMgvnEyA1ngv5o8BYmgNKUqoBZDPvE/52EsAmbt7HLOT3VVoF9LUnBpAHdz3hvvz30WOzxy+7GRKGzewzFkeMQA1F687msGhPTjk2WnNQ+eQKgAmrM/8AO6y1+Dbj2bcWOcJmvZsnwBV1yBVAMlXP5wbDvO+fy7ZvT0nEbOTrOuQkIE4hIKmswTtOd9DUxsB0V8vnEVd1+OQLIIpcBqTAHHmpMYrfQ/yATEQO8cPsKcfg4RWoGf6cchn9A/5Kv0ByG37As5I4bDLWJcxAAAAAElFTkSuQmCC</MacroImage>
+      <MacroImage>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</MacroImage>
       <MacroInputs />
       <MacroOutputs />
       <Wiz_CustomHelp value="False" />
       <Wiz_CustomGraphic value="False" />
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
+        <Tool ToolId="109" Selected="True" />
         <Tool ToolId="4" Selected="False" />
         <Tool ToolId="18" Selected="False" />
         <Tool ToolId="26" Selected="False" />
@@ -4516,10 +4517,9 @@ Values for theming need to be numeric (categorical variables are not supported),
         <Tool ToolId="64" Selected="False" />
         <Tool ToolId="67" Selected="False" />
         <Tool ToolId="71" Selected="False" />
+        <Tool ToolId="110" Selected="True" />
         <Tool ToolId="75" Selected="False" />
         <Tool ToolId="76" Selected="False" />
-        <Tool ToolId="109" Selected="True" />
-        <Tool ToolId="110" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

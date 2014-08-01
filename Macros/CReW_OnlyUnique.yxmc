@@ -1,13 +1,194 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="9.0">
   <Nodes>
-    <Node ToolID="138">
+    <Node ToolID="164">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1368" y="522" width="132" height="156" />
+        <Position x="582" y="318" width="204" height="264" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Macro Output</Text>
+          <Text>Updates standard Unique Tool</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="162">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="582" y="594" width="204" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Standard Unique Tool to get Unique set of fields from the dupes to prevent duplicating records in the subsequent join.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="161">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1362" y="594" width="216" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sort combined duplicates by Unique Fields</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="160">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1362" y="318" width="216" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Update join tool to join on selected fields</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="157">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1590" y="762" width="144" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Duplicates Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="156">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1134" y="594" width="216" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Union dupes from unique tool with dupes that were originally selected as the unique record</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="155">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="798" y="318" width="324" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Update join tool to join on selected fields</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="154">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="798" y="594" width="324" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join Uniques to Dupes on fields selected for unique
+Left ouput are true uniques</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="153">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="318" width="192" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Error Handling for no Fields selected</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="138">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1590" y="594" width="144" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Only Unique Output</Text>
           <Font name="Segoe UI" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -23,11 +204,12 @@
     </Node>
     <Node ToolID="125">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="504" y="318" width="666" height="192" />
+        <Position x="366" y="318" width="204" height="264" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>User selects fields to sum</Text>
+          <Text>User selects fields to be unique
+Updates standard Unique Tool</Text>
           <Font name="Segoe UI" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor r="230" g="255" b="230" />
@@ -43,36 +225,16 @@
     </Node>
     <Node ToolID="124">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="504" y="522" width="666" height="156" />
+        <Position x="366" y="594" width="204" height="324" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Select fields to be sumed plus RecordID field</Text>
+          <Text>Standard Unique Tool does standard unique</Text>
           <Font name="Segoe UI" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
           <Shape shape="0" />
-          <Justification Justification="4" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-    </Node>
-    <Node ToolID="123">
-      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="336" y="522" width="156" height="156" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Text>Add Record ID</Text>
-          <Font name="Segoe UI" size="8.25" style="0" />
-          <TextColor name="Black" />
-          <FillColor name="White" />
-          <Shape shape="0" />
-          <Justification Justification="4" />
+          <Justification Justification="7" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -83,7 +245,7 @@
     </Node>
     <Node ToolID="122">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="168" y="522" width="156" height="156" />
+        <Position x="162" y="594" width="192" height="324" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -92,7 +254,7 @@
           <TextColor name="Black" />
           <FillColor name="White" />
           <Shape shape="0" />
-          <Justification Justification="4" />
+          <Justification Justification="7" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -103,12 +265,12 @@
     </Node>
     <Node ToolID="114">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1392" y="594" />
+        <Position x="1614" y="666" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Name>Output</Name>
-          <Abbrev />
+          <Name>Unique</Name>
+          <Abbrev>U</Abbrev>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name>Output</Name>
@@ -120,7 +282,7 @@
     </Node>
     <Node ToolID="113">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="216" y="570" />
+        <Position x="174" y="666" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -197,7 +359,7 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1392" y="546" />
+        <Position x="1614" y="618" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -248,7 +410,7 @@
     </Node>
     <Node ToolID="116">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="168" y="54" width="156" height="156" />
+        <Position x="162" y="54" width="162" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -270,7 +432,7 @@ Within</Text>
     </Node>
     <Node ToolID="117">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="168" y="222" width="156" height="24" />
+        <Position x="162" y="222" width="162" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -290,7 +452,7 @@ Within</Text>
     </Node>
     <Node ToolID="118">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="336" y="54" width="636" height="96" />
+        <Position x="336" y="54" width="546" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -312,7 +474,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="119">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="984" y="54" width="228" height="96" />
+        <Position x="894" y="54" width="228" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -332,7 +494,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="120">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="336" y="174" width="876" height="132" />
+        <Position x="336" y="174" width="786" height="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -352,27 +514,9 @@ Unique tool which only gives unique records in its unique output</Text>
         </Annotation>
       </Properties>
     </Node>
-    <Node ToolID="121">
-      <GuiSettings>
-        <Position x="1152" y="102" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="Version XML URL">versions.ChaosReignsWithin.com\OnlyUnique.xml</Value>
-          <Value name="Version of this Macro">1.0</Value>
-          <Value name="EnableTest">False</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings Macro="CReW_Version.yxmc" />
-    </Node>
     <Node ToolID="98">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="726" y="438" width="59" height="59" />
+        <Position x="390" y="510" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -385,7 +529,7 @@ Unique tool which only gives unique records in its unique output</Text>
     </Node>
     <Node ToolID="105">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.ListBox">
-        <Position x="714" y="342" width="59" height="59" />
+        <Position x="378" y="366" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -398,7 +542,7 @@ Unique tool which only gives unique records in its unique output</Text>
     </Node>
     <Node ToolID="139">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="168" y="690" width="912" height="252" />
+        <Position x="162" y="930" width="624" height="252" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -421,7 +565,7 @@ Unique tool which only gives unique records in its unique output</Text>
     </Node>
     <Node ToolID="140">
       <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
-        <Position x="528" y="438" width="59" height="59" />
+        <Position x="174" y="510" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -434,7 +578,7 @@ Unique tool which only gives unique records in its unique output</Text>
     </Node>
     <Node ToolID="141">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="726" y="570" />
+        <Position x="390" y="666" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -479,7 +623,7 @@ Unique tool which only gives unique records in its unique output</Text>
     </Node>
     <Node ToolID="143">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1398" y="702" />
+        <Position x="1614" y="846" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -504,7 +648,7 @@ Unique tool which only gives unique records in its unique output</Text>
     </Node>
     <Node ToolID="144">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="954" y="570" />
+        <Position x="894" y="654" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -584,7 +728,7 @@ Unique tool which only gives unique records in its unique output</Text>
     </Node>
     <Node ToolID="145">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="894" y="438" width="59" height="59" />
+        <Position x="810" y="510" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -597,14 +741,18 @@ Unique tool which only gives unique records in its unique output</Text>
     </Node>
     <Node ToolID="150">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1134" y="726" />
+        <Position x="1206" y="786" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <ByName_ErrorMode>Ignore</ByName_ErrorMode>
           <ByName_OutputMode>Subset</ByName_OutputMode>
           <Mode>ByName</Mode>
-          <SetOutputOrder value="False" />
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#2</Connection>
+            <Connection>#1</Connection>
+          </OutputOrder>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -625,12 +773,12 @@ Unique tool which only gives unique records in its unique output</Text>
     </Node>
     <Node ToolID="151">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1398" y="750" />
+        <Position x="1614" y="786" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Name>Output</Name>
-          <Abbrev />
+          <Name>Duplicates</Name>
+          <Abbrev>D</Abbrev>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -642,7 +790,111 @@ Unique tool which only gives unique records in its unique output</Text>
     </Node>
     <Node ToolID="152">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="1038" y="438" width="59" height="59" />
+        <Position x="966" y="510" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="158">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1422" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="NonRepeatableFieldNameA" order="Ascending" />
+            <Field field="NonRepeatableFieldNameB" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>NonRepeatableFieldNameA - Ascending
+NonRepeatableFieldNameB - Ascending</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="NonRepeatableFieldNameA" order="Ascending" />
+            <Field field="NonRepeatableFieldNameB" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="159">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1422" y="510" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="163">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="630" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="NonRepeatableFieldNameA" />
+            <Field field="NonRepeatableFieldNameB" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: NonRepeatableFieldNameA, NonRepeatableFieldNameB</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableFieldNameA" order="Asc" />
+            <Field field="NonRepeatableFieldNameB" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableFieldNameA" order="Asc" />
+            <Field field="NonRepeatableFieldNameB" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="165">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="630" y="510" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -663,7 +915,7 @@ Unique tool which only gives unique records in its unique output</Text>
       <Origin ToolID="113" Connection="Output" />
       <Destination ToolID="141" Connection="Input" />
     </Connection>
-    <Connection name="#1">
+    <Connection>
       <Origin ToolID="98" Connection="Action" />
       <Destination ToolID="141" Connection="Action" />
     </Connection>
@@ -683,9 +935,13 @@ Unique tool which only gives unique records in its unique output</Text>
       <Origin ToolID="105" Connection="Question" />
       <Destination ToolID="152" Connection="Question" />
     </Connection>
-    <Connection>
-      <Origin ToolID="141" Connection="Duplicates" />
-      <Destination ToolID="144" Connection="Right" />
+    <Connection name="Unique Fields">
+      <Origin ToolID="105" Connection="Question" />
+      <Destination ToolID="159" Connection="Question" />
+    </Connection>
+    <Connection name="Unique Fields">
+      <Origin ToolID="105" Connection="Question" />
+      <Destination ToolID="165" Connection="Question" />
     </Connection>
     <Connection>
       <Origin ToolID="141" Connection="Unique" />
@@ -699,6 +955,10 @@ Unique tool which only gives unique records in its unique output</Text>
       <Origin ToolID="152" Connection="Action" />
       <Destination ToolID="144" Connection="Action" />
     </Connection>
+    <Connection>
+      <Origin ToolID="163" Connection="Unique" />
+      <Destination ToolID="144" Connection="Right" />
+    </Connection>
     <Connection name="#1">
       <Origin ToolID="141" Connection="Duplicates" />
       <Destination ToolID="150" Connection="Input" />
@@ -706,6 +966,14 @@ Unique tool which only gives unique records in its unique output</Text>
     <Connection name="#2">
       <Origin ToolID="144" Connection="Join" />
       <Destination ToolID="150" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="141" Connection="Duplicates" />
+      <Destination ToolID="163" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="165" Connection="Action" />
+      <Destination ToolID="163" Connection="Action" />
     </Connection>
     <Connection>
       <Origin ToolID="144" Connection="Left" />
@@ -717,10 +985,18 @@ Unique tool which only gives unique records in its unique output</Text>
     </Connection>
     <Connection>
       <Origin ToolID="150" Connection="Output" />
+      <Destination ToolID="158" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="159" Connection="Action" />
+      <Destination ToolID="158" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="158" Connection="Output" />
       <Destination ToolID="143" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="150" Connection="Output" />
+      <Origin ToolID="158" Connection="Output" />
       <Destination ToolID="151" Connection="Input" />
     </Connection>
   </Connections>
@@ -746,19 +1022,13 @@ Unique tool which only gives unique records in its unique output</Text>
         <Value />
         <IsNumeric value="False" />
       </Constant>
-      <Constant>
-        <Namespace>Question</Namespace>
-        <Name>Macro Output (151)</Name>
-        <Value />
-        <IsNumeric value="False" />
-      </Constant>
     </Constants>
     <MetaInfo>
       <NameIsFileName value="False" />
-      <Name><![CDATA[   Add Totals]]></Name>
-      <Description>Macro to add total row and columns to a data table</Description>
+      <Name>Only Unique</Name>
+      <Description />
       <CategoryName />
-      <SearchTags>Transform, Chaos, Chaos Reigns Within, Total</SearchTags>
+      <SearchTags>Preparation, Chaos, Chaos Reigns Within, Unique, Snowflake</SearchTags>
       <Author>Adam Riley</Author>
       <Company>ChaosReignsWithIn</Company>
       <Copyright>ChaosReignsWithIn</Copyright>
@@ -777,7 +1047,7 @@ Unique tool which only gives unique records in its unique output</Text>
               <Type>UpdateRawXml</Type>
               <Description />
               <ToolId value="98" />
-              <Expression>[Destination]</Expression>
+              <Expression>[Unique Fields]</Expression>
               <Destination>141/UniqueFields</Destination>
               <OuterXml value="False" />
             </Action>
@@ -785,7 +1055,7 @@ Unique tool which only gives unique records in its unique output</Text>
               <Type>Error</Type>
               <Description>No fields selected</Description>
               <ToolId value="140" />
-              <Expression>FindString([Unique Fields], "=True")==-1</Expression>
+              <Expression>[Unique Fields] == '&lt;Field field="" /&gt;'</Expression>
             </Action>
             <Action>
               <Type>UpdateRawXml</Type>
@@ -801,6 +1071,22 @@ Unique tool which only gives unique records in its unique output</Text>
               <ToolId value="152" />
               <Expression>[Unique Fields]</Expression>
               <Destination>144/JoinInfo[2]</Destination>
+              <OuterXml value="False" />
+            </Action>
+            <Action>
+              <Type>UpdateRawXml</Type>
+              <Description />
+              <ToolId value="159" />
+              <Expression>replace([Unique Fields], '"/&gt;', '" order="Ascending"/&gt;')</Expression>
+              <Destination>158/SortInfo</Destination>
+              <OuterXml value="False" />
+            </Action>
+            <Action>
+              <Type>UpdateRawXml</Type>
+              <Description />
+              <ToolId value="165" />
+              <Expression>[Unique Fields]</Expression>
+              <Destination>163/UniqueFields</Destination>
               <OuterXml value="False" />
             </Action>
           </True>
@@ -821,8 +1107,8 @@ Unique tool which only gives unique records in its unique output</Text>
               <Multiple value="True" />
               <Multiple_Custom value="True" />
               <Multiple_Start>&lt;Field field="</Multiple_Start>
-              <Multiple_Separator>/&gt;&lt;Field field=</Multiple_Separator>
-              <Multiple_End>/&gt;</Multiple_End>
+              <Multiple_Separator>"/&gt;&lt;Field field="</Multiple_Separator>
+              <Multiple_End>"/&gt;</Multiple_End>
               <Multiple_Default value="False" />
               <Mode>MacroField</Mode>
               <MacroField_InputTool value="3" />
@@ -861,7 +1147,7 @@ Unique tool which only gives unique records in its unique output</Text>
       <ModuleType>Macro</ModuleType>
       <MacroCustomHelp value="False" />
       <MacroDynamicOutputFields value="False" />
-      <MacroImage>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</MacroImage>
+      <MacroImage>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</MacroImage>
       <MacroInputs />
       <MacroOutputs />
       <Wiz_CustomHelp value="False" />
@@ -871,9 +1157,8 @@ Unique tool which only gives unique records in its unique output</Text>
         <Tool ToolId="114" Selected="True" />
         <Tool ToolId="113" Selected="True" />
         <Tool ToolId="25" Selected="False" />
-        <Tool ToolId="121" Selected="True" />
-        <Tool ToolId="151" Selected="True" />
         <Tool ToolId="143" Selected="False" />
+        <Tool ToolId="151" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

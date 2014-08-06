@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="174" y="174" />
+        <Position x="198" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -26,7 +26,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-        <Position x="294" y="138" />
+        <Position x="318" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -56,7 +56,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="390" y="138" />
+        <Position x="414" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -85,7 +85,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="498" y="138" />
+        <Position x="522" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -121,7 +121,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="594" y="126" />
+        <Position x="618" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -147,9 +147,10 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="0" width="59" height="59" />
+        <Position x="24" y="48" width="59" height="59" />
       </GuiSettings>
       <Properties>
+        <Configuration />
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -159,7 +160,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="30" y="150" />
+        <Position x="54" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -196,7 +197,7 @@
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
-          <Left value="False" />
+          <Left value="True" />
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
@@ -208,7 +209,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="690" y="126" />
+        <Position x="714" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -225,7 +226,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-        <Position x="486" y="6" width="59" height="59" />
+        <Position x="510" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -295,8 +296,8 @@
       </Constant>
     </Constants>
     <MetaInfo>
-      <NameIsFileName value="True" />
-      <Name>SkipLastN</Name>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[    Skip Last N]]></Name>
       <Description />
       <CategoryName />
       <SearchTags />
@@ -353,8 +354,8 @@
       <Wiz_CustomGraphic value="False" />
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
-        <Tool ToolId="10" Selected="True" />
         <Tool ToolId="9" Selected="True" />
+        <Tool ToolId="10" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <AlteryxDocument yxmdVer="8.5">
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="126" y="174" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -49,44 +49,16 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Field1" size="1" source="TextInput:" type="String" />
-          </RecordInfo>
-        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
-    <Node ToolID="2">
-      <GuiSettings>
-        <Position x="222" y="174" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="Input.Input9"><![CDATA[Field1=Field1
-]]></Value>
-          <Value name="Numeric Up Down (11)">4</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output10">
-          <RecordInfo>
-            <Field name="Field1" size="1" source="TextInput:" type="String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings Macro="SkipLastN.yxmc" />
-    </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="318" y="174" />
+        <Position x="246" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ned\AppData\Local\Temp\Engine_6712_b1a906dd2d4c4799a520f402e00b0568\Engine_6288_13a5b6d621a841b8b8ed51dd3875cc5f.yxdb</TempFile>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_1988_940ebacbc72140e5ab800b8c2b61f793\Engine_8520_de6309c98a274a2182c3160c8ea09480.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -105,14 +77,30 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Numeric Up Down (11)">4</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_SkipLastN.yxmc" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
       <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="2" Connection="Input9" />
+      <Destination ToolID="4" Connection="Input9" />
     </Connection>
     <Connection>
-      <Origin ToolID="2" Connection="Output10" />
+      <Origin ToolID="4" Connection="Output10" />
       <Destination ToolID="3" Connection="Input" />
     </Connection>
   </Connections>
@@ -133,7 +121,7 @@
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>SkipLastN_Test</Name>
+      <Name>Skip_Last_N</Name>
       <Description>Skip Last N Records</Description>
       <CategoryName />
       <SearchTags />

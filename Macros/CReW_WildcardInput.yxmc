@@ -1,0 +1,681 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.FileBrowse.FileBrowse">
+        <Position x="96" y="72" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="84" y="192" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="120" y="240" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="276" y="72" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="288" y="228" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="312" y="360" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <When>Filter</When>
+          <Filter>1</Filter>
+          <Type>Message</Type>
+          <Priority>Medium</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>"Reading " + [FullPath]</MessageExpression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="528" y="360" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings>
+        <Position x="432" y="360" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Drop Down (9)">FileName</Value>
+          <Value name="ControlParams"><![CDATA[Control Parameter (3)=FullPath
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="100" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="V_WString" />
+            <Field name="Key" size="32" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="V_WString" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010001  Total:" name="HCT0010001" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010002       Owner occupied:" name="HCT0010002" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010005                 Householder who is Black or African American alone" name="HCT0010005" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010006                 Householder who is American Indian and Alaska Native alone" name="HCT0010006" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010007                 Householder who is Asian alone" name="HCT0010007" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010008                 Householder who is Native Hawaiian and Other Pacific Islander alone" name="HCT0010008" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010009                 Householder who is Some Other Race alone" name="HCT0010009" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010010                 Householder who is Two or More Races" name="HCT0010010" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010011            Hispanic or Latino householder:" name="HCT0010011" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010012                 Householder who is White alone" name="HCT0010012" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010013                 Householder who is Black or African American alone" name="HCT0010013" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010014                 Householder who is American Indian and Alaska Native alone" name="HCT0010014" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010015                 Householder who is Asian alone" name="HCT0010015" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010016                 Householder who is Native Hawaiian and Other Pacific Islander alone" name="HCT0010016" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010017                 Householder who is Some Other Race alone" name="HCT0010017" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010018                 Householder who is Two or More Races" name="HCT0010018" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010019       Renter occupied:" name="HCT0010019" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010020            Not Hispanic or Latino householder:" name="HCT0010020" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010021                 Householder who is White alone" name="HCT0010021" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010022                 Householder who is Black or African American alone" name="HCT0010022" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010023                 Householder who is American Indian and Alaska Native alone" name="HCT0010023" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010024                 Householder who is Asian alone" name="HCT0010024" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010025                 Householder who is Native Hawaiian and Other Pacific Islander alone" name="HCT0010025" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010026                 Householder who is Some Other Race alone" name="HCT0010026" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010027                 Householder who is Two or More Races" name="HCT0010027" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010028            Hispanic or Latino householder:" name="HCT0010028" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010029                 Householder who is White alone" name="HCT0010029" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010030                 Householder who is Black or African American alone" name="HCT0010030" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010031                 Householder who is American Indian and Alaska Native alone" name="HCT0010031" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010032                 Householder who is Asian alone" name="HCT0010032" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010033                 Householder who is Native Hawaiian and Other Pacific Islander alone" name="HCT0010033" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010034                 Householder who is Some Other Race alone" name="HCT0010034" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010035                 Householder who is Two or More Races" name="HCT0010035" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020001  Total:" name="HCT0020001" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020002       Owner-occupied:" name="HCT0020002" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020003            With own children under 18 years:" name="HCT0020003" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020004                 Under 6 years only" name="HCT0020004" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020005                 Under 6 years and 6 to 17 years" name="HCT0020005" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020006                 6 to 17 years only" name="HCT0020006" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020007            No own children under 18 years" name="HCT0020007" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020008       Renter-occupied:" name="HCT0020008" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020009            With own children under 18 years:" name="HCT0020009" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020010                 Under 6 years only" name="HCT0020010" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020011                 Under 6 years and 6 to 17 years" name="HCT0020011" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020012                 6 to 17 years only" name="HCT0020012" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT2  TENURE BY PRESENCE AND AGE OF OWN CHILDREN [13] HCT0020013            No own children under 18 years" name="HCT0020013" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030001  Total:" name="HCT0030001" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030002       Owner-occupied:" name="HCT0030002" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030003            With related children under 18 years:" name="HCT0030003" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030004                 Under 6 years only" name="HCT0030004" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030005                 Under 6 years and 6 to 17 years" name="HCT0030005" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030006                 6 to 17 years only" name="HCT0030006" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030007            No related children under 18 years" name="HCT0030007" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030008       Renter-occupied:" name="HCT0030008" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030009            With related children under 18 years:" name="HCT0030009" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030010                 Under 6 years only" name="HCT0030010" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030011                 Under 6 years and 6 to 17 years" name="HCT0030011" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030012                 6 to 17 years only" name="HCT0030012" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT3  TENURE BY PRESENCE AND AGE OF RELATED CHILDREN [13] HCT0030013            No related children under 18 years" name="HCT0030013" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040001  Total:" name="HCT0040001" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040002       Owner-occupied:" name="HCT0040002" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040003            With children under 18 years:" name="HCT0040003" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040004                 Under 6 years only" name="HCT0040004" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040005                 Under 6 years and 6 to 17 years" name="HCT0040005" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040006                 6 to 17 years only" name="HCT0040006" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040007            No children under 18 years" name="HCT0040007" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040008       Renter-occupied:" name="HCT0040008" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040009            With children under 18 years:" name="HCT0040009" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040010                 Under 6 years only" name="HCT0040010" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040011                 Under 6 years and 6 to 17 years" name="HCT0040011" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040012                 6 to 17 years only" name="HCT0040012" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT4  TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS) [13] HCT0040013            No children under 18 years" name="HCT0040013" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field name="SpatialObj" size="2147483647" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="SpatialObj" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010003            Not Hispanic or Latino householder:" name="HCT0010003" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+            <Field description="HCT Tables SF1 (2010) HCT1  TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER [35] HCT0010004                 Householder who is White alone" name="HCT0010004" source="Allocate: SOFTWARE\SRC\Portfolio\6.60\SF1_National" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="WildcardInput_Helper.yxmc" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+        <Position x="120" y="360" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Directory>W:\Blog\Wildcard\</Directory>
+          <FileSpec>?.yxdb</FileSpec>
+          <IncludeSubDirs value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dir W:\Blog\Wildcard\?.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="480" y="78" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="456" y="219" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="300" y="450" width="369" height="159.5508" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>This is a trick to count records and return a 0 count in a field</Caption>
+          <Style TextColor="#2f4f4f" FillColor="#ecf2f2" BorderColor="#2f4f4f" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="310" y="539" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="Count" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>0</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="310" y="479" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="FullPath" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="Summarize: Count - FullPath" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="408" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="600" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>Filter</When>
+              <Filter>[Count]==0</Filter>
+              <Type>ErrorStop</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>"No files were found"</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="504" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields orderChanged="False" />
+              <Mode>Last</Mode>
+              <N>1</N>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Last 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="13" Connection="Question" />
+      <Destination ToolID="14" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="13" Connection="Question" />
+      <Destination ToolID="17" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="14" Connection="Action" />
+      <Destination ToolID="26" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="17" Connection="Action" />
+      <Destination ToolID="26" Connection="Action" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="19" Connection="Action" />
+      <Destination ToolID="26" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Question" />
+      <Destination ToolID="19" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="24" Connection="Control" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="33" Connection="Action" />
+      <Destination ToolID="24" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Question" />
+      <Destination ToolID="33" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>File Browse (13)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (18)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Drop Down (32)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CReW_WildcardInput</Name>
+      <Description>Reads multiple files using a wildcard with incompatible meta data</Description>
+      <CategoryName>Input</CategoryName>
+      <SearchTags>Input,Wildcard</SearchTags>
+      <Author>Ned Harding</Author>
+      <Company />
+      <Copyright>Public Domain</Copyright>
+      <DescriptionLink actual="http://inspiringingenuity.net/2014/06/24/alteryx-wildcard-inputs/" displayed="http://inspiringingenuity.net/2014/06/24/alteryx-wildcard-inputs/" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="14" />
+              <Expression>FileGetDir([#1])</Expression>
+              <Destination>2/Directory</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="17" />
+              <Expression>FileGetFileName([#1]) + FileGetExt([#1])</Expression>
+              <Destination>2/FileSpec</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="19" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>2/IncludeSubDirs/@value</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="33" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>24/Value[@name='Drop Down (9)']</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (1)</Name>
+          <ToolId value="1" />
+          <Questions>
+            <Question>
+              <Type>FileBrowse</Type>
+              <Description>File Browse with Wildcard</Description>
+              <Name>File Browse (13)</Name>
+              <ToolId value="13" />
+              <SaveAs value="False" />
+              <Mode>DW2</Mode>
+              <DW2_SpatialOnly value="False" />
+              <DW2_FieldMap value="False" />
+              <InputToolId value="-1" />
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Search Subdirectories</Description>
+              <Name>Check Box (18)</Name>
+              <ToolId value="18" />
+              <Questions />
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (9)</Description>
+              <Name>Macro Output (23)</Name>
+              <ToolId value="23" />
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Output File Name as Field</Description>
+              <Name>Drop Down (32)</Name>
+              <ToolId value="32" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>Manual</Mode>
+              <Manual_Values><![CDATA[No:
+File Name Only:FileName
+Entire Path:Path
+]]></Manual_Values>
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="True" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="23" Selected="True" />
+        <Tool ToolId="24" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

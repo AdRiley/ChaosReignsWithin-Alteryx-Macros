@@ -2925,7 +2925,7 @@ The Gauge Tool lets you create gauge report snippets to make part of your report
     </Constants>
     <MetaInfo>
       <NameIsFileName value="False" />
-      <Name><![CDATA[  Gauge]]></Name>
+      <Name><![CDATA[ Gauge]]></Name>
       <Description>The Gauge Tool lets you create gauge report snippets to make part of your reports.</Description>
       <CategoryName />
       <SearchTags>Report, Reporting, Gauge, Dial, Arrow, Chaos, Chaos Reigns Within</SearchTags>

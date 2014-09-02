@@ -999,7 +999,7 @@ Thanks to Craig Bloodworth for his assiatance</Text>
     </Constants>
     <MetaInfo>
       <NameIsFileName value="False" />
-      <Name><![CDATA[ Tableau Format]]></Name>
+      <Name><![CDATA[ Tableau Format]]></Name>
       <Description>Converts a spatial object to a format suitable for use with Tableau</Description>
       <CategoryName />
       <SearchTags>Tableau, Spatial, Chaos, Chaos Reigns Within</SearchTags>

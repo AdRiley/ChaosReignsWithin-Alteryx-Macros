@@ -1171,7 +1171,7 @@ The Spatial Weighted Average Tool will create a weighted average of the centroid
     </Constants>
     <MetaInfo>
       <NameIsFileName value="False" />
-      <Name><![CDATA[ Weighted Average]]></Name>
+      <Name><![CDATA[ Weighted Average]]></Name>
       <Description>The Spatial Weighted Average Tool will create a weighted average of the centroids of the incoming spatial objects to the tool and output it as a spatial point. Useful for calculcating things like population weighted centroids.</Description>
       <CategoryName />
       <SearchTags>Chaos, Chaos Reigns Within, Spatial, Average, Weighted</SearchTags>

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="8.5">
   <Nodes>
-    <Node ToolID="5">
+    <Node ToolID="7">
       <GuiSettings>
-        <Position x="54" y="54" />
+        <Position x="198" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="File Browse (13)">.\*.yxdb</Value>
+          <Value name="File Browse (13)">..\data\*.yxdb</Value>
           <Value name="Check Box (18)">False</Value>
           <Value name="Drop Down (32)">Path</Value>
         </Configuration>
@@ -99,15 +99,15 @@
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="C:\Users\ariley\Downloads\WildcardInput (1)\WildcardInput.yxmc" />
+      <EngineSettings Macro="CReW_WildcardInput.yxmc" />
     </Node>
-    <Node ToolID="6">
+    <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="234" y="54" />
+        <Position x="318" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ned\AppData\Local\Temp\Engine_9256_fbc12f4738b449ab91123ebe210a08af\Engine_8056_8451d18f35e9423b9ad9e750aa8b36d8.yxdb</TempFile>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_7260_cbf38197b9f348709a3a0d16225e08d2\Engine_7612_b7b01dda82604ea49decfdd2e47d149b.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -133,8 +133,8 @@
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="5" Connection="Output" />
-      <Destination ToolID="6" Connection="Input" />
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>

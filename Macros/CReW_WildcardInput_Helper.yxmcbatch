@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="102" y="258" />
+        <Position x="156" y="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -100,9 +100,10 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="0" y="0" width="59" height="59" />
+        <Position x="54" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
+        <Configuration />
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -112,7 +113,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
-        <Position x="102" y="54" width="59" height="59" />
+        <Position x="114" y="102" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -125,7 +126,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="54" y="150" width="59" height="59" />
+        <Position x="108" y="204" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -138,7 +139,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="222" y="258" />
+        <Position x="276" y="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -155,7 +156,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="174" y="150" width="59" height="59" />
+        <Position x="228" y="204" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -168,7 +169,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="330" y="138" width="59" height="59" />
+        <Position x="384" y="192" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -181,7 +182,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-        <Position x="318" y="54" width="59" height="59" />
+        <Position x="372" y="108" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -256,7 +257,7 @@
     </Constants>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>WildcardInput_Helper</Name>
+      <Name>CReW_WildcardInput_Helper</Name>
       <Description />
       <CategoryName />
       <SearchTags />

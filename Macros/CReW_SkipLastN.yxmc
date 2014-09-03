@@ -1,9 +1,169 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="9.0">
   <Nodes>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="522" y="474" width="204" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User chooses number of records to skip.  Update filter with this value.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="858" y="690" width="156" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="738" y="690" width="108" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Remove added total records and RecordId fields</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="522" y="690" width="204" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Filter out bottom N records</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="402" y="690" width="108" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add a RecordID</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="282" y="690" width="108" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Attach total number of records to each record</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="690" width="108" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Get total number of records</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="42" y="690" width="108" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="228" y="228" />
+        <Position x="186" y="834" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -18,7 +178,7 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="__LNR_Count" source="Summarize: Count - Field1" type="Int64" />
+            <Field name="__LNR_Count" source="Summarize: Count" type="Int64" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -26,7 +186,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-        <Position x="348" y="192" />
+        <Position x="306" y="774" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -47,8 +207,8 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Field1" size="1" source="TextInput:" type="String" />
-            <Field name="__LNR_Count" source="Summarize: Count - Field1" type="Int64" />
+            <Field name="__LNR_Field1" size="1" source="TextInput:" type="String" />
+            <Field name="__LNR_Count" source="Summarize: Count" type="Int64" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -56,7 +216,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="444" y="192" />
+        <Position x="426" y="774" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -73,8 +233,8 @@
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="__LNR_RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field name="Field1" size="1" source="TextInput:" type="String" />
-            <Field name="__LNR_Count" source="Summarize: Count - Field1" type="Int64" />
+            <Field name="__LNR_Field1" size="1" source="TextInput:" type="String" />
+            <Field name="__LNR_Count" source="Summarize: Count" type="Int64" />
           </RecordInfo>
           <SortInfo>
             <Field field="__LNR_RecordID" order="Asc" />
@@ -85,22 +245,22 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="552" y="192" />
+        <Position x="546" y="774" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Expression>[__LNR_RecordID]&lt;=([__LNR_Count]-[#1])</Expression>
+          <Expression>[__LNR_RecordID]&lt;=([__LNR_Count]-3)</Expression>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>[__LNR_RecordID]&lt;=([__LNR_Count]-[#1])</DefaultAnnotationText>
+          <DefaultAnnotationText>[__LNR_RecordID]&lt;=([__LNR_Count]-3)</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <MetaInfo connection="True">
           <RecordInfo>
             <Field name="__LNR_RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field name="Field1" size="1" source="TextInput:" type="String" />
-            <Field name="__LNR_Count" source="Summarize: Count - Field1" type="Int64" />
+            <Field name="__LNR_Field1" size="1" source="TextInput:" type="String" />
+            <Field name="__LNR_Count" source="Summarize: Count" type="Int64" />
           </RecordInfo>
           <SortInfo>
             <Field field="__LNR_RecordID" order="Asc" />
@@ -109,8 +269,8 @@
         <MetaInfo connection="False">
           <RecordInfo>
             <Field name="__LNR_RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field name="Field1" size="1" source="TextInput:" type="String" />
-            <Field name="__LNR_Count" source="Summarize: Count - Field1" type="Int64" />
+            <Field name="__LNR_Field1" size="1" source="TextInput:" type="String" />
+            <Field name="__LNR_Count" source="Summarize: Count" type="Int64" />
           </RecordInfo>
           <SortInfo>
             <Field field="__LNR_RecordID" order="Asc" />
@@ -121,7 +281,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="648" y="180" />
+        <Position x="762" y="762" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -139,7 +299,7 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Field1" size="1" source="TextInput:" type="String" />
+            <Field name="__LNR_Field1" size="1" source="TextInput:" type="String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -160,7 +320,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="84" y="204" />
+        <Position x="90" y="762" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -172,7 +332,7 @@
             <Configuration>
               <NumRows value="6" />
               <Fields>
-                <Field name="Field1" />
+                <Field name="__LNR_Field1" />
               </Fields>
               <Data>
                 <r>
@@ -201,7 +361,7 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Field1" size="1" source="TextInput:" type="String" />
+            <Field name="__LNR_Field1" size="1" source="TextInput:" type="String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -209,7 +369,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="744" y="180" />
+        <Position x="894" y="762" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -226,7 +386,170 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-        <Position x="540" y="60" width="59" height="59" />
+        <Position x="546" y="510" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="42" y="90" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="42" y="258" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="210" y="90" width="636" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Module: CReW_WeightedMedian.yxmc
+Author: Ned Harding
+Layout and Annotation: Adam Riley</Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="858" y="90" width="240" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 2.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="210" y="354" width="888" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: 
+
+Skips the last N records on a stream</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="210" y="246" width="888" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Originally featured on
+http://inspiringingenuity.net/2014/07/15/alteryx-skip-last-n-records/</Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="Yellow" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="42" y="942" width="972" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version History: 
+
+1.0 - As featured on http://inspiringingenuity.net
+2.0 - Adopted by CRW. Updated to CRW styling.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="558" y="606" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -255,9 +578,9 @@
       <Origin ToolID="4" Connection="Output" />
       <Destination ToolID="5" Connection="Input" />
     </Connection>
-    <Connection name="#1">
-      <Origin ToolID="11" Connection="Question" />
-      <Destination ToolID="5" Connection="Question" />
+    <Connection name="#2">
+      <Origin ToolID="24" Connection="Action" />
+      <Destination ToolID="5" Connection="Action" />
     </Connection>
     <Connection>
       <Origin ToolID="5" Connection="True" />
@@ -270,6 +593,10 @@
     <Connection>
       <Origin ToolID="9" Connection="Output" />
       <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Question" />
+      <Destination ToolID="24" Connection="Question" />
     </Connection>
   </Connections>
   <Properties>
@@ -310,7 +637,24 @@
       <Enabled value="True" />
     </Events>
     <RuntimeProperties>
-      <Actions />
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="24" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>3</ReplaceText>
+              <Destination>5/Expression</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
       <Questions>
         <Question>
           <Type>Tab</Type>

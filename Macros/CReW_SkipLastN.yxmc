@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="522" y="474" width="204" height="204" />
+        <Position x="534" y="474" width="204" height="204" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +23,7 @@
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="858" y="690" width="156" height="240" />
+        <Position x="870" y="690" width="156" height="240" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -43,7 +43,7 @@
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="738" y="690" width="108" height="240" />
+        <Position x="750" y="690" width="108" height="240" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,7 +63,7 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="522" y="690" width="204" height="240" />
+        <Position x="534" y="690" width="204" height="240" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -83,7 +83,7 @@
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="402" y="690" width="108" height="240" />
+        <Position x="414" y="690" width="108" height="240" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -103,7 +103,7 @@
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="282" y="690" width="108" height="240" />
+        <Position x="294" y="690" width="108" height="240" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -123,7 +123,7 @@
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="162" y="690" width="108" height="240" />
+        <Position x="174" y="690" width="108" height="240" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -143,7 +143,7 @@
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="690" width="108" height="240" />
+        <Position x="54" y="690" width="108" height="240" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -163,7 +163,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="186" y="834" />
+        <Position x="198" y="834" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -186,7 +186,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-        <Position x="306" y="774" />
+        <Position x="318" y="774" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -216,7 +216,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="426" y="774" />
+        <Position x="438" y="774" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -245,7 +245,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="546" y="774" />
+        <Position x="558" y="774" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -281,7 +281,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="762" y="762" />
+        <Position x="774" y="762" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -307,7 +307,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="54" y="54" width="59" height="59" />
+        <Position x="66" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -320,7 +320,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="90" y="762" />
+        <Position x="102" y="762" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -369,7 +369,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="894" y="762" />
+        <Position x="906" y="762" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -386,7 +386,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-        <Position x="546" y="510" width="59" height="59" />
+        <Position x="558" y="510" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -399,7 +399,7 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="90" width="156" height="156" />
+        <Position x="54" y="90" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -421,7 +421,7 @@ Within</Text>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="258" width="156" height="24" />
+        <Position x="54" y="258" width="156" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -441,11 +441,11 @@ Within</Text>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="210" y="90" width="636" height="144" />
+        <Position x="222" y="90" width="636" height="144" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Module: CReW_WeightedMedian.yxmc
+          <Text>Module: CReW_SkipLastN.yxmc
 Author: Ned Harding
 Layout and Annotation: Adam Riley</Text>
           <Font name="Segoe UI" size="21.75" style="0" />
@@ -463,7 +463,7 @@ Layout and Annotation: Adam Riley</Text>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="858" y="90" width="240" height="144" />
+        <Position x="870" y="90" width="240" height="144" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -483,7 +483,7 @@ Layout and Annotation: Adam Riley</Text>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="210" y="354" width="888" height="108" />
+        <Position x="222" y="354" width="888" height="108" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -505,7 +505,7 @@ Skips the last N records on a stream</Text>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="210" y="246" width="888" height="96" />
+        <Position x="222" y="246" width="888" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -526,7 +526,7 @@ http://inspiringingenuity.net/2014/07/15/alteryx-skip-last-n-records/</Text>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="942" width="972" height="132" />
+        <Position x="54" y="942" width="972" height="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -549,7 +549,7 @@ http://inspiringingenuity.net/2014/07/15/alteryx-skip-last-n-records/</Text>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="558" y="606" width="59" height="59" />
+        <Position x="570" y="606" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />

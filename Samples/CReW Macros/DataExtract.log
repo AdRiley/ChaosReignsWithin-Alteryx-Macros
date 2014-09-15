@@ -1,0 +1,1017 @@
+2014-09-15 04:35:21.312 (14292): -----------------------------------------------------------------------------
+2014-09-15 04:35:21.312 (14292): Initializing fault reporting
+2014-09-15 04:35:21.312 (14292): Fault reporting log pathname: W:\Work\CrewMacros\FromGit\Samples\CReW Macros\tdeserver64-error.log
+2014-09-15 04:35:21.312 (14292): Initializing MiniDump
+2014-09-15 04:35:21.312 (14292): Loading 'DbgHelp.dll'
+2014-09-15 04:35:21.313 (14292): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-09-15 04:35:21.313 (14292):   Product Name: Microsoft® Windows® Operating System
+2014-09-15 04:35:21.313 (14292):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2014-09-15 04:35:21.313 (14292):   Product Version: 6.1.7601.17514
+2014-09-15 04:35:21.313 (14292): Finding function 'MiniDumpWriteDump'
+2014-09-15 04:35:21.313 (14292): Success
+2014-09-15 04:35:21.313 (14292): Registering unhandled exception filter
+2014-09-15 04:35:21.313 (14292): -----------------------------------------------------------------------------
+2014-09-15 04:35:21.314 (14292): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{D76BF9E9-E1BF-42DE-A396-35451CFB2C64}
+2014-09-15 04:35:21.314 (14292): tdeserver: accepting new connection
+2014-09-15 04:35:21.314 (5408): beginthread: recv, connection=tab.pipe://./pipe/{D76BF9E9-E1BF-42DE-A396-35451CFB2C64}
+2014-09-15 04:35:21.314 (14292): tdeserver: new connection, connection=tab.pipe://./pipe/{D76BF9E9-E1BF-42DE-A396-35451CFB2C64}
+2014-09-15 04:35:21.314 (5504): beginthread: send, connection=tab.pipe://./pipe/{D76BF9E9-E1BF-42DE-A396-35451CFB2C64}
+2014-09-15 04:35:21.314 (5408): tdeserver: open session, connection=tab.pipe://./pipe/{D76BF9E9-E1BF-42DE-A396-35451CFB2C64}, sess_guid=1
+2014-09-15 04:35:21.314 (14216): Session1: QueryExecute:
+2014-09-15 04:35:21.314 (14216): (create database "W:\\Work\\CrewMacros\\FromGit\\Samples\\CReW Macros\\ARRONDISSEMENT.tde")
+2014-09-15 04:35:21.912 (14216): Session1: QueryExecute: OK
+2014-09-15 04:35:21.912 (11464): Session1: QueryExecute:
+2014-09-15 04:35:21.912 (11464): (create schema [Extract])
+2014-09-15 04:35:21.939 (11464): Session1: QueryExecute: OK
+2014-09-15 04:35:21.939 (9032): Session1: QueryExecute:
+2014-09-15 04:35:21.939 (9032): (create table [Extract].[Extract])
+2014-09-15 04:35:21.970 (9032): Session1: QueryExecute: OK
+2014-09-15 04:35:21.970 (15704): Session1: QueryExecute:
+2014-09-15 04:35:21.970 (15704): (create column [Extract].[Extract].[Arrondissement Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:35:22.011 (15704): Session1: QueryExecute: OK
+2014-09-15 04:35:22.012 (14216): Session1: QueryExecute:
+2014-09-15 04:35:22.012 (14216): (create column [Extract].[Extract].[Chef-Lieu Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:35:22.031 (14216): Session1: QueryExecute: OK
+2014-09-15 04:35:22.031 (11464): Session1: QueryExecute:
+2014-09-15 04:35:22.031 (11464): (create column [Extract].[Extract].[Chef-Lieu Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:35:22.051 (11464): Session1: QueryExecute: OK
+2014-09-15 04:35:22.051 (9032): Session1: QueryExecute:
+2014-09-15 04:35:22.051 (9032): (create column [Extract].[Extract].[PolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2014-09-15 04:35:22.070 (9032): Session1: QueryExecute: OK
+2014-09-15 04:35:22.070 (15704): Session1: QueryExecute:
+2014-09-15 04:35:22.070 (15704): (create column [Extract].[Extract].[SubPolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2014-09-15 04:35:22.089 (15704): Session1: QueryExecute: OK
+2014-09-15 04:35:22.089 (14216): Session1: QueryExecute:
+2014-09-15 04:35:22.089 (14216): (create column [Extract].[Extract].[PointID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2014-09-15 04:35:22.108 (14216): Session1: QueryExecute: OK
+2014-09-15 04:35:22.108 (11464): Session1: QueryExecute:
+2014-09-15 04:35:22.108 (11464): (create column [Extract].[Extract].[Longitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2014-09-15 04:35:22.127 (11464): Session1: QueryExecute: OK
+2014-09-15 04:35:22.127 (9032): Session1: QueryExecute:
+2014-09-15 04:35:22.127 (9032): (create column [Extract].[Extract].[Latitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2014-09-15 04:35:22.146 (9032): Session1: QueryExecute: OK
+2014-09-15 04:35:22.146 (15704): Session1: InsertOpen: table="Extract schema="Extract"
+2014-09-15 04:35:22.146 (15704):   column[0]="Arrondissement Code"
+2014-09-15 04:35:22.146 (15704):   column[1]="Chef-Lieu Code"
+2014-09-15 04:35:22.146 (15704):   column[2]="Chef-Lieu Name"
+2014-09-15 04:35:22.146 (15704):   column[3]="PolygonID"
+2014-09-15 04:35:22.146 (15704):   column[4]="SubPolygonID"
+2014-09-15 04:35:22.146 (15704):   column[5]="PointID"
+2014-09-15 04:35:22.146 (15704):   column[6]="Longitude"
+2014-09-15 04:35:22.146 (15704):   column[7]="Latitude"
+2014-09-15 04:35:22.372 (14216): Session1: InsertCommit: insert_guid=1
+2014-09-15 04:35:22.503 (14216): Session1: InsertCommit: OK
+2014-09-15 04:35:22.503 (11464): Session1: InsertClose: insert_guid=1
+2014-09-15 04:35:22.503 (11464): Session1: InsertClose: OK
+2014-09-15 04:35:22.504 (9032): Session1: QueryExecute:
+2014-09-15 04:35:22.504 (9032): (package)
+2014-09-15 04:35:22.504 (9032): PackageDatabase: in-place package of "W:\Work\CrewMacros\FromGit\Samples\CReW Macros\ARRONDISSEMENT.tde"
+2014-09-15 04:35:22.613 (9032): PackageDatabase: finished
+2014-09-15 04:35:22.613 (9032): Session1: QueryExecute: OK
+2014-09-15 04:35:22.613 (15704): Session1: QueryExecute:
+2014-09-15 04:35:22.613 (15704): (database "W:\\Work\\CrewMacros\\FromGit\\Samples\\CReW Macros\\ARRONDISSEMENT.tde")
+2014-09-15 04:35:22.616 (15704): Session1: QueryExecute: OK
+2014-09-15 04:35:22.616 (14216): Session1: QueryExecute:
+2014-09-15 04:35:22.616 (14216): (alter column [Extract].[Extract].[Arrondissement Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:22.652 (14216): Session1: QueryExecute: OK
+2014-09-15 04:35:22.652 (11464): Session1: QueryExecute:
+2014-09-15 04:35:22.652 (11464): (alter column [Extract].[Extract].[Chef-Lieu Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:22.675 (11464): Session1: QueryExecute: OK
+2014-09-15 04:35:22.676 (9032): Session1: QueryExecute:
+2014-09-15 04:35:22.676 (9032): (alter column [Extract].[Extract].[Chef-Lieu Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:22.699 (9032): Session1: QueryExecute: OK
+2014-09-15 04:35:22.699 (15704): Session1: QueryExecute:
+2014-09-15 04:35:22.699 (15704): (alter column [Extract].[Extract].[PolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:22.719 (15704): Session1: QueryExecute: OK
+2014-09-15 04:35:22.719 (14216): Session1: QueryExecute:
+2014-09-15 04:35:22.719 (14216): (alter column [Extract].[Extract].[SubPolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:22.740 (14216): Session1: QueryExecute: OK
+2014-09-15 04:35:22.740 (11464): Session1: QueryExecute:
+2014-09-15 04:35:22.740 (11464): (alter column [Extract].[Extract].[PointID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:22.749 (11464): Session1: QueryExecute: OK
+2014-09-15 04:35:22.749 (9032): Session1: QueryExecute:
+2014-09-15 04:35:22.749 (9032): (alter column [Extract].[Extract].[Longitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:22.781 (9032): Session1: QueryExecute: OK
+2014-09-15 04:35:22.781 (15704): Session1: QueryExecute:
+2014-09-15 04:35:22.781 (15704): (alter column [Extract].[Extract].[Latitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:22.818 (15704): Session1: QueryExecute: OK
+2014-09-15 04:35:22.818 (14216): Session1: QueryExecute:
+2014-09-15 04:35:22.818 (14216): (top (table [Extract].[Extract]) () 0)
+2014-09-15 04:35:22.823 (14216): Elapsed time:0.005 sec
+2014-09-15 04:35:22.823 (14216): Compilation time:0.002 sec
+2014-09-15 04:35:22.823 (14216): Execution time:0.002 sec
+2014-09-15 04:35:22.824 (14216): Session1: QueryExecute: OK rowset_guid=2 n_columns=8
+2014-09-15 04:35:22.824 (9032): Session1: QueryExecute:
+2014-09-15 04:35:22.824 (9032): (sort [Extract].[Extract] ( ( [SubPolygonID] asc) ( [Arrondissement Code] asc) ( [Chef-Lieu Code] asc) ( [Chef-Lieu Name] asc) ( [PolygonID] asc) ( [PointID] asc) ( [Longitude] asc) ( [Latitude] asc) ) )
+2014-09-15 04:35:22.976 (9032): Session1: QueryExecute: OK
+2014-09-15 04:35:22.977 (15704): Session1: QueryExecute:
+2014-09-15 04:35:22.977 (15704): (package)
+2014-09-15 04:35:22.977 (15704): PackageDatabase: in-place package of "W:\Work\CrewMacros\FromGit\Samples\CReW Macros\ARRONDISSEMENT.tde"
+2014-09-15 04:35:22.999 (15704): PackageDatabase: finished
+2014-09-15 04:35:22.999 (15704): Session1: QueryExecute: OK
+2014-09-15 04:35:22.999 (5408): tdeserver: close session, connection=tab.pipe://./pipe/{D76BF9E9-E1BF-42DE-A396-35451CFB2C64}, sess_guid=1
+2014-09-15 04:35:22.999 (14292): tdeserver: exit (0)
+2014-09-15 04:35:33.277 (6844): -----------------------------------------------------------------------------
+2014-09-15 04:35:33.277 (6844): Initializing fault reporting
+2014-09-15 04:35:33.277 (6844): Fault reporting log pathname: W:\Work\CrewMacros\FromGit\Samples\CReW Macros\tdeserver64-error.log
+2014-09-15 04:35:33.277 (6844): Initializing MiniDump
+2014-09-15 04:35:33.277 (6844): Loading 'DbgHelp.dll'
+2014-09-15 04:35:33.277 (6844): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-09-15 04:35:33.278 (6844):   Product Name: Microsoft® Windows® Operating System
+2014-09-15 04:35:33.278 (6844):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2014-09-15 04:35:33.278 (6844):   Product Version: 6.1.7601.17514
+2014-09-15 04:35:33.278 (6844): Finding function 'MiniDumpWriteDump'
+2014-09-15 04:35:33.278 (6844): Success
+2014-09-15 04:35:33.278 (6844): Registering unhandled exception filter
+2014-09-15 04:35:33.278 (6844): -----------------------------------------------------------------------------
+2014-09-15 04:35:33.278 (6844): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{7F9406DF-DD80-475E-ADD3-1A4B1B77B437}
+2014-09-15 04:35:33.278 (6844): tdeserver: accepting new connection
+2014-09-15 04:35:33.278 (8556): beginthread: recv, connection=tab.pipe://./pipe/{7F9406DF-DD80-475E-ADD3-1A4B1B77B437}
+2014-09-15 04:35:33.278 (6844): tdeserver: new connection, connection=tab.pipe://./pipe/{7F9406DF-DD80-475E-ADD3-1A4B1B77B437}
+2014-09-15 04:35:33.278 (13588): beginthread: send, connection=tab.pipe://./pipe/{7F9406DF-DD80-475E-ADD3-1A4B1B77B437}
+2014-09-15 04:35:33.278 (8556): tdeserver: open session, connection=tab.pipe://./pipe/{7F9406DF-DD80-475E-ADD3-1A4B1B77B437}, sess_guid=1
+2014-09-15 04:35:33.278 (9988): Session1: QueryExecute:
+2014-09-15 04:35:33.278 (9988): (create database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_8376_bda042d0572d451eb5924ff01c1cbefb\\ARRONDISSEMENT.tde")
+2014-09-15 04:35:33.859 (9988): Session1: QueryExecute: OK
+2014-09-15 04:35:33.859 (14736): Session1: QueryExecute:
+2014-09-15 04:35:33.859 (14736): (create schema [Extract])
+2014-09-15 04:35:33.887 (14736): Session1: QueryExecute: OK
+2014-09-15 04:35:33.888 (13900): Session1: QueryExecute:
+2014-09-15 04:35:33.888 (13900): (create table [Extract].[Extract])
+2014-09-15 04:35:33.919 (13900): Session1: QueryExecute: OK
+2014-09-15 04:35:33.919 (7792): Session1: QueryExecute:
+2014-09-15 04:35:33.919 (7792): (create column [Extract].[Extract].[Arrondissement Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:35:33.961 (7792): Session1: QueryExecute: OK
+2014-09-15 04:35:33.961 (9988): Session1: QueryExecute:
+2014-09-15 04:35:33.961 (9988): (create column [Extract].[Extract].[Chef-Lieu Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:35:33.981 (9988): Session1: QueryExecute: OK
+2014-09-15 04:35:33.981 (14736): Session1: QueryExecute:
+2014-09-15 04:35:33.981 (14736): (create column [Extract].[Extract].[Chef-Lieu Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:35:34.000 (14736): Session1: QueryExecute: OK
+2014-09-15 04:35:34.000 (13900): Session1: QueryExecute:
+2014-09-15 04:35:34.000 (13900): (create column [Extract].[Extract].[PolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2014-09-15 04:35:34.019 (13900): Session1: QueryExecute: OK
+2014-09-15 04:35:34.019 (7792): Session1: QueryExecute:
+2014-09-15 04:35:34.019 (7792): (create column [Extract].[Extract].[SubPolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2014-09-15 04:35:34.038 (7792): Session1: QueryExecute: OK
+2014-09-15 04:35:34.039 (9988): Session1: QueryExecute:
+2014-09-15 04:35:34.039 (9988): (create column [Extract].[Extract].[PointID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2014-09-15 04:35:34.057 (9988): Session1: QueryExecute: OK
+2014-09-15 04:35:34.057 (14736): Session1: QueryExecute:
+2014-09-15 04:35:34.057 (14736): (create column [Extract].[Extract].[Longitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2014-09-15 04:35:34.076 (14736): Session1: QueryExecute: OK
+2014-09-15 04:35:34.076 (13900): Session1: QueryExecute:
+2014-09-15 04:35:34.076 (13900): (create column [Extract].[Extract].[Latitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2014-09-15 04:35:34.095 (13900): Session1: QueryExecute: OK
+2014-09-15 04:35:34.095 (7792): Session1: InsertOpen: table="Extract schema="Extract"
+2014-09-15 04:35:34.095 (7792):   column[0]="Arrondissement Code"
+2014-09-15 04:35:34.095 (7792):   column[1]="Chef-Lieu Code"
+2014-09-15 04:35:34.095 (7792):   column[2]="Chef-Lieu Name"
+2014-09-15 04:35:34.095 (7792):   column[3]="PolygonID"
+2014-09-15 04:35:34.095 (7792):   column[4]="SubPolygonID"
+2014-09-15 04:35:34.095 (7792):   column[5]="PointID"
+2014-09-15 04:35:34.095 (7792):   column[6]="Longitude"
+2014-09-15 04:35:34.095 (7792):   column[7]="Latitude"
+2014-09-15 04:35:34.313 (9988): Session1: InsertCommit: insert_guid=1
+2014-09-15 04:35:34.444 (9988): Session1: InsertCommit: OK
+2014-09-15 04:35:34.445 (14736): Session1: InsertClose: insert_guid=1
+2014-09-15 04:35:34.445 (14736): Session1: InsertClose: OK
+2014-09-15 04:35:34.446 (13900): Session1: QueryExecute:
+2014-09-15 04:35:34.446 (13900): (package)
+2014-09-15 04:35:34.446 (13900): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_8376_bda042d0572d451eb5924ff01c1cbefb\ARRONDISSEMENT.tde"
+2014-09-15 04:35:34.484 (13900): PackageDatabase: finished
+2014-09-15 04:35:34.484 (13900): Session1: QueryExecute: OK
+2014-09-15 04:35:34.484 (7792): Session1: QueryExecute:
+2014-09-15 04:35:34.484 (7792): (database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_8376_bda042d0572d451eb5924ff01c1cbefb\\ARRONDISSEMENT.tde")
+2014-09-15 04:35:34.487 (7792): Session1: QueryExecute: OK
+2014-09-15 04:35:34.487 (9988): Session1: QueryExecute:
+2014-09-15 04:35:34.487 (9988): (alter column [Extract].[Extract].[Arrondissement Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:34.523 (9988): Session1: QueryExecute: OK
+2014-09-15 04:35:34.524 (14736): Session1: QueryExecute:
+2014-09-15 04:35:34.524 (14736): (alter column [Extract].[Extract].[Chef-Lieu Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:34.546 (14736): Session1: QueryExecute: OK
+2014-09-15 04:35:34.547 (13900): Session1: QueryExecute:
+2014-09-15 04:35:34.547 (13900): (alter column [Extract].[Extract].[Chef-Lieu Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:34.569 (13900): Session1: QueryExecute: OK
+2014-09-15 04:35:34.569 (7792): Session1: QueryExecute:
+2014-09-15 04:35:34.569 (7792): (alter column [Extract].[Extract].[PolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:34.588 (7792): Session1: QueryExecute: OK
+2014-09-15 04:35:34.588 (9988): Session1: QueryExecute:
+2014-09-15 04:35:34.588 (9988): (alter column [Extract].[Extract].[SubPolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:34.607 (9988): Session1: QueryExecute: OK
+2014-09-15 04:35:34.608 (14736): Session1: QueryExecute:
+2014-09-15 04:35:34.608 (14736): (alter column [Extract].[Extract].[PointID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:34.616 (14736): Session1: QueryExecute: OK
+2014-09-15 04:35:34.616 (13900): Session1: QueryExecute:
+2014-09-15 04:35:34.616 (13900): (alter column [Extract].[Extract].[Longitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:34.644 (13900): Session1: QueryExecute: OK
+2014-09-15 04:35:34.644 (7792): Session1: QueryExecute:
+2014-09-15 04:35:34.644 (7792): (alter column [Extract].[Extract].[Latitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:35:34.676 (7792): Session1: QueryExecute: OK
+2014-09-15 04:35:34.677 (9988): Session1: QueryExecute:
+2014-09-15 04:35:34.677 (9988): (top (table [Extract].[Extract]) () 0)
+2014-09-15 04:35:34.681 (9988): Elapsed time:0.004 sec
+2014-09-15 04:35:34.681 (9988): Compilation time:0.002 sec
+2014-09-15 04:35:34.681 (9988): Execution time:0.002 sec
+2014-09-15 04:35:34.681 (9988): Session1: QueryExecute: OK rowset_guid=2 n_columns=8
+2014-09-15 04:35:34.682 (13900): Session1: QueryExecute:
+2014-09-15 04:35:34.682 (13900): (sort [Extract].[Extract] ( ( [SubPolygonID] asc) ( [Arrondissement Code] asc) ( [Chef-Lieu Code] asc) ( [Chef-Lieu Name] asc) ( [PolygonID] asc) ( [PointID] asc) ( [Longitude] asc) ( [Latitude] asc) ) )
+2014-09-15 04:35:34.841 (13900): Session1: QueryExecute: OK
+2014-09-15 04:35:34.841 (7792): Session1: QueryExecute:
+2014-09-15 04:35:34.841 (7792): (package)
+2014-09-15 04:35:34.841 (7792): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_8376_bda042d0572d451eb5924ff01c1cbefb\ARRONDISSEMENT.tde"
+2014-09-15 04:35:34.865 (7792): PackageDatabase: finished
+2014-09-15 04:35:34.865 (7792): Session1: QueryExecute: OK
+2014-09-15 04:35:34.865 (8556): tdeserver: close session, connection=tab.pipe://./pipe/{7F9406DF-DD80-475E-ADD3-1A4B1B77B437}, sess_guid=1
+2014-09-15 04:35:34.865 (6844): tdeserver: exit (0)
+2014-09-15 04:35:59.625 (3576): -----------------------------------------------------------------------------
+2014-09-15 04:35:59.625 (3576): Initializing fault reporting
+2014-09-15 04:35:59.625 (3576): Fault reporting log pathname: W:\Work\CrewMacros\FromGit\Samples\CReW Macros\tdeserver64-error.log
+2014-09-15 04:35:59.625 (3576): Initializing MiniDump
+2014-09-15 04:35:59.625 (3576): Loading 'DbgHelp.dll'
+2014-09-15 04:35:59.626 (3576): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-09-15 04:35:59.626 (3576):   Product Name: Microsoft® Windows® Operating System
+2014-09-15 04:35:59.626 (3576):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2014-09-15 04:35:59.626 (3576):   Product Version: 6.1.7601.17514
+2014-09-15 04:35:59.626 (3576): Finding function 'MiniDumpWriteDump'
+2014-09-15 04:35:59.626 (3576): Success
+2014-09-15 04:35:59.626 (3576): Registering unhandled exception filter
+2014-09-15 04:35:59.626 (3576): -----------------------------------------------------------------------------
+2014-09-15 04:35:59.627 (3576): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{5ECCE37E-9787-481D-85FD-B623B207CE5E}
+2014-09-15 04:35:59.627 (3576): tdeserver: accepting new connection
+2014-09-15 04:35:59.627 (15240): beginthread: recv, connection=tab.pipe://./pipe/{5ECCE37E-9787-481D-85FD-B623B207CE5E}
+2014-09-15 04:35:59.627 (3576): tdeserver: new connection, connection=tab.pipe://./pipe/{5ECCE37E-9787-481D-85FD-B623B207CE5E}
+2014-09-15 04:35:59.627 (14636): beginthread: send, connection=tab.pipe://./pipe/{5ECCE37E-9787-481D-85FD-B623B207CE5E}
+2014-09-15 04:35:59.627 (15240): tdeserver: open session, connection=tab.pipe://./pipe/{5ECCE37E-9787-481D-85FD-B623B207CE5E}, sess_guid=1
+2014-09-15 04:35:59.627 (2312): Session1: QueryExecute:
+2014-09-15 04:35:59.627 (2312): (create database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_15616_c34e3cdd46ff4b83aee940ed133adcbc\\ARRONDISSEMENT.tde")
+2014-09-15 04:36:00.333 (2312): Session1: QueryExecute: OK
+2014-09-15 04:36:00.333 (15148): Session1: QueryExecute:
+2014-09-15 04:36:00.333 (15148): (create schema [Extract])
+2014-09-15 04:36:00.360 (15148): Session1: QueryExecute: OK
+2014-09-15 04:36:00.360 (5852): Session1: QueryExecute:
+2014-09-15 04:36:00.360 (5852): (create table [Extract].[Extract])
+2014-09-15 04:36:00.391 (5852): Session1: QueryExecute: OK
+2014-09-15 04:36:00.392 (9808): Session1: QueryExecute:
+2014-09-15 04:36:00.392 (9808): (create column [Extract].[Extract].[Arrondissement Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:36:00.433 (9808): Session1: QueryExecute: OK
+2014-09-15 04:36:00.433 (2312): Session1: QueryExecute:
+2014-09-15 04:36:00.433 (2312): (create column [Extract].[Extract].[Chef-Lieu Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:36:00.453 (2312): Session1: QueryExecute: OK
+2014-09-15 04:36:00.454 (15148): Session1: QueryExecute:
+2014-09-15 04:36:00.454 (15148): (create column [Extract].[Extract].[Chef-Lieu Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:36:00.473 (15148): Session1: QueryExecute: OK
+2014-09-15 04:36:00.473 (5852): Session1: QueryExecute:
+2014-09-15 04:36:00.473 (5852): (create column [Extract].[Extract].[PolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2014-09-15 04:36:00.492 (5852): Session1: QueryExecute: OK
+2014-09-15 04:36:00.492 (9808): Session1: QueryExecute:
+2014-09-15 04:36:00.492 (9808): (create column [Extract].[Extract].[SubPolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2014-09-15 04:36:00.511 (9808): Session1: QueryExecute: OK
+2014-09-15 04:36:00.511 (2312): Session1: QueryExecute:
+2014-09-15 04:36:00.511 (2312): (create column [Extract].[Extract].[PointID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2014-09-15 04:36:00.529 (2312): Session1: QueryExecute: OK
+2014-09-15 04:36:00.530 (15148): Session1: QueryExecute:
+2014-09-15 04:36:00.530 (15148): (create column [Extract].[Extract].[Longitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2014-09-15 04:36:00.549 (15148): Session1: QueryExecute: OK
+2014-09-15 04:36:00.549 (5852): Session1: QueryExecute:
+2014-09-15 04:36:00.549 (5852): (create column [Extract].[Extract].[Latitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2014-09-15 04:36:00.569 (5852): Session1: QueryExecute: OK
+2014-09-15 04:36:00.569 (9808): Session1: InsertOpen: table="Extract schema="Extract"
+2014-09-15 04:36:00.569 (9808):   column[0]="Arrondissement Code"
+2014-09-15 04:36:00.569 (9808):   column[1]="Chef-Lieu Code"
+2014-09-15 04:36:00.569 (9808):   column[2]="Chef-Lieu Name"
+2014-09-15 04:36:00.569 (9808):   column[3]="PolygonID"
+2014-09-15 04:36:00.569 (9808):   column[4]="SubPolygonID"
+2014-09-15 04:36:00.569 (9808):   column[5]="PointID"
+2014-09-15 04:36:00.569 (9808):   column[6]="Longitude"
+2014-09-15 04:36:00.569 (9808):   column[7]="Latitude"
+2014-09-15 04:36:00.789 (2312): Session1: InsertCommit: insert_guid=1
+2014-09-15 04:36:00.917 (2312): Session1: InsertCommit: OK
+2014-09-15 04:36:00.917 (15148): Session1: InsertClose: insert_guid=1
+2014-09-15 04:36:00.917 (15148): Session1: InsertClose: OK
+2014-09-15 04:36:00.918 (5852): Session1: QueryExecute:
+2014-09-15 04:36:00.918 (5852): (package)
+2014-09-15 04:36:00.918 (5852): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_15616_c34e3cdd46ff4b83aee940ed133adcbc\ARRONDISSEMENT.tde"
+2014-09-15 04:36:00.956 (5852): PackageDatabase: finished
+2014-09-15 04:36:00.956 (5852): Session1: QueryExecute: OK
+2014-09-15 04:36:00.956 (9808): Session1: QueryExecute:
+2014-09-15 04:36:00.956 (9808): (database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_15616_c34e3cdd46ff4b83aee940ed133adcbc\\ARRONDISSEMENT.tde")
+2014-09-15 04:36:00.959 (9808): Session1: QueryExecute: OK
+2014-09-15 04:36:00.959 (2312): Session1: QueryExecute:
+2014-09-15 04:36:00.959 (2312): (alter column [Extract].[Extract].[Arrondissement Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:36:00.995 (2312): Session1: QueryExecute: OK
+2014-09-15 04:36:00.995 (15148): Session1: QueryExecute:
+2014-09-15 04:36:00.995 (15148): (alter column [Extract].[Extract].[Chef-Lieu Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:36:01.020 (15148): Session1: QueryExecute: OK
+2014-09-15 04:36:01.020 (5852): Session1: QueryExecute:
+2014-09-15 04:36:01.020 (5852): (alter column [Extract].[Extract].[Chef-Lieu Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:36:01.043 (5852): Session1: QueryExecute: OK
+2014-09-15 04:36:01.043 (9808): Session1: QueryExecute:
+2014-09-15 04:36:01.043 (9808): (alter column [Extract].[Extract].[PolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:36:01.062 (9808): Session1: QueryExecute: OK
+2014-09-15 04:36:01.063 (2312): Session1: QueryExecute:
+2014-09-15 04:36:01.063 (2312): (alter column [Extract].[Extract].[SubPolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:36:01.081 (2312): Session1: QueryExecute: OK
+2014-09-15 04:36:01.081 (15148): Session1: QueryExecute:
+2014-09-15 04:36:01.081 (15148): (alter column [Extract].[Extract].[PointID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:36:01.090 (15148): Session1: QueryExecute: OK
+2014-09-15 04:36:01.090 (5852): Session1: QueryExecute:
+2014-09-15 04:36:01.090 (5852): (alter column [Extract].[Extract].[Longitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:36:01.118 (5852): Session1: QueryExecute: OK
+2014-09-15 04:36:01.118 (9808): Session1: QueryExecute:
+2014-09-15 04:36:01.118 (9808): (alter column [Extract].[Extract].[Latitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:36:01.151 (9808): Session1: QueryExecute: OK
+2014-09-15 04:36:01.152 (2312): Session1: QueryExecute:
+2014-09-15 04:36:01.152 (2312): (top (table [Extract].[Extract]) () 0)
+2014-09-15 04:36:01.156 (2312): Elapsed time:0.004 sec
+2014-09-15 04:36:01.156 (2312): Compilation time:0.002 sec
+2014-09-15 04:36:01.156 (2312): Execution time:0.002 sec
+2014-09-15 04:36:01.156 (2312): Session1: QueryExecute: OK rowset_guid=2 n_columns=8
+2014-09-15 04:36:01.157 (5852): Session1: QueryExecute:
+2014-09-15 04:36:01.157 (5852): (sort [Extract].[Extract] ( ( [SubPolygonID] asc) ( [Arrondissement Code] asc) ( [Chef-Lieu Code] asc) ( [Chef-Lieu Name] asc) ( [PolygonID] asc) ( [PointID] asc) ( [Longitude] asc) ( [Latitude] asc) ) )
+2014-09-15 04:36:01.310 (5852): Session1: QueryExecute: OK
+2014-09-15 04:36:01.310 (9808): Session1: QueryExecute:
+2014-09-15 04:36:01.310 (9808): (package)
+2014-09-15 04:36:01.310 (9808): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_15616_c34e3cdd46ff4b83aee940ed133adcbc\ARRONDISSEMENT.tde"
+2014-09-15 04:36:01.334 (9808): PackageDatabase: finished
+2014-09-15 04:36:01.334 (9808): Session1: QueryExecute: OK
+2014-09-15 04:36:01.334 (15240): tdeserver: close session, connection=tab.pipe://./pipe/{5ECCE37E-9787-481D-85FD-B623B207CE5E}, sess_guid=1
+2014-09-15 04:36:01.334 (3576): tdeserver: exit (0)
+2014-09-15 04:37:29.242 (11140): -----------------------------------------------------------------------------
+2014-09-15 04:37:29.242 (11140): Initializing fault reporting
+2014-09-15 04:37:29.242 (11140): Fault reporting log pathname: W:\Work\CrewMacros\FromGit\Samples\CReW Macros\tdeserver64-error.log
+2014-09-15 04:37:29.242 (11140): Initializing MiniDump
+2014-09-15 04:37:29.243 (11140): Loading 'DbgHelp.dll'
+2014-09-15 04:37:29.243 (11140): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-09-15 04:37:29.243 (11140):   Product Name: Microsoft® Windows® Operating System
+2014-09-15 04:37:29.243 (11140):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2014-09-15 04:37:29.243 (11140):   Product Version: 6.1.7601.17514
+2014-09-15 04:37:29.243 (11140): Finding function 'MiniDumpWriteDump'
+2014-09-15 04:37:29.243 (11140): Success
+2014-09-15 04:37:29.243 (11140): Registering unhandled exception filter
+2014-09-15 04:37:29.243 (11140): -----------------------------------------------------------------------------
+2014-09-15 04:37:29.244 (11140): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{90348E44-916A-419B-8E4D-5B41E3FD52DB}
+2014-09-15 04:37:29.244 (11140): tdeserver: accepting new connection
+2014-09-15 04:37:29.244 (13892): beginthread: recv, connection=tab.pipe://./pipe/{90348E44-916A-419B-8E4D-5B41E3FD52DB}
+2014-09-15 04:37:29.244 (11140): tdeserver: new connection, connection=tab.pipe://./pipe/{90348E44-916A-419B-8E4D-5B41E3FD52DB}
+2014-09-15 04:37:29.244 (3428): beginthread: send, connection=tab.pipe://./pipe/{90348E44-916A-419B-8E4D-5B41E3FD52DB}
+2014-09-15 04:37:29.244 (13892): tdeserver: open session, connection=tab.pipe://./pipe/{90348E44-916A-419B-8E4D-5B41E3FD52DB}, sess_guid=1
+2014-09-15 04:37:29.244 (6696): Session1: QueryExecute:
+2014-09-15 04:37:29.244 (6696): (create database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_6264_2aab5c2d193f4a729cb5cc1a4f4ae7cc\\ARRONDISSEMENT.tde")
+2014-09-15 04:37:29.851 (6696): Session1: QueryExecute: OK
+2014-09-15 04:37:29.851 (14692): Session1: QueryExecute:
+2014-09-15 04:37:29.851 (14692): (create schema [Extract])
+2014-09-15 04:37:29.879 (14692): Session1: QueryExecute: OK
+2014-09-15 04:37:29.879 (7116): Session1: QueryExecute:
+2014-09-15 04:37:29.879 (7116): (create table [Extract].[Extract])
+2014-09-15 04:37:29.910 (7116): Session1: QueryExecute: OK
+2014-09-15 04:37:29.910 (15944): Session1: QueryExecute:
+2014-09-15 04:37:29.910 (15944): (create column [Extract].[Extract].[Arrondissement Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:37:29.950 (15944): Session1: QueryExecute: OK
+2014-09-15 04:37:29.950 (6696): Session1: QueryExecute:
+2014-09-15 04:37:29.950 (6696): (create column [Extract].[Extract].[Chef-Lieu Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:37:29.969 (6696): Session1: QueryExecute: OK
+2014-09-15 04:37:29.970 (14692): Session1: QueryExecute:
+2014-09-15 04:37:29.970 (14692): (create column [Extract].[Extract].[Chef-Lieu Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 04:37:29.989 (14692): Session1: QueryExecute: OK
+2014-09-15 04:37:29.989 (7116): Session1: QueryExecute:
+2014-09-15 04:37:29.989 (7116): (create column [Extract].[Extract].[PolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2014-09-15 04:37:30.007 (7116): Session1: QueryExecute: OK
+2014-09-15 04:37:30.007 (15944): Session1: QueryExecute:
+2014-09-15 04:37:30.007 (15944): (create column [Extract].[Extract].[SubPolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2014-09-15 04:37:30.026 (15944): Session1: QueryExecute: OK
+2014-09-15 04:37:30.026 (6696): Session1: QueryExecute:
+2014-09-15 04:37:30.026 (6696): (create column [Extract].[Extract].[PointID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2014-09-15 04:37:30.044 (6696): Session1: QueryExecute: OK
+2014-09-15 04:37:30.044 (14692): Session1: QueryExecute:
+2014-09-15 04:37:30.044 (14692): (create column [Extract].[Extract].[Longitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2014-09-15 04:37:30.063 (14692): Session1: QueryExecute: OK
+2014-09-15 04:37:30.063 (7116): Session1: QueryExecute:
+2014-09-15 04:37:30.063 (7116): (create column [Extract].[Extract].[Latitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2014-09-15 04:37:30.082 (7116): Session1: QueryExecute: OK
+2014-09-15 04:37:30.082 (15944): Session1: InsertOpen: table="Extract schema="Extract"
+2014-09-15 04:37:30.082 (15944):   column[0]="Arrondissement Code"
+2014-09-15 04:37:30.082 (15944):   column[1]="Chef-Lieu Code"
+2014-09-15 04:37:30.082 (15944):   column[2]="Chef-Lieu Name"
+2014-09-15 04:37:30.082 (15944):   column[3]="PolygonID"
+2014-09-15 04:37:30.082 (15944):   column[4]="SubPolygonID"
+2014-09-15 04:37:30.082 (15944):   column[5]="PointID"
+2014-09-15 04:37:30.082 (15944):   column[6]="Longitude"
+2014-09-15 04:37:30.082 (15944):   column[7]="Latitude"
+2014-09-15 04:37:30.323 (6696): Session1: InsertCommit: insert_guid=1
+2014-09-15 04:37:30.461 (6696): Session1: InsertCommit: OK
+2014-09-15 04:37:30.461 (14692): Session1: InsertClose: insert_guid=1
+2014-09-15 04:37:30.461 (14692): Session1: InsertClose: OK
+2014-09-15 04:37:30.462 (7116): Session1: QueryExecute:
+2014-09-15 04:37:30.462 (7116): (package)
+2014-09-15 04:37:30.462 (7116): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_6264_2aab5c2d193f4a729cb5cc1a4f4ae7cc\ARRONDISSEMENT.tde"
+2014-09-15 04:37:30.499 (7116): PackageDatabase: finished
+2014-09-15 04:37:30.499 (7116): Session1: QueryExecute: OK
+2014-09-15 04:37:30.499 (15944): Session1: QueryExecute:
+2014-09-15 04:37:30.499 (15944): (database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_6264_2aab5c2d193f4a729cb5cc1a4f4ae7cc\\ARRONDISSEMENT.tde")
+2014-09-15 04:37:30.502 (15944): Session1: QueryExecute: OK
+2014-09-15 04:37:30.502 (6696): Session1: QueryExecute:
+2014-09-15 04:37:30.502 (6696): (alter column [Extract].[Extract].[Arrondissement Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:37:30.537 (6696): Session1: QueryExecute: OK
+2014-09-15 04:37:30.538 (14692): Session1: QueryExecute:
+2014-09-15 04:37:30.538 (14692): (alter column [Extract].[Extract].[Chef-Lieu Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:37:30.559 (14692): Session1: QueryExecute: OK
+2014-09-15 04:37:30.559 (7116): Session1: QueryExecute:
+2014-09-15 04:37:30.559 (7116): (alter column [Extract].[Extract].[Chef-Lieu Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:37:30.580 (7116): Session1: QueryExecute: OK
+2014-09-15 04:37:30.581 (15944): Session1: QueryExecute:
+2014-09-15 04:37:30.581 (15944): (alter column [Extract].[Extract].[PolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:37:30.599 (15944): Session1: QueryExecute: OK
+2014-09-15 04:37:30.599 (6696): Session1: QueryExecute:
+2014-09-15 04:37:30.599 (6696): (alter column [Extract].[Extract].[SubPolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:37:30.617 (6696): Session1: QueryExecute: OK
+2014-09-15 04:37:30.618 (14692): Session1: QueryExecute:
+2014-09-15 04:37:30.618 (14692): (alter column [Extract].[Extract].[PointID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:37:30.626 (14692): Session1: QueryExecute: OK
+2014-09-15 04:37:30.626 (7116): Session1: QueryExecute:
+2014-09-15 04:37:30.626 (7116): (alter column [Extract].[Extract].[Longitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:37:30.654 (7116): Session1: QueryExecute: OK
+2014-09-15 04:37:30.654 (15944): Session1: QueryExecute:
+2014-09-15 04:37:30.654 (15944): (alter column [Extract].[Extract].[Latitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 04:37:30.687 (15944): Session1: QueryExecute: OK
+2014-09-15 04:37:30.687 (6696): Session1: QueryExecute:
+2014-09-15 04:37:30.687 (6696): (top (table [Extract].[Extract]) () 0)
+2014-09-15 04:37:30.691 (6696): Elapsed time:0.005 sec
+2014-09-15 04:37:30.691 (6696): Compilation time:0.003 sec
+2014-09-15 04:37:30.691 (6696): Execution time:0.002 sec
+2014-09-15 04:37:30.692 (6696): Session1: QueryExecute: OK rowset_guid=2 n_columns=8
+2014-09-15 04:37:30.692 (7116): Session1: QueryExecute:
+2014-09-15 04:37:30.692 (7116): (sort [Extract].[Extract] ( ( [SubPolygonID] asc) ( [Arrondissement Code] asc) ( [Chef-Lieu Code] asc) ( [Chef-Lieu Name] asc) ( [PolygonID] asc) ( [PointID] asc) ( [Longitude] asc) ( [Latitude] asc) ) )
+2014-09-15 04:37:30.853 (7116): Session1: QueryExecute: OK
+2014-09-15 04:37:30.853 (15944): Session1: QueryExecute:
+2014-09-15 04:37:30.853 (15944): (package)
+2014-09-15 04:37:30.853 (15944): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_6264_2aab5c2d193f4a729cb5cc1a4f4ae7cc\ARRONDISSEMENT.tde"
+2014-09-15 04:37:30.879 (15944): PackageDatabase: finished
+2014-09-15 04:37:30.879 (15944): Session1: QueryExecute: OK
+2014-09-15 04:37:30.879 (13892): tdeserver: close session, connection=tab.pipe://./pipe/{90348E44-916A-419B-8E4D-5B41E3FD52DB}, sess_guid=1
+2014-09-15 04:37:30.879 (11140): tdeserver: exit (0)
+2014-09-15 07:05:50.234 (16180): -----------------------------------------------------------------------------
+2014-09-15 07:05:50.234 (16180): Initializing fault reporting
+2014-09-15 07:05:50.234 (16180): Fault reporting log pathname: W:\Work\CrewMacros\FromGit\Samples\CReW Macros\tdeserver64-error.log
+2014-09-15 07:05:50.234 (16180): Initializing MiniDump
+2014-09-15 07:05:50.234 (16180): Loading 'DbgHelp.dll'
+2014-09-15 07:05:50.234 (16180): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-09-15 07:05:50.234 (16180):   Product Name: Microsoft® Windows® Operating System
+2014-09-15 07:05:50.234 (16180):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2014-09-15 07:05:50.234 (16180):   Product Version: 6.1.7601.17514
+2014-09-15 07:05:50.234 (16180): Finding function 'MiniDumpWriteDump'
+2014-09-15 07:05:50.234 (16180): Success
+2014-09-15 07:05:50.234 (16180): Registering unhandled exception filter
+2014-09-15 07:05:50.234 (16180): -----------------------------------------------------------------------------
+2014-09-15 07:05:50.235 (16180): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{AED2B8B3-1E49-4769-90D3-A0A3654C6A32}
+2014-09-15 07:05:50.235 (16180): tdeserver: accepting new connection
+2014-09-15 07:05:50.235 (13968): beginthread: recv, connection=tab.pipe://./pipe/{AED2B8B3-1E49-4769-90D3-A0A3654C6A32}
+2014-09-15 07:05:50.235 (16180): tdeserver: new connection, connection=tab.pipe://./pipe/{AED2B8B3-1E49-4769-90D3-A0A3654C6A32}
+2014-09-15 07:05:50.235 (12784): beginthread: send, connection=tab.pipe://./pipe/{AED2B8B3-1E49-4769-90D3-A0A3654C6A32}
+2014-09-15 07:05:50.235 (13968): tdeserver: open session, connection=tab.pipe://./pipe/{AED2B8B3-1E49-4769-90D3-A0A3654C6A32}, sess_guid=1
+2014-09-15 07:05:50.235 (3304): Session1: QueryExecute:
+2014-09-15 07:05:50.235 (3304): (create database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_13664_b44628f809fe4da8bc75213aa89b7508\\ARRONDISSEMENT.tde")
+2014-09-15 07:05:50.776 (3304): Session1: QueryExecute: OK
+2014-09-15 07:05:50.776 (8992): Session1: QueryExecute:
+2014-09-15 07:05:50.776 (8992): (create schema [Extract])
+2014-09-15 07:05:50.800 (8992): Session1: QueryExecute: OK
+2014-09-15 07:05:50.800 (3576): Session1: QueryExecute:
+2014-09-15 07:05:50.800 (3576): (create table [Extract].[Extract])
+2014-09-15 07:05:50.828 (3576): Session1: QueryExecute: OK
+2014-09-15 07:05:50.828 (12888): Session1: QueryExecute:
+2014-09-15 07:05:50.828 (12888): (create column [Extract].[Extract].[Arrondissement Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:05:50.865 (12888): Session1: QueryExecute: OK
+2014-09-15 07:05:50.865 (3304): Session1: QueryExecute:
+2014-09-15 07:05:50.865 (3304): (create column [Extract].[Extract].[Chef-Lieu Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:05:50.882 (3304): Session1: QueryExecute: OK
+2014-09-15 07:05:50.883 (8992): Session1: QueryExecute:
+2014-09-15 07:05:50.883 (8992): (create column [Extract].[Extract].[Chef-Lieu Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:05:50.900 (8992): Session1: QueryExecute: OK
+2014-09-15 07:05:50.900 (3576): Session1: QueryExecute:
+2014-09-15 07:05:50.900 (3576): (create column [Extract].[Extract].[PolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2014-09-15 07:05:50.918 (3576): Session1: QueryExecute: OK
+2014-09-15 07:05:50.918 (12888): Session1: QueryExecute:
+2014-09-15 07:05:50.918 (12888): (create column [Extract].[Extract].[SubPolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2014-09-15 07:05:50.935 (12888): Session1: QueryExecute: OK
+2014-09-15 07:05:50.936 (3304): Session1: QueryExecute:
+2014-09-15 07:05:50.936 (3304): (create column [Extract].[Extract].[PointID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2014-09-15 07:05:50.953 (3304): Session1: QueryExecute: OK
+2014-09-15 07:05:50.954 (8992): Session1: QueryExecute:
+2014-09-15 07:05:50.954 (8992): (create column [Extract].[Extract].[Longitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2014-09-15 07:05:50.971 (8992): Session1: QueryExecute: OK
+2014-09-15 07:05:50.971 (3576): Session1: QueryExecute:
+2014-09-15 07:05:50.971 (3576): (create column [Extract].[Extract].[Latitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2014-09-15 07:05:50.988 (3576): Session1: QueryExecute: OK
+2014-09-15 07:05:50.988 (12888): Session1: InsertOpen: table="Extract schema="Extract"
+2014-09-15 07:05:50.988 (12888):   column[0]="Arrondissement Code"
+2014-09-15 07:05:50.988 (12888):   column[1]="Chef-Lieu Code"
+2014-09-15 07:05:50.988 (12888):   column[2]="Chef-Lieu Name"
+2014-09-15 07:05:50.988 (12888):   column[3]="PolygonID"
+2014-09-15 07:05:50.988 (12888):   column[4]="SubPolygonID"
+2014-09-15 07:05:50.988 (12888):   column[5]="PointID"
+2014-09-15 07:05:50.988 (12888):   column[6]="Longitude"
+2014-09-15 07:05:50.988 (12888):   column[7]="Latitude"
+2014-09-15 07:05:51.203 (3304): Session1: InsertCommit: insert_guid=1
+2014-09-15 07:05:51.327 (3304): Session1: InsertCommit: OK
+2014-09-15 07:05:51.327 (8992): Session1: InsertClose: insert_guid=1
+2014-09-15 07:05:51.327 (8992): Session1: InsertClose: OK
+2014-09-15 07:05:51.328 (3576): Session1: QueryExecute:
+2014-09-15 07:05:51.328 (3576): (package)
+2014-09-15 07:05:51.328 (3576): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_13664_b44628f809fe4da8bc75213aa89b7508\ARRONDISSEMENT.tde"
+2014-09-15 07:05:51.360 (3576): PackageDatabase: finished
+2014-09-15 07:05:51.360 (3576): Session1: QueryExecute: OK
+2014-09-15 07:05:51.360 (12888): Session1: QueryExecute:
+2014-09-15 07:05:51.360 (12888): (database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_13664_b44628f809fe4da8bc75213aa89b7508\\ARRONDISSEMENT.tde")
+2014-09-15 07:05:51.363 (12888): Session1: QueryExecute: OK
+2014-09-15 07:05:51.363 (3304): Session1: QueryExecute:
+2014-09-15 07:05:51.363 (3304): (alter column [Extract].[Extract].[Arrondissement Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:05:51.397 (3304): Session1: QueryExecute: OK
+2014-09-15 07:05:51.397 (8992): Session1: QueryExecute:
+2014-09-15 07:05:51.397 (8992): (alter column [Extract].[Extract].[Chef-Lieu Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:05:51.418 (8992): Session1: QueryExecute: OK
+2014-09-15 07:05:51.418 (3576): Session1: QueryExecute:
+2014-09-15 07:05:51.418 (3576): (alter column [Extract].[Extract].[Chef-Lieu Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:05:51.439 (3576): Session1: QueryExecute: OK
+2014-09-15 07:05:51.439 (12888): Session1: QueryExecute:
+2014-09-15 07:05:51.439 (12888): (alter column [Extract].[Extract].[PolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:05:51.457 (12888): Session1: QueryExecute: OK
+2014-09-15 07:05:51.457 (3304): Session1: QueryExecute:
+2014-09-15 07:05:51.457 (3304): (alter column [Extract].[Extract].[SubPolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:05:51.475 (3304): Session1: QueryExecute: OK
+2014-09-15 07:05:51.475 (8992): Session1: QueryExecute:
+2014-09-15 07:05:51.475 (8992): (alter column [Extract].[Extract].[PointID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:05:51.482 (8992): Session1: QueryExecute: OK
+2014-09-15 07:05:51.483 (3576): Session1: QueryExecute:
+2014-09-15 07:05:51.483 (3576): (alter column [Extract].[Extract].[Longitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:05:51.509 (3576): Session1: QueryExecute: OK
+2014-09-15 07:05:51.510 (12888): Session1: QueryExecute:
+2014-09-15 07:05:51.510 (12888): (alter column [Extract].[Extract].[Latitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:05:51.540 (12888): Session1: QueryExecute: OK
+2014-09-15 07:05:51.540 (3304): Session1: QueryExecute:
+2014-09-15 07:05:51.540 (3304): (top (table [Extract].[Extract]) () 0)
+2014-09-15 07:05:51.545 (3304): Elapsed time:0.005 sec
+2014-09-15 07:05:51.545 (3304): Compilation time:0.002 sec
+2014-09-15 07:05:51.545 (3304): Execution time:0.002 sec
+2014-09-15 07:05:51.545 (3304): Session1: QueryExecute: OK rowset_guid=2 n_columns=8
+2014-09-15 07:05:51.545 (3576): Session1: QueryExecute:
+2014-09-15 07:05:51.545 (3576): (sort [Extract].[Extract] ( ( [SubPolygonID] asc) ( [Arrondissement Code] asc) ( [Chef-Lieu Code] asc) ( [Chef-Lieu Name] asc) ( [PolygonID] asc) ( [PointID] asc) ( [Longitude] asc) ( [Latitude] asc) ) )
+2014-09-15 07:05:51.686 (3576): Session1: QueryExecute: OK
+2014-09-15 07:05:51.686 (12888): Session1: QueryExecute:
+2014-09-15 07:05:51.686 (12888): (package)
+2014-09-15 07:05:51.686 (12888): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_13664_b44628f809fe4da8bc75213aa89b7508\ARRONDISSEMENT.tde"
+2014-09-15 07:05:51.711 (12888): PackageDatabase: finished
+2014-09-15 07:05:51.711 (12888): Session1: QueryExecute: OK
+2014-09-15 07:05:51.711 (13968): tdeserver: close session, connection=tab.pipe://./pipe/{AED2B8B3-1E49-4769-90D3-A0A3654C6A32}, sess_guid=1
+2014-09-15 07:05:51.711 (16180): tdeserver: exit (0)
+2014-09-15 07:06:53.196 (4984): -----------------------------------------------------------------------------
+2014-09-15 07:06:53.196 (4984): Initializing fault reporting
+2014-09-15 07:06:53.196 (4984): Fault reporting log pathname: W:\Work\CrewMacros\FromGit\Samples\CReW Macros\tdeserver64-error.log
+2014-09-15 07:06:53.196 (4984): Initializing MiniDump
+2014-09-15 07:06:53.196 (4984): Loading 'DbgHelp.dll'
+2014-09-15 07:06:53.196 (4984): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-09-15 07:06:53.196 (4984):   Product Name: Microsoft® Windows® Operating System
+2014-09-15 07:06:53.196 (4984):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2014-09-15 07:06:53.196 (4984):   Product Version: 6.1.7601.17514
+2014-09-15 07:06:53.196 (4984): Finding function 'MiniDumpWriteDump'
+2014-09-15 07:06:53.196 (4984): Success
+2014-09-15 07:06:53.196 (4984): Registering unhandled exception filter
+2014-09-15 07:06:53.196 (4984): -----------------------------------------------------------------------------
+2014-09-15 07:06:53.197 (4984): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{983BA5F4-9835-4551-B239-C23C04BEEB80}
+2014-09-15 07:06:53.197 (4984): tdeserver: accepting new connection
+2014-09-15 07:06:53.197 (5516): beginthread: recv, connection=tab.pipe://./pipe/{983BA5F4-9835-4551-B239-C23C04BEEB80}
+2014-09-15 07:06:53.197 (4984): tdeserver: new connection, connection=tab.pipe://./pipe/{983BA5F4-9835-4551-B239-C23C04BEEB80}
+2014-09-15 07:06:53.197 (12276): beginthread: send, connection=tab.pipe://./pipe/{983BA5F4-9835-4551-B239-C23C04BEEB80}
+2014-09-15 07:06:53.197 (5516): tdeserver: open session, connection=tab.pipe://./pipe/{983BA5F4-9835-4551-B239-C23C04BEEB80}, sess_guid=1
+2014-09-15 07:06:53.197 (9860): Session1: QueryExecute:
+2014-09-15 07:06:53.197 (9860): (create database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_13036_63579a34e83f4bdc9b7bd97c2e88de58\\ARRONDISSEMENT.tde")
+2014-09-15 07:06:53.724 (9860): Session1: QueryExecute: OK
+2014-09-15 07:06:53.724 (10608): Session1: QueryExecute:
+2014-09-15 07:06:53.724 (10608): (create schema [Extract])
+2014-09-15 07:06:53.749 (10608): Session1: QueryExecute: OK
+2014-09-15 07:06:53.749 (4728): Session1: QueryExecute:
+2014-09-15 07:06:53.749 (4728): (create table [Extract].[Extract])
+2014-09-15 07:06:53.775 (4728): Session1: QueryExecute: OK
+2014-09-15 07:06:53.775 (11996): Session1: QueryExecute:
+2014-09-15 07:06:53.775 (11996): (create column [Extract].[Extract].[Arrondissement Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:06:53.811 (11996): Session1: QueryExecute: OK
+2014-09-15 07:06:53.811 (9860): Session1: QueryExecute:
+2014-09-15 07:06:53.811 (9860): (create column [Extract].[Extract].[Chef-Lieu Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:06:53.830 (9860): Session1: QueryExecute: OK
+2014-09-15 07:06:53.830 (10608): Session1: QueryExecute:
+2014-09-15 07:06:53.830 (10608): (create column [Extract].[Extract].[Chef-Lieu Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:06:53.847 (10608): Session1: QueryExecute: OK
+2014-09-15 07:06:53.848 (4728): Session1: QueryExecute:
+2014-09-15 07:06:53.848 (4728): (create column [Extract].[Extract].[PolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2014-09-15 07:06:53.866 (4728): Session1: QueryExecute: OK
+2014-09-15 07:06:53.866 (11996): Session1: QueryExecute:
+2014-09-15 07:06:53.866 (11996): (create column [Extract].[Extract].[SubPolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2014-09-15 07:06:53.883 (11996): Session1: QueryExecute: OK
+2014-09-15 07:06:53.883 (9860): Session1: QueryExecute:
+2014-09-15 07:06:53.883 (9860): (create column [Extract].[Extract].[PointID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2014-09-15 07:06:53.901 (9860): Session1: QueryExecute: OK
+2014-09-15 07:06:53.901 (10608): Session1: QueryExecute:
+2014-09-15 07:06:53.901 (10608): (create column [Extract].[Extract].[Longitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2014-09-15 07:06:53.918 (10608): Session1: QueryExecute: OK
+2014-09-15 07:06:53.919 (4728): Session1: QueryExecute:
+2014-09-15 07:06:53.919 (4728): (create column [Extract].[Extract].[Latitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2014-09-15 07:06:53.936 (4728): Session1: QueryExecute: OK
+2014-09-15 07:06:53.936 (11996): Session1: InsertOpen: table="Extract schema="Extract"
+2014-09-15 07:06:53.936 (11996):   column[0]="Arrondissement Code"
+2014-09-15 07:06:53.936 (11996):   column[1]="Chef-Lieu Code"
+2014-09-15 07:06:53.936 (11996):   column[2]="Chef-Lieu Name"
+2014-09-15 07:06:53.936 (11996):   column[3]="PolygonID"
+2014-09-15 07:06:53.936 (11996):   column[4]="SubPolygonID"
+2014-09-15 07:06:53.936 (11996):   column[5]="PointID"
+2014-09-15 07:06:53.936 (11996):   column[6]="Longitude"
+2014-09-15 07:06:53.936 (11996):   column[7]="Latitude"
+2014-09-15 07:06:54.149 (9860): Session1: InsertCommit: insert_guid=1
+2014-09-15 07:06:54.272 (9860): Session1: InsertCommit: OK
+2014-09-15 07:06:54.272 (10608): Session1: InsertClose: insert_guid=1
+2014-09-15 07:06:54.272 (10608): Session1: InsertClose: OK
+2014-09-15 07:06:54.272 (4728): Session1: QueryExecute:
+2014-09-15 07:06:54.272 (4728): (package)
+2014-09-15 07:06:54.273 (4728): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_13036_63579a34e83f4bdc9b7bd97c2e88de58\ARRONDISSEMENT.tde"
+2014-09-15 07:06:54.304 (4728): PackageDatabase: finished
+2014-09-15 07:06:54.304 (4728): Session1: QueryExecute: OK
+2014-09-15 07:06:54.304 (11996): Session1: QueryExecute:
+2014-09-15 07:06:54.304 (11996): (database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_13036_63579a34e83f4bdc9b7bd97c2e88de58\\ARRONDISSEMENT.tde")
+2014-09-15 07:06:54.307 (11996): Session1: QueryExecute: OK
+2014-09-15 07:06:54.307 (9860): Session1: QueryExecute:
+2014-09-15 07:06:54.307 (9860): (alter column [Extract].[Extract].[Arrondissement Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:06:54.339 (9860): Session1: QueryExecute: OK
+2014-09-15 07:06:54.340 (10608): Session1: QueryExecute:
+2014-09-15 07:06:54.340 (10608): (alter column [Extract].[Extract].[Chef-Lieu Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:06:54.359 (10608): Session1: QueryExecute: OK
+2014-09-15 07:06:54.359 (4728): Session1: QueryExecute:
+2014-09-15 07:06:54.359 (4728): (alter column [Extract].[Extract].[Chef-Lieu Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:06:54.379 (4728): Session1: QueryExecute: OK
+2014-09-15 07:06:54.379 (11996): Session1: QueryExecute:
+2014-09-15 07:06:54.379 (11996): (alter column [Extract].[Extract].[PolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:06:54.397 (11996): Session1: QueryExecute: OK
+2014-09-15 07:06:54.397 (9860): Session1: QueryExecute:
+2014-09-15 07:06:54.397 (9860): (alter column [Extract].[Extract].[SubPolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:06:54.414 (9860): Session1: QueryExecute: OK
+2014-09-15 07:06:54.414 (10608): Session1: QueryExecute:
+2014-09-15 07:06:54.414 (10608): (alter column [Extract].[Extract].[PointID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:06:54.421 (10608): Session1: QueryExecute: OK
+2014-09-15 07:06:54.421 (4728): Session1: QueryExecute:
+2014-09-15 07:06:54.421 (4728): (alter column [Extract].[Extract].[Longitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:06:54.448 (4728): Session1: QueryExecute: OK
+2014-09-15 07:06:54.448 (11996): Session1: QueryExecute:
+2014-09-15 07:06:54.448 (11996): (alter column [Extract].[Extract].[Latitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:06:54.477 (11996): Session1: QueryExecute: OK
+2014-09-15 07:06:54.478 (9860): Session1: QueryExecute:
+2014-09-15 07:06:54.478 (9860): (top (table [Extract].[Extract]) () 0)
+2014-09-15 07:06:54.482 (9860): Elapsed time:0.004 sec
+2014-09-15 07:06:54.482 (9860): Compilation time:0.003 sec
+2014-09-15 07:06:54.482 (9860): Execution time:0.002 sec
+2014-09-15 07:06:54.482 (9860): Session1: QueryExecute: OK rowset_guid=2 n_columns=8
+2014-09-15 07:06:54.483 (4728): Session1: QueryExecute:
+2014-09-15 07:06:54.483 (4728): (sort [Extract].[Extract] ( ( [SubPolygonID] asc) ( [Arrondissement Code] asc) ( [Chef-Lieu Code] asc) ( [Chef-Lieu Name] asc) ( [PolygonID] asc) ( [PointID] asc) ( [Longitude] asc) ( [Latitude] asc) ) )
+2014-09-15 07:06:54.620 (4728): Session1: QueryExecute: OK
+2014-09-15 07:06:54.620 (11996): Session1: QueryExecute:
+2014-09-15 07:06:54.620 (11996): (package)
+2014-09-15 07:06:54.620 (11996): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_13036_63579a34e83f4bdc9b7bd97c2e88de58\ARRONDISSEMENT.tde"
+2014-09-15 07:06:54.642 (11996): PackageDatabase: finished
+2014-09-15 07:06:54.642 (11996): Session1: QueryExecute: OK
+2014-09-15 07:06:54.642 (5516): tdeserver: close session, connection=tab.pipe://./pipe/{983BA5F4-9835-4551-B239-C23C04BEEB80}, sess_guid=1
+2014-09-15 07:06:54.642 (4984): tdeserver: exit (0)
+2014-09-15 07:07:17.616 (11668): -----------------------------------------------------------------------------
+2014-09-15 07:07:17.616 (11668): Initializing fault reporting
+2014-09-15 07:07:17.616 (11668): Fault reporting log pathname: W:\Work\CrewMacros\FromGit\Samples\CReW Macros\tdeserver64-error.log
+2014-09-15 07:07:17.616 (11668): Initializing MiniDump
+2014-09-15 07:07:17.616 (11668): Loading 'DbgHelp.dll'
+2014-09-15 07:07:17.616 (11668): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-09-15 07:07:17.617 (11668):   Product Name: Microsoft® Windows® Operating System
+2014-09-15 07:07:17.617 (11668):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2014-09-15 07:07:17.617 (11668):   Product Version: 6.1.7601.17514
+2014-09-15 07:07:17.617 (11668): Finding function 'MiniDumpWriteDump'
+2014-09-15 07:07:17.617 (11668): Success
+2014-09-15 07:07:17.617 (11668): Registering unhandled exception filter
+2014-09-15 07:07:17.617 (11668): -----------------------------------------------------------------------------
+2014-09-15 07:07:17.617 (11668): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{8788CE24-3A88-46DB-95F5-A2F2DA2209BC}
+2014-09-15 07:07:17.617 (11668): tdeserver: accepting new connection
+2014-09-15 07:07:17.617 (12024): beginthread: recv, connection=tab.pipe://./pipe/{8788CE24-3A88-46DB-95F5-A2F2DA2209BC}
+2014-09-15 07:07:17.617 (11668): tdeserver: new connection, connection=tab.pipe://./pipe/{8788CE24-3A88-46DB-95F5-A2F2DA2209BC}
+2014-09-15 07:07:17.617 (14184): beginthread: send, connection=tab.pipe://./pipe/{8788CE24-3A88-46DB-95F5-A2F2DA2209BC}
+2014-09-15 07:07:17.617 (12024): tdeserver: open session, connection=tab.pipe://./pipe/{8788CE24-3A88-46DB-95F5-A2F2DA2209BC}, sess_guid=1
+2014-09-15 07:07:17.618 (14840): Session1: QueryExecute:
+2014-09-15 07:07:17.618 (14840): (create database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_13640_2b74b68e28be4dcd96f5c4775d763ae6\\ARRONDISSEMENT.tde")
+2014-09-15 07:07:18.172 (14840): Session1: QueryExecute: OK
+2014-09-15 07:07:18.172 (11192): Session1: QueryExecute:
+2014-09-15 07:07:18.172 (11192): (create schema [Extract])
+2014-09-15 07:07:18.196 (11192): Session1: QueryExecute: OK
+2014-09-15 07:07:18.196 (10848): Session1: QueryExecute:
+2014-09-15 07:07:18.196 (10848): (create table [Extract].[Extract])
+2014-09-15 07:07:18.235 (10848): Session1: QueryExecute: OK
+2014-09-15 07:07:18.235 (8928): Session1: QueryExecute:
+2014-09-15 07:07:18.235 (8928): (create column [Extract].[Extract].[Arrondissement Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:07:18.274 (8928): Session1: QueryExecute: OK
+2014-09-15 07:07:18.274 (14840): Session1: QueryExecute:
+2014-09-15 07:07:18.274 (14840): (create column [Extract].[Extract].[Chef-Lieu Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:07:18.294 (14840): Session1: QueryExecute: OK
+2014-09-15 07:07:18.294 (11192): Session1: QueryExecute:
+2014-09-15 07:07:18.294 (11192): (create column [Extract].[Extract].[Chef-Lieu Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:07:18.312 (11192): Session1: QueryExecute: OK
+2014-09-15 07:07:18.312 (10848): Session1: QueryExecute:
+2014-09-15 07:07:18.312 (10848): (create column [Extract].[Extract].[PolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2014-09-15 07:07:18.329 (10848): Session1: QueryExecute: OK
+2014-09-15 07:07:18.329 (8928): Session1: QueryExecute:
+2014-09-15 07:07:18.329 (8928): (create column [Extract].[Extract].[SubPolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2014-09-15 07:07:18.346 (8928): Session1: QueryExecute: OK
+2014-09-15 07:07:18.346 (14840): Session1: QueryExecute:
+2014-09-15 07:07:18.346 (14840): (create column [Extract].[Extract].[PointID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2014-09-15 07:07:18.364 (14840): Session1: QueryExecute: OK
+2014-09-15 07:07:18.364 (11192): Session1: QueryExecute:
+2014-09-15 07:07:18.364 (11192): (create column [Extract].[Extract].[Longitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2014-09-15 07:07:18.382 (11192): Session1: QueryExecute: OK
+2014-09-15 07:07:18.382 (10848): Session1: QueryExecute:
+2014-09-15 07:07:18.382 (10848): (create column [Extract].[Extract].[Latitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2014-09-15 07:07:18.399 (10848): Session1: QueryExecute: OK
+2014-09-15 07:07:18.400 (8928): Session1: InsertOpen: table="Extract schema="Extract"
+2014-09-15 07:07:18.400 (8928):   column[0]="Arrondissement Code"
+2014-09-15 07:07:18.400 (8928):   column[1]="Chef-Lieu Code"
+2014-09-15 07:07:18.400 (8928):   column[2]="Chef-Lieu Name"
+2014-09-15 07:07:18.400 (8928):   column[3]="PolygonID"
+2014-09-15 07:07:18.400 (8928):   column[4]="SubPolygonID"
+2014-09-15 07:07:18.400 (8928):   column[5]="PointID"
+2014-09-15 07:07:18.400 (8928):   column[6]="Longitude"
+2014-09-15 07:07:18.400 (8928):   column[7]="Latitude"
+2014-09-15 07:07:18.612 (14840): Session1: InsertCommit: insert_guid=1
+2014-09-15 07:07:18.730 (14840): Session1: InsertCommit: OK
+2014-09-15 07:07:18.730 (11192): Session1: InsertClose: insert_guid=1
+2014-09-15 07:07:18.730 (11192): Session1: InsertClose: OK
+2014-09-15 07:07:18.731 (10848): Session1: QueryExecute:
+2014-09-15 07:07:18.731 (10848): (package)
+2014-09-15 07:07:18.731 (10848): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_13640_2b74b68e28be4dcd96f5c4775d763ae6\ARRONDISSEMENT.tde"
+2014-09-15 07:07:18.765 (10848): PackageDatabase: finished
+2014-09-15 07:07:18.765 (10848): Session1: QueryExecute: OK
+2014-09-15 07:07:18.765 (8928): Session1: QueryExecute:
+2014-09-15 07:07:18.765 (8928): (database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_13640_2b74b68e28be4dcd96f5c4775d763ae6\\ARRONDISSEMENT.tde")
+2014-09-15 07:07:18.768 (8928): Session1: QueryExecute: OK
+2014-09-15 07:07:18.768 (14840): Session1: QueryExecute:
+2014-09-15 07:07:18.768 (14840): (alter column [Extract].[Extract].[Arrondissement Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:07:18.803 (14840): Session1: QueryExecute: OK
+2014-09-15 07:07:18.803 (11192): Session1: QueryExecute:
+2014-09-15 07:07:18.803 (11192): (alter column [Extract].[Extract].[Chef-Lieu Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:07:18.824 (11192): Session1: QueryExecute: OK
+2014-09-15 07:07:18.824 (10848): Session1: QueryExecute:
+2014-09-15 07:07:18.824 (10848): (alter column [Extract].[Extract].[Chef-Lieu Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:07:18.845 (10848): Session1: QueryExecute: OK
+2014-09-15 07:07:18.845 (8928): Session1: QueryExecute:
+2014-09-15 07:07:18.845 (8928): (alter column [Extract].[Extract].[PolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:07:18.863 (8928): Session1: QueryExecute: OK
+2014-09-15 07:07:18.864 (14840): Session1: QueryExecute:
+2014-09-15 07:07:18.864 (14840): (alter column [Extract].[Extract].[SubPolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:07:18.881 (14840): Session1: QueryExecute: OK
+2014-09-15 07:07:18.881 (11192): Session1: QueryExecute:
+2014-09-15 07:07:18.881 (11192): (alter column [Extract].[Extract].[PointID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:07:18.889 (11192): Session1: QueryExecute: OK
+2014-09-15 07:07:18.890 (10848): Session1: QueryExecute:
+2014-09-15 07:07:18.890 (10848): (alter column [Extract].[Extract].[Longitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:07:18.916 (10848): Session1: QueryExecute: OK
+2014-09-15 07:07:18.916 (8928): Session1: QueryExecute:
+2014-09-15 07:07:18.916 (8928): (alter column [Extract].[Extract].[Latitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:07:18.947 (8928): Session1: QueryExecute: OK
+2014-09-15 07:07:18.948 (14840): Session1: QueryExecute:
+2014-09-15 07:07:18.948 (14840): (top (table [Extract].[Extract]) () 0)
+2014-09-15 07:07:18.952 (14840): Elapsed time:0.005 sec
+2014-09-15 07:07:18.952 (14840): Compilation time:0.003 sec
+2014-09-15 07:07:18.952 (14840): Execution time:0.002 sec
+2014-09-15 07:07:18.953 (14840): Session1: QueryExecute: OK rowset_guid=2 n_columns=8
+2014-09-15 07:07:18.953 (10848): Session1: QueryExecute:
+2014-09-15 07:07:18.953 (10848): (sort [Extract].[Extract] ( ( [SubPolygonID] asc) ( [Arrondissement Code] asc) ( [Chef-Lieu Code] asc) ( [Chef-Lieu Name] asc) ( [PolygonID] asc) ( [PointID] asc) ( [Longitude] asc) ( [Latitude] asc) ) )
+2014-09-15 07:07:19.099 (10848): Session1: QueryExecute: OK
+2014-09-15 07:07:19.100 (8928): Session1: QueryExecute:
+2014-09-15 07:07:19.100 (8928): (package)
+2014-09-15 07:07:19.100 (8928): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_13640_2b74b68e28be4dcd96f5c4775d763ae6\ARRONDISSEMENT.tde"
+2014-09-15 07:07:19.122 (8928): PackageDatabase: finished
+2014-09-15 07:07:19.122 (8928): Session1: QueryExecute: OK
+2014-09-15 07:07:19.123 (12024): tdeserver: close session, connection=tab.pipe://./pipe/{8788CE24-3A88-46DB-95F5-A2F2DA2209BC}, sess_guid=1
+2014-09-15 07:07:19.123 (11668): tdeserver: exit (0)
+2014-09-15 07:19:30.254 (15032): -----------------------------------------------------------------------------
+2014-09-15 07:19:30.254 (15032): Initializing fault reporting
+2014-09-15 07:19:30.254 (15032): Fault reporting log pathname: W:\Work\CrewMacros\FromGit\Samples\CReW Macros\tdeserver64-error.log
+2014-09-15 07:19:30.254 (15032): Initializing MiniDump
+2014-09-15 07:19:30.254 (15032): Loading 'DbgHelp.dll'
+2014-09-15 07:19:30.254 (15032): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-09-15 07:19:30.254 (15032):   Product Name: Microsoft® Windows® Operating System
+2014-09-15 07:19:30.254 (15032):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2014-09-15 07:19:30.254 (15032):   Product Version: 6.1.7601.17514
+2014-09-15 07:19:30.254 (15032): Finding function 'MiniDumpWriteDump'
+2014-09-15 07:19:30.254 (15032): Success
+2014-09-15 07:19:30.254 (15032): Registering unhandled exception filter
+2014-09-15 07:19:30.254 (15032): -----------------------------------------------------------------------------
+2014-09-15 07:19:30.255 (15032): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{609F556B-A312-4FC8-8D02-A5322D74CE72}
+2014-09-15 07:19:30.255 (15032): tdeserver: accepting new connection
+2014-09-15 07:19:30.255 (7324): beginthread: recv, connection=tab.pipe://./pipe/{609F556B-A312-4FC8-8D02-A5322D74CE72}
+2014-09-15 07:19:30.255 (15032): tdeserver: new connection, connection=tab.pipe://./pipe/{609F556B-A312-4FC8-8D02-A5322D74CE72}
+2014-09-15 07:19:30.255 (14416): beginthread: send, connection=tab.pipe://./pipe/{609F556B-A312-4FC8-8D02-A5322D74CE72}
+2014-09-15 07:19:30.255 (7324): tdeserver: open session, connection=tab.pipe://./pipe/{609F556B-A312-4FC8-8D02-A5322D74CE72}, sess_guid=1
+2014-09-15 07:19:30.255 (5684): Session1: QueryExecute:
+2014-09-15 07:19:30.255 (5684): (create database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_14096_8f73727820cd42849d1ff6745e401183\\ARRONDISSEMENT.tde")
+2014-09-15 07:19:30.787 (5684): Session1: QueryExecute: OK
+2014-09-15 07:19:30.787 (2344): Session1: QueryExecute:
+2014-09-15 07:19:30.787 (2344): (create schema [Extract])
+2014-09-15 07:19:30.811 (2344): Session1: QueryExecute: OK
+2014-09-15 07:19:30.811 (9756): Session1: QueryExecute:
+2014-09-15 07:19:30.811 (9756): (create table [Extract].[Extract])
+2014-09-15 07:19:30.839 (9756): Session1: QueryExecute: OK
+2014-09-15 07:19:30.840 (12572): Session1: QueryExecute:
+2014-09-15 07:19:30.840 (12572): (create column [Extract].[Extract].[Arrondissement Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:19:30.877 (12572): Session1: QueryExecute: OK
+2014-09-15 07:19:30.877 (5684): Session1: QueryExecute:
+2014-09-15 07:19:30.877 (5684): (create column [Extract].[Extract].[Chef-Lieu Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:19:30.895 (5684): Session1: QueryExecute: OK
+2014-09-15 07:19:30.895 (2344): Session1: QueryExecute:
+2014-09-15 07:19:30.895 (2344): (create column [Extract].[Extract].[Chef-Lieu Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:19:30.913 (2344): Session1: QueryExecute: OK
+2014-09-15 07:19:30.913 (9756): Session1: QueryExecute:
+2014-09-15 07:19:30.913 (9756): (create column [Extract].[Extract].[PolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2014-09-15 07:19:30.930 (9756): Session1: QueryExecute: OK
+2014-09-15 07:19:30.930 (12572): Session1: QueryExecute:
+2014-09-15 07:19:30.930 (12572): (create column [Extract].[Extract].[SubPolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2014-09-15 07:19:30.948 (12572): Session1: QueryExecute: OK
+2014-09-15 07:19:30.948 (5684): Session1: QueryExecute:
+2014-09-15 07:19:30.948 (5684): (create column [Extract].[Extract].[PointID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2014-09-15 07:19:30.966 (5684): Session1: QueryExecute: OK
+2014-09-15 07:19:30.966 (2344): Session1: QueryExecute:
+2014-09-15 07:19:30.966 (2344): (create column [Extract].[Extract].[Longitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2014-09-15 07:19:30.983 (2344): Session1: QueryExecute: OK
+2014-09-15 07:19:30.983 (9756): Session1: QueryExecute:
+2014-09-15 07:19:30.983 (9756): (create column [Extract].[Extract].[Latitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2014-09-15 07:19:31.001 (9756): Session1: QueryExecute: OK
+2014-09-15 07:19:31.001 (12572): Session1: InsertOpen: table="Extract schema="Extract"
+2014-09-15 07:19:31.001 (12572):   column[0]="Arrondissement Code"
+2014-09-15 07:19:31.001 (12572):   column[1]="Chef-Lieu Code"
+2014-09-15 07:19:31.001 (12572):   column[2]="Chef-Lieu Name"
+2014-09-15 07:19:31.001 (12572):   column[3]="PolygonID"
+2014-09-15 07:19:31.001 (12572):   column[4]="SubPolygonID"
+2014-09-15 07:19:31.001 (12572):   column[5]="PointID"
+2014-09-15 07:19:31.001 (12572):   column[6]="Longitude"
+2014-09-15 07:19:31.001 (12572):   column[7]="Latitude"
+2014-09-15 07:19:31.219 (5684): Session1: InsertCommit: insert_guid=1
+2014-09-15 07:19:31.340 (5684): Session1: InsertCommit: OK
+2014-09-15 07:19:31.340 (2344): Session1: InsertClose: insert_guid=1
+2014-09-15 07:19:31.340 (2344): Session1: InsertClose: OK
+2014-09-15 07:19:31.341 (9756): Session1: QueryExecute:
+2014-09-15 07:19:31.341 (9756): (package)
+2014-09-15 07:19:31.341 (9756): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_14096_8f73727820cd42849d1ff6745e401183\ARRONDISSEMENT.tde"
+2014-09-15 07:19:31.373 (9756): PackageDatabase: finished
+2014-09-15 07:19:31.373 (9756): Session1: QueryExecute: OK
+2014-09-15 07:19:31.373 (12572): Session1: QueryExecute:
+2014-09-15 07:19:31.373 (12572): (database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_14096_8f73727820cd42849d1ff6745e401183\\ARRONDISSEMENT.tde")
+2014-09-15 07:19:31.376 (12572): Session1: QueryExecute: OK
+2014-09-15 07:19:31.376 (5684): Session1: QueryExecute:
+2014-09-15 07:19:31.376 (5684): (alter column [Extract].[Extract].[Arrondissement Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:31.410 (5684): Session1: QueryExecute: OK
+2014-09-15 07:19:31.410 (2344): Session1: QueryExecute:
+2014-09-15 07:19:31.410 (2344): (alter column [Extract].[Extract].[Chef-Lieu Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:31.431 (2344): Session1: QueryExecute: OK
+2014-09-15 07:19:31.431 (9756): Session1: QueryExecute:
+2014-09-15 07:19:31.431 (9756): (alter column [Extract].[Extract].[Chef-Lieu Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:31.451 (9756): Session1: QueryExecute: OK
+2014-09-15 07:19:31.452 (12572): Session1: QueryExecute:
+2014-09-15 07:19:31.452 (12572): (alter column [Extract].[Extract].[PolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:31.470 (12572): Session1: QueryExecute: OK
+2014-09-15 07:19:31.470 (5684): Session1: QueryExecute:
+2014-09-15 07:19:31.470 (5684): (alter column [Extract].[Extract].[SubPolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:31.488 (5684): Session1: QueryExecute: OK
+2014-09-15 07:19:31.488 (2344): Session1: QueryExecute:
+2014-09-15 07:19:31.488 (2344): (alter column [Extract].[Extract].[PointID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:31.496 (2344): Session1: QueryExecute: OK
+2014-09-15 07:19:31.497 (9756): Session1: QueryExecute:
+2014-09-15 07:19:31.497 (9756): (alter column [Extract].[Extract].[Longitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:31.524 (9756): Session1: QueryExecute: OK
+2014-09-15 07:19:31.524 (12572): Session1: QueryExecute:
+2014-09-15 07:19:31.524 (12572): (alter column [Extract].[Extract].[Latitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:31.555 (12572): Session1: QueryExecute: OK
+2014-09-15 07:19:31.555 (5684): Session1: QueryExecute:
+2014-09-15 07:19:31.555 (5684): (top (table [Extract].[Extract]) () 0)
+2014-09-15 07:19:31.560 (5684): Elapsed time:0.005 sec
+2014-09-15 07:19:31.560 (5684): Compilation time:0.003 sec
+2014-09-15 07:19:31.560 (5684): Execution time:0.002 sec
+2014-09-15 07:19:31.560 (5684): Session1: QueryExecute: OK rowset_guid=2 n_columns=8
+2014-09-15 07:19:31.561 (9756): Session1: QueryExecute:
+2014-09-15 07:19:31.561 (9756): (sort [Extract].[Extract] ( ( [SubPolygonID] asc) ( [Arrondissement Code] asc) ( [Chef-Lieu Code] asc) ( [Chef-Lieu Name] asc) ( [PolygonID] asc) ( [PointID] asc) ( [Longitude] asc) ( [Latitude] asc) ) )
+2014-09-15 07:19:31.706 (9756): Session1: QueryExecute: OK
+2014-09-15 07:19:31.707 (12572): Session1: QueryExecute:
+2014-09-15 07:19:31.707 (12572): (package)
+2014-09-15 07:19:31.707 (12572): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_14096_8f73727820cd42849d1ff6745e401183\ARRONDISSEMENT.tde"
+2014-09-15 07:19:31.730 (12572): PackageDatabase: finished
+2014-09-15 07:19:31.730 (12572): Session1: QueryExecute: OK
+2014-09-15 07:19:31.730 (7324): tdeserver: close session, connection=tab.pipe://./pipe/{609F556B-A312-4FC8-8D02-A5322D74CE72}, sess_guid=1
+2014-09-15 07:19:31.730 (15032): tdeserver: exit (0)
+2014-09-15 07:19:54.257 (7632): -----------------------------------------------------------------------------
+2014-09-15 07:19:54.257 (7632): Initializing fault reporting
+2014-09-15 07:19:54.257 (7632): Fault reporting log pathname: W:\Work\CrewMacros\FromGit\Samples\CReW Macros\tdeserver64-error.log
+2014-09-15 07:19:54.257 (7632): Initializing MiniDump
+2014-09-15 07:19:54.257 (7632): Loading 'DbgHelp.dll'
+2014-09-15 07:19:54.257 (7632): Loaded 'C:\Windows\system32\DbgHelp.dll'
+2014-09-15 07:19:54.258 (7632):   Product Name: Microsoft® Windows® Operating System
+2014-09-15 07:19:54.258 (7632):   File Version: 6.1.7601.17514 (win7sp1_rtm.101119-1850)
+2014-09-15 07:19:54.258 (7632):   Product Version: 6.1.7601.17514
+2014-09-15 07:19:54.258 (7632): Finding function 'MiniDumpWriteDump'
+2014-09-15 07:19:54.258 (7632): Success
+2014-09-15 07:19:54.258 (7632): Registering unhandled exception filter
+2014-09-15 07:19:54.258 (7632): -----------------------------------------------------------------------------
+2014-09-15 07:19:54.258 (7632): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{16576C2E-05D4-42C1-839A-8A210255A8C1}
+2014-09-15 07:19:54.258 (7632): tdeserver: accepting new connection
+2014-09-15 07:19:54.258 (14328): beginthread: recv, connection=tab.pipe://./pipe/{16576C2E-05D4-42C1-839A-8A210255A8C1}
+2014-09-15 07:19:54.258 (7632): tdeserver: new connection, connection=tab.pipe://./pipe/{16576C2E-05D4-42C1-839A-8A210255A8C1}
+2014-09-15 07:19:54.258 (14252): beginthread: send, connection=tab.pipe://./pipe/{16576C2E-05D4-42C1-839A-8A210255A8C1}
+2014-09-15 07:19:54.258 (14328): tdeserver: open session, connection=tab.pipe://./pipe/{16576C2E-05D4-42C1-839A-8A210255A8C1}, sess_guid=1
+2014-09-15 07:19:54.258 (2008): Session1: QueryExecute:
+2014-09-15 07:19:54.258 (2008): (create database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_7600_7b2256f7eadb4a53932d62c88717d3dd\\ARRONDISSEMENT.tde")
+2014-09-15 07:19:54.791 (2008): Session1: QueryExecute: OK
+2014-09-15 07:19:54.791 (10064): Session1: QueryExecute:
+2014-09-15 07:19:54.791 (10064): (create schema [Extract])
+2014-09-15 07:19:54.814 (10064): Session1: QueryExecute: OK
+2014-09-15 07:19:54.814 (0136): Session1: QueryExecute:
+2014-09-15 07:19:54.814 (0136): (create table [Extract].[Extract])
+2014-09-15 07:19:54.841 (0136): Session1: QueryExecute: OK
+2014-09-15 07:19:54.841 (4880): Session1: QueryExecute:
+2014-09-15 07:19:54.841 (4880): (create column [Extract].[Extract].[Arrondissement Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:19:54.877 (4880): Session1: QueryExecute: OK
+2014-09-15 07:19:54.877 (2008): Session1: QueryExecute:
+2014-09-15 07:19:54.877 (2008): (create column [Extract].[Extract].[Chef-Lieu Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:19:54.895 (2008): Session1: QueryExecute: OK
+2014-09-15 07:19:54.895 (10064): Session1: QueryExecute:
+2014-09-15 07:19:54.895 (10064): (create column [Extract].[Extract].[Chef-Lieu Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2014-09-15 07:19:54.913 (10064): Session1: QueryExecute: OK
+2014-09-15 07:19:54.913 (0136): Session1: QueryExecute:
+2014-09-15 07:19:54.913 (0136): (create column [Extract].[Extract].[PolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "3" ) ))
+2014-09-15 07:19:54.930 (0136): Session1: QueryExecute: OK
+2014-09-15 07:19:54.930 (4880): Session1: QueryExecute:
+2014-09-15 07:19:54.930 (4880): (create column [Extract].[Extract].[SubPolygonID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "4" ) ))
+2014-09-15 07:19:54.948 (4880): Session1: QueryExecute: OK
+2014-09-15 07:19:54.948 (2008): Session1: QueryExecute:
+2014-09-15 07:19:54.948 (2008): (create column [Extract].[Extract].[PointID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2014-09-15 07:19:54.965 (2008): Session1: QueryExecute: OK
+2014-09-15 07:19:54.965 (10064): Session1: QueryExecute:
+2014-09-15 07:19:54.965 (10064): (create column [Extract].[Extract].[Longitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2014-09-15 07:19:54.983 (10064): Session1: QueryExecute: OK
+2014-09-15 07:19:54.983 (0136): Session1: QueryExecute:
+2014-09-15 07:19:54.983 (0136): (create column [Extract].[Extract].[Latitude] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2014-09-15 07:19:55.000 (0136): Session1: QueryExecute: OK
+2014-09-15 07:19:55.000 (4880): Session1: InsertOpen: table="Extract schema="Extract"
+2014-09-15 07:19:55.000 (4880):   column[0]="Arrondissement Code"
+2014-09-15 07:19:55.000 (4880):   column[1]="Chef-Lieu Code"
+2014-09-15 07:19:55.000 (4880):   column[2]="Chef-Lieu Name"
+2014-09-15 07:19:55.000 (4880):   column[3]="PolygonID"
+2014-09-15 07:19:55.000 (4880):   column[4]="SubPolygonID"
+2014-09-15 07:19:55.000 (4880):   column[5]="PointID"
+2014-09-15 07:19:55.000 (4880):   column[6]="Longitude"
+2014-09-15 07:19:55.000 (4880):   column[7]="Latitude"
+2014-09-15 07:19:55.215 (2008): Session1: InsertCommit: insert_guid=1
+2014-09-15 07:19:55.333 (2008): Session1: InsertCommit: OK
+2014-09-15 07:19:55.333 (10064): Session1: InsertClose: insert_guid=1
+2014-09-15 07:19:55.333 (10064): Session1: InsertClose: OK
+2014-09-15 07:19:55.334 (0136): Session1: QueryExecute:
+2014-09-15 07:19:55.334 (0136): (package)
+2014-09-15 07:19:55.334 (0136): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_7600_7b2256f7eadb4a53932d62c88717d3dd\ARRONDISSEMENT.tde"
+2014-09-15 07:19:55.367 (0136): PackageDatabase: finished
+2014-09-15 07:19:55.367 (0136): Session1: QueryExecute: OK
+2014-09-15 07:19:55.367 (4880): Session1: QueryExecute:
+2014-09-15 07:19:55.367 (4880): (database "C:\\Users\\ariley\\AppData\\Local\\Temp\\Engine_7600_7b2256f7eadb4a53932d62c88717d3dd\\ARRONDISSEMENT.tde")
+2014-09-15 07:19:55.370 (4880): Session1: QueryExecute: OK
+2014-09-15 07:19:55.370 (2008): Session1: QueryExecute:
+2014-09-15 07:19:55.370 (2008): (alter column [Extract].[Extract].[Arrondissement Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:55.403 (2008): Session1: QueryExecute: OK
+2014-09-15 07:19:55.403 (10064): Session1: QueryExecute:
+2014-09-15 07:19:55.403 (10064): (alter column [Extract].[Extract].[Chef-Lieu Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:55.427 (10064): Session1: QueryExecute: OK
+2014-09-15 07:19:55.428 (0136): Session1: QueryExecute:
+2014-09-15 07:19:55.428 (0136): (alter column [Extract].[Extract].[Chef-Lieu Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:55.448 (0136): Session1: QueryExecute: OK
+2014-09-15 07:19:55.448 (4880): Session1: QueryExecute:
+2014-09-15 07:19:55.448 (4880): (alter column [Extract].[Extract].[PolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:55.466 (4880): Session1: QueryExecute: OK
+2014-09-15 07:19:55.466 (2008): Session1: QueryExecute:
+2014-09-15 07:19:55.466 (2008): (alter column [Extract].[Extract].[SubPolygonID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:55.483 (2008): Session1: QueryExecute: OK
+2014-09-15 07:19:55.483 (10064): Session1: QueryExecute:
+2014-09-15 07:19:55.483 (10064): (alter column [Extract].[Extract].[PointID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:55.491 (10064): Session1: QueryExecute: OK
+2014-09-15 07:19:55.491 (0136): Session1: QueryExecute:
+2014-09-15 07:19:55.491 (0136): (alter column [Extract].[Extract].[Longitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:55.519 (0136): Session1: QueryExecute: OK
+2014-09-15 07:19:55.519 (4880): Session1: QueryExecute:
+2014-09-15 07:19:55.519 (4880): (alter column [Extract].[Extract].[Latitude] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2014-09-15 07:19:55.549 (4880): Session1: QueryExecute: OK
+2014-09-15 07:19:55.549 (2008): Session1: QueryExecute:
+2014-09-15 07:19:55.549 (2008): (top (table [Extract].[Extract]) () 0)
+2014-09-15 07:19:55.554 (2008): Elapsed time:0.004 sec
+2014-09-15 07:19:55.554 (2008): Compilation time:0.002 sec
+2014-09-15 07:19:55.554 (2008): Execution time:0.002 sec
+2014-09-15 07:19:55.554 (2008): Session1: QueryExecute: OK rowset_guid=2 n_columns=8
+2014-09-15 07:19:55.555 (0136): Session1: QueryExecute:
+2014-09-15 07:19:55.555 (0136): (sort [Extract].[Extract] ( ( [SubPolygonID] asc) ( [Arrondissement Code] asc) ( [Chef-Lieu Code] asc) ( [Chef-Lieu Name] asc) ( [PolygonID] asc) ( [PointID] asc) ( [Longitude] asc) ( [Latitude] asc) ) )
+2014-09-15 07:19:55.694 (0136): Session1: QueryExecute: OK
+2014-09-15 07:19:55.694 (4880): Session1: QueryExecute:
+2014-09-15 07:19:55.694 (4880): (package)
+2014-09-15 07:19:55.694 (4880): PackageDatabase: in-place package of "C:\Users\ariley\AppData\Local\Temp\Engine_7600_7b2256f7eadb4a53932d62c88717d3dd\ARRONDISSEMENT.tde"
+2014-09-15 07:19:55.716 (4880): PackageDatabase: finished
+2014-09-15 07:19:55.716 (4880): Session1: QueryExecute: OK
+2014-09-15 07:19:55.716 (14328): tdeserver: close session, connection=tab.pipe://./pipe/{16576C2E-05D4-42C1-839A-8A210255A8C1}, sess_guid=1
+2014-09-15 07:19:55.716 (7632): tdeserver: exit (0)

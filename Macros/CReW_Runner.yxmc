@@ -781,19 +781,6 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="33">
-      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
-        <Position x="54" y="54" width="59" height="59" />
-      </GuiSettings>
-      <Properties>
-        <Configuration />
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -1046,12 +1033,6 @@ ENDIF
           <Name>Tab (1)</Name>
           <ToolId value="1" />
           <Questions>
-            <Question>
-              <Type>Label</Type>
-              <Description>PROTOTYPE</Description>
-              <Name>Label (33)</Name>
-              <ToolId value="33" />
-            </Question>
             <Question>
               <Type>FileBrowse</Type>
               <Description>Alteryx Module/Macro/App to run</Description>

@@ -1,9 +1,230 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="9.0">
   <Nodes>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1254" y="534" width="144" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>"Not Run" macro output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1134" y="534" width="108" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Remove extra fields</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="930" y="306" width="192" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>If we are running all apps short circuit the filter to always be true</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="930" y="534" width="192" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>If the previous module suceeded send the remaining modules to be run round for another iteration.  Otherwise outptu remaining modules to the "Not Run" output.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="306" width="144" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Ouput the log to the Log output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="534" width="144" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Attach result to remaining records</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="654" y="534" width="108" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Get the log regardless of success or fail</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="534" y="534" width="108" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Batch macro runs first module</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="534" width="108" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Split off first record</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="294" y="534" width="108" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add Record Id</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="90" y="534" width="192" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Iterative Output
+Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="54" y="54" width="59" height="59" />
+        <Position x="54" y="78" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -16,12 +237,12 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="216" y="288" />
+        <Position x="174" y="582" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <UseFileInput value="False" />
-          <Name>Input2</Name>
+          <Name>Input</Name>
           <Abbrev />
           <ShowFieldMap value="True" />
           <TextInput>
@@ -45,7 +266,7 @@
           </TextInput>
         </Configuration>
         <Annotation DisplayMode="0">
-          <Name />
+          <Name>Iterative Input</Name>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
@@ -59,24 +280,24 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="108" y="288" />
+        <Position x="138" y="582" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Name>Output3</Name>
+          <Name>Iterative</Name>
           <Abbrev>I</Abbrev>
         </Configuration>
         <Annotation DisplayMode="0">
-          <Name />
+          <Name>Iterative Output</Name>
           <DefaultAnnotationText />
-          <Left value="False" />
+          <Left value="True" />
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
     <Node ToolID="5">
       <GuiSettings>
-        <Position x="576" y="276" />
+        <Position x="558" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -90,18 +311,26 @@
         </Annotation>
         <MetaInfo connection="Output3">
           <RecordInfo>
-            <Field name="Module" size="50000" source="Formula: FileGetFileName([ModuleFullPath]) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Result" size="2147483647" source="Formula: &quot;Succeeded&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="ModuleFullPath" size="50000" source="Formula: &quot;&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Module" size="50000" source="Formula: FileGetFileName([ModuleFullPath]) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Result" size="2147483647" source="Formula: &quot;Succeeded&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="Formula: &quot;C:\Users\ariley\Desktop\New folder\New Module3.yxmd&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Output4">
           <RecordInfo>
-            <Field name="Module" size="50000" source="Formula: FileGetFileName([ModuleFullPath]) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Result" size="2147483647" source="Formula: &quot;Failed&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="ModuleFullPath" size="50000" source="Formula: &quot;&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Module" size="50000" source="Formula: FileGetFileName([ModuleFullPath]) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Result" size="2147483647" source="Formula: &quot;Failed&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="Formula: &quot;C:\Users\ariley\Desktop\New folder\New Module3.yxmd&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -109,7 +338,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="420" y="288" />
+        <Position x="438" y="582" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -143,7 +372,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="324" y="288" />
+        <Position x="318" y="582" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -171,7 +400,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
-        <Position x="828" y="264" />
+        <Position x="810" y="618" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -198,6 +427,10 @@
           <RecordInfo>
             <Field name="ModuleFullPath" size="51" source="TextInput:" type="String" />
             <Field name="Result" size="2147483647" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -205,7 +438,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="696" y="276" />
+        <Position x="678" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -221,10 +454,14 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Module" size="50000" source="Formula: FileGetFileName([ModuleFullPath]) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Module" size="50000" source="Formula: FileGetFileName([ModuleFullPath]) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
             <Field name="Result" size="2147483647" source="Formula: (Multiple Sources)" type="V_String" />
-            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="ModuleFullPath" size="50000" source="Formula: &quot;&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="Formula: &quot;C:\Users\ariley\Desktop\New folder\New Module3.yxmd&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -232,7 +469,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="930" y="258" />
+        <Position x="954" y="618" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -247,45 +484,28 @@
           <RecordInfo>
             <Field name="ModuleFullPath" size="51" source="TextInput:" type="String" />
             <Field name="Result" size="2147483647" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="False">
           <RecordInfo>
             <Field name="ModuleFullPath" size="51" source="TextInput:" type="String" />
             <Field name="Result" size="2147483647" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
     </Node>
-    <Node ToolID="12">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1140" y="228" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_9716_1b805a258cb34959a40351919fe565f8\Engine_8016_3ed22288aa4d4e16a727c58093c809cd.yxdb</TempFile>
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Table</DefaultTab>
-              <Hints />
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1044" y="228" />
+        <Position x="1158" y="606" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -310,11 +530,11 @@
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1140" y="300" />
+        <Position x="1278" y="690" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Name>Output15</Name>
+          <Name>Not Run</Name>
           <Abbrev>N</Abbrev>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -327,7 +547,7 @@
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1044" y="300" />
+        <Position x="1158" y="690" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -352,11 +572,11 @@
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1140" y="396" />
+        <Position x="798" y="414" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Name>Output17</Name>
+          <Name>Logs</Name>
           <Abbrev>L</Abbrev>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -369,7 +589,7 @@
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="942" y="150" width="59" height="59" />
+        <Position x="966" y="462" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -382,10 +602,114 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
-        <Position x="930" y="54" width="59" height="59" />
+        <Position x="954" y="366" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="222" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="54" width="546" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_ListRunner.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="54" width="240" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 1.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="162" width="792" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: If macro recieves any input data; runs the user selected module eaxctly once and outputs the logfile.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -445,10 +769,6 @@
     </Connection>
     <Connection>
       <Origin ToolID="14" Connection="Output" />
-      <Destination ToolID="12" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="14" Connection="Output" />
       <Destination ToolID="3" Connection="Input" />
     </Connection>
     <Connection>
@@ -478,13 +798,13 @@
     <Constants>
       <Constant>
         <Namespace>Question</Namespace>
-        <Name>Macro Input (2)</Name>
+        <Name>Iterative Input</Name>
         <Value />
         <IsNumeric value="False" />
       </Constant>
       <Constant>
         <Namespace>Question</Namespace>
-        <Name>Macro Output (3)</Name>
+        <Name>Iterative Output</Name>
         <Value />
         <IsNumeric value="False" />
       </Constant>
@@ -547,14 +867,14 @@
           <Questions>
             <Question>
               <Type>MacroInput</Type>
-              <Description>Macro Input (2)</Description>
-              <Name>Macro Input (2)</Name>
+              <Description>Iterative Input</Description>
+              <Name>Iterative Input</Name>
               <ToolId value="2" />
             </Question>
             <Question>
               <Type>MacroOutput</Type>
-              <Description>Macro Output (3)</Description>
-              <Name>Macro Output (3)</Name>
+              <Description>Iterative Output</Description>
+              <Name>Iterative Output</Name>
               <ToolId value="3" />
             </Question>
             <Question>
@@ -588,8 +908,8 @@
       <MacroInputs />
       <MacroOutputs />
       <IterativeMacro>
-        <Input>Input2</Input>
-        <Output>Output3</Output>
+        <Input>Input</Input>
+        <Output>Iterative</Output>
         <IterationLimit value="10000" />
         <LimitBehavior>Error</LimitBehavior>
         <OutputMode>AllSame</OutputMode>
@@ -601,7 +921,6 @@
         <Tool ToolId="2" Selected="True" />
         <Tool ToolId="3" Selected="True" />
         <Tool ToolId="5" Selected="True" />
-        <Tool ToolId="12" Selected="False" />
         <Tool ToolId="15" Selected="True" />
         <Tool ToolId="17" Selected="True" />
       </Wiz_OpenOutputTools>

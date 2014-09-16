@@ -1,9 +1,489 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="9.0">
   <Nodes>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2082" y="930" width="132" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Failure Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2082" y="762" width="132" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Success Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1950" y="762" width="120" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Order Columns</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1818" y="762" width="120" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output log message</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1674" y="762" width="132" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add Result Column</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1554" y="762" width="108" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Did the module suceed or fail?</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1290" y="606" width="132" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Update module name for output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1434" y="762" width="108" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Remove TimeInSeconds Column</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1290" y="762" width="132" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add Module FullPath and Name columns.  Clean up time column.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1170" y="762" width="108" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join on record position</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1050" y="930" width="108" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Rename column</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1050" y="762" width="108" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Rename split columns. Remove others.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="930" y="762" width="108" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Split to columns on |</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="930" y="930" width="108" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Concatenate Log into single field</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="930" width="144" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sort back to orginal order</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="762" width="144" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Trim Field_1</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="654" y="930" width="108" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Skip first (that was the last) row</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="654" y="762" width="108" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Take first (that was the last) row</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="534" y="762" width="108" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sort by RecordId Descending</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="762" width="108" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Need to separate last row.  So add record Id.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="246" y="606" width="156" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Update output log location name with Uuid</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="762" width="336" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Run Command tool calls external executable to run module</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="606" width="168" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Update module location in Run Command tool.  Adjusting for relative paths.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="450" width="168" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User chooses module run</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="108" y="108" width="59" height="59" />
+        <Position x="54" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -16,7 +496,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
-        <Position x="204" y="396" />
+        <Position x="198" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -59,7 +539,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.FileBrowse.FileBrowse">
-        <Position x="120" y="108" width="59" height="59" />
+        <Position x="66" y="486" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -72,7 +552,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="132" y="228" width="59" height="59" />
+        <Position x="78" y="666" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -85,7 +565,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="276" y="228" width="59" height="59" />
+        <Position x="246" y="666" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -98,7 +578,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="288" y="396" />
+        <Position x="438" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -126,7 +606,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="372" y="396" />
+        <Position x="558" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -153,7 +633,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-        <Position x="468" y="396" />
+        <Position x="678" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -180,7 +660,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
-        <Position x="468" y="504" />
+        <Position x="678" y="966" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -207,7 +687,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="552" y="504" />
+        <Position x="798" y="966" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -234,7 +714,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="648" y="504" />
+        <Position x="954" y="966" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -261,7 +741,7 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="912" y="432" />
+        <Position x="1194" y="810" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -269,9 +749,6 @@
             <Configuration outputConnection="Join">
               <OrderChanged value="False" />
               <SelectFields>
-                <SelectField field="Right_Concat_Field_1" selected="True" rename="Log" />
-                <SelectField field="Left_RecordID" selected="False" />
-                <SelectField field="Left_Field_1" selected="False" />
                 <SelectField field="*Unknown" selected="True" />
               </SelectFields>
             </Configuration>
@@ -301,7 +778,7 @@
         </MetaInfo>
         <MetaInfo connection="Right">
           <RecordInfo>
-            <Field name="Concat_Field_1" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -309,7 +786,7 @@
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="1236" y="432" />
+        <Position x="1578" y="810" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -347,7 +824,7 @@
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="564" y="396" />
+        <Position x="798" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -374,7 +851,7 @@
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1620" y="384" />
+        <Position x="1974" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -413,7 +890,7 @@
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1620" y="468" />
+        <Position x="1974" y="966" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -452,7 +929,7 @@
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1704" y="384" />
+        <Position x="2094" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -469,7 +946,7 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1704" y="468" />
+        <Position x="2094" y="966" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -486,7 +963,7 @@
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="1536" y="384" />
+        <Position x="1842" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -495,7 +972,7 @@
           <Type>Message</Type>
           <Priority>Medium</Priority>
           <Transient>False</Transient>
-          <MessageExpression>"Module Ran Successfully"</MessageExpression>
+          <MessageExpression>[Module] + " Ran Successfully"</MessageExpression>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -517,35 +994,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
     </Node>
-    <Node ToolID="20">
-      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="1548" y="216" width="59" height="59" />
-      </GuiSettings>
-      <Properties>
-        <Configuration />
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-    </Node>
-    <Node ToolID="21">
-      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="1476" y="300" width="59" height="59" />
-      </GuiSettings>
-      <Properties>
-        <Configuration />
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-    </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="1464" y="468" />
+        <Position x="1842" y="966" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -554,7 +1005,7 @@
           <Type>Message</Type>
           <Priority>Medium</Priority>
           <Transient>False</Transient>
-          <MessageExpression>"Module Ran With Errors"</MessageExpression>
+          <MessageExpression>[Module] + " Ran With Errors"</MessageExpression>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -578,7 +1029,7 @@
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1008" y="432" />
+        <Position x="1302" y="810" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -612,7 +1063,7 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="528" y="228" width="59" height="59" />
+        <Position x="1314" y="666" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -625,7 +1076,7 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1344" y="384" />
+        <Position x="1698" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -655,7 +1106,7 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1344" y="468" />
+        <Position x="1698" y="966" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -685,7 +1136,7 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="648" y="396" />
+        <Position x="954" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -719,7 +1170,7 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="732" y="396" />
+        <Position x="1074" y="798" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -752,7 +1203,7 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1116" y="432" />
+        <Position x="1458" y="810" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -781,6 +1232,158 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="198" width="162" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="366" width="162" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="246" y="198" width="546" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_Runner.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="798" y="198" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 1.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="246" y="306" width="786" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: Runs Alteryx modules and outputs the logfile.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1074" y="966" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Concat_Field_1" selected="True" rename="Log" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="1098" width="696" height="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Version History: 
+
+1.0 - Initial release
+]]></Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -790,14 +1393,6 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
     <Connection name="#1">
       <Origin ToolID="3" Connection="Question" />
       <Destination ToolID="4" Connection="Question" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="3" Connection="Question" />
-      <Destination ToolID="20" Connection="Question" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="3" Connection="Question" />
-      <Destination ToolID="21" Connection="Question" />
     </Connection>
     <Connection name="#1">
       <Origin ToolID="3" Connection="Question" />
@@ -837,11 +1432,7 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
     </Connection>
     <Connection>
       <Origin ToolID="11" Connection="Output" />
-      <Destination ToolID="12" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="31" Connection="Output" />
-      <Destination ToolID="12" Connection="Left" />
+      <Destination ToolID="51" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="12" Connection="Join" />
@@ -875,22 +1466,6 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
       <Origin ToolID="19" Connection="Output" />
       <Destination ToolID="15" Connection="Input" />
     </Connection>
-    <Connection name="#2">
-      <Origin ToolID="20" Connection="Action" />
-      <Destination ToolID="19" Connection="Action" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="25" Connection="Output" />
-      <Destination ToolID="19" Connection="Input" />
-    </Connection>
-    <Connection name="#2">
-      <Origin ToolID="21" Connection="Action" />
-      <Destination ToolID="22" Connection="Action" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="26" Connection="Output" />
-      <Destination ToolID="22" Connection="Input" />
-    </Connection>
     <Connection>
       <Origin ToolID="22" Connection="Output" />
       <Destination ToolID="16" Connection="Input" />
@@ -900,8 +1475,24 @@ Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotati
       <Destination ToolID="32" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="30" Connection="Output" />
       <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="12" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="12" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="32" Connection="Output" />
@@ -984,28 +1575,8 @@ ENDIF
               <Description />
               <ToolId value="5" />
               <Expression>replace([Destination], "out.txt", UuidCreate() + ".txt")</Expression>
-              <Destination>1</Destination>
+              <Destination>2</Destination>
               <OuterXml value="False" />
-            </Action>
-            <Action>
-              <Type>UpdateValue</Type>
-              <Description />
-              <ToolId value="20" />
-              <Mode>Simple</Mode>
-              <Variable />
-              <Replace value="True" />
-              <ReplaceText>Module</ReplaceText>
-              <Destination>19/MessageExpression</Destination>
-            </Action>
-            <Action>
-              <Type>UpdateValue</Type>
-              <Description />
-              <ToolId value="21" />
-              <Mode>Simple</Mode>
-              <Variable />
-              <Replace value="True" />
-              <ReplaceText>Module</ReplaceText>
-              <Destination>22/MessageExpression</Destination>
             </Action>
             <Action>
               <Type>UpdateValueFormula</Type>

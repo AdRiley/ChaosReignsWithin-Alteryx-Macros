@@ -1,13 +1,173 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="9.0">
   <Nodes>
-    <Node ToolID="3">
-      <GuiSettings>
-        <Position x="354" y="330" />
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1062" y="606" width="144" height="180" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="Input.Input2"><![CDATA[ModuleFullPath=FullPath
+          <Text>Macro Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="906" y="606" width="144" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Union Module logs with moduel that were not run</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="738" y="606" width="156" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create fields for modules that were not run</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="606" width="312" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Iterative macro to run the modules</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="306" width="312" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User chooses to run all modules or stop on error.  Pass choice to iterative macro</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="306" width="180" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User chooses field with module path and uses select to map it to standard field name</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="606" width="156" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="606" width="180" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create fields with module path and name</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="426" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Input.Input"><![CDATA[ModuleFullPath=FullPath
 ]]></Value>
           <Value name="Check Box (18)">False</Value>
         </Configuration>
@@ -16,25 +176,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output17">
-          <RecordInfo>
-            <Field name="Module" size="50000" source="Formula: FileGetFileName([ModuleFullPath]) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Result" size="2147483647" source="Formula: (Multiple Sources) (BatchMacro)" type="V_String" />
-            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="ModuleFullPath" size="50000" source="Formula: &quot;&quot; (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-        <MetaInfo connection="Output15">
-          <RecordInfo>
-            <Field name="ModuleFullPath" size="50000" source="TextInput: (BatchMacro)" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
       </Properties>
-      <EngineSettings Macro="W:\Work\CrewMacros\FromGit\Macros\CReW_ListRunner.yxmciterative" />
+      <EngineSettings Macro="W:\Work\CrewMacros\FromGit\Macros\CReW_ListRunner.yxmcIterative" />
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="474" y="318" />
+        <Position x="774" y="618" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -64,7 +211,7 @@ Log=Null()</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="690" y="330" />
+        <Position x="942" y="654" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -86,6 +233,10 @@ Log=Null()</DefaultAnnotationText>
           <RecordInfo>
             <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
             <Field name="Result" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
             <Field name="Log" size="1073741823" source="(Multiple Sources)" type="V_WString" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
@@ -95,7 +246,7 @@ Log=Null()</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="54" y="54" width="59" height="59" />
+        <Position x="90" y="78" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -108,7 +259,7 @@ Log=Null()</DefaultAnnotationText>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="54" y="330" />
+        <Position x="90" y="642" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -145,7 +296,7 @@ Log=Null()</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="966" y="330" />
+        <Position x="1098" y="654" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -162,7 +313,7 @@ Log=Null()</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="162" y="330" />
+        <Position x="246" y="642" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -187,7 +338,7 @@ Log=Null()</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-        <Position x="150" y="114" width="59" height="59" />
+        <Position x="234" y="378" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -200,7 +351,7 @@ Log=Null()</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="162" y="210" width="59" height="59" />
+        <Position x="246" y="498" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -213,7 +364,7 @@ Log=Null()</DefaultAnnotationText>
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="342" y="114" width="59" height="59" />
+        <Position x="414" y="378" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -226,7 +377,7 @@ Log=Null()</DefaultAnnotationText>
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="498" y="114" width="59" height="59" />
+        <Position x="558" y="378" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -239,7 +390,7 @@ Log=Null()</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="354" y="210" width="59" height="59" />
+        <Position x="426" y="498" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -250,14 +401,141 @@ Log=Null()</DefaultAnnotationText>
         </Annotation>
       </Properties>
     </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="222" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="54" width="546" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_ListRunner.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="54" width="240" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 1.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="162" width="792" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: If macro recieves any input data; runs the user selected module eaxctly once and outputs the logfile.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="798" width="672" height="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Version History: 
+
+1.0 - Initial release
+]]></Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="3" Connection="Output15" />
+      <Origin ToolID="3" Connection="Not Run" />
       <Destination ToolID="10" Connection="Input" />
     </Connection>
     <Connection name="#1">
-      <Origin ToolID="3" Connection="Output17" />
+      <Origin ToolID="3" Connection="Logs" />
       <Destination ToolID="12" Connection="Input" />
     </Connection>
     <Connection name="#2">
@@ -282,7 +560,7 @@ Log=Null()</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="17" Connection="Output" />
-      <Destination ToolID="3" Connection="Input2" />
+      <Destination ToolID="3" Connection="Input" />
     </Connection>
     <Connection name="#2">
       <Origin ToolID="22" Connection="Action" />
@@ -436,7 +714,6 @@ Log=Null()</DefaultAnnotationText>
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
         <Tool ToolId="3" Selected="True" />
-        <Tool ToolId="22" Selected="True" />
         <Tool ToolId="15" Selected="True" />
         <Tool ToolId="16" Selected="True" />
       </Wiz_OpenOutputTools>

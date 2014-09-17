@@ -334,7 +334,7 @@ Macro Input</Text>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="W:\Work\CrewMacros\FromGit\Macros\CReW_Runner.yxmcbatch" />
+      <EngineSettings Macro="CReW_Runner.yxmcbatch" />
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">

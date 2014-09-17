@@ -7,7 +7,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="File Browse (3)">W:\Work\CrewMacros\FromGit\Samples\CReW Macros\16_Tableau_Spatial_Format.yxmd</Value>
+          <Value name="File Browse (3)">16_Tableau_Spatial_Format.yxmd</Value>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />

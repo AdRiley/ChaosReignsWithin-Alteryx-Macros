@@ -25,13 +25,13 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Directory>W:\Work\CrewMacros\FromGit\Samples\CReW Macros</Directory>
+          <Directory>.\</Directory>
           <FileSpec>*.yxmd</FileSpec>
           <IncludeSubDirs value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>dir W:\Work\CrewMacros\FromGit\Samples\CReW Macros\*.yxmd</DefaultAnnotationText>
+          <DefaultAnnotationText>dir .\*.yxmd</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>

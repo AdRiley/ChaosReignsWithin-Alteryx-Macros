@@ -1,9 +1,49 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="9.0">
   <Nodes>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="102" y="918" width="204" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Current Macro Version Question</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="102" y="534" width="204" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Path to XML file question</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
     <Node ToolID="40">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="240" y="307.9" width="216" height="192" />
+        <Position x="318" y="307.9" width="216" height="192" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +63,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="240" y="54" width="156" height="156" />
+        <Position x="318" y="54" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -45,7 +85,7 @@ Within</Text>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="240" y="223.9" width="156" height="24" />
+        <Position x="318" y="223.9" width="156" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -65,7 +105,7 @@ Within</Text>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="408" y="54" width="636" height="96" />
+        <Position x="486" y="54" width="636" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -87,7 +127,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1056" y="54" width="228" height="96" />
+        <Position x="1134" y="54" width="228" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -107,7 +147,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="408" y="162" width="876" height="132" />
+        <Position x="486" y="162" width="876" height="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -131,7 +171,7 @@ The macro downloads the XML file and checks the version in against the version s
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="240" y="1303.9" width="1140" height="168" />
+        <Position x="318" y="1303.9" width="1140" height="168" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -152,7 +192,7 @@ The macro downloads the XML file and checks the version in against the version s
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="240" y="1483.9" width="1140" height="132" />
+        <Position x="318" y="1483.9" width="1140" height="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -176,7 +216,7 @@ The macro downloads the XML file and checks the version in against the version s
     </Node>
     <Node ToolID="38">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
-        <Position x="54" y="180" width="59" height="59" />
+        <Position x="-132" y="180" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -189,7 +229,7 @@ The macro downloads the XML file and checks the version in against the version s
     </Node>
     <Node ToolID="39">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="54" y="180" width="59" height="59" />
+        <Position x="-132" y="180" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -202,7 +242,7 @@ The macro downloads the XML file and checks the version in against the version s
     </Node>
     <Node ToolID="37">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
-        <Position x="276" y="331.9" width="59" height="59" />
+        <Position x="354" y="331.9" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -215,7 +255,7 @@ The macro downloads the XML file and checks the version in against the version s
     </Node>
     <Node ToolID="34">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="288" y="415.9" width="59" height="59" />
+        <Position x="366" y="415.9" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -226,9 +266,61 @@ The macro downloads the XML file and checks the version in against the version s
         </Annotation>
       </Properties>
     </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="126" y="966" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Version of this Macro</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="150" y="594" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Version XML URL</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="162" y="690" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name>Update URL</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="126" y="1062" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name>Update Version Number</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="242" y="530.9" width="1136" height="747" />
+        <Position x="319.9999" y="758.9" width="1136" height="519" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -244,33 +336,9 @@ The macro downloads the XML file and checks the version in against the version s
         </Annotation>
       </Properties>
       <ChildNodes>
-        <Node ToolID="21">
-          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="1272" y="787.9" width="96" height="120" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Text><![CDATA[Browse
-
-
-
-]]></Text>
-              <Font name="Segoe UI" size="8.25" style="0" />
-              <TextColor name="Black" />
-              <FillColor name="White" />
-              <Shape shape="0" />
-              <Justification Justification="4" />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
         <Node ToolID="30">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="1176" y="787.9" width="84" height="120" />
+            <Position x="1254" y="787.9" width="84" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -293,7 +361,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="17">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="756" y="787.9" width="96" height="120" />
+            <Position x="834" y="787.9" width="96" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -315,7 +383,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="14">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="564" y="787.9" width="86" height="120" />
+            <Position x="642" y="787.9" width="86" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -334,32 +402,9 @@ The macro downloads the XML file and checks the version in against the version s
             </Annotation>
           </Properties>
         </Node>
-        <Node ToolID="29">
-          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="468.0001" y="787.9" width="84" height="120" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Text><![CDATA[Warn that we are checking
-
-
-]]></Text>
-              <Font name="Segoe UI" size="8.25" style="0" />
-              <TextColor name="Black" />
-              <FillColor name="White" />
-              <Shape shape="0" />
-              <Justification Justification="4" />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
         <Node ToolID="20">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="1068" y="787.9" width="96" height="120" />
+            <Position x="1146" y="787.9" width="96" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -380,14 +425,25 @@ The macro downloads the XML file and checks the version in against the version s
             </Annotation>
           </Properties>
         </Node>
-        <Node ToolID="36">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-            <Position x="288" y="943.9" width="59" height="59" />
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1350" y="787.9" width="96" height="120" />
           </GuiSettings>
           <Properties>
-            <Configuration />
+            <Configuration>
+              <Text><![CDATA[Browse
+
+
+
+]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
             <Annotation DisplayMode="0">
-              <Name>Version of this Macro</Name>
+              <Name />
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -395,7 +451,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="13">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="252" y="787.9001" width="204" height="120" />
+            <Position x="330" y="787.9001" width="204" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -415,7 +471,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="19">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="960" y="787.9" width="96" height="120" />
+            <Position x="1038" y="787.9" width="96" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -438,7 +494,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
-            <Position x="672" y="823.9" />
+            <Position x="750" y="823.9" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -469,7 +525,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="18">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="864" y="787.9" width="84" height="120" />
+            <Position x="942" y="787.9" width="84" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -491,7 +547,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="3">
           <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
-            <Position x="576" y="823.9" />
+            <Position x="654" y="823.9" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -535,7 +591,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="15">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="660" y="787.9" width="84" height="120" />
+            <Position x="738" y="787.9" width="84" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -556,7 +612,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="7">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="876" y="835.9" />
+            <Position x="954" y="835.9" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -585,7 +641,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="780" y="835.9" />
+            <Position x="858" y="835.9" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="True">
@@ -632,22 +688,9 @@ The macro downloads the XML file and checks the version in against the version s
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
         </Node>
-        <Node ToolID="33">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="300" y="1063.9" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="2">
-              <Name>Update Version Number</Name>
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
         <Node ToolID="1">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="312" y="823.9001" />
+            <Position x="390" y="823.9001" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -676,7 +719,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="28">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-            <Position x="480" y="823.8999" />
+            <Position x="558" y="823.9" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -700,34 +743,9 @@ The macro downloads the XML file and checks the version in against the version s
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
         </Node>
-        <Node ToolID="5">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1296" y="835.9" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_4272_ced68db3016142b3a8d5b916989726db\Engine_5800_847dbcee183b4860b03ced2ad404ccd1.yxdb</TempFile>
-              <Layout>
-                <ViewMode>Single</ViewMode>
-                <ViewSize value="100" />
-                <View1>
-                  <DefaultTab>Table</DefaultTab>
-                  <Hints />
-                </View1>
-                <View2 />
-              </Layout>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-        </Node>
         <Node ToolID="8">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-            <Position x="984" y="835.9" />
+            <Position x="1062" y="835.9" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -753,31 +771,22 @@ The macro downloads the XML file and checks the version in against the version s
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
         </Node>
-        <Node ToolID="35">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
-            <Position x="300" y="595.9001" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="0">
-              <Name>Version XML URL</Name>
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="16">
-          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="252" y="1147.9" width="204" height="120" />
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1374" y="835.9" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <Text>Current Macro Version</Text>
-              <Font name="Segoe UI" size="8.25" style="0" />
-              <TextColor name="Black" />
-              <FillColor name="White" />
-              <Shape shape="0" />
-              <Justification Justification="4" />
+              <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_4272_ced68db3016142b3a8d5b916989726db\Engine_5800_847dbcee183b4860b03ced2ad404ccd1.yxdb</TempFile>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Table</DefaultTab>
+                  <Hints />
+                </View1>
+                <View2 />
+              </Layout>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
@@ -785,10 +794,11 @@ The macro downloads the XML file and checks the version in against the version s
               <Left value="False" />
             </Annotation>
           </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
         </Node>
         <Node ToolID="31">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-            <Position x="1188" y="835.9" />
+            <Position x="1266" y="835.9" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -816,7 +826,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="2">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="300" y="1183.9" />
+            <Position x="378" y="1183.9" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -843,54 +853,24 @@ The macro downloads the XML file and checks the version in against the version s
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
         </Node>
-        <Node ToolID="41">
+        <Node ToolID="29">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="252" y="919.9" width="204" height="216" />
+            <Position x="546.0001" y="787.9" width="84" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <Text>Current Macro Version Question</Text>
+              <Text><![CDATA[Warn that we are checking
+
+
+]]></Text>
               <Font name="Segoe UI" size="8.25" style="0" />
               <TextColor name="Black" />
-              <FillColor r="230" g="255" b="230" />
+              <FillColor name="White" />
               <Shape shape="0" />
               <Justification Justification="4" />
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="42">
-          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="252" y="559.9" width="204" height="216" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Text>Path to XML file question</Text>
-              <Font name="Segoe UI" size="8.25" style="0" />
-              <TextColor name="Black" />
-              <FillColor r="230" g="255" b="230" />
-              <Shape shape="0" />
-              <Justification Justification="4" />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-        </Node>
-        <Node ToolID="32">
-          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-            <Position x="312" y="703.9001" width="59" height="59" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="2">
-              <Name>Update URL</Name>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
@@ -898,7 +878,7 @@ The macro downloads the XML file and checks the version in against the version s
         </Node>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-            <Position x="1080" y="835.9" />
+            <Position x="1158" y="835.9" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -924,6 +904,26 @@ The macro downloads the XML file and checks the version in against the version s
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
         </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="329.9999" y="1147.9" width="204" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Current Macro Version</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
       </ChildNodes>
     </Node>
   </Nodes>
@@ -939,6 +939,18 @@ The macro downloads the XML file and checks the version in against the version s
     <Connection name="Version of this Macro">
       <Origin ToolID="36" Connection="Question" />
       <Destination ToolID="33" Connection="Question" />
+    </Connection>
+    <Connection name="Version XML URL">
+      <Origin ToolID="35" Connection="Question" />
+      <Destination ToolID="32" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Action" />
+      <Destination ToolID="2" Connection="Action" />
     </Connection>
     <Connection>
       <Origin ToolID="4" Connection="Output" />
@@ -961,10 +973,6 @@ The macro downloads the XML file and checks the version in against the version s
       <Destination ToolID="7" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="33" Connection="Action" />
-      <Destination ToolID="2" Connection="Action" />
-    </Connection>
-    <Connection>
       <Origin ToolID="1" Connection="Output" />
       <Destination ToolID="28" Connection="Input" />
     </Connection>
@@ -976,17 +984,9 @@ The macro downloads the XML file and checks the version in against the version s
       <Origin ToolID="8" Connection="Output" />
       <Destination ToolID="9" Connection="Input" />
     </Connection>
-    <Connection name="Version XML URL">
-      <Origin ToolID="35" Connection="Question" />
-      <Destination ToolID="32" Connection="Question" />
-    </Connection>
     <Connection>
       <Origin ToolID="31" Connection="Output" />
       <Destination ToolID="5" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="32" Connection="Action" />
-      <Destination ToolID="1" Connection="Action" />
     </Connection>
     <Connection>
       <Origin ToolID="9" Connection="Output" />

@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="966" y="306" width="120" height="312" />
+        <Position x="978" y="306" width="120" height="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +23,7 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="570" y="306" width="120" height="312" />
+        <Position x="582" y="306" width="120" height="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -43,7 +43,7 @@
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="702" y="306" width="120" height="312" />
+        <Position x="714" y="306" width="120" height="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,7 +63,7 @@
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="834" y="306" width="120" height="312" />
+        <Position x="846" y="306" width="120" height="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -83,7 +83,7 @@
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="438" y="306" width="120" height="312" />
+        <Position x="450" y="306" width="120" height="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -103,7 +103,7 @@
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="306" y="306" width="120" height="312" />
+        <Position x="318" y="306" width="120" height="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -123,7 +123,7 @@
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="174" y="306" width="120" height="312" />
+        <Position x="186" y="306" width="120" height="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -143,7 +143,7 @@
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="306" width="120" height="312" />
+        <Position x="54" y="306" width="120" height="312" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -163,7 +163,7 @@
     </Node>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="54" y="54" width="59" height="59" />
+        <Position x="66" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -176,7 +176,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="330" y="354" />
+        <Position x="342" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -194,6 +194,7 @@
           <RecordInfo>
             <Field name="Module" size="12" source="TextInput:" type="String" />
             <Field description="TextToColumns: Parsed from Log" name="Log" size="471" source="TextToColumns: Parsed from Log" type="V_String" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -201,7 +202,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="210" y="354" />
+        <Position x="222" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -209,6 +210,7 @@
           <SelectFields>
             <SelectField field="Module" selected="True" />
             <SelectField field="Log" selected="True" />
+            <SelectField field="ModuleFullPath" selected="True" />
             <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
@@ -221,6 +223,7 @@
           <RecordInfo>
             <Field name="Module" size="12" source="TextInput:" type="String" />
             <Field name="Log" size="471" source="TextInput:" type="V_String" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -228,7 +231,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="450" y="354" />
+        <Position x="462" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -265,6 +268,7 @@
           <RecordInfo>
             <Field name="Module" size="12" source="TextInput:" type="String" />
             <Field description="TextToColumns: Parsed from Log" name="Log" size="471" source="TextToColumns: Parsed from Log" type="V_String" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="RegEx: Parsed from Log" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
             <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="RegEx: Parsed from Log" type="V_String" />
@@ -275,7 +279,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="714" y="354" />
+        <Position x="726" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -298,6 +302,7 @@ Message=iif(!isempty([Message2]), [Message2], [Message])
           <RecordInfo>
             <Field name="Module" size="12" source="TextInput:" type="String" />
             <Field description="TextToColumns: Parsed from Log" name="Log" size="471" source="TextToColumns: Parsed from Log" type="V_String" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
             <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_String" />
@@ -311,7 +316,7 @@ Message=iif(!isempty([Message2]), [Message2], [Message])
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="594" y="354" />
+        <Position x="606" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -331,6 +336,7 @@ Message=iif(!isempty([Message2]), [Message2], [Message])
           <RecordInfo>
             <Field name="Module" size="12" source="TextInput:" type="String" />
             <Field description="TextToColumns: Parsed from Log" name="Log" size="471" source="TextToColumns: Parsed from Log" type="V_String" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="RegEx: Parsed from Log" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
             <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="RegEx: Parsed from Log" type="V_String" />
@@ -343,7 +349,7 @@ Message=iif(!isempty([Message2]), [Message2], [Message])
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="858" y="354" />
+        <Position x="870" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -357,6 +363,7 @@ Message=iif(!isempty([Message2]), [Message2], [Message])
             <SelectField field="Message1" selected="False" />
             <SelectField field="Message2" selected="False" />
             <SelectField field="File" selected="True" />
+            <SelectField field="ModuleFullPath" selected="True" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -372,6 +379,7 @@ Message=iif(!isempty([Message2]), [Message2], [Message])
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_String" />
             <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -379,7 +387,7 @@ Message=iif(!isempty([Message2]), [Message2], [Message])
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="78" y="354" />
+        <Position x="90" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -444,7 +452,7 @@ Finished in 0.1 seconds with 1 error and 1 field conversion error and 1 warning<
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="978" y="354" />
+        <Position x="990" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -461,7 +469,7 @@ Finished in 0.1 seconds with 1 error and 1 field conversion error and 1 warning<
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="102" width="162" height="156" />
+        <Position x="54" y="102" width="162" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -483,7 +491,7 @@ Within</Text>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="270" width="162" height="24" />
+        <Position x="54" y="270" width="162" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -503,7 +511,7 @@ Within</Text>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="222" y="102" width="624" height="96" />
+        <Position x="234" y="102" width="624" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -525,7 +533,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="858" y="102" width="228" height="96" />
+        <Position x="870" y="102" width="228" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -545,7 +553,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="222" y="210" width="864" height="84" />
+        <Position x="234" y="210" width="864" height="84" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -565,7 +573,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="630" width="648" height="252" />
+        <Position x="54" y="630" width="648" height="252" />
       </GuiSettings>
       <Properties>
         <Configuration>

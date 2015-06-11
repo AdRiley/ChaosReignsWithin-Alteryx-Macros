@@ -1080,6 +1080,7 @@ Author: Adam Riley
               <Expression>Replace([Destination], 
 "Path",
 IF REGEX_Match([#1], "^[a-zA-Z]{1}:.*$") //Rooted Path
+|| left([#1], 2) == "\\" //UNC Path
 THEN
 [#1]
 ELSE

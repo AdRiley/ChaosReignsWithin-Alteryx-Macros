@@ -3112,7 +3112,7 @@ ENDIF</MessageExpression>
     </Constants>
     <MetaInfo>
       <NameIsFileName value="False" />
-      <Name><![CDATA[  Wildcard XLSX Input]]></Name>
+      <Name><![CDATA[   Wildcard XLSX Input]]></Name>
       <Description>Reads in multiple sheets from multiple Excel files from a directory. Optionally can filter out sheets, can pull field names from a header row, can auto configure field types, can sample N random sheets, and if the headers do not match then raw data for the sheets that did not match will be in the 'N' output.</Description>
       <RootToolName />
       <ToolVersion />

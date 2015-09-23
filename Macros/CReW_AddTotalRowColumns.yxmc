@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="9.0">
+<AlteryxDocument yxmdVer="9.5">
   <Nodes>
     <Node ToolID="138">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2268" y="522" width="132" height="156" />
+        <Position x="2154" y="522" width="132" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +23,7 @@
     </Node>
     <Node ToolID="137">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2148" y="522" width="108" height="156" />
+        <Position x="2034" y="522" width="108" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -43,7 +43,7 @@
     </Node>
     <Node ToolID="136">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2028" y="522" width="108" height="156" />
+        <Position x="1914" y="522" width="108" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,7 +63,7 @@
     </Node>
     <Node ToolID="135">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1596" y="690" width="216" height="300" />
+        <Position x="1482" y="690" width="216" height="300" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -83,7 +83,7 @@
     </Node>
     <Node ToolID="134">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1596" y="1002" width="420" height="132" />
+        <Position x="1482" y="1002" width="420" height="168" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -103,7 +103,7 @@
     </Node>
     <Node ToolID="133">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1824" y="690" width="192" height="300" />
+        <Position x="1710" y="690" width="192" height="300" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -123,7 +123,7 @@
     </Node>
     <Node ToolID="132">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1596" y="522" width="420" height="156" />
+        <Position x="1482" y="522" width="420" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -143,7 +143,7 @@
     </Node>
     <Node ToolID="131">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1596" y="318" width="420" height="192" />
+        <Position x="1482" y="318" width="420" height="192" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -163,11 +163,12 @@
     </Node>
     <Node ToolID="130">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1260" y="1002" width="324" height="132" />
+        <Position x="1146" y="1002" width="324" height="168" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Create Row Total</Text>
+          <Text>Create Row Total
+(Cross Tab doesn't like support spaces in field names so replace them before and after)</Text>
           <Font name="Segoe UI" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -183,7 +184,7 @@
     </Node>
     <Node ToolID="129">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1260" y="834" width="324" height="156" />
+        <Position x="1146" y="834" width="324" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -203,7 +204,7 @@
     </Node>
     <Node ToolID="128">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1260" y="522" width="324" height="156" />
+        <Position x="1146" y="522" width="324" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -223,7 +224,7 @@
     </Node>
     <Node ToolID="127">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1092" y="522" width="156" height="156" />
+        <Position x="978" y="522" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -243,7 +244,7 @@
     </Node>
     <Node ToolID="125">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="504" y="318" width="576" height="192" />
+        <Position x="390" y="318" width="576" height="192" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -263,7 +264,7 @@
     </Node>
     <Node ToolID="124">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="504" y="522" width="576" height="156" />
+        <Position x="390" y="522" width="576" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -283,7 +284,7 @@
     </Node>
     <Node ToolID="123">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="336" y="522" width="156" height="156" />
+        <Position x="222" y="522" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -303,7 +304,7 @@
     </Node>
     <Node ToolID="122">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="168" y="522" width="156" height="156" />
+        <Position x="54" y="522" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -323,7 +324,7 @@
     </Node>
     <Node ToolID="114">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="2292" y="594" />
+        <Position x="2178" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -340,7 +341,7 @@
     </Node>
     <Node ToolID="113">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="216" y="570" />
+        <Position x="102" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -353,7 +354,7 @@
               <NumRows value="6" />
               <Fields>
                 <Field name="NonRepeatableGroup2" />
-                <Field name="NonRepeatableFieldNameA" />
+                <Field name="NonRepeatableFieldName A" />
                 <Field name="NonRepeatableFieldNameB" />
                 <Field name="NonRepeatableFieldNameC" />
                 <Field name="NonRepeatableFieldNameD" />
@@ -407,12 +408,12 @@
         <Annotation DisplayMode="0">
           <Name>Input</Name>
           <DefaultAnnotationText />
-          <Left value="False" />
+          <Left value="True" />
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
-            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
@@ -424,7 +425,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="1140" y="570" />
+        <Position x="1026" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -434,7 +435,7 @@
           </KeyFields>
           <DataFields>
             <Field field="NonRepeatableRecordID" selected="False" />
-            <Field field="NonRepeatableFieldNameA" selected="True" />
+            <Field field="NonRepeatableFieldName A" selected="True" />
             <Field field="NonRepeatableFieldNameB" selected="True" />
             <Field field="NonRepeatableFieldNameC" selected="True" />
             <Field field="NonRepeatableFieldNameD" selected="True" />
@@ -450,7 +451,7 @@
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field name="Name" size="23" source="Transpose:" type="String" />
+            <Field name="Name" size="24" source="Transpose:" type="String" />
             <Field name="Value" source="TextInput:" type="Byte" />
           </RecordInfo>
           <SortInfo>
@@ -462,7 +463,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1308" y="570" />
+        <Position x="1194" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -490,7 +491,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1308" y="1050" />
+        <Position x="1146" y="1050" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -506,7 +507,7 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Name" size="23" source="Summarize: GroupBy - Name" type="String" />
+            <Field name="Name" size="24" source="Summarize: GroupBy - Name" type="String" />
             <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
           </RecordInfo>
           <SortInfo>
@@ -518,7 +519,7 @@
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1764" y="582" />
+        <Position x="1650" y="582" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -563,13 +564,13 @@
         <MetaInfo connection="Join">
           <RecordInfo>
             <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
-            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableRecordID" source="Summarize: GroupBy - NonRepeatableRecordID" type="Int32" />
             <Field name="Right_NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
             <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
           </RecordInfo>
           <SortInfo>
@@ -580,7 +581,7 @@
           <RecordInfo>
             <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
             <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
-            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
@@ -595,7 +596,7 @@
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="1464" y="882" />
+        <Position x="1350" y="882" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -618,7 +619,7 @@
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="1464" y="1050" />
+        <Position x="1326" y="1050" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -636,11 +637,11 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="NonRepeatableFieldNameA" source="CrossTab:Header:Name:NonRepeatableFieldNameA:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldName__Space__A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
           </RecordInfo>
           <SortInfo>
           </SortInfo>
@@ -650,7 +651,7 @@
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="2052" y="594" />
+        <Position x="1938" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -671,13 +672,13 @@
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
-            <Field name="NonRepeatableFieldNameA" source="(Multiple Sources)" type="Int64" />
             <Field name="NonRepeatableFieldNameB" source="(Multiple Sources)" type="Int64" />
             <Field name="NonRepeatableFieldNameC" source="(Multiple Sources)" type="Int64" />
             <Field name="NonRepeatableFieldNameD" source="(Multiple Sources)" type="Int64" />
             <Field name="NonRepeatableFieldNameE" source="(Multiple Sources)" type="Int64" />
             <Field name="NonRepeatableRecordID" source="Summarize: GroupBy - NonRepeatableRecordID" type="Int32" />
             <Field name="Right_NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableFieldName A" source="(Multiple Sources)" type="Int64" />
             <Field name="Total" source="Summarize: (Multiple Sources)" type="Int64" />
           </RecordInfo>
         </MetaInfo>
@@ -686,11 +687,11 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2292" y="546" />
+        <Position x="2178" y="546" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_12384_888ee5daf9de4be683183f1bb2eefda5\Engine_13964_04fac3e00a0c49fc842f6428df40d1f6.yxdb</TempFile>
+          <TempFile>c:\temp\Engine_191112_dc937c6556014ff894cbc306994a4645\Engine_195856_f73bb459b0964b7ab72cf7dbec14e6ea.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -711,7 +712,7 @@
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="720" y="570" />
+        <Position x="606" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -719,7 +720,7 @@
           <SelectFields>
             <SelectField field="NonRepeatableGroup2" selected="False" />
             <SelectField field="NonRepeatableRecordID" selected="True" />
-            <SelectField field="NonRepeatableFieldNameA" selected="True" />
+            <SelectField field="NonRepeatableFieldName A" selected="True" />
             <SelectField field="NonRepeatableFieldNameB" selected="True" />
             <SelectField field="NonRepeatableFieldNameC" selected="True" />
             <SelectField field="NonRepeatableFieldNameD" selected="True" />
@@ -735,7 +736,7 @@
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
@@ -750,7 +751,7 @@
     </Node>
     <Node ToolID="71">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
-        <Position x="1884" y="594" />
+        <Position x="1770" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -762,13 +763,13 @@
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
-            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableRecordID" source="Summarize: GroupBy - NonRepeatableRecordID" type="Int32" />
             <Field name="Right_NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
             <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
           </RecordInfo>
           <SortInfo>
@@ -780,7 +781,7 @@
     </Node>
     <Node ToolID="75">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
-        <Position x="1656" y="606" />
+        <Position x="1542" y="606" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -795,7 +796,7 @@
           <RecordInfo>
             <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
             <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
-            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
@@ -809,7 +810,7 @@
           <RecordInfo>
             <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
             <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
-            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
@@ -824,7 +825,7 @@
     </Node>
     <Node ToolID="74">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1836" y="1038" />
+        <Position x="1722" y="1038" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -836,6 +837,7 @@
             <SelectField field="NonRepeatableFieldNameD" selected="True" />
             <SelectField field="NonRepeatableFieldNameE" selected="True" />
             <SelectField field="Total" selected="True" />
+            <SelectField field="NonRepeatableFieldName A" selected="True" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -846,12 +848,12 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="NonRepeatableFieldNameA" source="CrossTab:Header:Name:NonRepeatableFieldNameA:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
             <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -859,7 +861,7 @@
     </Node>
     <Node ToolID="93">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="384" y="570" />
+        <Position x="270" y="570" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -877,7 +879,7 @@
           <RecordInfo>
             <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
             <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
-            <Field name="NonRepeatableFieldNameA" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
             <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
@@ -892,7 +894,7 @@
     </Node>
     <Node ToolID="96">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2172" y="594" />
+        <Position x="2058" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -906,6 +908,7 @@
             <SelectField field="NonRepeatableFieldNameE" selected="True" />
             <SelectField field="NonRepeatableRecordID" selected="False" />
             <SelectField field="Right_NonRepeatableRecordID" selected="False" />
+            <SelectField field="NonRepeatableFieldName A" selected="True" />
             <SelectField field="*Unknown" selected="True" />
             <SelectField field="Total" selected="True" />
           </SelectFields>
@@ -918,11 +921,11 @@
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
-            <Field name="NonRepeatableFieldNameA" source="(Multiple Sources)" type="Int64" />
             <Field name="NonRepeatableFieldNameB" source="(Multiple Sources)" type="Int64" />
             <Field name="NonRepeatableFieldNameC" source="(Multiple Sources)" type="Int64" />
             <Field name="NonRepeatableFieldNameD" source="(Multiple Sources)" type="Int64" />
             <Field name="NonRepeatableFieldNameE" source="(Multiple Sources)" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="(Multiple Sources)" type="Int64" />
             <Field name="Total" source="Summarize: (Multiple Sources)" type="Int64" />
           </RecordInfo>
         </MetaInfo>
@@ -931,7 +934,7 @@
     </Node>
     <Node ToolID="97">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1692" y="1038" />
+        <Position x="1578" y="1038" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="True">
@@ -957,20 +960,20 @@
         <MetaInfo connection="Join">
           <RecordInfo>
             <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
-            <Field name="NonRepeatableFieldNameA" source="CrossTab:Header:Name:NonRepeatableFieldNameA:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Right">
           <RecordInfo>
-            <Field name="NonRepeatableFieldNameA" source="CrossTab:Header:Name:NonRepeatableFieldNameA:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
             <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -978,7 +981,7 @@
     </Node>
     <Node ToolID="111">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="54" y="79.20001" width="59" height="59" />
+        <Position x="0" y="0" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -991,7 +994,7 @@
     </Node>
     <Node ToolID="112">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="54" y="79.20001" width="59" height="59" />
+        <Position x="0" y="0" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1004,7 +1007,7 @@
     </Node>
     <Node ToolID="116">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="168" y="54" width="156" height="156" />
+        <Position x="54" y="54" width="156" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1026,7 +1029,7 @@ Within</Text>
     </Node>
     <Node ToolID="117">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="168" y="222" width="156" height="24" />
+        <Position x="54" y="222" width="156" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1046,7 +1049,7 @@ Within</Text>
     </Node>
     <Node ToolID="118">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="336" y="54" width="636" height="96" />
+        <Position x="222" y="54" width="636" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1068,11 +1071,11 @@ Author: Adam Riley
     </Node>
     <Node ToolID="119">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="984" y="54" width="228" height="96" />
+        <Position x="870" y="54" width="228" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Version: 2.0</Text>
+          <Text>Version: 2.1</Text>
           <Font name="Segoe UI" size="26.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -1088,7 +1091,7 @@ Author: Adam Riley
     </Node>
     <Node ToolID="120">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="336" y="174" width="876" height="132" />
+        <Position x="222" y="174" width="876" height="132" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1108,27 +1111,9 @@ Macro to add total row and columns to a data table</Text>
         </Annotation>
       </Properties>
     </Node>
-    <Node ToolID="121">
-      <GuiSettings>
-        <Position x="1152" y="102" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="Version XML URL">versions.ChaosReignsWithin.com\AddTotalRowColumns.xml</Value>
-          <Value name="Version of this Macro">2.0</Value>
-          <Value name="EnableTest">False</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings Macro="CReW_Version.yxmc" />
-    </Node>
     <Node ToolID="99">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="912" y="438" width="59" height="59" />
+        <Position x="798" y="438" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1144,7 +1129,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="100">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="1836" y="918" width="59" height="59" />
+        <Position x="1722" y="918" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1157,7 +1142,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="103">
       <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
-        <Position x="1860" y="834" width="59" height="59" />
+        <Position x="1746" y="834" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1170,7 +1155,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="108">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="1860" y="726" width="59" height="59" />
+        <Position x="1746" y="726" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1183,7 +1168,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="98">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="720" y="438" width="59" height="59" />
+        <Position x="606" y="438" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1196,7 +1181,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="105">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.ListBox">
-        <Position x="708" y="342" width="59" height="59" />
+        <Position x="594" y="342" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1209,7 +1194,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="106">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="1644" y="726" width="59" height="59" />
+        <Position x="1530" y="726" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1222,7 +1207,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="107">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="1644" y="342" width="59" height="59" />
+        <Position x="1530" y="342" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1235,7 +1220,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="101">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="1656" y="438" width="59" height="59" />
+        <Position x="1542" y="438" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1248,7 +1233,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="102">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="1656" y="918" width="59" height="59" />
+        <Position x="1542" y="918" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1264,14 +1249,15 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="139">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="168" y="690" width="912" height="252" />
+        <Position x="54" y="690" width="912" height="252" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Text>Version History: 
 
 1.0 - Initial release
-2.0 - Updated to Alteryx 9.0 macro interface</Text>
+2.0 - Updated to Alteryx 9.0 macro interface
+2.1 - Fixed case where spaces in field names</Text>
           <Font name="Segoe UI" size="12" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -1287,7 +1273,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="140">
       <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
-        <Position x="528" y="438" width="59" height="59" />
+        <Position x="414" y="438" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1297,6 +1283,90 @@ Macro to add total row and columns to a data table</Text>
           <Left value="False" />
         </Annotation>
       </Properties>
+    </Node>
+    <Node ToolID="144">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1266" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Name" type="V_String" size="500000" expression="replace([Name], &quot; &quot;, &quot;__Space__&quot;)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name=replace([Name], " ", "__Space__")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="500000" source="Formula: replace([Name], &quot; &quot;, &quot;__Space__&quot;)" type="V_String" />
+            <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="146">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1206" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" type="V_String" size="500000" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="500000" source="Summarize: GroupBy - Name" type="V_String" />
+            <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="147">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="1398" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="NonRepeatableFieldNameB" />
+            <Field name="NonRepeatableFieldNameC" />
+            <Field name="NonRepeatableFieldNameD" />
+            <Field name="NonRepeatableFieldNameE" />
+            <Field name="NonRepeatableFieldName__Space__A" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>replace([_CurrentField_], "__Space__", " ")</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
     </Node>
   </Nodes>
   <Connections>
@@ -1330,7 +1400,7 @@ Macro to add total row and columns to a data table</Text>
     </Connection>
     <Connection>
       <Origin ToolID="10" Connection="Output" />
-      <Destination ToolID="20" Connection="Input" />
+      <Destination ToolID="146" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="13" Connection="Join" />
@@ -1345,8 +1415,12 @@ Macro to add total row and columns to a data table</Text>
       <Destination ToolID="97" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="20" Connection="Output" />
+      <Origin ToolID="147" Connection="Output" />
       <Destination ToolID="97" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="147" Connection="Targets" />
     </Connection>
     <Connection>
       <Origin ToolID="24" Connection="Output" />
@@ -1386,11 +1460,11 @@ Macro to add total row and columns to a data table</Text>
     </Connection>
     <Connection>
       <Origin ToolID="96" Connection="Output" />
-      <Destination ToolID="114" Connection="Input" />
+      <Destination ToolID="25" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="96" Connection="Output" />
-      <Destination ToolID="25" Connection="Input" />
+      <Destination ToolID="114" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="97" Connection="Join" />
@@ -1427,6 +1501,14 @@ Macro to add total row and columns to a data table</Text>
     <Connection name="#1">
       <Origin ToolID="107" Connection="Question" />
       <Destination ToolID="101" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="144" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="146" Connection="Output" />
+      <Destination ToolID="144" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -1631,7 +1713,6 @@ Macro to add total row and columns to a data table</Text>
         <Tool ToolId="114" Selected="True" />
         <Tool ToolId="113" Selected="True" />
         <Tool ToolId="25" Selected="False" />
-        <Tool ToolId="121" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

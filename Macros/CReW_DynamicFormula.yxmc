@@ -887,7 +887,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
               <Name>Name Field</Name>
               <ToolId value="61" />
               <Multiple value="False" />
-              <Default />
+              <Default>Out</Default>
               <Mode>MacroField</Mode>
               <MacroField_InputTool value="44" />
               <Field_IncludeNone value="False" />
@@ -899,7 +899,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
               <Name>Type Field</Name>
               <ToolId value="62" />
               <Multiple value="False" />
-              <Default />
+              <Default>Type</Default>
               <Mode>MacroField</Mode>
               <MacroField_InputTool value="44" />
               <Field_IncludeNone value="False" />
@@ -911,7 +911,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
               <Name>Size Field</Name>
               <ToolId value="63" />
               <Multiple value="False" />
-              <Default />
+              <Default>Size</Default>
               <Mode>MacroField</Mode>
               <MacroField_InputTool value="44" />
               <Field_IncludeNone value="False" />
@@ -923,7 +923,7 @@ The Dynamic Formula Tool allows you to dynamically create formulas using a data 
               <Name>Expression Field</Name>
               <ToolId value="64" />
               <Multiple value="False" />
-              <Default />
+              <Default>Expression</Default>
               <Mode>MacroField</Mode>
               <MacroField_InputTool value="44" />
               <Field_IncludeNone value="False" />

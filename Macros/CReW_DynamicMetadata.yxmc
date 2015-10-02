@@ -1703,7 +1703,7 @@ Author: Adam Riley
     <MetaInfo>
       <NameIsFileName value="False" />
       <Name>Dynamic Metadata</Name>
-      <Description />
+      <Description>Updates the metadata for a target data stream (T) based on a source data stream (S) similar to how the dynamic rename tool does renaming</Description>
       <CategoryName />
       <SearchTags />
       <Author />

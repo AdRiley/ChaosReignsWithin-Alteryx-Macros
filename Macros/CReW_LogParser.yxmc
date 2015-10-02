@@ -643,7 +643,7 @@ Author: Adam Riley
     <MetaInfo>
       <NameIsFileName value="False" />
       <Name><![CDATA[ Log Parser]]></Name>
-      <Description />
+      <Description>Parses an Alteryx log into an Alteryx data table. Works well in combintation with the Runner, Conditional Runner and List Runner tools.</Description>
       <CategoryName />
       <SearchTags />
       <Author />

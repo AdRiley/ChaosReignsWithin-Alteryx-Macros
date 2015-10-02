@@ -1026,7 +1026,7 @@ NonRepeatableFieldNameB - Ascending</DefaultAnnotationText>
     <MetaInfo>
       <NameIsFileName value="False" />
       <Name><![CDATA[  Only Unique]]></Name>
-      <Description />
+      <Description>Only returns truly unique records in its unique output rather than a distinct list of all records as occurs using the regular Unique tool. Therefore, if a given record has any duplicates then ALL of those records come out in the duplicate output.</Description>
       <CategoryName />
       <SearchTags>Preparation, Chaos, Chaos Reigns Within, Unique, Snowflake</SearchTags>
       <Author>Adam Riley</Author>

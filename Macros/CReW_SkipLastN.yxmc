@@ -625,7 +625,7 @@ http://inspiringingenuity.net/2014/07/15/alteryx-skip-last-n-records/</Text>
     <MetaInfo>
       <NameIsFileName value="False" />
       <Name><![CDATA[  Skip Last N]]></Name>
-      <Description />
+      <Description>Skips the last N records in a data stream much like the sample tool will skip the first N records.</Description>
       <CategoryName />
       <SearchTags />
       <Author />

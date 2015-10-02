@@ -1537,7 +1537,7 @@ Author: Adam Riley
     <MetaInfo>
       <NameIsFileName value="False" />
       <Name><![CDATA[ Runner]]></Name>
-      <Description />
+      <Description>Runs a selected Alteryx module and outputs the logfile. If the module runs without error, it outputs the log to the Success output.  If any errors, it outputs the log to the Failure output. In combination with the Conditional Runner tool it enables running a series of modules where the next module in the chain only runs on success of the previous module. Use in combination with the Log Parser tool to parse the log into an Alteryx data table.</Description>
       <CategoryName />
       <SearchTags />
       <Author />

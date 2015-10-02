@@ -926,7 +926,7 @@ Macro to enable google streeview elements to be added to html reports</Text>
     <MetaInfo>
       <NameIsFileName value="False" />
       <Name><![CDATA[ Street View]]></Name>
-      <Description />
+      <Description>Enables Google streetview elements to be added to html reports. Specifically, it allows you to insert a Google Street View iframe into an html report from a given set of x, y co-ordinates without needing to know about HTMLPassThrough.</Description>
       <CategoryName />
       <SearchTags />
       <Author />

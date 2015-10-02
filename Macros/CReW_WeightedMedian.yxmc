@@ -873,7 +873,7 @@ Input11=__Macro_Group
     <MetaInfo>
       <NameIsFileName value="False" />
       <Name><![CDATA[  Weighted Median]]></Name>
-      <Description />
+      <Description>A weighted median of a sample is the 50% weighted percentile. It allows for non-uniform statistical weights related to, e.g., varying precision measurements in the sample.</Description>
       <CategoryName />
       <SearchTags>Median, Weighted, Average, Transform, Chaos, Chaos Reigns Within</SearchTags>
       <Author>Ned Harding</Author>

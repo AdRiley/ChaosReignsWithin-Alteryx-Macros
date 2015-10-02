@@ -1538,10 +1538,8 @@ UpperBound=[__TM_Count]-[LowerBound]+1</DefaultAnnotationText>
     </Constants>
     <MetaInfo>
       <NameIsFileName value="False" />
-      <Name><![CDATA[  Trim Mean]]></Name>
-      <Description>Description: 
-
-Returns the mean of the interior of a data set. Trim Mean calculates the mean taken by excluding a percentage of data points from the top and bottom tails of a data set. You can use this macro when you wish to exclude outlying data from your analysis.</Description>
+      <Name><![CDATA[  Trim Mean]]></Name>
+      <Description>Returns the mean of the interior of a data set. Trim Mean calculates the mean taken by excluding a percentage of data points from the top and bottom tails of a data set. You can use this macro when you wish to exclude outlying data from your analysis.</Description>
       <CategoryName />
       <SearchTags />
       <Author />

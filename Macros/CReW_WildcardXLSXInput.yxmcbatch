@@ -1,13 +1,73 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="10.0">
   <Nodes>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="894" width="168" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Pull out the FullPath, so the field count can be joined back with data output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="594" y="894" width="168" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Count the number of data fields, subtracting one for the FileName</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="894" width="168" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join by position, and output field count</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
         <Position x="954" y="654" width="168" height="228" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Set correct field names from data</Text>
+          <Text>Add RecordID field</Text>
           <Font name="Segoe UI" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -241,20 +301,21 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="Path" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Joe\Downloads\files\short names.xlsx|&lt;List of Sheet Names&gt;</File>
+          <File OutputFileName="Path" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Joe\Desktop\test\Book1.xlsx|`Sheet1$`</File>
           <FormatSpecificOptions>
             <FirstRowData>True</FirstRowData>
           </FormatSpecificOptions>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>short names.xlsx
-Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
+          <DefaultAnnotationText>Book1.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Sheet Names" size="1" source="File: C:\Users\Joe\Downloads\files\short names.xlsx|&lt;List of Sheet Names&gt;" type="V_WString" />
+            <Field name="F1" size="255" source="File: C:\Users\Joe\Desktop\test\Book1.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="F2" size="255" source="File: C:\Users\Joe\Desktop\test\Book1.xlsx|`Sheet1$`" type="V_String" />
             <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
@@ -289,7 +350,7 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="294" y="966" />
+        <Position x="294" y="906" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -306,7 +367,8 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=0" type="Int32" />
-            <Field name="Sheet Names" size="1" source="File: C:\Users\Joe\Downloads\files\short names.xlsx|&lt;List of Sheet Names&gt;" type="V_WString" />
+            <Field name="F1" size="255" source="File: C:\Users\Joe\Desktop\test\Book1.xlsx|`Sheet1$`" type="V_String" />
+            <Field name="F2" size="255" source="File: C:\Users\Joe\Desktop\test\Book1.xlsx|`Sheet1$`" type="V_String" />
             <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
           </RecordInfo>
           <SortInfo>
@@ -329,11 +391,11 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Name" size="11" source="FieldInfo" type="V_String" />
+            <Field name="Name" size="8" source="FieldInfo" type="V_String" />
             <Field name="Type" size="9" source="FieldInfo" type="String" />
             <Field name="Size" source="FieldInfo" type="Int32" />
             <Field name="Scale" source="FieldInfo" type="Int32" />
-            <Field name="Source" size="73" source="FieldInfo" type="V_WString" />
+            <Field name="Source" size="52" source="FieldInfo" type="V_WString" />
             <Field name="Description" size="1" source="FieldInfo" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
@@ -364,6 +426,7 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
           <RecordInfo>
             <Field name="1" size="2048" source="CrossTab:Header:RecordID:1:Concat:" type="V_String" />
             <Field name="2" size="2048" source="CrossTab:Header:RecordID:2:Concat:" type="V_String" />
+            <Field name="3" size="2048" source="CrossTab:Header:RecordID:3:Concat:" type="V_String" />
           </RecordInfo>
           <SortInfo>
           </SortInfo>
@@ -381,6 +444,7 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
           <Fields orderChanged="False">
             <Field name="1" />
             <Field name="2" />
+            <Field name="3" />
             <Field name="*Unknown" />
           </Fields>
           <Expression />
@@ -395,8 +459,9 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Sheet Names" size="2048" source="CrossTab:Header:RecordID:1:Concat:" type="V_String" />
-            <Field name="FileName" size="2048" source="CrossTab:Header:RecordID:2:Concat:" type="V_String" />
+            <Field name="F1" size="2048" source="CrossTab:Header:RecordID:1:Concat:" type="V_String" />
+            <Field name="F2" size="2048" source="CrossTab:Header:RecordID:2:Concat:" type="V_String" />
+            <Field name="FileName" size="2048" source="CrossTab:Header:RecordID:3:Concat:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -421,8 +486,9 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field name="Sheet Names" size="2048" source="CrossTab:Header:RecordID:1:Concat:" type="V_String" />
-            <Field name="FileName" size="2048" source="CrossTab:Header:RecordID:2:Concat:" type="V_String" />
+            <Field name="F1" size="2048" source="CrossTab:Header:RecordID:1:Concat:" type="V_String" />
+            <Field name="F2" size="2048" source="CrossTab:Header:RecordID:2:Concat:" type="V_String" />
+            <Field name="FileName" size="2048" source="CrossTab:Header:RecordID:3:Concat:" type="V_String" />
           </RecordInfo>
           <SortInfo>
             <Field field="RecordID" order="Asc" />
@@ -454,7 +520,8 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
-            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
             <Field name="FileName" size="2048" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
@@ -467,8 +534,8 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Name>Output17</Name>
-          <Abbrev />
+          <Name>Data Out</Name>
+          <Abbrev>D</Abbrev>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -497,11 +564,11 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
-            <Field name="Name" size="11" source="FieldInfo" type="V_String" />
+            <Field name="Name" size="8" source="FieldInfo" type="V_String" />
             <Field name="Type" size="9" source="FieldInfo" type="String" />
             <Field name="Size" source="FieldInfo" type="Int32" />
             <Field name="Scale" source="FieldInfo" type="Int32" />
-            <Field name="Source" size="73" source="FieldInfo" type="V_WString" />
+            <Field name="Source" size="52" source="FieldInfo" type="V_WString" />
             <Field name="Description" size="1" source="FieldInfo" type="V_WString" />
           </RecordInfo>
           <SortInfo>
@@ -520,6 +587,12 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
           <OrderChanged value="True" />
           <SelectFields>
             <SelectField field="FileName" selected="True" rename="FullPath" />
+            <SelectField field="RecordID" selected="True" />
+            <SelectField field="1" selected="True" />
+            <SelectField field="2" selected="True" />
+            <SelectField field="3" selected="True" />
+            <SelectField field="F1" selected="True" />
+            <SelectField field="F2" selected="True" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -532,7 +605,8 @@ Table=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
           <RecordInfo>
             <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
             <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
-            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -621,6 +695,133 @@ Author: Joe Mako</Text>
         </Annotation>
       </Properties>
     </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="606" y="942" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Name" action="Count" rename="Fields" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Fields" source="Summarize: Count - Name" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="690" y="942" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Fields" type="Int64" size="8" expression="[Fields]-1" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Fields=[Fields]-1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Fields" source="Formula: [Fields]-1" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="474" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="FileName" action="First" rename="FullPath" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="798" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="Right_FullPath" selected="True" />
+                <SelectField field="Left_Fields" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Fields" source="Formula: [Fields]-1" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" size="254" source="File: FileName" type="V_WString" />
+            <Field name="Fields" source="Formula: [Fields]-1" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="882" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Field Count</Name>
+          <Abbrev>F</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -648,8 +849,16 @@ Author: Joe Mako</Text>
       <Destination ToolID="16" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="9" Connection="Output" />
       <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="10" Connection="Output" />
@@ -670,6 +879,22 @@ Author: Joe Mako</Text>
     <Connection>
       <Origin ToolID="19" Connection="Output" />
       <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="39" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Join" />
+      <Destination ToolID="43" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -698,6 +923,12 @@ Author: Joe Mako</Text>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>Macro Output (17)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (43)</Name>
         <Value />
         <IsNumeric value="False" />
       </Constant>
@@ -756,6 +987,12 @@ Author: Joe Mako</Text>
               <Name>Macro Output (17)</Name>
               <ToolId value="17" />
             </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (43)</Description>
+              <Name>Macro Output (43)</Name>
+              <ToolId value="43" />
+            </Question>
           </Questions>
         </Question>
       </Questions>
@@ -779,6 +1016,7 @@ Author: Joe Mako</Text>
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
         <Tool ToolId="17" Selected="True" />
+        <Tool ToolId="43" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

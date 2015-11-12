@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="9.0">
+<AlteryxDocument yxmdVer="10.0">
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
         <Position x="0" y="0" width="59" height="59" />
       </GuiSettings>
       <Properties>
+        <Configuration />
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -15,7 +16,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="78" y="54" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -25,28 +26,39 @@
           <ShowFieldMap value="False" />
           <TextInput>
             <Configuration>
-              <NumRows value="1" />
-              <Fields />
-              <Data />
+              <NumRows value="2" />
+              <Fields>
+                <Field name="FullPath" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>CReW_LoadFileToField.yxmc</c>
+                </r>
+              </Data>
             </Configuration>
           </TextInput>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
-          <Left value="False" />
+          <Left value="True" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="25" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="834" y="234" />
+        <Position x="450" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Name>True</Name>
-          <Abbrev>T</Abbrev>
+          <Name>Output3</Name>
+          <Abbrev />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -57,32 +69,15 @@
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
     <Node ToolID="4">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="822" y="54" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Name>False</Name>
-          <Abbrev>F</Abbrev>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
-    </Node>
-    <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicInput.DynamicInput">
-        <Position x="222" y="246" />
+        <Position x="162" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <InputConfiguration>
             <Configuration>
               <Passwords />
-              <File OutputFileName="Path" RecordLimit="" SearchSubDirs="False" FileFormat="0">ExpectError.yxmc</File>
+              <File OutputFileName="Path" RecordLimit="" SearchSubDirs="False" FileFormat="0">.\Supporting_Macros\CReW_LoadFileToField.yxmc</File>
               <FormatSpecificOptions>
                 <CodePage>28591</CodePage>
                 <Delimeter>\0</Delimeter>
@@ -103,52 +98,21 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicInput" />
     </Node>
-    <Node ToolID="7">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
-        <Position x="402" y="246" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <XMLField>ModuleXML</XMLField>
-          <XMLElement>EngineSettings</XMLElement>
-          <ChildValues value="False" />
-          <OuterXML value="False" />
-          <ParseRoot value="False" />
-          <IgnoreErrors value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="FileName" size="254" source="Summarize: GroupBy - FileName" type="V_WString" />
-            <Field name="ModuleXML" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
-            <Field name="EngineSettings" size="1" type="V_String" />
-            <Field name="EngineDll" size="28" type="V_String" />
-            <Field name="EngineDllEntryPoint" size="16" type="V_String" />
-            <Field name="Macro" size="53" type="V_String" />
-          </RecordInfo>
-          <SortInfo>
-            <Field field="FileName" order="Asc" />
-          </SortInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
-    </Node>
-    <Node ToolID="8">
+    <Node ToolID="5">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="306" y="246" />
+        <Position x="246" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <SummarizeFields>
             <SummarizeField field="FileName" action="GroupBy" rename="FileName" />
-            <SummarizeField field="Field_1" action="Concat" rename="ModuleXML">
+            <SummarizeField field="Field_1" action="Concat" rename="FileContents">
               <Concat_Start />
               <Separator>\n</Separator>
               <Concat_End />
@@ -160,48 +124,21 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FileName" size="254" source="Summarize: GroupBy - FileName" type="V_WString" />
+            <Field name="FileContents" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FileName" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
     </Node>
-    <Node ToolID="9">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="498" y="246" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Expression>right([Macro], 16) == "ExpectError.yxmc"</Expression>
-          <Mode>Custom</Mode>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>right([Macro], 16) == "ExpectError.yxmc"</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
-    </Node>
-    <Node ToolID="10">
-      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="606" y="234" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SummarizeFields>
-            <SummarizeField field="FileName" action="GroupBy" rename="FileName" />
-            <SummarizeField field="ModuleXML" action="GroupBy" rename="ModuleXML" />
-          </SummarizeFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
-    </Node>
-    <Node ToolID="11">
+    <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="678" y="66" />
+        <Position x="342" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -213,10 +150,12 @@
           </JoinInfo>
           <SelectConfiguration>
             <Configuration outputConnection="Join">
-              <OrderChanged value="False" />
+              <OrderChanged value="True" />
               <SelectFields>
-                <SelectField field="Right_FileName" selected="True" rename="Right_FileName" />
+                <SelectField field="Left_FullPath" selected="True" />
+                <SelectField field="Right_FileName" selected="False" />
                 <SelectField field="*Unknown" selected="True" />
+                <SelectField field="Right_FileContents" selected="True" />
               </SelectFields>
             </Configuration>
           </SelectConfiguration>
@@ -226,6 +165,32 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="25" source="TextInput:" type="String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" size="25" source="TextInput:" type="String" />
+            <Field name="FileContents" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FileName" size="254" source="Summarize: GroupBy - FileName" type="V_WString" />
+            <Field name="FileContents" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FileName" />
+          </SortInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
     </Node>
@@ -233,39 +198,23 @@
   <Connections>
     <Connection>
       <Origin ToolID="2" Connection="Output" />
-      <Destination ToolID="11" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="10" Connection="Output" />
-      <Destination ToolID="11" Connection="Right" />
+      <Destination ToolID="4" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="2" Connection="Output" />
-      <Destination ToolID="6" Connection="Input" />
+      <Destination ToolID="6" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="6" Connection="Output" />
-      <Destination ToolID="8" Connection="Input" />
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="9" Connection="Input" />
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="8" Connection="Output" />
-      <Destination ToolID="7" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="9" Connection="True" />
-      <Destination ToolID="10" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="10" Connection="Output" />
+      <Origin ToolID="6" Connection="Join" />
       <Destination ToolID="3" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="11" Connection="Left" />
-      <Destination ToolID="4" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -277,6 +226,7 @@
     <ConvErrorLimit_Stop value="False" />
     <CancelOnError value="False" />
     <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
     <DisableAllOutput value="False" />
     <ShowAllMacroMessages value="False" />
     <ShowConnectionStatusIsOn value="True" />
@@ -296,17 +246,14 @@
         <Value />
         <IsNumeric value="False" />
       </Constant>
-      <Constant>
-        <Namespace>Question</Namespace>
-        <Name>Macro Output (4)</Name>
-        <Value />
-        <IsNumeric value="False" />
-      </Constant>
     </Constants>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>TestContainsExpectError</Name>
+      <Name>CReW_LoadFileToField</Name>
       <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
       <CategoryName />
       <SearchTags />
       <Author />
@@ -334,12 +281,6 @@
             </Question>
             <Question>
               <Type>MacroOutput</Type>
-              <Description>Macro Output (4)</Description>
-              <Name>Macro Output (4)</Name>
-              <ToolId value="4" />
-            </Question>
-            <Question>
-              <Type>MacroOutput</Type>
               <Description>Macro Output (3)</Description>
               <Name>Macro Output (3)</Name>
               <ToolId value="3" />
@@ -359,7 +300,6 @@
       <Wiz_OpenOutputTools>
         <Tool ToolId="2" Selected="True" />
         <Tool ToolId="3" Selected="True" />
-        <Tool ToolId="4" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

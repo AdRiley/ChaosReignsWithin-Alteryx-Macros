@@ -1,9 +1,49 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="9.5">
   <Nodes>
+    <Node ToolID="157">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1914" y="1002" width="696" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add row total label if required</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="156">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1914" y="690" width="492" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Row total label options</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
     <Node ToolID="138">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2154" y="522" width="132" height="156" />
+        <Position x="2862" y="522" width="132" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -23,7 +63,7 @@
     </Node>
     <Node ToolID="137">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2034" y="522" width="108" height="156" />
+        <Position x="2742" y="522" width="108" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -43,7 +83,7 @@
     </Node>
     <Node ToolID="136">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1914" y="522" width="108" height="156" />
+        <Position x="2622" y="522" width="108" height="156" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -103,11 +143,11 @@
     </Node>
     <Node ToolID="133">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1710" y="690" width="192" height="300" />
+        <Position x="2418" y="690" width="192" height="300" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>This is the default option so there are no actions required</Text>
+          <Text>If total column only stop the workflow for the row total</Text>
           <Font name="Segoe UI" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor r="230" g="255" b="230" />
@@ -324,7 +364,7 @@
     </Node>
     <Node ToolID="114">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="2178" y="594" />
+        <Position x="2886" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -651,7 +691,7 @@
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1938" y="594" />
+        <Position x="2646" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -687,11 +727,11 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="2178" y="546" />
+        <Position x="2886" y="546" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>c:\temp\Engine_191112_dc937c6556014ff894cbc306994a4645\Engine_195856_f73bb459b0964b7ab72cf7dbec14e6ea.yxdb</TempFile>
+          <TempFile>c:\temp\Engine_138560_9fd5ef42fbea46fbb10c5903a8e13694\Engine_131632_aa3d67aca4fe458b9983f8e0e6d20bfb.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -894,7 +934,7 @@
     </Node>
     <Node ToolID="96">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2058" y="594" />
+        <Position x="2766" y="594" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1075,7 +1115,7 @@ Author: Adam Riley
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Version: 2.1</Text>
+          <Text>Version: 2.2</Text>
           <Font name="Segoe UI" size="26.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -1129,7 +1169,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="100">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="1722" y="918" width="59" height="59" />
+        <Position x="2430" y="918" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1142,7 +1182,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="103">
       <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
-        <Position x="1746" y="834" width="59" height="59" />
+        <Position x="2454" y="834" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1155,7 +1195,7 @@ Macro to add total row and columns to a data table</Text>
     </Node>
     <Node ToolID="108">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="1746" y="726" width="59" height="59" />
+        <Position x="2454" y="726" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1257,7 +1297,8 @@ Macro to add total row and columns to a data table</Text>
 
 1.0 - Initial release
 2.0 - Updated to Alteryx 9.0 macro interface
-2.1 - Fixed case where spaces in field names</Text>
+2.1 - Fixed case where spaces in field names
+2.2 - Added option for row total label</Text>
           <Font name="Segoe UI" size="12" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -1368,6 +1409,149 @@ Macro to add total row and columns to a data table</Text>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
     </Node>
+    <Node ToolID="148">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2070" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="RowLabel" type="V_String" size="64" expression="&quot;Total&quot;" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RowLabel="Total"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="149">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
+        <Position x="1938" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <DetourRight value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
+    </Node>
+    <Node ToolID="150">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+        <Position x="2430" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+    </Node>
+    <Node ToolID="151">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="1926" y="726" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="152">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1938" y="906" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="153">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="2094" y="726" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="154">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="2082" y="906" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="155">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+        <Position x="2202" y="906" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -1377,6 +1561,10 @@ Macro to add total row and columns to a data table</Text>
     <Connection Wireless="True">
       <Origin ToolID="113" Connection="Question" />
       <Destination ToolID="105" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="113" Connection="Question" />
+      <Destination ToolID="153" Connection="Question Input" />
     </Connection>
     <Connection>
       <Origin ToolID="4" Connection="Output" />
@@ -1435,8 +1623,16 @@ Macro to add total row and columns to a data table</Text>
       <Destination ToolID="24" Connection="Input" />
     </Connection>
     <Connection name="#2">
-      <Origin ToolID="74" Connection="Output" />
+      <Origin ToolID="150" Connection="Output" />
       <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="149" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="152" Connection="Action" />
+      <Destination ToolID="149" Connection="Action" />
     </Connection>
     <Connection>
       <Origin ToolID="93" Connection="Output" />
@@ -1471,12 +1667,20 @@ Macro to add total row and columns to a data table</Text>
       <Destination ToolID="74" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="100" Connection="Action" />
-      <Destination ToolID="74" Connection="Action" />
-    </Connection>
-    <Connection>
       <Origin ToolID="102" Connection="Action" />
       <Destination ToolID="74" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="100" Connection="Action" />
+      <Destination ToolID="150" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="148" Connection="Output" />
+      <Destination ToolID="150" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Left" />
+      <Destination ToolID="150" Connection="Left" />
     </Connection>
     <Connection>
       <Origin ToolID="103" Connection="True Condition" />
@@ -1509,6 +1713,26 @@ Macro to add total row and columns to a data table</Text>
     <Connection>
       <Origin ToolID="146" Connection="Output" />
       <Destination ToolID="144" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Right" />
+      <Destination ToolID="148" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="154" Connection="Action" />
+      <Destination ToolID="148" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="151" Connection="Question" />
+      <Destination ToolID="152" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="153" Connection="Question" />
+      <Destination ToolID="154" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="153" Connection="Question" />
+      <Destination ToolID="155" Connection="Question" />
     </Connection>
   </Connections>
   <Properties>
@@ -1548,6 +1772,18 @@ Macro to add total row and columns to a data table</Text>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>Add Total Column Only</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (151)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Drop Down (153)</Name>
         <Value />
         <IsNumeric value="False" />
       </Constant>
@@ -1611,6 +1847,32 @@ Macro to add total row and columns to a data table</Text>
               <Description>No fields selected</Description>
               <ToolId value="140" />
               <Expression>FindString([Fields To Sum], "=True")==-1</Expression>
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="152" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>149/DetourRight/@value</Destination>
+              <Mapping>Update Detour Direction from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="154" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>148/FormulaFields/FormulaField/@field</Destination>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>"No field selected for row total"</Description>
+              <ToolId value="155" />
+              <Expression>IsEmpty([#1])</Expression>
             </Action>
           </True>
         </NoCondition>
@@ -1682,6 +1944,28 @@ Macro to add total row and columns to a data table</Text>
               <Description>Output</Description>
               <Name>Output</Name>
               <ToolId value="114" />
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Include Row Total label in field</Description>
+              <Name>Check Box (151)</Name>
+              <ToolId value="151" />
+              <Questions>
+                <Question>
+                  <Type>ListBox</Type>
+                  <Description />
+                  <Name>Drop Down (153)</Name>
+                  <ToolId value="153" />
+                  <Multiple value="False" />
+                  <Default />
+                  <Mode>MacroField</Mode>
+                  <MacroField_InputTool value="0" />
+                  <Field_IncludeNone value="False" />
+                  <MacroField_FilterTypes>String,WString,V_String,V_WString</MacroField_FilterTypes>
+                </Question>
+              </Questions>
+              <Default value="False" />
+              <Collapsable value="False" />
             </Question>
           </Questions>
         </Question>

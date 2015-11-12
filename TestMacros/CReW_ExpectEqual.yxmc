@@ -278,7 +278,7 @@
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="306" y="318" />
+        <Position x="378" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -313,7 +313,7 @@
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="306" y="462" />
+        <Position x="366" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -348,7 +348,7 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="162" y="318" />
+        <Position x="282" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -377,7 +377,7 @@
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
-        <Position x="162" y="462" />
+        <Position x="270" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -406,7 +406,7 @@
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="450" y="390" />
+        <Position x="546" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -626,7 +626,7 @@
     </Node>
     <Node ToolID="40">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="546" y="390" />
+        <Position x="642" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -720,7 +720,7 @@
     </Node>
     <Node ToolID="45">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="666" y="378" />
+        <Position x="738" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -805,8 +805,8 @@
             <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
             <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
             <Field name="Name" size="6" source="Transpose:" type="String" />
-            <Field name="ExpectedValue" size="5000000" source="TextInput:" type="V_WString" />
-            <Field name="ActualValue" size="5000000" source="TextInput:" type="V_WString" />
+            <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -839,8 +839,8 @@
             <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
             <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
             <Field name="Name" size="6" source="Transpose:" type="String" />
-            <Field name="ExpectedValue" size="5000000" source="TextInput:" type="V_WString" />
-            <Field name="ActualValue" size="5000000" source="TextInput:" type="V_WString" />
+            <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Count" source="Summarize: Count - RecordID" type="Int64" />
           </RecordInfo>
         </MetaInfo>
@@ -872,8 +872,8 @@
             <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
             <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
             <Field name="Name" size="6" source="Transpose:" type="String" />
-            <Field name="ExpectedValue" size="5000000" source="TextInput:" type="V_WString" />
-            <Field name="ActualValue" size="5000000" source="TextInput:" type="V_WString" />
+            <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
           <SortInfo>
             <Field field="RecordID" order="Asc" />
@@ -911,8 +911,8 @@
             <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
             <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
             <Field name="Name" size="6" source="Transpose:" type="String" />
-            <Field name="ExpectedValue" size="5000000" source="TextInput:" type="V_WString" />
-            <Field name="ActualValue" size="5000000" source="TextInput:" type="V_WString" />
+            <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
           <SortInfo>
             <Field field="RecordID" order="Asc" />
@@ -927,8 +927,8 @@
             <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
             <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
             <Field name="Name" size="6" source="Transpose:" type="String" />
-            <Field name="ExpectedValue" size="5000000" source="TextInput:" type="V_WString" />
-            <Field name="ActualValue" size="5000000" source="TextInput:" type="V_WString" />
+            <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
           <SortInfo>
             <Field field="RecordID" order="Asc" />
@@ -966,8 +966,8 @@
             <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
             <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
             <Field name="Name" size="6" source="Transpose:" type="String" />
-            <Field name="ExpectedValue" size="5000000" source="TextInput:" type="V_WString" />
-            <Field name="ActualValue" size="5000000" source="TextInput:" type="V_WString" />
+            <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Count" source="Summarize: Count - RecordID" type="Int64" />
           </RecordInfo>
         </MetaInfo>
@@ -1021,6 +1021,416 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="342" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Ignore</ErrorWarn>
+          <KeyFields>
+            <Field field="ExpectEqualRecordID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="ExpectEqualRecordID" selected="False" />
+            <Field field="Field1" selected="True" />
+            <Field field="Total" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" size="1" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ExpectEqualRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="342" y="930" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Ignore</ErrorWarn>
+          <KeyFields>
+            <Field field="ExpectEqualRecordID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="ExpectEqualRecordID" selected="False" />
+            <Field field="Field1" selected="True" />
+            <Field field="Total" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" size="1" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ExpectEqualRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="234" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <StartValue>1</StartValue>
+          <FieldName>ExpectEqualRecordID</FieldName>
+          <FieldType>Int64</FieldType>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ExpectEqualRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="234" y="930" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <StartValue>1</StartValue>
+          <FieldName>ExpectEqualRecordID</FieldName>
+          <FieldType>Int64</FieldType>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ExpectEqualRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="534" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ExpectEqualRecordID" />
+            <Field field="Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ExpectEqualRecordID" />
+            <Field field="Name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_Value" selected="True" rename="ExpectedValue" type="V_WString" size="5000000" />
+                <SelectField field="Right_ExpectEqualRecordID" selected="False" rename="Right_ExpectEqualRecordID" />
+                <SelectField field="Right_Name" selected="False" rename="Right_Name" />
+                <SelectField field="Right_Value" selected="True" rename="ActualValue" type="V_WString" size="5000000" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" size="32" source="BlobConvert: MD5" type="String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="ExpectEqualRecordID" />
+            <Field field="Name" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="ExpectedValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ExpectEqualRecordID" order="" />
+            <Field field="Name" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" size="32" source="BlobConvert: MD5" type="String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="ExpectEqualRecordID" />
+            <Field field="Name" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="630" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[ExpectedValue]!=[ActualValue]</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[ExpectedValue]!=[ActualValue]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="ExpectedValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ExpectEqualRecordID" order="" />
+            <Field field="Name" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="ExpectedValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ExpectEqualRecordID" order="" />
+            <Field field="Name" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="726" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Message" type="V_WString" size="5000" expression="'Unexpected Value - Field:' + [Name] + &#xA;' Row:'+ tostring([ExpectEqualRecordID]) +&#xA;' Actual blob data differs from expected'" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Message='Unexpected Value - Field:' + [Name] + 
+' Row:'+ tost...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="ExpectedValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+            <Field name="Message" size="5000" source="Formula: 'Unexpected Value - Field:' + [Name] + &#xA;' Row:'+ tostring([ExpectEqualRecordID]) +&#xA;' Actual blob data differs from expected'" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ExpectEqualRecordID" order="" />
+            <Field field="Name" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlobConvert.BlobConvert">
+        <Position x="438" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ToBlob value="False" />
+          <from_Field>Value</from_Field>
+          <from_Mode>MD5</from_Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" size="32" source="BlobConvert: MD5" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ExpectEqualRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlobConvert" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlobConvert.BlobConvert">
+        <Position x="438" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ToBlob value="False" />
+          <from_Field>Value</from_Field>
+          <from_Mode>MD5</from_Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="1" source="Transpose:" type="String" />
+            <Field name="Value" size="32" source="BlobConvert: MD5" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ExpectEqualRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlobConvert" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+        <Position x="162" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>FieldTypes</Mode>
+          <FieldTypes>Blob</FieldTypes>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+        <Position x="162" y="930" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>FieldTypes</Mode>
+          <FieldTypes>Blob</FieldTypes>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+        <Position x="174" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>FieldTypes</Mode>
+          <FieldTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,SpatialObj</FieldTypes>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput:" type="Byte" />
+            <Field name="Total" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+        <Position x="174" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>FieldTypes</Mode>
+          <FieldTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,SpatialObj</FieldTypes>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput:" type="Byte" />
+            <Field name="Total" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -1029,11 +1439,15 @@
     </Connection>
     <Connection>
       <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="25" Connection="Input" />
+      <Destination ToolID="31" Connection="Input8" />
     </Connection>
     <Connection>
       <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="31" Connection="Input8" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="5" Connection="Output" />
@@ -1041,11 +1455,15 @@
     </Connection>
     <Connection>
       <Origin ToolID="5" Connection="Output" />
-      <Destination ToolID="26" Connection="Input" />
+      <Destination ToolID="32" Connection="Input8" />
     </Connection>
     <Connection>
       <Origin ToolID="5" Connection="Output" />
-      <Destination ToolID="32" Connection="Input8" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="11" Connection="Output" />
@@ -1127,6 +1545,10 @@
       <Origin ToolID="46" Connection="Output" />
       <Destination ToolID="47" Connection="Input" />
     </Connection>
+    <Connection name="#5">
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
     <Connection>
       <Origin ToolID="40" Connection="True" />
       <Destination ToolID="45" Connection="Input" />
@@ -1162,6 +1584,54 @@
     <Connection>
       <Origin ToolID="54" Connection="Output" />
       <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Join" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="True" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="60" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="60" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -1238,7 +1708,7 @@
       <ModuleType>Macro</ModuleType>
       <MacroCustomHelp value="False" />
       <MacroDynamicOutputFields value="False" />
-      <MacroImage>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</MacroImage>
+      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAAKsAAACrCAYAAAAZ6GwZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvgAADr4B6kKxwAAAB/9JREFUeF7t281vVFUch3Fm2o7lxUKhtpG2kQG0hkKjpLFAgWhSsNHYBN/iC4EYEw0L/wE3xoVuWBg3bkxMdGPiwp3GheKCxIWJGiMvJhpg5U6NoATk5XpOmYNzOnemM3Pvued37n2+yZO5ncwMpHy4c4eXFYyxYm+kFmPyNjs7++bExMTJsbGxC6tWrfpz5cqVv1er1bP79+9/u/YQxryurNpw4MCB8729vdfVcbS0vr6+a3Nzc+fU8QYVY16moR6pVCpXyuVyA9L6enp6IvW4S+r4sIqxTLcIVXVVFQu0SX+rAMsy27JQ164diL2/FmBZJmsJdffMfdG7bw5Hn394d/TOG0PR7ofubXhMLcAyp2sJdeGxB6KzX49F//66Lrp5YXDx9qcvx6PHH51qeGwtwDInawuqRro0wLIs1zVUE2BZFksM1QRY5nKpQTUBlrlY6lBNgGVpzhlUE2BZGnMO1QRYlmSZQTUBlnWzzKGaAMs6mTeoJsCyduYdqgmwrNXEQDUBlsVNHFQTYFn9xEI1AZbpiYdqAmyxFwxUE2CLueCgmgBbrAUL1QTYYixTqDfOx9+fRoDN95xB1ShNcV/X32e+TiPA5nOpQI1D2EnmeUlfpz7A5muJoaaJq776103y2oDNx4L5MJX0NwJgw17XUJOe6XwF2DDXFdQQgS4NsGEt0Rk17v7QAmwYC+Ya1XWAlb3CQG33HQCwMleoM2onlyuAlTXe+pcJsDIG1DYDrN8BtcMA62dA7TLAZjuxUJf74CPlz3EBm81En1FDwaoDrNuJgqrhScLXTYB1M65RHQXYdAdUxwE2nQE1owCbbIWHmvV1MWC7m3eoUj48Zf3zAGxnE3FGzfqsJinAtjeuUYUE2NYDqrAAGz+gCg2w9oAqPMDeGlADqehggRpYRQUL1EArGligBl5RwAI1J+UdLFBzVl7BAjWn5Q0sUHNeXsB6hfrJe6uje8bKVOubT++M/T6lUehgvZ9RPzi+quHHLXInPl4T+31Kq1DBinjrB6tdN1g7/aeSoYEVc40KVjvXZ1ZTKGBFfZgCq10SrJ3+Q3TpYEVB1YHVLkusOqlgxUHVgdUu6WVAHsCKhKoDq50PrDopYMVC1YHVLo0PWKGCFQ1VB1Y7n1h1vsCKh6oDq10aWJOWNdggoOrAarcUqz5LJjlTdltWYIOBqgOrnYQzq8k12KCg6sBqJwmrzhXY4KDqwGrXDKuPSwFT2mCDhKoDq51ErLq0wJZUL6iCg6oDq520y4D62gD7rKr1BgcHL6ubhheQDlX327drF3+B6FZ//Lg29vuk83121bUCOzw8/Ie6bb75+flTvb29N9Wh9cQQoFJnScCqawa2UqncVB6/U8eN27p167aenp6Gt3+gUn0ukDcDq06cV7Zv336/OrZ39OjRp8rlsnVWveuuDdGpr0ZjfwAqZq7OyD98MRYNDa23sKqTZ7Rnz56P1LG92dnZzxRW68FHnh6PLp1ZF/viRGn216l10eEnRyx/OvWOry8FelW3V6lWq9+r29sPKpVK0bEj47EvTPlIynWrTv9c3j8+YUHVzczMfKFu+1S3V5mcnPxE3VoPHB9bH108Hf/iFH7dYHUJ/NATDy6eJI0/fRmwsLDwojq2t2nTpoWlfxJQqfRGr70yG/vCFH4aXqf4XGE99vLeqNLXc9veLX+VG1u2bHlYHdtTF7ITO3fu/FUdWk/o7+8DbE7rBquL4qDqpqenf9m3b19VHTfu4MGDj4yOjl5Xh9aTAJvPJGBtBrW/v//G5s2bH1PHTVdRlwKvq9uYJ8sHy1+32um/xYr7Ppl8Y20GtdbbqiFVy42rjqsaXkA6WLDaLYfVZ21A3ahqa0GCBaudVKxpQjULDixY7SRidQHVLCiwYLWThtUlVLNgwILVzgXWbj+QZQHVLAiwYLWTgjVLqGbiwYLVTsJlgA+oZqLBgtXON1afUM3EggWrnU+sEqCaiQQLVjtfWCVBNRMHFqx2PrBKhGomCixY7bLGKhmqmRiwYLXLEmsIUM1EgAWrXVZYQ4Jq5h0sWO2ywBoiVDOvYMFq5xpryFDNvIG9eHpddO7kANW6/LO7/0afB6hmYj50UfrlCaoZYHNYHqGaATZH5RmqGWBzUBGgmgE24IoE1QywAVZEqGaADagiQzUDbAAB9f8BVnBAbRxgBQbU5gOsoIC6/AArIKC2P8B6DKidD7AeAmr3A2yGATX5AJtBQE1vgHUYUNMfYB0EVHcDbIoB1f0Am0JAzW6ATRBQsx9guwio/gbYDgKq/wG2jYAqZ4BtEVDlDbAxAVXuAFsXUOUPsCqghrNCgwVqeCskWKCGu0KBBWr4KwRYoOZnuQYL1Pwtl2CBmt/lCixQ879cgAVqcRY0WKAWb0GCBWpxFxRYoLIgwAKVmYkGC1S2dCLBApU1myiwQGXLTQRYoLJ25xUsUFmn8wIWqKzbZQoWqCzpMgELVJbWnIIFKkt7TsAClblaqmCBylwvFbBAZVktEVigsqzXFVigMl9rCfbVl3ZFZ74cjK6fV50DKvO/pmDL5XJ0R6UUbdm8cTGgMglrCraNgMoy3yLYUqkUB7JZQGXeNjo0NPT89PT0P+o4DudiIyMjV9XtWyqgMr+bn5/fOzk5eVLBvaa+XAQ6MDCgkV7ZsWPHibm5uV3qvn79WMa8b9u2bWtmZmamqtXqMwrucwrw1KFDh4anpqZW1x7CmLiVajHGirkVK/4DjNbXJtYzjrQAAAAASUVORK5CYII=</MacroImage>
       <MacroInputs />
       <MacroOutputs />
       <Wiz_CustomHelp value="False" />

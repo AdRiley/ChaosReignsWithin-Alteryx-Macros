@@ -473,7 +473,7 @@
     </Node>
     <Node ToolID="107">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="1662" y="270" />
+        <Position x="2058" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -494,9 +494,11 @@
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
             <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
-            <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
           <SortInfo locale="0">
+            <Field field="TestSuite" order="Ascending" />
             <Field field="ModuleFullPath" order="Ascending" />
             <Field field="Order" order="Ascending" />
           </SortInfo>
@@ -506,7 +508,7 @@
     </Node>
     <Node ToolID="108">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="1758" y="270" />
+        <Position x="2142" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -527,9 +529,11 @@
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
             <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
-            <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
           <SortInfo locale="0">
+            <Field field="TestSuite" order="Ascending" />
             <Field field="ModuleFullPath" order="Ascending" />
             <Field field="Order" order="Ascending" />
           </SortInfo>
@@ -584,7 +588,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_5484_7f41aaaa95e24831ad6e2b62830dd237_\Engine_6300_a6826f3ad7da44fe9540260c9ba2a9e6_.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_10992_6fe59cba5a4f4f009fe2f3afa7e49cfa_\Engine_6300_983b71431b224f45b7fe1d29a58fbe4a_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -607,7 +611,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_5484_7f41aaaa95e24831ad6e2b62830dd237_\Engine_6300_ead505c678dd40aaab98a77cf1f19d0f_.yxdb</TempFile>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_10992_6fe59cba5a4f4f009fe2f3afa7e49cfa_\Engine_6300_3dd819e6ed4f46c98a4521be3780a4ea_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -788,7 +792,7 @@ ToolID - Ascending</DefaultAnnotationText>
           <FormulaFields>
             <FormulaField field="Message" type="V_WString" size="5000" expression="[Module] + &quot; - Passed&quot;" />
             <FormulaField field="MessageType" type="V_WString" size="5000" expression="&quot;Message&quot;" />
-            <FormulaField field="Order" type="Byte" size="1" expression="0" />
+            <FormulaField field="Order" type="Int16" size="2" expression="0" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -810,7 +814,7 @@ Order=0</DefaultAnnotationText>
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Passed&quot;" type="V_WString" />
             <Field name="MessageType" size="5000" source="Formula: &quot;Message&quot;" type="V_WString" />
-            <Field name="Order" source="Formula: 0" type="Byte" />
+            <Field name="Order" source="Formula: 0" type="Int16" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -825,7 +829,7 @@ Order=0</DefaultAnnotationText>
           <FormulaFields>
             <FormulaField field="Message" type="V_WString" size="5000" expression="[Module] + &quot; - Failed&quot;" />
             <FormulaField field="MessageType" type="V_WString" size="5000" expression="&quot;Error&quot;" />
-            <FormulaField field="Order" type="Byte" size="1" expression="0" />
+            <FormulaField field="Order" type="Int16" size="2" expression="0" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -847,7 +851,7 @@ Order=0</DefaultAnnotationText>
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Failed&quot;" type="V_WString" />
             <Field name="MessageType" size="5000" source="Formula: &quot;Error&quot;" type="V_WString" />
-            <Field name="Order" source="Formula: 0" type="Byte" />
+            <Field name="Order" source="Formula: 0" type="Int16" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -862,7 +866,7 @@ Order=0</DefaultAnnotationText>
           <FormulaFields>
             <FormulaField field="Message" type="V_String" size="2147483647" expression="&quot;    &quot; +[Message]" />
             <FormulaField field="MessageType" type="V_String" size="2147483647" expression="&quot;Message&quot;" />
-            <FormulaField field="Order" type="Byte" size="1" expression="1" />
+            <FormulaField field="Order" type="Int16" size="2" expression="1" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -880,7 +884,7 @@ Order=1</DefaultAnnotationText>
             <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: &quot;    &quot; +[Message]" type="V_String" />
             <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
-            <Field name="Order" source="Formula: 1" type="Byte" />
+            <Field name="Order" source="Formula: 1" type="Int16" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -907,7 +911,7 @@ Order=1</DefaultAnnotationText>
                 <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" column="1" />
                 <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Passed&quot;" type="V_WString" column="2" />
                 <Field name="MessageType" size="5000" source="Formula: &quot;Message&quot;" type="V_WString" column="3" />
-                <Field name="Order" source="Formula: 0" type="Byte" column="4" />
+                <Field name="Order" source="Formula: 0" type="Int16" column="4" />
               </RecordInfo>
             </MetaInfo>
             <MetaInfo name="#3">
@@ -915,7 +919,7 @@ Order=1</DefaultAnnotationText>
                 <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" column="1" />
                 <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Failed&quot;" type="V_WString" column="2" />
                 <Field name="MessageType" size="5000" source="Formula: &quot;Error&quot;" type="V_WString" column="3" />
-                <Field name="Order" source="Formula: 0" type="Byte" column="4" />
+                <Field name="Order" source="Formula: 10" type="Int16" column="4" />
               </RecordInfo>
             </MetaInfo>
             <MetaInfo name="#2">
@@ -923,7 +927,7 @@ Order=1</DefaultAnnotationText>
                 <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" column="1" />
                 <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: &quot;    &quot; +[Message]" type="V_String" column="2" />
                 <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: &quot;Message&quot;" type="V_String" column="3" />
-                <Field name="Order" source="Formula: 1" type="Byte" column="4" />
+                <Field name="Order" source="Formula: 20" type="Int16" column="4" />
               </RecordInfo>
             </MetaInfo>
           </MultiMetaInfo>
@@ -942,7 +946,7 @@ Order=1</DefaultAnnotationText>
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
             <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
-            <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1019,7 +1023,7 @@ Order=1</DefaultAnnotationText>
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Passed&quot;" type="V_WString" />
             <Field name="MessageType" size="5000" source="Formula: &quot;Message&quot;" type="V_WString" />
-            <Field name="Order" source="Formula: 0" type="Byte" />
+            <Field name="Order" source="Formula: 0" type="Int16" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1053,7 +1057,7 @@ Order=1</DefaultAnnotationText>
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Failed&quot;" type="V_WString" />
             <Field name="MessageType" size="5000" source="Formula: &quot;Error&quot;" type="V_WString" />
-            <Field name="Order" source="Formula: 0" type="Byte" />
+            <Field name="Order" source="Formula: 0" type="Int16" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1083,7 +1087,7 @@ Order=1</DefaultAnnotationText>
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: &quot;Message&quot;" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: &quot;    &quot; +[Message]" type="V_String" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
-            <Field name="Order" source="Formula: 1" type="Byte" />
+            <Field name="Order" source="Formula: 1" type="Int16" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1091,18 +1095,20 @@ Order=1</DefaultAnnotationText>
     </Node>
     <Node ToolID="125">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="1566" y="270" />
+        <Position x="1962" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <SortInfo locale="0">
+            <Field field="TestSuite" order="Ascending" />
             <Field field="ModuleFullPath" order="Ascending" />
             <Field field="Order" order="Ascending" />
           </SortInfo>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>ModuleFullPath - Ascending
+          <DefaultAnnotationText>TestSuite - Ascending
+ModuleFullPath - Ascending
 Order - Ascending</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -1111,15 +1117,182 @@ Order - Ascending</DefaultAnnotationText>
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
             <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
-            <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
           <SortInfo locale="0">
+            <Field field="TestSuite" order="Ascending" />
             <Field field="ModuleFullPath" order="Ascending" />
             <Field field="Order" order="Ascending" />
           </SortInfo>
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1674" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="TestSuite" action="GroupBy" rename="TestSuite" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TestSuite" size="1000" source="Summarize: GroupBy - TestSuite" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="TestSuite" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1746" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Order" type="Int16" size="2" expression="-1" />
+            <FormulaField field="Message" type="V_WString" size="5000" expression="&quot;-------- &quot; + [TestSuite] + &quot; Tests --------&quot;" />
+            <FormulaField field="MessageType" type="V_WString" size="5000" expression="&quot;Message&quot;" />
+            <FormulaField field="ModuleFullPath" type="V_WString" size="50000" expression="Null()" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Order=-1
+Message="-------- " + [TestSuite] + " Tests --------"
+MessageType="Message"
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TestSuite" size="1000" source="Summarize: GroupBy - TestSuite" type="V_WString" />
+            <Field name="Order" source="Formula: -1" type="Int16" />
+            <Field name="Message" size="5000" source="Formula: &quot;-------- &quot; + [TestSuite] + &quot; Tests --------&quot;" type="V_WString" />
+            <Field name="MessageType" size="5000" source="Formula: &quot;Message&quot;" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="Formula: Null()" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="TestSuite" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1878" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>ByName</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" column="1" />
+                <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" column="2" />
+                <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" column="3" />
+                <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" column="4" />
+                <Field name="TestSuite" size="1000" source="Formula: FileGetFileName(Left(FileGetDir([ModuleFullPath]), Length(FileGetDir([ModuleFullPath]))-1))" type="V_WString" column="5" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="ModuleFullPath" size="50000" source="Formula: Null()" type="V_WString" column="1" />
+                <Field name="Message" size="5000" source="Formula: &quot;----&quot; + [TestSuite] + &quot; Test----&quot;" type="V_WString" column="2" />
+                <Field name="MessageType" size="5000" source="Formula: &quot;Message&quot;" type="V_WString" column="3" />
+                <Field name="Order" source="Formula: -1" type="Int16" column="4" />
+                <Field name="TestSuite" size="1000" source="Summarize: GroupBy - TestSuite" type="V_WString" column="5" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="130">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1554" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="TestSuite" type="V_WString" size="1000" expression="FileGetFileName(Left(FileGetDir([ModuleFullPath]), Length(FileGetDir([ModuleFullPath]))-1))" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TestSuite=FileGetFileName(Left(FileGetDir([ModuleFullPath]), ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="Formula: FileGetFileName(Left(FileGetDir([ModuleFullPath]), Length(FileGetDir([ModuleFullPath]))-1))" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="131">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1746" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Message" type="V_WString" size="1073741823" expression="&quot;    &quot; + [Message]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Message="    " + [Message]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="1073741823" source="Formula: &quot;    &quot; + [Message]" type="V_WString" />
+            <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="Formula: FileGetFileName(Left(FileGetDir([ModuleFullPath]), Length(FileGetDir([ModuleFullPath]))-1))" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
   </Nodes>
   <Connections>
@@ -1253,7 +1426,7 @@ Order - Ascending</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="120" Connection="Output" />
-      <Destination ToolID="125" Connection="Input" />
+      <Destination ToolID="130" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="121" Connection="True" />
@@ -1262,6 +1435,30 @@ Order - Ascending</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="125" Connection="Output" />
       <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="126" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="127" Connection="Output" />
+      <Destination ToolID="128" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="131" Connection="Output" />
+      <Destination ToolID="128" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Output" />
+      <Destination ToolID="125" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="130" Connection="Output" />
+      <Destination ToolID="126" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="130" Connection="Output" />
+      <Destination ToolID="131" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>

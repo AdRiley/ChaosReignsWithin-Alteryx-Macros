@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings>
-        <Position x="318" y="150" />
+        <Position x="198" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -14,15 +14,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="CReW_OnlyUnique.yxmc" />
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="174" y="150" />
+        <Position x="54" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -64,7 +61,21 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings>
-        <Position x="450" y="102" />
+        <Position x="306" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_ExpectEqual.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="306" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -77,7 +88,7 @@
           <Implicit />
         </Dependencies>
       </Properties>
-      <EngineSettings Macro="CReW_ExpectEqual.yxmc" />
+      <EngineSettings Macro="CReW_ExpectZeroRecords.yxmc" />
     </Node>
   </Nodes>
   <Connections>
@@ -88,6 +99,10 @@
     <Connection>
       <Origin ToolID="2" Connection="Output" />
       <Destination ToolID="3" Connection="Expected" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Unique" />
+      <Destination ToolID="4" Connection="Input6" />
     </Connection>
     <Connection>
       <Origin ToolID="2" Connection="Output" />

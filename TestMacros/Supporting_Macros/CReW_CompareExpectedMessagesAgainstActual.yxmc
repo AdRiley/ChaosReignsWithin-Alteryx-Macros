@@ -16,7 +16,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="66" y="270" />
+        <Position x="54" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -74,7 +74,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="66" y="354" />
+        <Position x="54" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -172,7 +172,7 @@
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1686" y="150" />
+        <Position x="1674" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -199,7 +199,7 @@
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1974" y="150" />
+        <Position x="1962" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -214,48 +214,18 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
-    <Node ToolID="41">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="1782" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SortInfo locale="0">
-            <Field field="FullPath" order="Ascending" />
-            <Field field="Order" order="Ascending" />
-          </SortInfo>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>FullPath - Ascending
-Order - Ascending</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
-            <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
-            <Field name="MessageType" size="1000" source="Formula: (Multiple Sources)" type="V_WString" />
-            <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
-          </RecordInfo>
-          <SortInfo locale="0">
-            <Field field="FullPath" order="Ascending" />
-            <Field field="Order" order="Ascending" />
-          </SortInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
-    </Node>
     <Node ToolID="42">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1878" y="150" />
+        <Position x="1866" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="False" />
           <SelectFields>
+            <SelectField field="FullPath" selected="True" rename="ModuleFullPath" />
             <SelectField field="Message" selected="True" />
             <SelectField field="MessageType" selected="True" />
+            <SelectField field="Order" selected="True" />
             <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
@@ -266,8 +236,10 @@ Order - Ascending</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
+            <Field name="ModuleFullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
             <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
             <Field name="MessageType" size="1000" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -275,7 +247,7 @@ Order - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="78" y="942" />
+        <Position x="66" y="942" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -312,7 +284,7 @@ Order - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="56">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="210" y="942" />
+        <Position x="198" y="942" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -339,7 +311,7 @@ Order=2</DefaultAnnotationText>
     </Node>
     <Node ToolID="45">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="150" y="73" width="597" height="182" />
+        <Position x="138" y="73" width="597" height="182" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -357,7 +329,7 @@ Order=2</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="160" y="107" />
+            <Position x="148" y="107" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -433,7 +405,7 @@ Order=2</DefaultAnnotationText>
         </Node>
         <Node ToolID="34">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="246" y="102" />
+            <Position x="234" y="102" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -462,7 +434,7 @@ Order=2</DefaultAnnotationText>
         </Node>
         <Node ToolID="35">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="318" y="109" />
+            <Position x="306" y="109" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -493,7 +465,7 @@ Order=2</DefaultAnnotationText>
         </Node>
         <Node ToolID="36">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="378" y="109" />
+            <Position x="366" y="109" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -532,7 +504,7 @@ Order=2</DefaultAnnotationText>
         </Node>
         <Node ToolID="51">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="462" y="102" />
+            <Position x="450" y="102" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -560,7 +532,7 @@ Order=2</DefaultAnnotationText>
         </Node>
         <Node ToolID="52">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="558" y="102" />
+            <Position x="546" y="102" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -586,7 +558,7 @@ Order=2</DefaultAnnotationText>
         </Node>
         <Node ToolID="54">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="678" y="162" />
+            <Position x="666" y="162" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -640,7 +612,7 @@ Order=2</DefaultAnnotationText>
         </Node>
         <Node ToolID="53">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="558" y="186" />
+            <Position x="546" y="186" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -668,7 +640,7 @@ Order=2</DefaultAnnotationText>
     </Node>
     <Node ToolID="48">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1446" y="318" width="298.2277" height="198" />
+        <Position x="1434" y="318" width="298.2277" height="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -686,7 +658,7 @@ Order=2</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="43">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="1506" y="397" />
+            <Position x="1494" y="397" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -748,7 +720,7 @@ Order=2</DefaultAnnotationText>
     </Node>
     <Node ToolID="47">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="966" y="282" width="185.1393" height="205" />
+        <Position x="954" y="282" width="185.1393" height="205" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -766,7 +738,7 @@ Order=2</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="38">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="976" y="311" />
+            <Position x="964" y="311" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -801,7 +773,7 @@ Order=0</DefaultAnnotationText>
     </Node>
     <Node ToolID="46">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="954" y="54" width="191.9391" height="205" />
+        <Position x="942" y="54" width="191.9391" height="205" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -819,7 +791,7 @@ Order=0</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="25">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="964" y="83" />
+            <Position x="952" y="83" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -854,7 +826,7 @@ Order=0</DefaultAnnotationText>
     </Node>
     <Node ToolID="44">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="234" y="534" width="885" height="354" />
+        <Position x="222" y="534" width="885" height="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -872,7 +844,7 @@ Order=0</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="8">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="340" y="695" />
+            <Position x="328" y="695" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -907,7 +879,7 @@ Order=0</DefaultAnnotationText>
         </Node>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="532" y="671" />
+            <Position x="520" y="671" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -945,7 +917,7 @@ Order=0</DefaultAnnotationText>
         </Node>
         <Node ToolID="11">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="448" y="803" />
+            <Position x="436" y="803" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -972,7 +944,7 @@ Order=0</DefaultAnnotationText>
         </Node>
         <Node ToolID="12">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="626" y="700" />
+            <Position x="614" y="700" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1000,7 +972,7 @@ Order=0</DefaultAnnotationText>
         </Node>
         <Node ToolID="15">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="930" y="618" />
+            <Position x="918" y="618" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1031,7 +1003,7 @@ Order=0</DefaultAnnotationText>
         </Node>
         <Node ToolID="17">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="810" y="618" />
+            <Position x="798" y="618" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1066,7 +1038,7 @@ Order=0</DefaultAnnotationText>
         </Node>
         <Node ToolID="18">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="710" y="700" />
+            <Position x="698" y="700" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1097,7 +1069,7 @@ Order=1</DefaultAnnotationText>
         </Node>
         <Node ToolID="19">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="340" y="563" />
+            <Position x="328" y="563" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1126,7 +1098,7 @@ Order=2</DefaultAnnotationText>
         </Node>
         <Node ToolID="29">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="1050" y="618" />
+            <Position x="1038" y="618" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1157,7 +1129,7 @@ Order=2</DefaultAnnotationText>
         </Node>
         <Node ToolID="33">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="244" y="694.9999" />
+            <Position x="232" y="694.9999" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1186,7 +1158,7 @@ Order=2</DefaultAnnotationText>
         </Node>
         <Node ToolID="49">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="436" y="683" />
+            <Position x="424" y="683" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1261,10 +1233,6 @@ Order=2</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="27" Connection="Output" />
-      <Destination ToolID="41" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="41" Connection="Output" />
       <Destination ToolID="42" Connection="Input" />
     </Connection>
     <Connection>

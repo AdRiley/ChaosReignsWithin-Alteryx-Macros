@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="90" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>DataInput</Name>
+          <Abbrev>D</Abbrev>
+          <ShowFieldMap value="True" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="group" />
+              </Fields>
+              <Data>
+                <r>
+                  <c />
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Input Data (2)</Name>
+          <AnnotationText>DSN=Test Inviso
+Table=Select * From SalesData</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="group" source="TextInput:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="354" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="group" action="GroupBy" rename="group" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="group" source="Summarize: GroupBy - group" type="Bool" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="group" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="510" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="group" source="TextInput:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output2">
+          <RecordInfo>
+            <Field name="group" source="TextInput:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output3">
+          <RecordInfo>
+            <Field name="group" source="TextInput:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
+        <Position x="90" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OutputConfiguration>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">.\AssistingMacros\temp.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+          </OutputConfiguration>
+          <InputConfiguration>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">.\AssistingMacros\dummy.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+              </FormatSpecificOptions>
+            </Configuration>
+          </InputConfiguration>
+          <ProgramName>cmd</ProgramName>
+          <Arguments>/c mkdir TEMPDIR\temp</Arguments>
+          <WorkingDir />
+          <RunMinimized value="True" />
+          <RunSilent value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Run cmd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="1" size="254" source="File: C:\Users\daniel.brun\Downloads\DBMacros\AssistingMacros\dummy.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="354" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Source_1" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="group" source="TextInput:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.FolderBrowse.FolderBrowse">
+        <Position x="342" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.FileBrowse.FileBrowse">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="258" y="150" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="414" y="150" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="54" y="150" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings>
+        <Position x="618" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="BatchMacroGroupBy"><![CDATA[Control=group
+Data=group
+]]></Value>
+          <Value name="File Browse (10)">TEMPLATE</Value>
+          <Value name="Folder Browse (14)">OUTPUTLOCATION</Value>
+          <Value name="ControlParams"><![CDATA[Control Parameter (3)=group
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="AssistingMacros\TWBOutputMacro.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="17" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="17" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="25" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="25" Connection="Data" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="23" Connection="Action" />
+      <Destination ToolID="25" Connection="Action" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="24" Connection="Action" />
+      <Destination ToolID="25" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="20" Connection="Question" />
+      <Destination ToolID="22" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="20" Connection="Question" />
+      <Destination ToolID="23" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="21" Connection="Question" />
+      <Destination ToolID="24" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="22" Connection="Action" />
+      <Destination ToolID="7" Connection="Action" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (19)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Folder Browse (20)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>File Browse (21)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>TableauTWBX</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="22" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>TEMPDIR</ReplaceText>
+              <Destination>7/Arguments</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="23" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>25/Value[@name='Folder Browse (14)']</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="24" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>25/Value[@name='File Browse (10)']</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (18)</Name>
+          <ToolId value="18" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (19)</Description>
+              <Name>Macro Input (19)</Name>
+              <ToolId value="19" />
+            </Question>
+            <Question>
+              <Type>FolderBrowse</Type>
+              <Description>Please choose the Output folder. Make sure the folder is empty.</Description>
+              <Name>Folder Browse (20)</Name>
+              <ToolId value="20" />
+            </Question>
+            <Question>
+              <Type>FileBrowse</Type>
+              <Description>Please choose the Template Tableau workbook (.twb)</Description>
+              <Name>File Browse (21)</Name>
+              <ToolId value="21" />
+              <SaveAs value="False" />
+              <Mode>FileSpec</Mode>
+              <FileSpec>Tableau files (*.twb)</FileSpec>
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="19" Selected="True" />
+        <Tool ToolId="25" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

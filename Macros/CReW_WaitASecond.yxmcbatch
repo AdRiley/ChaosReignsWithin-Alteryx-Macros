@@ -3,26 +3,26 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
-        <Position x="198" y="246" />
+        <Position x="150" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OutputConfiguration>
-            <Configuration>
-              <File FileFormat="19" MaxRecords="">.\temp.yxdb</File>
-              <Passwords />
-              <FormatSpecificOptions>
-                <NoSpatialIndex>False</NoSpatialIndex>
-                <SaveSource>True</SaveSource>
-              </FormatSpecificOptions>
-              <MultiFile value="False" />
-            </Configuration>
+            <Configuration />
           </OutputConfiguration>
           <InputConfiguration>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\temp.yxdb</File>
-              <FormatSpecificOptions />
+              <File OutputFileName="" RecordLimit="1" SearchSubDirs="False" FileFormat="0">./CReW_WaitASecond.yxmcbatch</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>\0</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>False</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+              </FormatSpecificOptions>
             </Configuration>
           </InputConfiguration>
           <ProgramName>cmd</ProgramName>
@@ -36,10 +36,12 @@
           <DefaultAnnotationText>Run cmd</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="RecordIDWait" source="RecordID: Starting Value=1" type="Int32" />
-            <Field name="Field1" source="TextInput:" type="Byte" />
+            <Field name="Field_1" size="254" source="File: W:\Work\CrewMacros\FromGit\Macros\CReW_WaitASecond.yxmcbatch" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -60,7 +62,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="102" y="342" />
+        <Position x="54" y="342" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -106,7 +108,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="294" y="342" />
+        <Position x="246" y="342" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -123,7 +125,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-        <Position x="198" y="54" width="59" height="59" />
+        <Position x="150" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -136,7 +138,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="198" y="150" width="59" height="59" />
+        <Position x="150" y="150" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -149,7 +151,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="366" y="54" width="312" height="168" />
+        <Position x="318" y="54" width="312" height="168" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -208,7 +210,7 @@
     </Constants>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>Wait Macro</Name>
+      <Name>CReW_WaitASecond</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

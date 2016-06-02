@@ -5587,7 +5587,7 @@ Null Values are filtered from both P &amp; S Inputs if CHECK Box is selected</Te
     </Constants>
     <MetaInfo>
       <NameIsFileName value="False" />
-      <Name>Chi Square Test</Name>
+      <Name><![CDATA[ Chi Square Test]]></Name>
       <Description>Have you created a sample set and wanted to know if there was a bias in the sample?  Random doesn't always mean you get an even quantity of data across your variables.  This test will check to see if the distribution of domain values (for a specific variable) are representative of the parent population.
 
 Best to double check your samples before you run your tests!</Description>

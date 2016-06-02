@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="9.0">
+<AlteryxDocument yxmdVer="10.0">
   <Nodes>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="54" y="66" width="59" height="59" />
+        <Position x="0" y="0" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -16,7 +16,7 @@
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="102" y="54" width="59" height="59" />
+        <Position x="54" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -29,7 +29,7 @@
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
-        <Position x="750" y="54" width="59" height="59" />
+        <Position x="702" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -42,7 +42,7 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="762" y="150" width="59" height="59" />
+        <Position x="714" y="150" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -55,7 +55,7 @@
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="114" y="150" width="59" height="59" />
+        <Position x="66" y="150" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -68,7 +68,7 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="798" y="258" width="341.3998" height="326.5508" />
+        <Position x="750" y="258" width="355" height="387" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -86,7 +86,7 @@
       <ChildNodes>
         <Node ToolID="13">
           <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
-            <Position x="1014" y="339" />
+            <Position x="966" y="339" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -123,13 +123,13 @@
         </Node>
         <Node ToolID="14">
           <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
-            <Position x="1014" y="447" />
+            <Position x="966" y="510" />
           </GuiSettings>
           <Properties>
             <Configuration>
               <OutputConfiguration>
                 <Configuration>
-                  <File MaxRecords="" FileFormat="0">%temp%\2.csv</File>
+                  <File MaxRecords="" FileFormat="0">%temp%\3.csv</File>
                   <Passwords />
                   <FormatSpecificOptions>
                     <LineEndStyle>CRLF</LineEndStyle>
@@ -160,7 +160,7 @@
         </Node>
         <Node ToolID="15">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="858" y="337" />
+            <Position x="810" y="337" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -187,11 +187,48 @@
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
         </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
+            <Position x="966" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OutputConfiguration>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="0">%temp%\2.csv</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <LineEndStyle>CRLF</LineEndStyle>
+                    <Delimeter>,</Delimeter>
+                    <ForceQuotes>False</ForceQuotes>
+                    <HeaderRow>True</HeaderRow>
+                    <CodePage>28591</CodePage>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+              </OutputConfiguration>
+              <InputConfiguration>
+                <Configuration />
+              </InputConfiguration>
+              <ProgramName>cmd.exe</ProgramName>
+              <Arguments>/c del C:\ProgramData\Alteryx\DataProducts\AddOnData\Macros\CReWTest.ini</Arguments>
+              <WorkingDir />
+              <RunMinimized value="False" />
+              <RunSilent value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Run cmd.exe</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
+        </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="150" y="258" width="611" height="504.5508" />
+        <Position x="102" y="258" width="644" height="646" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -209,7 +246,7 @@
       <ChildNodes>
         <Node ToolID="1">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="210" y="337" />
+            <Position x="162" y="337" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -225,7 +262,7 @@
                   <c>DefaultFolder=CReW Macros</c>
                 </r>
                 <r>
-                  <c>MinimumAlteryxVersion=9.0</c>
+                  <c>MinimumAlteryxVersion=10.0</c>
                 </r>
               </Data>
             </Configuration>
@@ -236,7 +273,7 @@
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
-                <Field name="Settings" size="25" source="TextInput:" type="String" />
+                <Field name="Settings" size="26" source="TextInput:" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -244,7 +281,7 @@
         </Node>
         <Node ToolID="2">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="210" y="625" />
+            <Position x="162" y="769" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -273,7 +310,7 @@
         </Node>
         <Node ToolID="3">
           <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-            <Position x="210" y="475.0001" />
+            <Position x="162" y="619.0001" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -302,7 +339,7 @@
         </Node>
         <Node ToolID="4">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="318" y="421" />
+            <Position x="282" y="402" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -326,7 +363,7 @@
         </Node>
         <Node ToolID="5">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="522" y="337" />
+            <Position x="474" y="337" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -354,7 +391,7 @@
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="522" y="625" />
+            <Position x="474" y="769" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -382,7 +419,7 @@
         </Node>
         <Node ToolID="7">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="642" y="337" />
+            <Position x="594" y="337" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -407,7 +444,7 @@
         </Node>
         <Node ToolID="8">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="642" y="625" />
+            <Position x="594" y="769" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -432,7 +469,7 @@
         </Node>
         <Node ToolID="10">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="318" y="529" />
+            <Position x="270" y="673" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -453,6 +490,118 @@
             </MetaInfo>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="162" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="Settings" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>[Settings]</c>
+                </r>
+                <r>
+                  <c>DefaultFolder=CReW Test</c>
+                </r>
+                <r>
+                  <c>MinimumAlteryxVersion=10.0</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Settings" size="26" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="318" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Settings" type="V_String" size="5000" expression="[Field1]+[Engine.ModuleDirectory]+'\TestMacros'" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Settings=[Field1]+[Engine.ModuleDirectory]+'\TestMacros'</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field1" size="5" source="TextInput:" type="String" />
+                <Field name="Settings" size="5000" source="Formula: [Field1]+[Engine.ModuleDirectory]+'\TestMacros'" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="474" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+              <ByName_OutputMode>Subset</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#2</Connection>
+                <Connection>#1</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Settings" size="5000" source="(Multiple Sources)" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="606" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\ProgramData\Alteryx\DataProducts\AddOnData\Macros\CReWTest.ini</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>False</HeaderRow>
+                <CodePage>UTF16</CodePage>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CReWTest.ini</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
       </ChildNodes>
     </Node>
@@ -482,6 +631,10 @@
       <Origin ToolID="15" Connection="Output" />
       <Destination ToolID="14" Connection="Input" />
     </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
     <Connection name="#2">
       <Origin ToolID="1" Connection="Output" />
       <Destination ToolID="5" Connection="Input" />
@@ -507,12 +660,28 @@
       <Destination ToolID="10" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="5" Connection="Output" />
       <Destination ToolID="7" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="6" Connection="Output" />
       <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -524,6 +693,7 @@
     <ConvErrorLimit_Stop value="False" />
     <CancelOnError value="False" />
     <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
     <DisableAllOutput value="False" />
     <ShowAllMacroMessages value="False" />
     <ShowConnectionStatusIsOn value="True" />
@@ -548,6 +718,9 @@
       <NameIsFileName value="True" />
       <Name>Install</Name>
       <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
       <CategoryName />
       <SearchTags />
       <Author />
@@ -621,6 +794,7 @@
       <Wiz_CustomGraphic value="False" />
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
+        <Tool ToolId="24" Selected="False" />
         <Tool ToolId="7" Selected="False" />
         <Tool ToolId="8" Selected="False" />
       </Wiz_OpenOutputTools>

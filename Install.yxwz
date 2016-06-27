@@ -344,18 +344,18 @@
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField field="Settings" type="V_String" size="5000" expression="[Field1]+[Engine.ModuleDirectory]+'\Macros'" />
+                <FormulaField field="Settings" type="V_String" size="5000" expression="[Field1]+[Engine.ModuleDirectory]+'Macros'" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>Settings=[Field1]+[Engine.ModuleDirectory]+'\Macros'</DefaultAnnotationText>
+              <DefaultAnnotationText>Settings=[Field1]+[Engine.ModuleDirectory]+'Macros'</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Field1" size="5" source="TextInput:" type="String" />
-                <Field name="Settings" size="5000" source="Formula: [Field1]+[Engine.ModuleDirectory]+'\Macros'" type="V_String" />
+                <Field name="Settings" size="5000" source="Formula: [Field1]+[Engine.ModuleDirectory]+'Macros'" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -474,18 +474,18 @@
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField field="Settings" type="V_String" size="5000" expression="[Field1]+[Engine.ModuleDirectory]+'\Samples'" />
+                <FormulaField field="Settings" type="V_String" size="5000" expression="[Field1]+[Engine.ModuleDirectory]+'Samples'" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>Settings=[Field1]+[Engine.ModuleDirectory]+'\Samples'</DefaultAnnotationText>
+              <DefaultAnnotationText>Settings=[Field1]+[Engine.ModuleDirectory]+'Samples'</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Field1" size="5" source="TextInput:" type="String" />
-                <Field name="Settings" size="5000" source="Formula: [Field1]+[Engine.ModuleDirectory]+'\Samples'" type="V_String" />
+                <Field name="Settings" size="5000" source="Formula: [Field1]+[Engine.ModuleDirectory]+'Samples'" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>
@@ -533,18 +533,18 @@
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField field="Settings" type="V_String" size="5000" expression="[Field1]+[Engine.ModuleDirectory]+'\TestMacros'" />
+                <FormulaField field="Settings" type="V_String" size="5000" expression="[Field1]+[Engine.ModuleDirectory]+'TestMacros'" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText>Settings=[Field1]+[Engine.ModuleDirectory]+'\TestMacros'</DefaultAnnotationText>
+              <DefaultAnnotationText>Settings=[Field1]+[Engine.ModuleDirectory]+'TestMacros'</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="Field1" size="5" source="TextInput:" type="String" />
-                <Field name="Settings" size="5000" source="Formula: [Field1]+[Engine.ModuleDirectory]+'\TestMacros'" type="V_String" />
+                <Field name="Settings" size="5000" source="Formula: [Field1]+[Engine.ModuleDirectory]+'TestMacros'" type="V_String" />
               </RecordInfo>
             </MetaInfo>
           </Properties>

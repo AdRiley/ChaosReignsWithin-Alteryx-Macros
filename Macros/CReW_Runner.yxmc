@@ -1586,6 +1586,7 @@ ENDIF
               <Expression>Replace([Destination], 
 "ModuleName.yxdb",
 IF REGEX_Match([#1], "^[a-zA-Z]{1}:.*$") //Rooted Path
+|| left([#1], 2) == "\\" //UNC Path
 THEN
 [#1]
 ELSE

@@ -7,7 +7,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="File Browse (3)">_3SecondWaitingModule.yxmd</Value>
+          <Value name="File Browse (3)">_1To2SecondWaitingModule.yxmd</Value>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -94,43 +94,29 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="9">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="378" y="54" />
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Test.Test">
+        <Position x="486" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <NumRows value="1" />
-          <Fields>
-            <Field name="Time" />
-          </Fields>
-          <Data>
-            <r>
-              <c>3</c>
-            </r>
-          </Data>
+          <Tests>
+            <Test>
+              <Name>Require Time between 3 and 6</Name>
+              <Connection>#1</Connection>
+              <Type>ExpAll</Type>
+              <Value>[Time] &gt;= 3 &amp;&amp; [Time] &lt;= 6</Value>
+            </Test>
+          </Tests>
+          <DontReportSubsequent value="True" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText />
+          <DefaultAnnotationText>Require Time between 3 and 6</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
-    </Node>
-    <Node ToolID="10">
-      <GuiSettings>
-        <Position x="510" y="114" />
-      </GuiSettings>
-      <Properties>
-        <Configuration />
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings Macro="CReW_ExpectEqual.yxmc" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTest" />
     </Node>
   </Nodes>
   <Connections>
@@ -146,13 +132,9 @@
       <Origin ToolID="7" Connection="Output" />
       <Destination ToolID="8" Connection="Input" />
     </Connection>
-    <Connection>
+    <Connection name="#1">
       <Origin ToolID="8" Connection="Output" />
-      <Destination ToolID="10" Connection="Actual" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="9" Connection="Output" />
-      <Destination ToolID="10" Connection="Expected" />
+      <Destination ToolID="11" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -173,7 +155,7 @@
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>Waits Three Seconds For Three Records</Name>
+      <Name>Waits Three to Six Seconds For Three Records with Random Time</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

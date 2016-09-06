@@ -36,9 +36,6 @@
           <DefaultAnnotationText>Run cmd</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Field_1" size="254" source="File: W:\Work\CrewMacros\FromGit\Macros\CReW_WaitASecond.yxmcbatch" type="V_String" />
@@ -123,19 +120,6 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
-    <Node ToolID="5">
-      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-        <Position x="150" y="54" width="59" height="59" />
-      </GuiSettings>
-      <Properties>
-        <Configuration />
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-    </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
         <Position x="150" y="150" width="59" height="59" />
@@ -169,19 +153,32 @@
         </Annotation>
       </Properties>
     </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="126" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
       <Origin ToolID="3" Connection="Output" />
       <Destination ToolID="4" Connection="Input" />
     </Connection>
-    <Connection name="#1">
-      <Origin ToolID="5" Connection="Question" />
-      <Destination ToolID="6" Connection="Question" />
-    </Connection>
     <Connection name="#2">
       <Origin ToolID="6" Connection="Action" />
       <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Question" />
+      <Destination ToolID="6" Connection="Question" />
     </Connection>
   </Connections>
   <Properties>
@@ -203,9 +200,9 @@
     <Constants>
       <Constant>
         <Namespace>Question</Namespace>
-        <Name>Numeric Up Down (5)</Name>
+        <Name>ControlParam.Control Parameter (8)</Name>
         <Value />
-        <IsNumeric value="True" />
+        <IsNumeric value="False" />
       </Constant>
     </Constants>
     <MetaInfo>
@@ -262,15 +259,10 @@
               <ToolId value="4" />
             </Question>
             <Question>
-              <Type>NumericUpDown</Type>
-              <Description>Numeric Up Down (5)</Description>
-              <Name>Numeric Up Down (5)</Name>
-              <ToolId value="5" />
-              <Minimum value="0" />
-              <Maximum value="100" />
-              <Increment value="1" />
-              <Default value="5" />
-              <Decimals value="0" />
+              <Type>ControlParam</Type>
+              <Description>NumberOfSeconds</Description>
+              <Name>Control Parameter (8)</Name>
+              <ToolId value="8" />
             </Question>
           </Questions>
         </Question>
@@ -283,7 +275,12 @@
       <MacroOutputs />
       <BatchMacro>
         <OutputMode>AllSame</OutputMode>
-        <ControlParams />
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (8)</Name>
+            <Description>NumberOfSeconds</Description>
+          </ControlParam>
+        </ControlParams>
       </BatchMacro>
       <Wiz_CustomHelp value="False" />
       <Wiz_CustomGraphic value="False" />

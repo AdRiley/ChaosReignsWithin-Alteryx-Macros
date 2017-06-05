@@ -1,14 +1,26 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="10.0">
+<AlteryxDocument yxmdVer="11.0">
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
-        <Position x="150" y="246" />
+        <Position x="198" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OutputConfiguration>
-            <Configuration />
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">%temp%\timingbatch.bat</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>\0</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>False</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
           </OutputConfiguration>
           <InputConfiguration>
             <Configuration>
@@ -22,23 +34,27 @@
                 <AllowShareWrite>False</AllowShareWrite>
                 <HeaderRow>False</HeaderRow>
                 <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
               </FormatSpecificOptions>
             </Configuration>
           </InputConfiguration>
-          <ProgramName>cmd</ProgramName>
-          <Arguments>/c ping 199.199.199.199 -n 1 -w 1234 &amp; echo "OK"</Arguments>
+          <ProgramName>%temp%\timingbatch.bat</ProgramName>
+          <Arguments />
           <WorkingDir />
           <RunMinimized value="True" />
           <RunSilent value="True" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>Run cmd</DefaultAnnotationText>
+          <DefaultAnnotationText>Run timingbatch.bat</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Field_1" size="254" source="File: W:\Work\CrewMacros\FromGit\Macros\CReW_WaitASecond.yxmcbatch" type="V_String" />
+            <Field name="Field_1" size="254" source="File: C:\Users\user34\Downloads\Macros\Macros\CReW_WaitASecond.yxmcbatch" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -120,9 +136,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
-    <Node ToolID="6">
-      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="150" y="150" width="59" height="59" />
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="54" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -133,19 +149,12 @@
         </Annotation>
       </Properties>
     </Node>
-    <Node ToolID="7">
-      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="318" y="54" width="312" height="168" />
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="66" y="162" width="59" height="59" />
       </GuiSettings>
       <Properties>
-        <Configuration>
-          <Text>This macro runs a ping towards 199.199.199.199 with a timeout of x secons</Text>
-          <Font name="Segoe UI" size="8.25" style="0" />
-          <TextColor name="Black" />
-          <FillColor name="White" />
-          <Shape shape="0" />
-          <Justification Justification="4" />
-        </Configuration>
+        <Configuration />
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -154,17 +163,36 @@
       </Properties>
     </Node>
     <Node ToolID="8">
-      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
-        <Position x="126" y="54" width="59" height="59" />
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="258" />
       </GuiSettings>
       <Properties>
-        <Configuration />
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="Field1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>choice /C "0" /T 1234 /D 0</c>
+            </r>
+            <r>
+              <c>exit 0</c>
+            </r>
+          </Data>
+        </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" size="26" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
   </Nodes>
   <Connections>
@@ -172,13 +200,17 @@
       <Origin ToolID="3" Connection="Output" />
       <Destination ToolID="4" Connection="Input" />
     </Connection>
-    <Connection name="#2">
-      <Origin ToolID="6" Connection="Action" />
-      <Destination ToolID="1" Connection="Action" />
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Question" />
+      <Destination ToolID="6" Connection="Question" />
     </Connection>
     <Connection name="#1">
-      <Origin ToolID="8" Connection="Question" />
-      <Destination ToolID="6" Connection="Question" />
+      <Origin ToolID="6" Connection="Action" />
+      <Destination ToolID="8" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -200,9 +232,9 @@
     <Constants>
       <Constant>
         <Namespace>Question</Namespace>
-        <Name>ControlParam.Control Parameter (8)</Name>
+        <Name>Numeric Up Down (5)</Name>
         <Value />
-        <IsNumeric value="False" />
+        <IsNumeric value="True" />
       </Constant>
     </Constants>
     <MetaInfo>
@@ -218,6 +250,10 @@
       <Company />
       <Copyright />
       <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
     </MetaInfo>
     <Events>
       <Enabled value="False" />
@@ -232,8 +268,8 @@
               <Type>UpdateValueFormula</Type>
               <Description />
               <ToolId value="6" />
-              <Expression>REPLACE([Destination], "1234", toString(toNumber([#1])*1000))</Expression>
-              <Destination>1/Arguments</Destination>
+              <Expression>REPLACE([Destination], "1234", toString(toNumber([#1])))</Expression>
+              <Destination>8/Data/r[1]/c</Destination>
               <Mode>Expression</Mode>
             </Action>
           </True>
@@ -259,10 +295,15 @@
               <ToolId value="4" />
             </Question>
             <Question>
-              <Type>ControlParam</Type>
-              <Description>NumberOfSeconds</Description>
-              <Name>Control Parameter (8)</Name>
-              <ToolId value="8" />
+              <Type>NumericUpDown</Type>
+              <Description>Numeric Up Down (5)</Description>
+              <Name>Numeric Up Down (5)</Name>
+              <ToolId value="5" />
+              <Minimum value="0" />
+              <Maximum value="100" />
+              <Increment value="1" />
+              <Default value="5" />
+              <Decimals value="0" />
             </Question>
           </Questions>
         </Question>
@@ -275,12 +316,7 @@
       <MacroOutputs />
       <BatchMacro>
         <OutputMode>AllSame</OutputMode>
-        <ControlParams>
-          <ControlParam>
-            <Name>Control Parameter (8)</Name>
-            <Description>NumberOfSeconds</Description>
-          </ControlParam>
-        </ControlParams>
+        <ControlParams />
       </BatchMacro>
       <Wiz_CustomHelp value="False" />
       <Wiz_CustomGraphic value="False" />

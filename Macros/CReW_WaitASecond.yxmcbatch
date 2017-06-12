@@ -1,65 +1,6 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="11.0">
+<AlteryxDocument yxmdVer="10.0">
   <Nodes>
-    <Node ToolID="1">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
-        <Position x="198" y="258" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OutputConfiguration>
-            <Configuration>
-              <File MaxRecords="" FileFormat="0">%temp%\timingbatch.bat</File>
-              <Passwords />
-              <FormatSpecificOptions>
-                <LineEndStyle>CRLF</LineEndStyle>
-                <Delimeter>\0</Delimeter>
-                <ForceQuotes>False</ForceQuotes>
-                <HeaderRow>False</HeaderRow>
-                <CodePage>28591</CodePage>
-                <WriteBOM>True</WriteBOM>
-              </FormatSpecificOptions>
-              <MultiFile value="False" />
-            </Configuration>
-          </OutputConfiguration>
-          <InputConfiguration>
-            <Configuration>
-              <Passwords />
-              <File OutputFileName="" RecordLimit="1" SearchSubDirs="False" FileFormat="0">./CReW_WaitASecond.yxmcbatch</File>
-              <FormatSpecificOptions>
-                <CodePage>28591</CodePage>
-                <Delimeter>\0</Delimeter>
-                <IgnoreErrors>False</IgnoreErrors>
-                <FieldLen>254</FieldLen>
-                <AllowShareWrite>False</AllowShareWrite>
-                <HeaderRow>False</HeaderRow>
-                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
-                <ImportLine>1</ImportLine>
-              </FormatSpecificOptions>
-            </Configuration>
-          </InputConfiguration>
-          <ProgramName>%temp%\timingbatch.bat</ProgramName>
-          <Arguments />
-          <WorkingDir />
-          <RunMinimized value="True" />
-          <RunSilent value="True" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>Run timingbatch.bat</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Field_1" size="254" source="File: C:\Users\user34\Downloads\Macros\Macros\CReW_WaitASecond.yxmcbatch" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
-    </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
         <Position x="0" y="0" width="59" height="59" />
@@ -136,19 +77,6 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
-    <Node ToolID="5">
-      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
-        <Position x="54" y="54" width="59" height="59" />
-      </GuiSettings>
-      <Properties>
-        <Configuration />
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-    </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
         <Position x="66" y="162" width="59" height="59" />
@@ -163,6 +91,78 @@
       </Properties>
     </Node>
     <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="54" y="42" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
+        <Position x="174" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OutputConfiguration>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">%temp%\timingbatch.bat</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>\0</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>False</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+          </OutputConfiguration>
+          <InputConfiguration>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="1" SearchSubDirs="False" FileFormat="0">./CReW_WaitASecond.yxmcbatch</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>\0</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>False</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+          </InputConfiguration>
+          <ProgramName>%temp%\timingbatch.bat</ProgramName>
+          <Arguments />
+          <WorkingDir />
+          <RunMinimized value="True" />
+          <RunSilent value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Run timingbatch.bat</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\ariley\Documents\GitHub\ChaosReignsWithin-Alteryx-Macros\Macros\CReW_WaitASecond.yxmcbatch" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
+    </Node>
+    <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
         <Position x="66" y="258" />
       </GuiSettings>
@@ -201,16 +201,16 @@
       <Destination ToolID="4" Connection="Input" />
     </Connection>
     <Connection name="#1">
-      <Origin ToolID="5" Connection="Question" />
-      <Destination ToolID="6" Connection="Question" />
+      <Origin ToolID="6" Connection="Action" />
+      <Destination ToolID="10" Connection="Action" />
     </Connection>
     <Connection name="#1">
-      <Origin ToolID="6" Connection="Action" />
-      <Destination ToolID="8" Connection="Action" />
+      <Origin ToolID="8" Connection="Question" />
+      <Destination ToolID="6" Connection="Question" />
     </Connection>
     <Connection>
-      <Origin ToolID="8" Connection="Output" />
-      <Destination ToolID="1" Connection="Input" />
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -232,9 +232,9 @@
     <Constants>
       <Constant>
         <Namespace>Question</Namespace>
-        <Name>Numeric Up Down (5)</Name>
+        <Name>ControlParam.Control Parameter (8)</Name>
         <Value />
-        <IsNumeric value="True" />
+        <IsNumeric value="False" />
       </Constant>
     </Constants>
     <MetaInfo>
@@ -269,7 +269,7 @@
               <Description />
               <ToolId value="6" />
               <Expression>REPLACE([Destination], "1234", toString(toNumber([#1])))</Expression>
-              <Destination>8/Data/r[1]/c</Destination>
+              <Destination>10/Data/r[1]/c</Destination>
               <Mode>Expression</Mode>
             </Action>
           </True>
@@ -295,15 +295,10 @@
               <ToolId value="4" />
             </Question>
             <Question>
-              <Type>NumericUpDown</Type>
-              <Description>Numeric Up Down (5)</Description>
-              <Name>Numeric Up Down (5)</Name>
-              <ToolId value="5" />
-              <Minimum value="0" />
-              <Maximum value="100" />
-              <Increment value="1" />
-              <Default value="5" />
-              <Decimals value="0" />
+              <Type>ControlParam</Type>
+              <Description>NumberOfSeconds</Description>
+              <Name>Control Parameter (8)</Name>
+              <ToolId value="8" />
             </Question>
           </Questions>
         </Question>
@@ -316,7 +311,12 @@
       <MacroOutputs />
       <BatchMacro>
         <OutputMode>AllSame</OutputMode>
-        <ControlParams />
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (8)</Name>
+            <Description>NumberOfSeconds</Description>
+          </ControlParam>
+        </ControlParams>
       </BatchMacro>
       <Wiz_CustomHelp value="False" />
       <Wiz_CustomGraphic value="False" />

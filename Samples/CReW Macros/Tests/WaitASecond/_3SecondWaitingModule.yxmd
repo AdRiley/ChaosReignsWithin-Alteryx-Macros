@@ -3,11 +3,15 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings>
-        <Position x="234" y="198" />
+        <Position x="162" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
+          <Value name="Radio Button (15)">True</Value>
           <Value name="Numeric Up Down (12)">1</Value>
+          <Value name="Radio Button (16)">False</Value>
+          <Value name="Numeric Up Down (18)">1</Value>
+          <Value name="Numeric Up Down (19)">5</Value>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -22,7 +26,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="126" y="198" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -52,7 +56,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="366" y="198" />
+        <Position x="294" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -101,7 +105,7 @@
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>WaitingModule</Name>
+      <Name>_3SecondWaitingModule</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
@@ -112,6 +116,10 @@
       <Company />
       <Copyright />
       <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
     </MetaInfo>
     <Events>
       <Enabled value="True" />

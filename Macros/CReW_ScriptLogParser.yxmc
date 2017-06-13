@@ -14,35 +14,9 @@
         </Annotation>
       </Properties>
     </Node>
-    <Node ToolID="2">
-      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
-        <Position x="54" y="78" width="59" height="59" />
-      </GuiSettings>
-      <Properties>
-        <Configuration />
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-    </Node>
-    <Node ToolID="3">
-      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
-        <Position x="174" y="54" width="59" height="59" />
-      </GuiSettings>
-      <Properties>
-        <Configuration />
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-    </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="870" y="246" />
+        <Position x="870" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -57,95 +31,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
-    <Node ToolID="5">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="54" y="258" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <NumRows value="2" />
-          <Fields>
-            <Field name="Script" />
-          </Fields>
-          <Data>
-            <r>
-              <c>echo hello</c>
-            </r>
-            <r>
-              <c>exit 0</c>
-            </r>
-          </Data>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Script" size="10" source="TextInput:" type="String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
-    </Node>
-    <Node ToolID="6">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
-        <Position x="162" y="258" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OutputConfiguration>
-            <Configuration>
-              <File MaxRecords="" FileFormat="0">%temp%\script.bat</File>
-              <Passwords />
-              <FormatSpecificOptions>
-                <LineEndStyle>CRLF</LineEndStyle>
-                <Delimeter>\0</Delimeter>
-                <ForceQuotes>False</ForceQuotes>
-                <HeaderRow>False</HeaderRow>
-                <CodePage>28591</CodePage>
-                <WriteBOM>True</WriteBOM>
-              </FormatSpecificOptions>
-              <MultiFile value="False" />
-            </Configuration>
-          </OutputConfiguration>
-          <InputConfiguration>
-            <Configuration>
-              <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%temp%\log.txt</File>
-              <FormatSpecificOptions>
-                <CodePage>28591</CodePage>
-                <Delimeter>\0</Delimeter>
-                <IgnoreErrors>False</IgnoreErrors>
-                <FieldLen>254</FieldLen>
-                <AllowShareWrite>False</AllowShareWrite>
-                <HeaderRow>False</HeaderRow>
-                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
-                <ImportLine>1</ImportLine>
-              </FormatSpecificOptions>
-            </Configuration>
-          </InputConfiguration>
-          <ProgramName>%temp%\script.bat</ProgramName>
-          <Arguments>&gt; %temp%\log.txt 2&gt;&amp;1</Arguments>
-          <WorkingDir />
-          <RunMinimized value="True" />
-          <RunSilent value="True" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>Run script.bat</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
-    </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="258" y="258" />
+        <Position x="258" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -170,7 +58,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="618" y="246" />
+        <Position x="618" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -212,7 +100,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="534" y="258" />
+        <Position x="534" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -242,7 +130,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="438" y="258" />
+        <Position x="438" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -266,7 +154,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="714" y="246" />
+        <Position x="714" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -290,9 +178,48 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
     </Node>
-    <Node ToolID="13">
-      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="174" y="150" width="59" height="59" />
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">%temp%\</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="" />
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="306" y="30" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -305,7 +232,7 @@
     </Node>
     <Node ToolID="14">
       <GuiSettings>
-        <Position x="342" y="258" />
+        <Position x="342" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -316,6 +243,9 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output10">
           <RecordInfo>
             <Field name="Log" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_15008_5bf6b30d6f864b04ae843a73554b20b0_\log.txt" type="V_String" />
@@ -326,18 +256,6 @@
     </Node>
   </Nodes>
   <Connections>
-    <Connection name="#1">
-      <Origin ToolID="3" Connection="Question" />
-      <Destination ToolID="13" Connection="Question" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="5" Connection="Output" />
-      <Destination ToolID="6" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="6" Connection="Output" />
-      <Destination ToolID="7" Connection="Input" />
-    </Connection>
     <Connection>
       <Origin ToolID="7" Connection="Output" />
       <Destination ToolID="14" Connection="Input9" />
@@ -358,9 +276,9 @@
       <Origin ToolID="11" Connection="Output" />
       <Destination ToolID="4" Connection="Input" />
     </Connection>
-    <Connection name="#2">
-      <Origin ToolID="13" Connection="Action" />
-      <Destination ToolID="5" Connection="Action" />
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="14" Connection="Output10" />
@@ -386,26 +304,20 @@
     <Constants>
       <Constant>
         <Namespace>Question</Namespace>
-        <Name>Drop Down (2)</Name>
-        <Value />
-        <IsNumeric value="False" />
-      </Constant>
-      <Constant>
-        <Namespace>Question</Namespace>
-        <Name>Text Box (3)</Name>
-        <Value />
-        <IsNumeric value="False" />
-      </Constant>
-      <Constant>
-        <Namespace>Question</Namespace>
         <Name>Macro Output (4)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (17)</Name>
         <Value />
         <IsNumeric value="False" />
       </Constant>
     </Constants>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>CReW_Script</Name>
+      <Name>CReW_ScriptLogParser</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
@@ -422,29 +334,10 @@
       </Example>
     </MetaInfo>
     <Events>
-      <Enabled value="True" />
+      <Enabled value="False" />
     </Events>
     <RuntimeProperties>
-      <Actions>
-        <NoCondition>
-          <Type>NoCondition</Type>
-          <Description>(Always Run)</Description>
-          <True>
-            <Action>
-              <Type>Dynamic</Type>
-              <Description />
-              <ToolId value="13" />
-              <Expression>{{INPUT}}</Expression>
-              <Destination>5/Data/r[1]/c[1]</Destination>
-              <Mapping>Update Cell</Mapping>
-              <Mode>Expression</Mode>
-              <DynamicConfiguration>row	1
-column	1</DynamicConfiguration>
-              <DefaultConfiguration value="True" />
-            </Action>
-          </True>
-        </NoCondition>
-      </Actions>
+      <Actions />
       <Questions>
         <Question>
           <Type>Tab</Type>
@@ -453,31 +346,16 @@ column	1</DynamicConfiguration>
           <ToolId value="1" />
           <Questions>
             <Question>
-              <Type>ListBox</Type>
-              <Description>Type</Description>
-              <Name>Drop Down (2)</Name>
-              <ToolId value="2" />
-              <Multiple value="False" />
-              <Default />
-              <Mode>Manual</Mode>
-              <Manual_Values><![CDATA[Batch
-]]></Manual_Values>
-            </Question>
-            <Question>
-              <Type>TextBox</Type>
-              <Description>Script</Description>
-              <Name>Text Box (3)</Name>
-              <ToolId value="3" />
-              <Default />
-              <Password value="False" />
-              <Multiline value="True" />
-              <Hidden value="False" />
-            </Question>
-            <Question>
               <Type>MacroOutput</Type>
               <Description>Macro Output (4)</Description>
               <Name>Macro Output (4)</Name>
               <ToolId value="4" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>Control Parameter (17)</Description>
+              <Name>Control Parameter (17)</Name>
+              <ToolId value="17" />
             </Question>
           </Questions>
         </Question>
@@ -488,12 +366,21 @@ column	1</DynamicConfiguration>
       <MacroImageStd value="39" />
       <MacroInputs />
       <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (17)</Name>
+            <Description>Control Parameter (17)</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
       <Wiz_CustomHelp value="False" />
       <Wiz_CustomGraphic value="False" />
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
         <Tool ToolId="4" Selected="True" />
-        <Tool ToolId="15" Selected="True" />
+        <Tool ToolId="14" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

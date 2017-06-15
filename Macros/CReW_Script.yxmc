@@ -42,7 +42,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="870" y="246" />
+        <Position x="906" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -63,7 +63,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <NumRows value="2" />
+          <NumRows value="3" />
           <Fields>
             <Field name="Script" />
           </Fields>
@@ -72,7 +72,10 @@
               <c>echo hello</c>
             </r>
             <r>
-              <c>exit 0</c>
+              <c>@echo ___CReW_Script___%ERRORLEVEL%</c>
+            </r>
+            <r>
+              <c>@exit 0</c>
             </r>
           </Data>
         </Configuration>
@@ -83,7 +86,7 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Script" size="10" source="TextInput:" type="String" />
+            <Field name="Script" size="35" source="TextInput:" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -137,9 +140,11 @@
           <DefaultAnnotationText>Run script.bat</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_4384_d94f145b19f04e07b62b3eab31a4b997_\log.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
     </Node>
@@ -162,7 +167,7 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Log" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_15008_5bf6b30d6f864b04ae843a73554b20b0_\log.txt" type="V_String" />
+            <Field name="Log" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_4384_d94f145b19f04e07b62b3eab31a4b997_\log.txt" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -170,7 +175,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="618" y="246" />
+        <Position x="654" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -212,7 +217,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="534" y="258" />
+        <Position x="570" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -242,7 +247,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="438" y="258" />
+        <Position x="450" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -266,7 +271,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
-        <Position x="714" y="246" />
+        <Position x="750" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -304,25 +309,87 @@
       </Properties>
     </Node>
     <Node ToolID="14">
-      <GuiSettings>
-        <Position x="342" y="258" />
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="354" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="Numeric Up Down (11)">1</Value>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Log</Field>
+            <Operator>NotContains</Operator>
+            <Operands>
+              <Operand>___CReW_Script___</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!Contains([Log],"___CReW_Script___")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Log" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_4384_d94f145b19f04e07b62b3eab31a4b997_\log.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Log" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_4384_d94f145b19f04e07b62b3eab31a4b997_\log.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="462" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([Log], &quot;___CReW_Script___&quot;, &quot;&quot;)" field="Log" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Log = Replace([Log], "___CReW_Script___", "")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Log" size="254" source="Formula: Replace([Log], &quot;___CReW_Script___&quot;, &quot;&quot;)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="570" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <When>Filter</When>
+          <Filter>[Log]!="0"</Filter>
+          <Type>Error</Type>
+          <Priority>High</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>"Script errored with return code " + [Log]</MessageExpression>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output10">
+        <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Log" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_15008_5bf6b30d6f864b04ae843a73554b20b0_\log.txt" type="V_String" />
+            <Field name="Log" size="254" source="Formula: Replace([Log], &quot;___CReW_Script___&quot;, &quot;&quot;)" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="CReW_SkipLastN.yxmc" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
     </Node>
   </Nodes>
   <Connections>
@@ -340,7 +407,7 @@
     </Connection>
     <Connection>
       <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="14" Connection="Input9" />
+      <Destination ToolID="14" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="8" Connection="Output" />
@@ -363,8 +430,16 @@
       <Destination ToolID="5" Connection="Action" />
     </Connection>
     <Connection>
-      <Origin ToolID="14" Connection="Output10" />
+      <Origin ToolID="14" Connection="False" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
       <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -493,7 +568,6 @@ column	1</DynamicConfiguration>
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
         <Tool ToolId="4" Selected="True" />
-        <Tool ToolId="15" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

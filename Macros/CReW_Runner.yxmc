@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="9.0">
+<AlteryxDocument yxmdVer="11.3">
   <Nodes>
     <Node ToolID="62">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
@@ -483,7 +483,7 @@
     </Node>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
-        <Position x="42" y="-90" width="59" height="59" />
+        <Position x="0" y="0" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -511,10 +511,11 @@
                 <CodePage>28591</CodePage>
                 <Delimeter>\0</Delimeter>
                 <IgnoreErrors>False</IgnoreErrors>
-                <FieldLen>254</FieldLen>
+                <FieldLen>1073741823</FieldLen>
                 <AllowShareWrite>False</AllowShareWrite>
                 <HeaderRow>False</HeaderRow>
                 <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
               </FormatSpecificOptions>
             </Configuration>
           </InputConfiguration>
@@ -529,11 +530,9 @@
           <DefaultAnnotationText>Run AlteryxRunner.exe</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Field_1" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_15080_42516f0a7e0545fa8c62e2393760ae09\out.txt" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
     </Node>
@@ -1508,6 +1507,7 @@ Author: Adam Riley
     <ConvErrorLimit_Stop value="False" />
     <CancelOnError value="False" />
     <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
     <DisableAllOutput value="False" />
     <ShowAllMacroMessages value="False" />
     <ShowConnectionStatusIsOn value="True" />
@@ -1538,12 +1538,19 @@ Author: Adam Riley
       <NameIsFileName value="False" />
       <Name><![CDATA[ Runner]]></Name>
       <Description>Runs a selected Alteryx module and outputs the logfile. If the module runs without error, it outputs the log to the Success output.  If any errors, it outputs the log to the Failure output. In combination with the Conditional Runner tool it enables running a series of modules where the next module in the chain only runs on success of the previous module. Use in combination with the Log Parser tool to parse the log into an Alteryx data table.</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
       <CategoryName />
       <SearchTags />
       <Author />
       <Company />
       <Copyright />
       <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
     </MetaInfo>
     <Events>
       <Enabled value="True" />

@@ -508,7 +508,7 @@
               <Passwords />
               <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%temp%\out.txt</File>
               <FormatSpecificOptions>
-                <CodePage>28591</CodePage>
+                <CodePage>UTF16</CodePage>
                 <Delimeter>\0</Delimeter>
                 <IgnoreErrors>False</IgnoreErrors>
                 <FieldLen>1073741823</FieldLen>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="9.5">
+<AlteryxDocument yxmdVer="11.3">
   <Nodes>
     <Node ToolID="157">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
@@ -1726,13 +1726,17 @@ Macro to add total row and columns to a data table</Text>
       <Origin ToolID="151" Connection="Question" />
       <Destination ToolID="152" Connection="Question" />
     </Connection>
-    <Connection name="#1">
-      <Origin ToolID="153" Connection="Question" />
-      <Destination ToolID="154" Connection="Question" />
+    <Connection name="#2">
+      <Origin ToolID="151" Connection="Question" />
+      <Destination ToolID="155" Connection="Question" />
     </Connection>
     <Connection name="#1">
       <Origin ToolID="153" Connection="Question" />
       <Destination ToolID="155" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="153" Connection="Question" />
+      <Destination ToolID="154" Connection="Question" />
     </Connection>
   </Connections>
   <Properties>
@@ -1744,6 +1748,7 @@ Macro to add total row and columns to a data table</Text>
     <ConvErrorLimit_Stop value="False" />
     <CancelOnError value="False" />
     <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
     <DisableAllOutput value="False" />
     <ShowAllMacroMessages value="False" />
     <ShowConnectionStatusIsOn value="True" />
@@ -1792,12 +1797,19 @@ Macro to add total row and columns to a data table</Text>
       <NameIsFileName value="False" />
       <Name><![CDATA[  Add Totals]]></Name>
       <Description>Macro to add total row and columns to a data table</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
       <CategoryName />
       <SearchTags>Transform, Chaos, Chaos Reigns Within, Total</SearchTags>
       <Author>Adam Riley</Author>
       <Company>ChaosReignsWithIn</Company>
       <Copyright>ChaosReignsWithIn</Copyright>
       <DescriptionLink actual="www.ChaosReignsWithIn.com" displayed="www.ChaosReignsWithIn.com" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
     </MetaInfo>
     <Events>
       <Enabled value="True" />
@@ -1870,9 +1882,9 @@ Macro to add total row and columns to a data table</Text>
             </Action>
             <Action>
               <Type>Error</Type>
-              <Description>"No field selected for row total"</Description>
+              <Description>No field selected for row total</Description>
               <ToolId value="155" />
-              <Expression>IsEmpty([#1])</Expression>
+              <Expression>IsEmpty([#1]) &amp;&amp; [#2]</Expression>
             </Action>
           </True>
         </NoCondition>

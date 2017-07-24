@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="10.0">
+<AlteryxDocument yxmdVer="11.3">
   <Nodes>
     <Node ToolID="2">
       <GuiSettings>
@@ -47,7 +47,7 @@
             <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
-            <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
             <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
@@ -114,7 +114,7 @@
             <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
-            <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
             <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
@@ -141,7 +141,7 @@
             <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
-            <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
             <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
@@ -151,7 +151,7 @@
             <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
-            <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
             <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
@@ -183,7 +183,7 @@
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
-            <Field description="RegEx: Parsed from Log" name="ActualMessage" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ActualMessage" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
             <Field name="FullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
@@ -881,7 +881,7 @@ Order=1</DefaultAnnotationText>
             <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: &quot;Message&quot;" type="V_String" />
-            <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: &quot;    &quot; +[Message]" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: &quot;    &quot; +[Message]" type="V_WString" />
             <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Order" source="Formula: 1" type="Int16" />
@@ -896,44 +896,9 @@ Order=1</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <AutoResetMode>ByName</AutoResetMode>
-          <MultiMetaInfo>
-            <MetaInfo name="#1">
-              <RecordInfo>
-                <Field name="ModuleFullPath" size="50000" source="Summarize: GroupBy - FullPath" type="V_WString" column="1" />
-                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" column="2" />
-                <Field name="MessageType" size="1000" source="Formula: (Multiple Sources)" type="V_WString" column="3" />
-                <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" column="4" />
-              </RecordInfo>
-            </MetaInfo>
-            <MetaInfo name="#4">
-              <RecordInfo>
-                <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" column="1" />
-                <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Passed&quot;" type="V_WString" column="2" />
-                <Field name="MessageType" size="5000" source="Formula: &quot;Message&quot;" type="V_WString" column="3" />
-                <Field name="Order" source="Formula: 0" type="Int16" column="4" />
-              </RecordInfo>
-            </MetaInfo>
-            <MetaInfo name="#3">
-              <RecordInfo>
-                <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" column="1" />
-                <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Failed&quot;" type="V_WString" column="2" />
-                <Field name="MessageType" size="5000" source="Formula: &quot;Error&quot;" type="V_WString" column="3" />
-                <Field name="Order" source="Formula: 10" type="Int16" column="4" />
-              </RecordInfo>
-            </MetaInfo>
-            <MetaInfo name="#2">
-              <RecordInfo>
-                <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" column="1" />
-                <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: &quot;    &quot; +[Message]" type="V_String" column="2" />
-                <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: &quot;Message&quot;" type="V_String" column="3" />
-                <Field name="Order" source="Formula: 20" type="Int16" column="4" />
-              </RecordInfo>
-            </MetaInfo>
-          </MultiMetaInfo>
-          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_ErrorMode>Error</ByName_ErrorMode>
           <ByName_OutputMode>All</ByName_OutputMode>
-          <Mode>Manual</Mode>
+          <Mode>ByName</Mode>
           <SetOutputOrder value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
@@ -977,7 +942,7 @@ Order=1</DefaultAnnotationText>
             <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
-            <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
             <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
@@ -987,7 +952,7 @@ Order=1</DefaultAnnotationText>
             <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
             <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
-            <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
             <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
           </RecordInfo>
@@ -1085,7 +1050,7 @@ Order=1</DefaultAnnotationText>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: &quot;Message&quot;" type="V_String" />
-            <Field description="RegEx: Parsed from Log" name="Message" size="2147483647" source="Formula: &quot;    &quot; +[Message]" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: &quot;    &quot; +[Message]" type="V_WString" />
             <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
             <Field name="Order" source="Formula: 1" type="Int16" />
           </RecordInfo>
@@ -1581,6 +1546,10 @@ MessageType="Message"
       <Company>ChaosReignsWithIn</Company>
       <Copyright>ChaosReignsWithIn</Copyright>
       <DescriptionLink actual="www.ChaosReignsWithIn.com" displayed="www.ChaosReignsWithIn.com" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
     </MetaInfo>
     <Events>
       <Enabled value="True" />
@@ -1599,7 +1568,7 @@ MessageType="Message"
       <ModuleType>Macro</ModuleType>
       <MacroCustomHelp value="False" />
       <MacroDynamicOutputFields value="False" />
-      <MacroImage>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</MacroImage>
+      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAAKsAAACrCAYAAAAZ6GwZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvgAADr4B6kKxwAAAECBJREFUeF7tnVtsXMUZx2N7vfFl7fVlfYkvOLs2SeskFgQn9tqJnQTbMQHchkLVCwptaal46AXU9qFCKjwUqSBR9aESKlIT+piiPqAkpQXaByQekCgPpfBQCkh9LqilraCAp/Mdnwlnz/nO2XOZc5kz31/6aTfO7Lmsfjs7M2fO7C4KhaJ3RkwolOxleXn5of37978wMTHxdldX17udnZ3/qFarr6+srDxsFqFQUk0rZ3B9ff2tQqHwEX/O7LS3t3+4trb2Jn8+yKFQUgmIeq5YLL7f2trqkNRKW1sb4+Xe48/v5FAoicYQlfMBBxXUhX9zSFhKYmkqarnci/7dhISlJBJPUesL+9jPHhpmV57cw376owqrH73WUcaEhKXEGk9Rt85cx17/4wT73xt9bPvtfuPxz89NsptPzznKmpCwlFjiS1SQ1A4JS0kyoUUVkLCUJBJZVAEJS4kz0kQVkLCUOCJdVAEJS5GZ2EQVkLAUGYldVAEJS4mSxEQVkLCUMElcVAEJSwmS1EQVkLAUP0ldVAEJS/FKZkQVkLAULJkTVUDCUqzJrKgCEpYCybyoAhJW7ygjqoCE1TPKiSogYfWKsqIKSFg9kqioH7+F/10GJGy+E5uoIKUA+7f1b+LfMiBh8xkpomISBkG8Lup2rJCw+UpkUWXKZcW63SjbJmHzEWU6U1E/CCSs2gktatSaLi1IWDUTSlQVBbVDwqqVSDUq9nfVIGHViDJt1LghYbMdbUT1+w1AwmYzWtWoQZorJGy2Ql/9TSBhsxES1SckbLohUQNCwqYTEjUkJGyy0U7Ul57uYbdtthvAc6xMEEjYZKKNqCDl6bUiu6Hey/oG2q+eY7mvYPxt4XiJ/fbX4cUlYeONFqKCpDdtFFmpt+A4Rzs9lS52y0b42paEjSfaiDpTa3OcXzOmptpI2IxEm6/+M7xGxc7RD1DDYtv0AwkrJ9qI+uxTJVap9jjO0S99e7qpDZtitBEVOLG+23GOQVk4VkK37RcSNly0EhVYXetwnGdQrjtSRrcdBBI2WLQTFTh+qtNxrkHp7SuE7mhZIWH9RUtRARmyAnDhANt+UEhY72grKpA1WQESFo+yoj7He/HQ3lw60c3qqzvA8+WTwQbsV26M3maV1QywQsI2RllRQYzqtPeVpuHRdqPWvPW0t7gyOljwIcG2HRUSdidKf/XDVy523G5AzQfX9c/wGtc+KQVqYew1QYAPhPX4ZKK7sEqLCqLVqsEvjVoZm2w3BANx64fb2PhkK1rOD3AsspsAdnQVVvnOVNBa1Q9Ds92sNBr8KtbENXKmDvpBN2GVFxWQ8bUtg+Fre41LtdgxxoUuwuZCVKjFxibSl3V4fy/7fYT5AFHIu7C5EBW4OclatWUXmzwywJZPdBnAyAIAowdpiSrIq7C5ERVYXCk5zsFOV3f4zpId6Igl1SYNSt6EzZWoIA2MnWLnIpiqFtgTP+kyOmFQC5cGo1+dgu1gx5MF8iJsrkQF/EyQ3rKNd8q4lNrd3xFpvmrcqC5s7kSFXvfQjPfQkn0YCdqVIBpWNigw59V6PG78ju9zp20b7R6toKgqbO5EBfxMkD6x3tHwGhm1qmBiylu8Z01JS/2N+4QP0DMha2VYVyvPa2vlUlRg1cdkE+u9UCCW7CEuexPDuq/JKfd5Ckl20lQRNreiwuyqwSb3SNlrvjguHOydds6sgn/7ufRr/SDFTdaFza2owI2nm3es7LXqNdV4xmNhlEHsBz5EMPqAlbMD0xbF64ISZlXwrAqba1GBk03aq6Nj8deqAvjgPH6hZLSh4SoWVgYjiqxAHoTNvajA/JJ3EwCuLomyIK3f2i4M/QcrrLxUQf/PC+h8Wc8pKGFkBbIirBaiAs1ktTYB4piRFZWRT8uZR6CqsNqICng1A6BtKpoA8DgdYgmgOBk92GsMa9nPKQxhZQXSElYrUQHoyGDDUCAq/J8ol6VadXhfLzu1UWw4vrRJWljtRBVArQlf90MjO0LaZ+fD86h3D8hiaDr5ea5+SUpYbUW1AlJCDWoVFYBbVLD3JWkG9/YYl1ytx5Y14haWRG0CjAhg701YyrMD6N+9AFHDXlpNmriEJVGbALWsaB7IoK82wHaf8T+GCkzVCsqIKpAtLInqA9kXAaqfKbHHL/Swko8ZW+WRbnYLb4LYmyWqIEvYFs6XOCSqByAJTBTB3qMwDEyWrvbgm63U0jfWnfrtLTLwIeznOd7p7+//L39wbIBE/QTZtap1miF8rXf34cKWR6MtIJw1vIQdHh5+hz+6Z3Nz89VCobDNnza8kET9BKgBRw8Gv9ffDfhRC/sAPggLf7eWGx1vz5WoAjdhi8XiNvfxZf7cmZmZmdm2tjbH1z+J2sip9fC/A4CxZJljYAXEhLWs4GZFuB8rK+3TKFe03HATllec7x88ePBT/Hlj7rrrrs+1trY21KpDQ4Ps1efH0R3oCAhzjeQJK3CLNbavrBKHrMArz0ywSqVx6I5XnmxpaelX/HljlpeXL3NZGwqfu32SvfdaH7px3QBRZc8BsHasdOefr/axO28bcbxH/BsfmgIFztUUq9Xqn/jj1UItLS3s3nOT6IZ1JI45ALC6ILYvHYEa+4lH9zveo4WFhWf4YzvnaooHDhy4yB8bCk5ODLB//QXfuE5ArVrbK7dWrQyrOU4aVzMAOHvr9UYlKd4jaAZsbW19mT9vzN69e7fsIwHFYoF9655ldMM6EcddAFlexMKLuGS99+5jrNjeWCEUi8WPp6enT/DnjeEN2f2HDx9+gz9teEFHR7vWwsIwUpQfV8Ow3xKjO5iowPz8/F+PHz9e5c+d2djYODk+Pv4Rf9rwIp2FlbkOgAC7Y1VX3ETt6Oj4uFarneHPXVPkTYEf8kfkxfoJC9PuZKxbhQE/MKy7sG6imjzMqXA8M8l5lOPYgG7C+lnkIgowFKarsD5EHeP4ivbCQlu1s0fu1SoMaBLoNtYqU1QRbYWF2k7mXNVmwG3cutSwcYgqoqWwMFiPnbMbPXvKrFwPfl+/FVgDFvabZ2njFFVEK2FBlr6BYLKKFVOa/aCbH2ZqrZkWNuw4axKiimghLEgCvXTsPN2wjpmGeT1GloUNI2uSoorkVliYT3pyvRhqCSD7gr8gGayWDb8uiJX3S9ZrWL+kIapIboSFMVSYngeD/m4z85sBq2K7rXwCokWdpWVdokhF0hRVRFlhYYgIBIVfsg4rqKCrvLvpvfogbJQF2/wu055FsiCqiDLC7nwtt7Ojx3pY75C8+/z9rtAHH5A914ebW2BfAl4VsiSqSCaFBTlh7il8hS6udLNSr9yZ/QDUykGW6oGRgv75IXRbXpxQ7C4CIIuiimRGWCFpEmtP3cQ7Y9gxuPHz82XW1R+8VletGZBlUUUyISwIhB2DbIJez4cb/8JMhoEmi0rrA6ggqkiqwkKPXGZ71I2gU/ugbNgOFix2gW0zi6gkqkhqwkIPH9uvLMrDXcYMrCATTkBUGCvFtteMoX09ytSqKooqkoqw8EMP2D6jAItMQI8fPghBV5GOIiosCEyiJpfEhZUla0+5YHz9whLtQQUVRBEVflcrqwsC28mDqCKJCht1nVQY3oJLpEHaoxhRRIVfC4y6/6TIk6giiQlr9Lhtv1/aDLh2v7G2G13ROgzQnq1dG64zBUusqzIBO4+iiiQqbGfJe/gK5ozCpVa4YCC7FvPzo8RuqDKemmdRRRIV1r5uav94yVjgLM7FzWC70N617tcvo4d6lGin6iCqSGLCgjhQc0JHCWqsuEWA/YWdXTU6J+/3quJEJ1FFEu10JUEUUeH3AFRop+ooqkiuhA17idf+e1pZRWdRRXIjLEw7xM7DC1jflURVK7kQdr4e7KeARmbVGKIiUZ1RXtggssKoBHWm1I7Swjb7mXcrQefApgGJ2jzKCuu3g6XCmlYkqv8oKayfoSsSNZ9RVlioYfsHP7ly1tNbYDfw9iz8nUTNb5RtEoCUMClG1sSYJCBReb7z2Xvq3936xn0XVhcuXq7XLl5erL14uT7Ndh75vzkXVo/eB+XMl1ijdKdLFbQW9eml6fqOiFzKgIDUX7v9e1ZxSdgY0VZUQ1JRc0aFb+fJlSNCWhI2BrQU9dKRqVFpkto4v7rw4tfP/mCC74aElYieotZn7rhUr/0dE00WsP3zq0fv4LsjYSWgraiYXHFBwkaHRE2Q8ysLj/Hdk7AhIFEDwJ76DWN/e5M15NnnGfvFL9HyblANGxwtRX16cfowJpAb7IEHGXvnXdPMJuHiYtvAeOTGW2CkgIT1gZaiQoJ0ptjLr5gWBgu2LTtwHOYhkbAeaCvq5XrtMUwcDN+1qUuwbdox268QEhZBW1H52RUwYTCMdqg9IO8jjznLfvt+XGzetrWXxTDHYCEkrAVtRYUEqlXt4c0BrJwVrMmAlbNjqV0hJCxHa1Ehftuqjt4+rzWxchiO+OxwmYcoorWw2ou6XRodwiTBsAcr4wYMYdmDlbNjDmVZo6Ww2osK8TuDyhimssZnu9OKUTMHHHeF4zMP1RqthCVRzfhuAsCgvzWBpQuHZRjLHi2EJVEtwQTBcLRXeU8fKxcH5qFiybWwJKol/IxbMTkw7MHKxMX9W/fY263W5FJYEtUWftbtmBwY9mBl4gLpZNmTK2FJVCTbu2Z2Y3Jg2IOViQuYXGMesldyISyJ6hJ+9nmpWUWUFpZE9Qh/B1owOTDswcrERZM2qz1KCkui+ggmB0aaowFfuf37QWSFKCUsieozmBwYjgksIcZZjatYsJ0HHkT/3w3zUINGCWFJ1ADZ7qrcjQliR9oVLGuQmVp2PC4K+EmmhSVRA4Z1DY1ikmDYg5Xxwh6sjBP0cmuQZFJYEjVkcEmcOGrGALVr2GmCPoetmiVTwpKoEYJJ4oYjfuazIjOu/LZ5zUOUkUwIS6JGTKCLA253Crh0mhy1McT3PNiadfK1jKQqLIkqKbgsOKiAAYJtE+PK0RlxW4vMpCIsiSox/B3zPakFCHV3a4A7C2KoVa1JVFgSNYZsdw4v4uLgOIazvOLzNhYg4nCV3yQiLIkaYzB5mmHcxeq2IouPsVQ7sLymeThxJ1ZhSdQEggmUFJKGqoIkFmFJ1ITC303fE1zkEms71StShSVRUwguVDxcWpy5z9xtWpEiLImaYi4tTr+EySWTS/Xqzebu0k4kYUnUDGS7XK5ikkVmsfbilWMzQ+ZuspJQwpKoGct29+ApVLqAwNBUhmpTLJ7CfvOri+y15/rZR29x3iRRM53tnso+TMLm1C5ePlLdZ24m63EVtrW1le0utrDp2pgBiapItjsHx6BzZIhoFxNYnD53ZXlm0SyuWlyF9QGJSkk8hrAtLS2YkG6QqJTUMl6pVL44Pz//H/4ck9NgZGTkA/74Yw6JSkk3m5ubxw4cOPACF/dD/k9D0N7eXpD0/UOHDv1hbW0NmjsdUJZCST2zs7OlhYWFuWq1egcX9wtc4LmzZ88Oz83NdZtFKJTMpcWEQqHomV27/g/QAb4IxzB8swAAAABJRU5ErkJggg==</MacroImage>
       <MacroInputs />
       <MacroOutputs />
       <Wiz_CustomHelp value="False" />

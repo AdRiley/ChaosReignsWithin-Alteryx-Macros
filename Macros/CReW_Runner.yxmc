@@ -508,7 +508,7 @@
               <Passwords />
               <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">%temp%\out.txt</File>
               <FormatSpecificOptions>
-                <CodePage>28591</CodePage>
+                <CodePage>UTF16</CodePage>
                 <Delimeter>\0</Delimeter>
                 <IgnoreErrors>False</IgnoreErrors>
                 <FieldLen>1073741823</FieldLen>
@@ -530,9 +530,6 @@
           <DefaultAnnotationText>Run AlteryxRunner.exe</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
     </Node>
@@ -1033,30 +1030,18 @@
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField field="ModuleFullPath" type="V_String" size="50000" expression="&quot;ModuleName.yxdb&quot;" />
-            <FormulaField field="Module" type="V_String" size="50000" expression="FileGetFileName([ModuleFullPath])" />
-            <FormulaField field="Time" type="Time" size="8" expression="DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;)" />
+            <FormulaField expression="&quot;ModuleName.yxdb&quot;" field="ModuleFullPath" size="1073741823" type="V_WString" />
+            <FormulaField expression="FileGetFileName([ModuleFullPath])" field="Module" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;)" field="Time" size="8" type="Time" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>ModuleFullPath="ModuleName.yxdb"
-Module=FileGetFileName([ModuleFullPath])
-Time=DateTimeAdd("2010-01-01 00:00:00",[TimeSeconds],"Seconds")</DefaultAnnotationText>
+          <DefaultAnnotationText>ModuleFullPath = "ModuleName.yxdb"
+Module = FileGetFileName([ModuleFullPath])
+Ti...</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1" type="Int64" />
-            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1" type="Int64" />
-            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1" type="Int64" />
-            <Field description="TextToColumns: Parsed from Field_1" name="TimeSeconds" source="TextToColumns: Parsed from Field_1" type="Double" />
-            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
-            <Field name="ModuleFullPath" size="50000" source="Formula: &quot;ModuleName.yxdb&quot;" type="V_String" />
-            <Field name="Module" size="50000" source="Formula: FileGetFileName([ModuleFullPath])" type="V_String" />
-            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;)" type="Time" />
-          </RecordInfo>
-        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>

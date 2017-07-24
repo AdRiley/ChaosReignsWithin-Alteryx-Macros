@@ -82,7 +82,7 @@
                 <CodePage>28591</CodePage>
                 <Delimeter>\0</Delimeter>
                 <IgnoreErrors>False</IgnoreErrors>
-                <FieldLen>254</FieldLen>
+                <FieldLen>2147483647</FieldLen>
                 <AllowShareWrite>False</AllowShareWrite>
                 <HeaderRow>False</HeaderRow>
                 <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
